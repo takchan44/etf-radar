@@ -3,6 +3,7 @@ import Dashboard from "./components/Dashboard";
 import AIRecommend from "./components/AIRecommend";
 import Portfolio from "./components/Portfolio";
 import SectorChart from "./components/SectorChart";
+import ActiveETF from "./components/ActiveETF";
 import { fetchETFPrices } from "./api/client";
 
 const TABS = [
@@ -10,16 +11,13 @@ const TABS = [
   { id: "recommend", label: "AI 추천" },
   { id: "portfolio", label: "포트폴리오" },
   { id: "sector",    label: "섹터 분류" },
+  { id: "active",    label: "액티브 ETF" },
 ];
 
 const BLUE = "#2563EB";
 const BLUE_LIGHT = "#EFF6FF";
 const BLUE_BORDER = "#BFDBFE";
-const GRAY = "#6B7280";
-const GRAY_LIGHT = "#F3F4F6";
 const GRAY_BORDER = "#D1D5DB";
-const TEXT_PRIMARY = "#111827";
-const TEXT_SECONDARY = "#374151";
 
 export default function App() {
   const [tab, setTab] = useState("dashboard");
@@ -36,7 +34,7 @@ export default function App() {
   async function loadPrices() {
     try {
       setLoading(true);
-      const symbols = "SPY,QQQ,IWM,DIA,VTI,ARKK,VEA,EEM,ACWI";
+      const symbols = "SPY,VOO,QQQ,VTI,DIA,IWM,TQQQ,SQQQ,UPRO,SPXU,ARKK,ARKW,ARKQ,ARKF,ARKG,SOXX,SMH,XLK,XLF,XLV,XLE,XLI,XLY,XLP,XLU,XLRE,XLB,XLC,IBB,XBI,VNQ,TLT,IEF,AGG,GLD,IAU,SLV,VYM,SCHD,DVY,VEA,EEM,ACWI,VT,EWJ,FXI,MCHI,KWEB,EWY,EWZ";
       const data = await fetchETFPrices(symbols);
       setPrices(data);
       setLastUpdated(new Date());
@@ -48,7 +46,7 @@ export default function App() {
   }
 
   return (
-    <div style={{ minHeight: "100vh", background: GRAY_LIGHT }}>
+    <div style={{ minHeight: "100vh", background: "#F3F4F6" }}>
       {/* Header */}
       <header style={{
         background: "#1E3A5F",
@@ -66,7 +64,7 @@ export default function App() {
           </span>
           <span style={{
             fontSize: "11px", padding: "3px 10px", borderRadius: "99px",
-            background: "#2563EB", color: "#fff", fontWeight: 600, letterSpacing: "0.5px",
+            background: BLUE, color: "#fff", fontWeight: 600, letterSpacing: "0.5px",
           }}>
             AI
           </span>
@@ -77,6 +75,9 @@ export default function App() {
               업데이트: {lastUpdated.toLocaleTimeString("ko-KR")}
             </span>
           )}
+          {loading && (
+            <span style={{ fontSize: "12px", color: "#93C5FD" }}>로딩 중...</span>
+          )}
           <button
             onClick={loadPrices}
             style={{
@@ -86,7 +87,7 @@ export default function App() {
               fontSize: "13px", fontWeight: 500,
               transition: "all 0.15s",
             }}
-            onMouseOver={e => { e.target.style.background = "#2563EB"; e.target.style.borderColor = "#2563EB"; e.target.style.color = "#fff"; }}
+            onMouseOver={e => { e.target.style.background = BLUE; e.target.style.borderColor = BLUE; e.target.style.color = "#fff"; }}
             onMouseOut={e => { e.target.style.background = "transparent"; e.target.style.borderColor = "#93C5FD"; e.target.style.color = "#93C5FD"; }}
           >
             새로고침
@@ -100,6 +101,7 @@ export default function App() {
         borderBottom: `2px solid ${GRAY_BORDER}`,
         padding: "0 24px",
         display: "flex", gap: "4px",
+        overflowX: "auto",
       }}>
         {TABS.map((t) => (
           <button
@@ -110,7 +112,7 @@ export default function App() {
               border: "none",
               borderBottom: tab === t.id ? `3px solid ${BLUE}` : "3px solid transparent",
               background: tab === t.id ? BLUE_LIGHT : "transparent",
-              color: tab === t.id ? BLUE : GRAY,
+              color: tab === t.id ? BLUE : "#6B7280",
               cursor: "pointer",
               fontSize: "14px",
               fontWeight: tab === t.id ? 700 : 400,
@@ -118,6 +120,7 @@ export default function App() {
               borderRadius: tab === t.id ? "6px 6px 0 0" : "0",
               outline: tab === t.id ? `2px solid ${BLUE_BORDER}` : "none",
               outlineOffset: "-2px",
+              whiteSpace: "nowrap",
             }}
           >
             {t.label}
@@ -127,10 +130,11 @@ export default function App() {
 
       {/* Content */}
       <main style={{ padding: "28px 24px", maxWidth: "1280px", margin: "0 auto" }}>
-        {tab === "dashboard"  && <Dashboard prices={prices} loading={loading} />}
-        {tab === "recommend"  && <AIRecommend />}
-        {tab === "portfolio"  && <Portfolio prices={prices} />}
-        {tab === "sector"     && <SectorChart prices={prices} />}
+        {tab === "dashboard" && <Dashboard prices={prices} loading={loading} />}
+        {tab === "recommend" && <AIRecommend />}
+        {tab === "portfolio" && <Portfolio prices={prices} />}
+        {tab === "sector"    && <SectorChart prices={prices} />}
+        {tab === "active"    && <ActiveETF prices={prices} />}
       </main>
     </div>
   );
