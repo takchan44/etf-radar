@@ -11,9 +11,9 @@ const CORS_HEADERS = {
 const CACHE_TTL = 300; // 5분 캐시
 
 const ETF_LIST = {
-  us: ["SPY", "QQQ", "IWM", "DIA", "VTI", "ARKK", "SOXX", "XLK"],
-  korea: ["069500", "133690", "229200", "102110", "148020"],
-  global: ["VEA", "EEM", "ACWI", "VWO", "EFA"],
+  us: ["SPY","VOO","IVV","VTI","ITOT","DIA","QQQ","QQQM","VGT","XLK","SOXX","SMH","IGV","CIBR","HACK","CLOU","WCLD","ROBO","BOTZ","ARKK","ARKW","ARKQ","ARKF","ARKG","AIQ","IRBO","IWM","IJR","MDY","IJH","VTV","IWD","DVY","VYM","SCHD","HDV","DGRO","XLF","XLV","XLE","XLI","XLY","XLP","XLU","XLRE","XLB","XLC","IBB","XBI","IYR","VNQ","TLT","IEF","SHY","AGG","BND","HYG","LQD","GLD","IAU","SLV","USO","TQQQ","SQQQ","UPRO","SPXU"],
+  korea: ["069500","133690","229200","102110","148020","091160","157490","305720","305540","139220","266390","364980","385720","195930","192090","114800","122630","252670","233740"],
+  global: ["VEA","EFA","IEFA","VWO","EEM","IEMG","ACWI","VT","URTH","EWJ","EWG","EWY","EWZ","FXI","MCHI","KWEB","EWC","EWA","EWU"],
 };
 
 export default {
