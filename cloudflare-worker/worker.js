@@ -11,11 +11,10 @@ const CACHE_TTL = 300;
 
 const ETF_LIST = {
   us: ["SPY","VOO","IVV","VTI","ITOT","DIA","QQQ","QQQM","VGT","XLK","SOXX","SMH","IGV","CIBR","HACK","CLOU","WCLD","ROBO","BOTZ","ARKK","ARKW","ARKQ","ARKF","ARKG","AIQ","IRBO","IWM","IJR","MDY","IJH","VTV","IWD","DVY","VYM","SCHD","HDV","DGRO","XLF","XLV","XLE","XLI","XLY","XLP","XLU","XLRE","XLB","XLC","IBB","XBI","IYR","VNQ","TLT","IEF","SHY","AGG","BND","HYG","LQD","GLD","IAU","SLV","USO","TQQQ","SQQQ","UPRO","SPXU"],
-  korea: ["069500","133690","229200","102110","148020","091160","157490","305720","305540","139220","266390","364980","385720","195930","192090","114800","122630","252670","233740"],
+  korea: ["069500.KS","133690.KS","229200.KS","102110.KS","148020.KS","091160.KS","157490.KS","305720.KS","305540.KS","139220.KS","266390.KS","364980.KS","385720.KS","195930.KS","192090.KS","114800.KS","122630.KS","252670.KS","233740.KS"],
   global: ["VEA","EFA","IEFA","VWO","EEM","IEMG","ACWI","VT","URTH","EWJ","EWG","EWY","EWZ","FXI","MCHI","KWEB","EWC","EWA","EWU"],
 };
 
-// 배열을 n개씩 나누는 함수
 function chunkArray(arr, size) {
   const chunks = [];
   for (let i = 0; i < arr.length; i += size) {
@@ -29,10 +28,8 @@ export default {
     if (request.method === "OPTIONS") {
       return new Response(null, { headers: CORS_HEADERS });
     }
-
     const url = new URL(request.url);
     const path = url.pathname;
-
     try {
       if (path === "/api/etf/prices")   return handleETFPrices(request, env);
       if (path === "/api/ai/recommend") return handleAIRecommend(request, env);
@@ -44,72 +41,95 @@ export default {
   },
 };
 
-// ── 단일 심볼 가격 조회 ───────────────────────────────────────
-async function fetchSingleSymbol(symbol) {
-  try {
-    // Yahoo Finance v8 API
-    const res = await fetch(
-      `https://query2.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=2d`,
-      {
-        headers: {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-          "Accept": "application/json",
-        },
-      }
-    );
-    if (!res.ok) return null;
-    const data = await res.json();
-    const meta = data?.chart?.result?.[0]?.meta;
-    if (!meta || !meta.regularMarketPrice) return null;
+// ── 단일 심볼 가격 조회 (재시도 포함) ────────────────────────
+async function fetchSingleSymbol(symbol, retries = 2) {
+  // 한국 ETF는 .KS 붙여서 조회
+  const querySymbol = symbol.endsWith(".KS") ? symbol : symbol;
+  // 표시용 심볼 (대시보드 키로 사용)
+  const displaySymbol = symbol.replace(".KS", "");
 
-    const price = meta.regularMarketPrice;
-    const prevClose = meta.previousClose || meta.chartPreviousClose || price;
-    return {
-      symbol,
-      price,
-      previousClose: prevClose,
-      change: price - prevClose,
-      changePct: ((price - prevClose) / prevClose) * 100,
-      volume: meta.regularMarketVolume || 0,
-      currency: meta.currency || "USD",
-      name: meta.shortName || meta.longName || symbol,
-    };
-  } catch {
-    return null;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(
+        `https://query2.finance.yahoo.com/v8/finance/chart/${querySymbol}?interval=1d&range=2d`,
+        {
+          headers: {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Accept": "application/json",
+            "Accept-Language": "en-US,en;q=0.9",
+          },
+        }
+      );
+      if (!res.ok) {
+        if (attempt < retries) {
+          await new Promise(r => setTimeout(r, 200 * (attempt + 1)));
+          continue;
+        }
+        return null;
+      }
+      const data = await res.json();
+      const meta = data?.chart?.result?.[0]?.meta;
+      if (!meta || !meta.regularMarketPrice) return null;
+
+      const price = meta.regularMarketPrice;
+      const prevClose = meta.previousClose || meta.chartPreviousClose || price;
+      return {
+        symbol: displaySymbol,
+        price,
+        previousClose: prevClose,
+        change: price - prevClose,
+        changePct: prevClose ? ((price - prevClose) / prevClose) * 100 : 0,
+        volume: meta.regularMarketVolume || 0,
+        currency: meta.currency || "USD",
+        name: meta.shortName || meta.longName || displaySymbol,
+      };
+    } catch {
+      if (attempt < retries) {
+        await new Promise(r => setTimeout(r, 200 * (attempt + 1)));
+      }
+    }
   }
+  return null;
 }
 
-// ── ETF 가격 조회 (청크 단위로 순차 요청) ─────────────────────
+// ── ETF 가격 조회 ─────────────────────────────────────────────
 async function handleETFPrices(request, env) {
   const url = new URL(request.url);
-  const symbols = url.searchParams.get("symbols") || "SPY,QQQ,IWM";
-  const cacheKey = `prices:${symbols}`;
+  const rawSymbols = url.searchParams.get("symbols") || "SPY,QQQ,IWM";
 
-  // 캐시 확인
+  // 한국 ETF 심볼에 .KS 붙이기
+  const symbolList = rawSymbols.split(",").map(s => {
+    const trimmed = s.trim();
+    // 숫자로만 이루어진 6자리 → 한국 ETF
+    if (/^\d{6}$/.test(trimmed)) return trimmed + ".KS";
+    return trimmed;
+  }).filter(Boolean);
+
+  const cacheKey = `prices:${symbolList.join(",")}`;
+
   const cached = await env.ETF_KV.get(cacheKey);
   if (cached) {
     return new Response(cached, { headers: { ...CORS_HEADERS, "X-Cache": "HIT" } });
   }
 
-  const symbolList = symbols.split(",").map(s => s.trim()).filter(Boolean);
   const results = {};
-
-  // 5개씩 나눠서 순차 요청 (Yahoo Finance rate limit 방지)
   const chunks = chunkArray(symbolList, 5);
-  for (const chunk of chunks) {
+
+  for (let i = 0; i < chunks.length; i++) {
+    const chunk = chunks[i];
     await Promise.all(
       chunk.map(async (symbol) => {
+        const displaySymbol = symbol.replace(".KS", "");
         const data = await fetchSingleSymbol(symbol);
         if (data) {
-          results[symbol] = data;
+          results[displaySymbol] = data;
         } else {
-          results[symbol] = { symbol, error: "fetch failed" };
+          results[displaySymbol] = { symbol: displaySymbol, error: "fetch failed" };
         }
       })
     );
-    // 청크 사이 100ms 대기
-    if (chunks.indexOf(chunk) < chunks.length - 1) {
-      await new Promise(r => setTimeout(r, 100));
+    if (i < chunks.length - 1) {
+      await new Promise(r => setTimeout(r, 150));
     }
   }
 
