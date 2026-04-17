@@ -3,15 +3,9 @@
 const WORKER_URL = import.meta.env.VITE_WORKER_URL || "";
 
 export async function fetchETFData() {
-  // 여러 경로 시도
-  const paths = ["/data.json", "./data.json", "../public/data.json"];
-  for (const p of paths) {
-    try {
-      const res = await fetch(`${p}?t=${Date.now()}`);
-      if (res.ok) return res.json();
-    } catch {}
-  }
-  throw new Error("데이터 파일을 불러오지 못했습니다");
+  const res = await fetch(`/data.json?t=${Date.now()}`);
+  if (!res.ok) throw new Error("데이터 파일을 불러오지 못했습니다");
+  return res.json();
 }
 
 export async function fetchETFPrices(symbols) {
