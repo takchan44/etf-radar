@@ -1,5 +1,4 @@
 // Cloudflare Worker — ETF Dashboard API Proxy
-// 환경변수 설정 필요: GROK_API_KEY, ETF_KV (KV Namespace binding)
 
 const CORS_HEADERS = {
   "Access-Control-Allow-Origin": "*",
@@ -8,13 +7,22 @@ const CORS_HEADERS = {
   "Content-Type": "application/json",
 };
 
-const CACHE_TTL = 300; // 5분 캐시
+const CACHE_TTL = 300;
 
 const ETF_LIST = {
   us: ["SPY","VOO","IVV","VTI","ITOT","DIA","QQQ","QQQM","VGT","XLK","SOXX","SMH","IGV","CIBR","HACK","CLOU","WCLD","ROBO","BOTZ","ARKK","ARKW","ARKQ","ARKF","ARKG","AIQ","IRBO","IWM","IJR","MDY","IJH","VTV","IWD","DVY","VYM","SCHD","HDV","DGRO","XLF","XLV","XLE","XLI","XLY","XLP","XLU","XLRE","XLB","XLC","IBB","XBI","IYR","VNQ","TLT","IEF","SHY","AGG","BND","HYG","LQD","GLD","IAU","SLV","USO","TQQQ","SQQQ","UPRO","SPXU"],
   korea: ["069500","133690","229200","102110","148020","091160","157490","305720","305540","139220","266390","364980","385720","195930","192090","114800","122630","252670","233740"],
   global: ["VEA","EFA","IEFA","VWO","EEM","IEMG","ACWI","VT","URTH","EWJ","EWG","EWY","EWZ","FXI","MCHI","KWEB","EWC","EWA","EWU"],
 };
+
+// 배열을 n개씩 나누는 함수
+function chunkArray(arr, size) {
+  const chunks = [];
+  for (let i = 0; i < arr.length; i += size) {
+    chunks.push(arr.slice(i, i + size));
+  }
+  return chunks;
+}
 
 export default {
   async fetch(request, env) {
@@ -26,9 +34,9 @@ export default {
     const path = url.pathname;
 
     try {
-      if (path === "/api/etf/prices")       return handleETFPrices(request, env);
-      if (path === "/api/ai/recommend")     return handleAIRecommend(request, env);
-      if (path === "/api/etf/list")         return handleETFList();
+      if (path === "/api/etf/prices")   return handleETFPrices(request, env);
+      if (path === "/api/ai/recommend") return handleAIRecommend(request, env);
+      if (path === "/api/etf/list")     return handleETFList();
       return new Response(JSON.stringify({ error: "Not found" }), { status: 404, headers: CORS_HEADERS });
     } catch (err) {
       return new Response(JSON.stringify({ error: err.message }), { status: 500, headers: CORS_HEADERS });
@@ -36,46 +44,74 @@ export default {
   },
 };
 
-// ── ETF 가격 조회 ──────────────────────────────────────────────
+// ── 단일 심볼 가격 조회 ───────────────────────────────────────
+async function fetchSingleSymbol(symbol) {
+  try {
+    // Yahoo Finance v8 API
+    const res = await fetch(
+      `https://query2.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=2d`,
+      {
+        headers: {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+          "Accept": "application/json",
+        },
+      }
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    const meta = data?.chart?.result?.[0]?.meta;
+    if (!meta || !meta.regularMarketPrice) return null;
+
+    const price = meta.regularMarketPrice;
+    const prevClose = meta.previousClose || meta.chartPreviousClose || price;
+    return {
+      symbol,
+      price,
+      previousClose: prevClose,
+      change: price - prevClose,
+      changePct: ((price - prevClose) / prevClose) * 100,
+      volume: meta.regularMarketVolume || 0,
+      currency: meta.currency || "USD",
+      name: meta.shortName || meta.longName || symbol,
+    };
+  } catch {
+    return null;
+  }
+}
+
+// ── ETF 가격 조회 (청크 단위로 순차 요청) ─────────────────────
 async function handleETFPrices(request, env) {
   const url = new URL(request.url);
   const symbols = url.searchParams.get("symbols") || "SPY,QQQ,IWM";
   const cacheKey = `prices:${symbols}`;
 
+  // 캐시 확인
   const cached = await env.ETF_KV.get(cacheKey);
   if (cached) {
     return new Response(cached, { headers: { ...CORS_HEADERS, "X-Cache": "HIT" } });
   }
 
-  const symbolList = symbols.split(",").map((s) => s.trim());
+  const symbolList = symbols.split(",").map(s => s.trim()).filter(Boolean);
   const results = {};
 
-  await Promise.all(
-    symbolList.map(async (symbol) => {
-      try {
-        const res = await fetch(
-          `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=5d`,
-          { headers: { "User-Agent": "Mozilla/5.0" } }
-        );
-        const data = await res.json();
-        const meta = data?.chart?.result?.[0]?.meta;
-        if (meta) {
-          results[symbol] = {
-            symbol,
-            price: meta.regularMarketPrice,
-            previousClose: meta.previousClose,
-            change: meta.regularMarketPrice - meta.previousClose,
-            changePct: ((meta.regularMarketPrice - meta.previousClose) / meta.previousClose) * 100,
-            volume: meta.regularMarketVolume,
-            currency: meta.currency,
-            name: meta.shortName || symbol,
-          };
+  // 5개씩 나눠서 순차 요청 (Yahoo Finance rate limit 방지)
+  const chunks = chunkArray(symbolList, 5);
+  for (const chunk of chunks) {
+    await Promise.all(
+      chunk.map(async (symbol) => {
+        const data = await fetchSingleSymbol(symbol);
+        if (data) {
+          results[symbol] = data;
+        } else {
+          results[symbol] = { symbol, error: "fetch failed" };
         }
-      } catch {
-        results[symbol] = { symbol, error: "fetch failed" };
-      }
-    })
-  );
+      })
+    );
+    // 청크 사이 100ms 대기
+    if (chunks.indexOf(chunk) < chunks.length - 1) {
+      await new Promise(r => setTimeout(r, 100));
+    }
+  }
 
   const body = JSON.stringify({ data: results, updatedAt: new Date().toISOString() });
   await env.ETF_KV.put(cacheKey, body, { expirationTtl: CACHE_TTL });
