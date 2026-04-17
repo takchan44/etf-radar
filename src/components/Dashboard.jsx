@@ -1,4 +1,11 @@
-// src/components/Dashboard.jsx
+import { useState } from "react";
+
+const BLUE = "#2563EB";
+const BLUE_LIGHT = "#EFF6FF";
+const BLUE_BORDER = "#BFDBFE";
+const GRAY_BORDER = "#D1D5DB";
+const GRAY_LIGHT = "#F9FAFB";
+
 const MARKET_LABELS = { us: "미국", korea: "한국", global: "글로벌" };
 
 const ETF_META = {
@@ -19,49 +26,59 @@ function ETFCard({ symbol, data }) {
 
   return (
     <div style={{
-      background: "var(--color-background-primary)",
-      border: "1px solid var(--color-border-tertiary)",
-      borderRadius: "12px",
+      background: "#fff",
+      border: `1.5px solid ${GRAY_BORDER}`,
+      borderTop: `4px solid ${BLUE}`,
+      borderRadius: "10px",
       padding: "20px",
       display: "flex",
       flexDirection: "column",
-      gap: "8px",
-    }}>
+      gap: "10px",
+      transition: "box-shadow 0.15s, border-color 0.15s",
+      cursor: "default",
+    }}
+    onMouseOver={e => e.currentTarget.style.boxShadow = "0 4px 16px rgba(37,99,235,0.12)"}
+    onMouseOut={e => e.currentTarget.style.boxShadow = "none"}
+    >
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
         <div>
-          <div style={{ fontSize: "18px", fontWeight: 500, color: "var(--color-text-primary)" }}>{symbol}</div>
-          <div style={{ fontSize: "12px", color: "var(--color-text-tertiary)", marginTop: "2px" }}>
+          <div style={{ fontSize: "20px", fontWeight: 700, color: "#111827" }}>{symbol}</div>
+          <div style={{ fontSize: "12px", color: "#6B7280", marginTop: "2px" }}>
             {data?.name || meta.desc}
           </div>
         </div>
         <span style={{
-          fontSize: "11px", padding: "3px 8px", borderRadius: "99px",
-          background: "var(--color-background-secondary)",
-          color: "var(--color-text-secondary)",
+          fontSize: "11px", padding: "3px 10px", borderRadius: "99px",
+          background: BLUE_LIGHT, color: BLUE,
+          border: `1.5px solid ${BLUE_BORDER}`, fontWeight: 600,
         }}>
           {meta.sector}
         </span>
       </div>
 
       {data?.error ? (
-        <div style={{ fontSize: "13px", color: "var(--color-text-tertiary)" }}>데이터 없음</div>
+        <div style={{ fontSize: "13px", color: "#9CA3AF" }}>데이터 없음</div>
       ) : (
         <>
-          <div style={{ fontSize: "24px", fontWeight: 500, color: "var(--color-text-primary)" }}>
+          <div style={{ fontSize: "26px", fontWeight: 700, color: "#111827" }}>
             {data?.currency === "KRW"
               ? `₩${(data?.price || 0).toLocaleString()}`
               : `$${(data?.price || 0).toFixed(2)}`}
           </div>
           <div style={{
-            fontSize: "14px", fontWeight: 500,
-            color: isUp ? "var(--color-text-success)" : "var(--color-text-danger)",
+            fontSize: "14px", fontWeight: 600,
+            color: isUp ? "#16A34A" : "#DC2626",
+            padding: "4px 10px", borderRadius: "6px",
+            background: isUp ? "#F0FDF4" : "#FEF2F2",
+            border: `1.5px solid ${isUp ? "#BBF7D0" : "#FECACA"}`,
+            display: "inline-block",
           }}>
             {isUp ? "▲" : "▼"} {Math.abs(data?.changePct || 0).toFixed(2)}%
             <span style={{ fontWeight: 400, marginLeft: "6px" }}>
               ({isUp ? "+" : ""}{(data?.change || 0).toFixed(2)})
             </span>
           </div>
-          <div style={{ fontSize: "12px", color: "var(--color-text-tertiary)" }}>
+          <div style={{ fontSize: "12px", color: "#9CA3AF" }}>
             거래량: {(data?.volume || 0).toLocaleString()}
           </div>
         </>
@@ -79,24 +96,25 @@ export default function Dashboard({ prices, loading }) {
   return (
     <div>
       {/* Filter */}
-      <div style={{ display: "flex", gap: "8px", marginBottom: "20px", flexWrap: "wrap" }}>
+      <div style={{ display: "flex", gap: "8px", marginBottom: "24px", flexWrap: "wrap" }}>
         {["all", "us", "korea", "global"].map((m) => (
           <button
             key={m}
             onClick={() => setFilter(m)}
             style={{
-              padding: "6px 14px", borderRadius: "99px",
-              border: `1px solid ${filter === m ? "var(--color-border-primary)" : "var(--color-border-tertiary)"}`,
-              background: filter === m ? "var(--color-background-secondary)" : "transparent",
-              color: filter === m ? "var(--color-text-primary)" : "var(--color-text-secondary)",
-              cursor: "pointer", fontSize: "13px",
+              padding: "7px 18px", borderRadius: "8px",
+              border: filter === m ? `2px solid ${BLUE}` : `2px solid ${GRAY_BORDER}`,
+              background: filter === m ? BLUE_LIGHT : "#fff",
+              color: filter === m ? BLUE : "#374151",
+              cursor: "pointer", fontSize: "13px", fontWeight: filter === m ? 700 : 400,
+              transition: "all 0.15s",
             }}
           >
             {m === "all" ? "전체" : MARKET_LABELS[m]}
           </button>
         ))}
         {loading && (
-          <span style={{ fontSize: "13px", color: "var(--color-text-tertiary)", alignSelf: "center" }}>
+          <span style={{ fontSize: "13px", color: "#9CA3AF", alignSelf: "center" }}>
             데이터 로딩 중...
           </span>
         )}
@@ -116,20 +134,20 @@ export default function Dashboard({ prices, loading }) {
       {/* Summary */}
       {Object.keys(prices).length > 0 && (
         <div style={{
-          marginTop: "24px", padding: "16px",
-          background: "var(--color-background-primary)",
-          border: "1px solid var(--color-border-tertiary)",
-          borderRadius: "12px",
-          display: "flex", gap: "32px", flexWrap: "wrap",
+          marginTop: "28px", padding: "20px 24px",
+          background: "#fff",
+          border: `1.5px solid ${GRAY_BORDER}`,
+          borderRadius: "10px",
+          display: "flex", gap: "40px", flexWrap: "wrap",
         }}>
           {[
-            { label: "상승 종목", value: Object.values(prices).filter(p => (p.changePct || 0) > 0).length, color: "var(--color-text-success)" },
-            { label: "하락 종목", value: Object.values(prices).filter(p => (p.changePct || 0) < 0).length, color: "var(--color-text-danger)" },
-            { label: "조회 종목 수", value: Object.keys(prices).length, color: "var(--color-text-primary)" },
+            { label: "상승 종목", value: Object.values(prices).filter(p => (p.changePct || 0) > 0).length, color: "#16A34A" },
+            { label: "하락 종목", value: Object.values(prices).filter(p => (p.changePct || 0) < 0).length, color: "#DC2626" },
+            { label: "조회 종목 수", value: Object.keys(prices).length, color: BLUE },
           ].map(({ label, value, color }) => (
             <div key={label}>
-              <div style={{ fontSize: "12px", color: "var(--color-text-tertiary)" }}>{label}</div>
-              <div style={{ fontSize: "22px", fontWeight: 500, color }}>{value}</div>
+              <div style={{ fontSize: "12px", color: "#6B7280", marginBottom: "4px" }}>{label}</div>
+              <div style={{ fontSize: "26px", fontWeight: 700, color }}>{value}</div>
             </div>
           ))}
         </div>
@@ -137,5 +155,3 @@ export default function Dashboard({ prices, loading }) {
     </div>
   );
 }
-
-import { useState } from "react";
