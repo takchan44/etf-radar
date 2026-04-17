@@ -19,6 +19,24 @@ const BLUE_LIGHT = "#EFF6FF";
 const BLUE_BORDER = "#BFDBFE";
 const GRAY_BORDER = "#D1D5DB";
 
+// 한국 ETF는 .KS 붙여서 요청, 나머지는 그대로
+const ALL_SYMBOLS = [
+  // 미국
+  "SPY","VOO","IVV","VTI","DIA","QQQ","QQQM","VGT","XLK","SOXX","SMH","IGV",
+  "CIBR","CLOU","ROBO","BOTZ","ARKK","ARKW","ARKQ","ARKF","ARKG","AIQ","IRBO",
+  "IWM","IJR","MDY","IJH","VTV","IWD","DVY","VYM","SCHD","HDV","DGRO",
+  "XLF","XLV","XLE","XLI","XLY","XLP","XLU","XLRE","XLB","XLC","IBB","XBI","VNQ",
+  "TLT","IEF","SHY","AGG","BND","HYG","LQD","GLD","IAU","SLV","USO",
+  "TQQQ","SQQQ","UPRO","SPXU",
+  // 글로벌
+  "VEA","EFA","IEFA","VWO","EEM","IEMG","ACWI","VT","EWJ","EWG","EWY","EWZ","FXI","MCHI","KWEB","EWC","EWA","EWU",
+  // 한국 (.KS 붙여서 요청)
+  "069500.KS","133690.KS","229200.KS","102110.KS","148020.KS",
+  "091160.KS","157490.KS","305720.KS","305540.KS","139220.KS",
+  "266390.KS","364980.KS","385720.KS","195930.KS","192090.KS",
+  "114800.KS","122630.KS","252670.KS","233740.KS",
+].join(",");
+
 export default function App() {
   const [tab, setTab] = useState("dashboard");
   const [prices, setPrices] = useState({});
@@ -34,8 +52,7 @@ export default function App() {
   async function loadPrices() {
     try {
       setLoading(true);
-      const symbols = "SPY,VOO,QQQ,VTI,DIA,IWM,TQQQ,SQQQ,UPRO,SPXU,ARKK,ARKW,ARKQ,ARKF,ARKG,SOXX,SMH,XLK,XLF,XLV,XLE,XLI,XLY,XLP,XLU,XLRE,XLB,XLC,IBB,XBI,VNQ,TLT,IEF,AGG,GLD,IAU,SLV,VYM,SCHD,DVY,VEA,EEM,ACWI,VT,EWJ,FXI,MCHI,KWEB,EWY,EWZ";
-      const data = await fetchETFPrices(symbols);
+      const data = await fetchETFPrices(ALL_SYMBOLS);
       setPrices(data);
       setLastUpdated(new Date());
     } catch (err) {
@@ -47,7 +64,6 @@ export default function App() {
 
   return (
     <div style={{ minHeight: "100vh", background: "#F3F4F6" }}>
-      {/* Header */}
       <header style={{
         background: "#1E3A5F",
         padding: "0 24px",
@@ -64,10 +80,8 @@ export default function App() {
           </span>
           <span style={{
             fontSize: "11px", padding: "3px 10px", borderRadius: "99px",
-            background: BLUE, color: "#fff", fontWeight: 600, letterSpacing: "0.5px",
-          }}>
-            AI
-          </span>
+            background: BLUE, color: "#fff", fontWeight: 600,
+          }}>AI</span>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
           {lastUpdated && (
@@ -75,17 +89,14 @@ export default function App() {
               업데이트: {lastUpdated.toLocaleTimeString("ko-KR")}
             </span>
           )}
-          {loading && (
-            <span style={{ fontSize: "12px", color: "#93C5FD" }}>로딩 중...</span>
-          )}
+          {loading && <span style={{ fontSize: "12px", color: "#93C5FD" }}>로딩 중...</span>}
           <button
             onClick={loadPrices}
             style={{
               padding: "7px 16px", borderRadius: "8px",
               border: "2px solid #93C5FD",
               background: "transparent", color: "#93C5FD", cursor: "pointer",
-              fontSize: "13px", fontWeight: 500,
-              transition: "all 0.15s",
+              fontSize: "13px", fontWeight: 500, transition: "all 0.15s",
             }}
             onMouseOver={e => { e.target.style.background = BLUE; e.target.style.borderColor = BLUE; e.target.style.color = "#fff"; }}
             onMouseOut={e => { e.target.style.background = "transparent"; e.target.style.borderColor = "#93C5FD"; e.target.style.color = "#93C5FD"; }}
@@ -95,7 +106,6 @@ export default function App() {
         </div>
       </header>
 
-      {/* Tab Nav */}
       <nav style={{
         background: "#fff",
         borderBottom: `2px solid ${GRAY_BORDER}`,
@@ -108,19 +118,16 @@ export default function App() {
             key={t.id}
             onClick={() => setTab(t.id)}
             style={{
-              padding: "14px 20px",
-              border: "none",
+              padding: "14px 20px", border: "none",
               borderBottom: tab === t.id ? `3px solid ${BLUE}` : "3px solid transparent",
               background: tab === t.id ? BLUE_LIGHT : "transparent",
               color: tab === t.id ? BLUE : "#6B7280",
-              cursor: "pointer",
-              fontSize: "14px",
+              cursor: "pointer", fontSize: "14px",
               fontWeight: tab === t.id ? 700 : 400,
               transition: "all 0.15s",
               borderRadius: tab === t.id ? "6px 6px 0 0" : "0",
               outline: tab === t.id ? `2px solid ${BLUE_BORDER}` : "none",
-              outlineOffset: "-2px",
-              whiteSpace: "nowrap",
+              outlineOffset: "-2px", whiteSpace: "nowrap",
             }}
           >
             {t.label}
@@ -128,7 +135,6 @@ export default function App() {
         ))}
       </nav>
 
-      {/* Content */}
       <main style={{ padding: "28px 24px", maxWidth: "1280px", margin: "0 auto" }}>
         {tab === "dashboard" && <Dashboard prices={prices} loading={loading} />}
         {tab === "recommend" && <AIRecommend />}
