@@ -266,7 +266,7 @@ const FULL_LIST = [
   ...US_ETF_LIST.map(e => ({ ...e, sector: SECTOR_MAP[e.symbol] || e.sector })),
   ...GLOBAL_ETF_LIST,
   ...KOREA_ETF_LIST,
-];
+].filter(e => e && e.symbol);
 
 async function fetchPrice(symbol) {
   try {
@@ -374,7 +374,7 @@ async function main() {
   const CHUNK_SIZE = 5;
 
   for (let i = 0; i < FULL_LIST.length; i += CHUNK_SIZE) {
-    const chunk = FULL_LIST.slice(i, i + CHUNK_SIZE);
+    const chunk = FULL_LIST.slice(i, i + CHUNK_SIZE).filter(e => e && e.symbol);
     const prices = await Promise.all(chunk.map(e => fetchPrice(e.symbol)));
     prices.forEach((price, idx) => {
       if (price && chunk[idx]) {
