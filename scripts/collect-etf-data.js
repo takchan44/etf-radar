@@ -370,7 +370,7 @@ async function getAIRecommendations(etfData) {
   const top60 = etfData
     .filter(e => e.price > 0)
     .sort((a, b) => (b.volume||0) - (a.volume||0))
-    .slice(0, 50);
+    .slice(0, 30);
 
   const dataStr = top60
     .map(e => `${e.symbol}(${e.sector||"기타"}): ${e.changePct.toFixed(1)}%/${e.ret30d.toFixed(1)}% vol=${Math.round((e.volume||0)/1000)}K`)
@@ -410,7 +410,7 @@ async function getAIRecommendations(etfData) {
         { role: "user", content: userPrompt }
       ],
       temperature: 0.2,
-      max_tokens: 6000,
+      max_tokens: 4000,
     }),
   });
 
