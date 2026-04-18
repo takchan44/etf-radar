@@ -360,60 +360,88 @@ async function fetchPrice(symbol) {
 }
 
 async function getAIRecommendations(etfData) {
-  const GROK_API_KEY = process.env.GROK_API_KEY;
-  if (!GROK_API_KEY) {
+  const API_KEY = process.env.GROK_API_KEY;
+  if (!API_KEY) {
     console.log("GROK_API_KEY 없음 — AI 추천 건너뜀");
     return null;
   }
 
-  // 상위 50개만 AI 분석에 사용 (토큰 절약)
-  const top50 = etfData
+  // 거래량 상위 60개 분석
+  const top60 = etfData
     .filter(e => e.price > 0)
     .sort((a, b) => (b.volume||0) - (a.volume||0))
-    .slice(0, 50)
-    .map(e => `${e.symbol}(${e.name}): 당일=${e.changePct.toFixed(2)}%, 5일=${e.ret5d.toFixed(2)}%, 30일=${e.ret30d.toFixed(2)}%`)
+    .slice(0, 60);
+
+  const dataStr = top60
+    .map(e => `${e.symbol}(${e.name},${e.sector||"기타"},${e.market}): 당일=${e.changePct.toFixed(2)}%, 5일=${e.ret5d.toFixed(2)}%, 30일=${e.ret30d.toFixed(2)}%, 거래량=${(e.volume||0).toLocaleString()}, 52주고가대비=${(e.fromHigh||0).toFixed(2)}%`)
     .join("\n");
+
+  // 섹터별 평균 등락률
+  const sectorMap = {};
+  etfData.filter(e => e.price > 0 && e.sector).forEach(e => {
+    if (!sectorMap[e.sector]) sectorMap[e.sector] = [];
+    sectorMap[e.sector].push(e.changePct || 0);
+  });
+  const sectorSummary = Object.entries(sectorMap)
+    .map(([sec, vals]) => `${sec}: 평균${(vals.reduce((a,b)=>a+b,0)/vals.length).toFixed(2)}%`)
+    .sort((a,b) => {
+      const av = parseFloat(a.split("평균")[1]);
+      const bv = parseFloat(b.split("평균")[1]);
+      return bv - av;
+    })
+    .slice(0, 15)
+    .join(", ");
+
+  const systemPrompt = `당신은 ETF 시장 분석 전문가입니다. 아래 ETF 데이터를 분석해 반드시 순수 JSON만 출력하세요. 마크다운 없이:
+{
+  "trending_up": [{"symbol":"","name":"","reason":"급등 이유와 ETF 관점 영향 설명","why_important":"왜 중요한지","impact":"high|medium|low","ret30d":0,"changePct":0}],
+  "trending_down": [{"symbol":"","name":"","reason":"급락 이유와 ETF 관점 영향 설명","why_important":"왜 중요한지","impact":"high|medium|low","ret30d":0,"changePct":0}],
+  "steady_growth": [{"symbol":"","name":"","reason":"꾸준한 성장 이유","why_important":"왜 중요한지","impact":"high|medium|low","ret30d":0,"changePct":0}],
+  "high_volume": [{"symbol":"","name":"","reason":"거래량 급증 이유","why_important":"왜 중요한지","impact":"high|medium|low","volume":0}],
+  "near_52w_high": [{"symbol":"","name":"","reason":"신고가 근접 이유","why_important":"왜 중요한지","impact":"high|medium|low","fromHigh":0}],
+  "sector_trends": [{"sector":"섹터명","trend":"상승|하락|보합","avg_change":0,"keywords":["키워드1","키워드2"],"summary":"섹터 동향 한줄요약"}],
+  "etf_issues": [{"symbol":"","issue":"오늘 핵심 이슈 한줄","issue_type":"macro|earnings|policy|sentiment|technical","impact_etfs":["관련ETF1","관련ETF2"],"is_noise":true}],
+  "market_summary": "전체 시장 요약 3문장. 주요 트렌드와 주의사항 포함",
+  "top_keywords": ["오늘시장키워드1","키워드2","키워드3","키워드4","키워드5"]
+}`;
+
+  const userPrompt = `오늘 ETF 데이터 (거래량 상위 60개):\n${dataStr}\n\n섹터별 평균 등락률: ${sectorSummary}\n\n각 카테고리 상위 5개씩, sector_trends 상위 8개, etf_issues 5개를 분석해주세요.`;
 
   const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
     headers: {
-      Authorization: `Bearer ${GROK_API_KEY}`,
+      Authorization: `Bearer ${API_KEY}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
       model: "llama-3.3-70b-versatile",
       messages: [
-        {
-          role: "system",
-          content: `ETF 투자 전문가로서 아래 데이터를 분석해 JSON으로만 응답하세요:
-{
-  "trending_up": [{"symbol":"","name":"","reason":"","ret30d":0,"changePct":0}],
-  "trending_down": [{"symbol":"","name":"","reason":"","ret30d":0,"changePct":0}],
-  "steady_growth": [{"symbol":"","name":"","reason":"","ret30d":0,"changePct":0}],
-  "high_volume": [{"symbol":"","name":"","reason":"","volume":0}],
-  "near_52w_high": [{"symbol":"","name":"","reason":"","fromHigh":0}],
-  "summary": "시장 요약 2-3문장"
-}`
-        },
-        { role: "user", content: `ETF 데이터:\n${top50}\n\n각 카테고리 상위 5개씩 추천해주세요.` }
+        { role: "system", content: systemPrompt },
+        { role: "user", content: userPrompt }
       ],
       temperature: 0.2,
-      max_tokens: 3000,
+      max_tokens: 4000,
     }),
   });
 
   if (!res.ok) {
     const errText = await res.text();
-    console.error("Grok API 오류:", res.status, errText.slice(0, 200));
+    console.error("AI API 오류:", res.status, errText.slice(0, 200));
     return null;
   }
   const data = await res.json();
-  const content = data.choices?.[0]?.message?.content || "{}";
-  console.log("Grok 응답 일부:", content.slice(0, 100));
+  const aiContent = data.choices?.[0]?.message?.content || "{}";
+  console.log("AI 응답 일부:", aiContent.slice(0, 150));
   try {
-    return JSON.parse(content.replace(/```json\n?|\n?```/g, "").trim());
+    const cleaned = aiContent.replace(/```json\n?|\n?```/g, "").trim();
+    return JSON.parse(cleaned);
   } catch (e) {
-    console.error("JSON 파싱 오류:", e.message, content.slice(0, 200));
+    console.error("JSON 파싱 오류:", e.message);
+    // 부분 파싱 시도
+    try {
+      const match = aiContent.match(/\{[\s\S]*\}/);
+      if (match) return JSON.parse(match[0]);
+    } catch {}
     return null;
   }
 }
