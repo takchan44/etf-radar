@@ -424,7 +424,7 @@ async function getAIRecommendations(etfData) {
         { role: "user", content: userPrompt }
       ],
       temperature: 0.2,
-      max_tokens: 4000,
+      max_tokens: 8000,
     }),
   });
 
@@ -437,14 +437,38 @@ async function getAIRecommendations(etfData) {
   const aiContent = data.choices?.[0]?.message?.content || "{}";
   console.log("AI 응답 일부:", aiContent.slice(0, 150));
   try {
-    const cleaned = aiContent.replace(/```json\n?|\n?```/g, "").trim();
+    let cleaned = aiContent.replace(/```json\n?|\n?```/g, "").trim();
+    // 잘린 JSON 복구 시도
+    if (!cleaned.endsWith("}")) {
+      // 마지막 완성된 객체까지만 파싱
+      const lastBrace = cleaned.lastIndexOf("}");
+      if (lastBrace > 0) {
+        cleaned = cleaned.substring(0, lastBrace + 1);
+        // 열린 배열/객체 닫기
+        let opens = 0, closes = 0;
+        for (const c of cleaned) {
+          if (c === "{" || c === "[") opens++;
+          if (c === "}" || c === "]") closes++;
+        }
+        while (closes < opens) {
+          cleaned += closes % 2 === 0 ? "}" : "]";
+          closes++;
+        }
+      }
+    }
     return JSON.parse(cleaned);
   } catch (e) {
     console.error("JSON 파싱 오류:", e.message);
-    // 부분 파싱 시도
+    // market_summary만이라도 추출
     try {
-      const match = aiContent.match(/\{[\s\S]*\}/);
-      if (match) return JSON.parse(match[0]);
+      const summaryMatch = aiContent.match(/"market_summary"\s*:\s*"([^"]+)"/);
+      const keywordsMatch = aiContent.match(/"top_keywords"\s*:\s*\[([^\]]+)\]/);
+      if (summaryMatch) {
+        return {
+          market_summary: summaryMatch[1],
+          top_keywords: keywordsMatch ? keywordsMatch[1].replace(/"/g, "").split(",").map(s => s.trim()) : [],
+        };
+      }
     } catch {}
     return null;
   }
