@@ -10033,8 +10033,688 @@
       "fromLow": 75.97156398104265
     }
   ],
-  "ai": null,
-  "updatedAt": "2026-04-18T15:04:53.897Z",
+  "ai": {
+    "trending_up": [
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology",
+        "reason": "Strong earnings report",
+        "why_important": "Semiconductor industry growth",
+        "impact": "high",
+        "ret30d": 56,
+        "changePct": 84.6,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "AMD",
+          "NVDA"
+        ],
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "long_term": "bullish"
+      },
+      {
+        "symbol": "SOXL",
+        "name": "Direxion Daily Semiconductor Bull 3X Shares",
+        "reason": "Semiconductor industry growth",
+        "why_important": "Leveraged ETF",
+        "impact": "high",
+        "ret30d": 97.7,
+        "changePct": 72.8,
+        "rating": "buy",
+        "rating_reason": "Leveraged exposure to semiconductor industry",
+        "risk_level": "high",
+        "competitors": [
+          "TQQQ",
+          "QQQ"
+        ],
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "long_term": "bullish"
+      },
+      {
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "reason": "Strong earnings report",
+        "why_important": "Semiconductor industry growth",
+        "impact": "medium",
+        "ret30d": 57.8,
+        "changePct": 49.1,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "AMD",
+          "NVDA"
+        ],
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "long_term": "bullish"
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices",
+        "reason": "Strong earnings report",
+        "why_important": "Semiconductor industry growth",
+        "impact": "medium",
+        "ret30d": 44.7,
+        "changePct": 39.6,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "INTC",
+          "NVDA"
+        ],
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "long_term": "bullish"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "reason": "Strong earnings report",
+        "why_important": "Semiconductor industry growth",
+        "impact": "medium",
+        "ret30d": 13.4,
+        "changePct": 10,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "AMD",
+          "INTC"
+        ],
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "long_term": "bullish"
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "SOXS",
+        "name": "Direxion Daily Semiconductor Bear 3X Shares",
+        "reason": "Semiconductor industry decline",
+        "why_important": "Leveraged ETF",
+        "impact": "high",
+        "ret30d": -58.2,
+        "changePct": -52.9,
+        "rating": "sell",
+        "rating_reason": "Leveraged exposure to semiconductor industry decline",
+        "risk_level": "high",
+        "competitors": [
+          "TQQQ",
+          "QQQ"
+        ],
+        "short_term": "bearish",
+        "mid_term": "bearish",
+        "long_term": "bearish"
+      },
+      {
+        "symbol": "SQQQ",
+        "name": "ProShares UltraPro Short QQQ",
+        "reason": "Nasdaq decline",
+        "why_important": "Leveraged ETF",
+        "impact": "medium",
+        "ret30d": -23.2,
+        "changePct": -19.7,
+        "rating": "sell",
+        "rating_reason": "Leveraged exposure to Nasdaq decline",
+        "risk_level": "high",
+        "competitors": [
+          "TQQQ",
+          "QQQ"
+        ],
+        "short_term": "bearish",
+        "mid_term": "bearish",
+        "long_term": "bearish"
+      },
+      {
+        "symbol": "TEAM",
+        "name": "Atlassian Corporation",
+        "reason": "Weak earnings report",
+        "why_important": "Software industry decline",
+        "impact": "medium",
+        "ret30d": -19.9,
+        "changePct": -18.9,
+        "rating": "sell",
+        "rating_reason": "Weak fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "short_term": "bearish",
+        "mid_term": "bearish",
+        "long_term": "bearish"
+      },
+      {
+        "symbol": "QID",
+        "name": "ProShares UltraShort QQQ",
+        "reason": "Nasdaq decline",
+        "why_important": "Leveraged ETF",
+        "impact": "medium",
+        "ret30d": -15.7,
+        "changePct": -13.1,
+        "rating": "sell",
+        "rating_reason": "Leveraged exposure to Nasdaq decline",
+        "risk_level": "high",
+        "competitors": [
+          "TQQQ",
+          "QQQ"
+        ],
+        "short_term": "bearish",
+        "mid_term": "bearish",
+        "long_term": "bearish"
+      },
+      {
+        "symbol": "RWM",
+        "name": "ProShares UltraShort Russell2000",
+        "reason": "Russell 2000 decline",
+        "why_important": "Leveraged ETF",
+        "impact": "medium",
+        "ret30d": -9.4,
+        "changePct": -7.2,
+        "rating": "sell",
+        "rating_reason": "Leveraged exposure to Russell 2000 decline",
+        "risk_level": "high",
+        "competitors": [
+          "IWM",
+          "TQQQ"
+        ],
+        "short_term": "bearish",
+        "mid_term": "bearish",
+        "long_term": "bearish"
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "QQQ",
+        "name": "Invesco QQQ Trust",
+        "reason": "Nasdaq growth",
+        "why_important": "Technology industry growth",
+        "impact": "medium",
+        "ret30d": 8.2,
+        "changePct": 6.6,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "TQQQ",
+          "SPY"
+        ],
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "long_term": "bullish"
+      },
+      {
+        "symbol": "SPY",
+        "name": "SPDR S&P 500 ETF Trust",
+        "reason": "S&P 500 growth",
+        "why_important": "Broad market growth",
+        "impact": "medium",
+        "ret30d": 5.6,
+        "changePct": 4.2,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "QQQ",
+          "IWM"
+        ],
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "long_term": "bullish"
+      },
+      {
+        "symbol": "IWM",
+        "name": "iShares Russell 2000 ETF",
+        "reason": "Russell 2000 growth",
+        "why_important": "Small-cap growth",
+        "impact": "medium",
+        "ret30d": 9.9,
+        "changePct": 7.4,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "QQQ",
+          "SPY"
+        ],
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "long_term": "bullish"
+      },
+      {
+        "symbol": "XLE",
+        "name": "Energy Select Sector SPDR Fund",
+        "reason": "Energy sector growth",
+        "why_important": "Commodity price growth",
+        "impact": "medium",
+        "ret30d": -2.7,
+        "changePct": -2.6,
+        "rating": "neutral",
+        "rating_reason": "Neutral fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "USO",
+          "GDX"
+        ],
+        "short_term": "neutral",
+        "mid_term": "neutral",
+        "long_term": "neutral"
+      },
+      {
+        "symbol": "USO",
+        "name": "United States Oil Fund",
+        "reason": "Oil price growth",
+        "why_important": "Commodity price growth",
+        "impact": "medium",
+        "ret30d": 6.7,
+        "changePct": 20.5,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "XLE",
+          "GDX"
+        ],
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "long_term": "bullish"
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "TQQQ",
+        "name": "ProShares UltraPro QQQ",
+        "reason": "Nasdaq growth",
+        "why_important": "Leveraged ETF",
+        "impact": "high",
+        "volume": 101709,
+        "rating": "buy",
+        "rating_reason": "Leveraged exposure to Nasdaq growth",
+        "risk_level": "high",
+        "competitors": [
+          "QQQ",
+          "SPY"
+        ]
+      },
+      {
+        "symbol": "SOXL",
+        "name": "Direxion Daily Semiconductor Bull 3X Shares",
+        "reason": "Semiconductor industry growth",
+        "why_important": "Leveraged ETF",
+        "impact": "high",
+        "volume": 66287,
+        "rating": "buy",
+        "rating_reason": "Leveraged exposure to semiconductor industry growth",
+        "risk_level": "high",
+        "competitors": [
+          "TQQQ",
+          "QQQ"
+        ]
+      },
+      {
+        "symbol": "QQQ",
+        "name": "Invesco QQQ Trust",
+        "reason": "Nasdaq growth",
+        "why_important": "Technology industry growth",
+        "impact": "medium",
+        "volume": 53222,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "TQQQ",
+          "SPY"
+        ]
+      },
+      {
+        "symbol": "SPY",
+        "name": "SPDR S&P 500 ETF Trust",
+        "reason": "S&P 500 growth",
+        "why_important": "Broad market growth",
+        "impact": "medium",
+        "volume": 70160,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "QQQ",
+          "IWM"
+        ]
+      },
+      {
+        "symbol": "IWM",
+        "name": "iShares Russell 2000 ETF",
+        "reason": "Russell 2000 growth",
+        "why_important": "Small-cap growth",
+        "impact": "medium",
+        "volume": 46336,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "QQQ",
+          "SPY"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology",
+        "reason": "Strong earnings report",
+        "why_important": "Semiconductor industry growth",
+        "impact": "high",
+        "volume": 25878,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "AMD",
+          "NVDA"
+        ]
+      },
+      {
+        "symbol": "SOXL",
+        "name": "Direxion Daily Semiconductor Bull 3X Shares",
+        "reason": "Semiconductor industry growth",
+        "why_important": "Leveraged ETF",
+        "impact": "high",
+        "volume": 66287,
+        "rating": "buy",
+        "rating_reason": "Leveraged exposure to semiconductor industry growth",
+        "risk_level": "high",
+        "competitors": [
+          "TQQQ",
+          "QQQ"
+        ]
+      },
+      {
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "reason": "Strong earnings report",
+        "why_important": "Semiconductor industry growth",
+        "impact": "medium",
+        "volume": 117636,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "AMD",
+          "NVDA"
+        ]
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices",
+        "reason": "Strong earnings report",
+        "why_important": "Semiconductor industry growth",
+        "impact": "medium",
+        "volume": 35414,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "INTC",
+          "NVDA"
+        ]
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "reason": "Strong earnings report",
+        "why_important": "Semiconductor industry growth",
+        "impact": "medium",
+        "volume": 153663,
+        "rating": "buy",
+        "rating_reason": "Strong fundamentals",
+        "risk_level": "medium",
+        "competitors": [
+          "AMD",
+          "INTC"
+        ]
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "Semiconductor",
+        "trend": "상승",
+        "avg_change": 10.86,
+        "keywords": [
+          "MRVL",
+          "SOXL",
+          "INTC",
+          "AMD",
+          "NVDA"
+        ],
+        "summary": "Semiconductor industry growth driven by strong earnings reports and increasing demand for chips.",
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "top_etfs": [
+          "SOXL",
+          "QQQ",
+          "TQQQ"
+        ]
+      },
+      {
+        "sector": "Technology",
+        "trend": "상승",
+        "avg_change": 7.35,
+        "keywords": [
+          "QQQ",
+          "SPY",
+          "IWM",
+          "XLE",
+          "USO"
+        ],
+        "summary": "Technology industry growth driven by increasing demand for cloud computing and artificial intelligence.",
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "top_etfs": [
+          "QQQ",
+          "SPY",
+          "IWM"
+        ]
+      },
+      {
+        "sector": "Energy",
+        "trend": "상승",
+        "avg_change": 6.09,
+        "keywords": [
+          "XLE",
+          "USO",
+          "GDX",
+          "SLV"
+        ],
+        "summary": "Energy sector growth driven by increasing demand for oil and natural gas.",
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "top_etfs": [
+          "XLE",
+          "USO",
+          "GDX"
+        ]
+      },
+      {
+        "sector": "Financials",
+        "trend": "상승",
+        "avg_change": 5.57,
+        "keywords": [
+          "XLF",
+          "KRE",
+          "JPM",
+          "BAC"
+        ],
+        "summary": "Financials sector growth driven by increasing demand for banking and financial services.",
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "top_etfs": [
+          "XLF",
+          "KRE",
+          "JPM"
+        ]
+      },
+      {
+        "sector": "Healthcare",
+        "trend": "상승",
+        "avg_change": 5.23,
+        "keywords": [
+          "XLV",
+          "IBB",
+          "JNJ",
+          "PFE"
+        ],
+        "summary": "Healthcare sector growth driven by increasing demand for pharmaceuticals and biotechnology.",
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "top_etfs": [
+          "XLV",
+          "IBB",
+          "JNJ"
+        ]
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "trend": "상승",
+        "avg_change": 4.91,
+        "keywords": [
+          "XLY",
+          "AMZN",
+          "TSLA",
+          "NKE"
+        ],
+        "summary": "Consumer Discretionary sector growth driven by increasing demand for consumer goods and services.",
+        "short_term": "bullish",
+        "mid_term": "bullish",
+        "top_etfs": [
+          "XLY",
+          "AMZN",
+          "TSLA"
+        ]
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "TQQQ",
+        "issue": "Leveraged ETF risk",
+        "issue_type": "technical",
+        "impact_etfs": [
+          "SOXL",
+          "QQQ",
+          "SPY"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "SOXS",
+        "issue": "Leveraged ETF risk",
+        "issue_type": "technical",
+        "impact_etfs": [
+          "TQQQ",
+          "QQQ",
+          "SPY"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "QQQ",
+        "issue": "Nasdaq volatility",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "TQQQ",
+          "SPY",
+          "IWM"
+        ],
+        "is_noise": false,
+        "impact": "medium"
+      },
+      {
+        "symbol": "SPY",
+        "issue": "S&P 500 volatility",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "QQQ",
+          "IWM",
+          "XLE"
+        ],
+        "is_noise": false,
+        "impact": "medium"
+      }
+    ],
+    "risk_analysis": [
+      {
+        "symbol": "TQQQ",
+        "name": "ProShares UltraPro QQQ",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "QQQ or SPY",
+        "suitable_for": "Aggressive investors"
+      },
+      {
+        "symbol": "SOXL",
+        "name": "Direxion Daily Semiconductor Bull 3X Shares",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "25%",
+        "hedge_suggestion": "QQQ or SPY",
+        "suitable_for": "Aggressive investors"
+      },
+      {
+        "symbol": "QQQ",
+        "name": "Invesco QQQ Trust",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "10%",
+        "hedge_suggestion": "SPY or IWM",
+        "suitable_for": "Moderate investors"
+      },
+      {
+        "symbol": "SPY",
+        "name": "SPDR S&P 500 ETF Trust",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "10%",
+        "hedge_suggestion": "QQQ or IWM",
+        "suitable_for": "Conservative investors"
+      }
+    ],
+    "portfolio_suggestion": {
+      "aggressive": [
+        "TQQQ",
+        "SOXL",
+        "QQQ"
+      ],
+      "balanced": [
+        "SPY",
+        "IWM",
+        "XLE"
+      ],
+      "conservative": [
+        "SPY",
+        "IWM",
+        "XLF"
+      ],
+      "suggestion": "Diversify your portfolio with a mix of aggressive, balanced, and conservative ETFs."
+    },
+    "market_summary": "The market is currently experiencing a growth trend, with the semiconductor and technology sectors leading the way. However, there are risks associated with leveraged ETFs and sector volatility.",
+    "top_keywords": [
+      "Semiconductor",
+      "Technology",
+      "Energy",
+      "Financials",
+      "Healthcare"
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "Strong earnings reports and increasing demand for chips and technology products."
+  },
+  "updatedAt": "2026-04-18T15:08:44.612Z",
   "stats": {
     "total": 627,
     "us": 497,
