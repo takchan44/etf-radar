@@ -377,12 +377,13 @@ async function main() {
     const chunk = FULL_LIST.slice(i, i + CHUNK_SIZE);
     const prices = await Promise.all(chunk.map(e => fetchPrice(e.symbol)));
     prices.forEach((price, idx) => {
-      if (price) {
+      if (price && chunk[idx]) {
+        const displaySymbol = price.symbol || (chunk[idx].symbol || "").replace(".KS", "");
         results.push({
           ...chunk[idx],
           ...price,
-          symbol: price.symbol,
-          name: price.name !== chunk[idx].symbol.replace(".KS","") ? price.name : chunk[idx].name,
+          symbol: displaySymbol,
+          name: (price.name && price.name !== (chunk[idx].symbol || "").replace(".KS","")) ? price.name : (chunk[idx].name || displaySymbol),
         });
       }
     });
