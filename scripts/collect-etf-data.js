@@ -374,14 +374,14 @@ async function getAIRecommendations(etfData) {
     .map(e => `${e.symbol}(${e.name}): 당일=${e.changePct.toFixed(2)}%, 5일=${e.ret5d.toFixed(2)}%, 30일=${e.ret30d.toFixed(2)}%`)
     .join("\n");
 
-  const res = await fetch("https://api.x.ai/v1/chat/completions", {
+  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
     headers: {
       Authorization: `Bearer ${GROK_API_KEY}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: "grok-3-mini",
+      model: "llama-3.3-70b-versatile",
       messages: [
         {
           role: "system",
