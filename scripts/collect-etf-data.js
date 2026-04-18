@@ -370,7 +370,7 @@ async function getAIRecommendations(etfData) {
   const top60 = etfData
     .filter(e => e.price > 0)
     .sort((a, b) => (b.volume||0) - (a.volume||0))
-    .slice(0, 60);
+    .slice(0, 100);
 
   const dataStr = top60
     .map(e => `${e.symbol}(${e.name},${e.sector||"기타"},${e.market}): 당일=${e.changePct.toFixed(2)}%, 5일=${e.ret5d.toFixed(2)}%, 30일=${e.ret30d.toFixed(2)}%, 거래량=${(e.volume||0).toLocaleString()}, 52주고가대비=${(e.fromHigh||0).toFixed(2)}%`)
@@ -392,20 +392,24 @@ async function getAIRecommendations(etfData) {
     .slice(0, 15)
     .join(", ");
 
-  const systemPrompt = `당신은 ETF 시장 분석 전문가입니다. 아래 ETF 데이터를 분석해 반드시 순수 JSON만 출력하세요. 마크다운 없이:
+  const systemPrompt = `당신은 ETF 시장 분석 전문가입니다. 아래 ETF 데이터를 분석해 반드시 순수 JSON만 출력하세요. 마크다운 코드블록 없이 순수 JSON:
 {
-  "trending_up": [{"symbol":"","name":"","reason":"급등 이유와 ETF 관점 영향 설명","why_important":"왜 중요한지","impact":"high|medium|low","ret30d":0,"changePct":0}],
-  "trending_down": [{"symbol":"","name":"","reason":"급락 이유와 ETF 관점 영향 설명","why_important":"왜 중요한지","impact":"high|medium|low","ret30d":0,"changePct":0}],
-  "steady_growth": [{"symbol":"","name":"","reason":"꾸준한 성장 이유","why_important":"왜 중요한지","impact":"high|medium|low","ret30d":0,"changePct":0}],
-  "high_volume": [{"symbol":"","name":"","reason":"거래량 급증 이유","why_important":"왜 중요한지","impact":"high|medium|low","volume":0}],
-  "near_52w_high": [{"symbol":"","name":"","reason":"신고가 근접 이유","why_important":"왜 중요한지","impact":"high|medium|low","fromHigh":0}],
-  "sector_trends": [{"sector":"섹터명","trend":"상승|하락|보합","avg_change":0,"keywords":["키워드1","키워드2"],"summary":"섹터 동향 한줄요약"}],
-  "etf_issues": [{"symbol":"","issue":"오늘 핵심 이슈 한줄","issue_type":"macro|earnings|policy|sentiment|technical","impact_etfs":["관련ETF1","관련ETF2"],"is_noise":true}],
+  "trending_up": [{"symbol":"","name":"","reason":"급등 이유와 ETF 관점 영향 설명","why_important":"왜 중요한지","impact":"high|medium|low","ret30d":0,"changePct":0,"rating":"buy|neutral|sell","rating_reason":"투자의견 근거","risk_level":"high|medium|low","competitors":["경쟁ETF1","경쟁ETF2"],"short_term":"단기1주전망","mid_term":"중기1달전망","long_term":"장기3달전망"}],
+  "trending_down": [{"symbol":"","name":"","reason":"급락 이유","why_important":"왜 중요한지","impact":"high|medium|low","ret30d":0,"changePct":0,"rating":"buy|neutral|sell","rating_reason":"투자의견 근거","risk_level":"high|medium|low","competitors":["경쟁ETF1","경쟁ETF2"],"short_term":"단기전망","mid_term":"중기전망","long_term":"장기전망"}],
+  "steady_growth": [{"symbol":"","name":"","reason":"꾸준한 성장 이유","why_important":"왜 중요한지","impact":"high|medium|low","ret30d":0,"changePct":0,"rating":"buy|neutral|sell","rating_reason":"투자의견 근거","risk_level":"high|medium|low","competitors":["경쟁ETF1","경쟁ETF2"],"short_term":"단기전망","mid_term":"중기전망","long_term":"장기전망"}],
+  "high_volume": [{"symbol":"","name":"","reason":"거래량 급증 이유","why_important":"왜 중요한지","impact":"high|medium|low","volume":0,"rating":"buy|neutral|sell","rating_reason":"투자의견 근거","risk_level":"high|medium|low","competitors":["경쟁ETF1","경쟁ETF2"]}],
+  "near_52w_high": [{"symbol":"","name":"","reason":"신고가 근접 이유","why_important":"왜 중요한지","impact":"high|medium|low","fromHigh":0,"rating":"buy|neutral|sell","rating_reason":"투자의견 근거","risk_level":"high|medium|low","competitors":["경쟁ETF1","경쟁ETF2"]}],
+  "sector_trends": [{"sector":"섹터명","trend":"상승|하락|보합","avg_change":0,"keywords":["키워드1","키워드2"],"summary":"섹터 동향 한줄요약","short_term":"단기1주전망","mid_term":"중기1달전망","top_etfs":["섹터대표ETF1","ETF2"]}],
+  "etf_issues": [{"symbol":"","issue":"오늘 핵심 이슈 한줄","issue_type":"macro|earnings|policy|sentiment|technical","impact_etfs":["관련ETF1","관련ETF2"],"is_noise":false,"impact":"high|medium|low"}],
+  "risk_analysis": [{"symbol":"","name":"","risk_level":"high|medium|low","volatility":"고변동성|중변동성|저변동성","max_drawdown_risk":"최대낙폭 리스크 설명","hedge_suggestion":"헤지 방법 제안","suitable_for":"적합한 투자자 유형"}],
+  "portfolio_suggestion": {"aggressive":["공격형포트폴리오ETF1","ETF2","ETF3"],"balanced":["균형형ETF1","ETF2","ETF3"],"conservative":["안정형ETF1","ETF2","ETF3"],"suggestion":"포트폴리오 구성 조언"},
   "market_summary": "전체 시장 요약 3문장. 주요 트렌드와 주의사항 포함",
-  "top_keywords": ["오늘시장키워드1","키워드2","키워드3","키워드4","키워드5"]
+  "top_keywords": ["오늘시장키워드1","키워드2","키워드3","키워드4","키워드5"],
+  "market_sentiment": "bullish|bearish|neutral",
+  "market_sentiment_reason": "시장 심리 판단 근거"
 }`;
 
-  const userPrompt = `오늘 ETF 데이터 (거래량 상위 60개):\n${dataStr}\n\n섹터별 평균 등락률: ${sectorSummary}\n\n각 카테고리 상위 5개씩, sector_trends 상위 8개, etf_issues 5개를 분석해주세요.`;
+  const userPrompt = `오늘 ETF 데이터 (거래량 상위 100개):\n${dataStr}\n\n섹터별 평균 등락률: ${sectorSummary}\n\n분석 요청:\n1. 각 카테고리 상위 5개씩 (trending_up/down/steady_growth/high_volume/near_52w_high)\n2. 각 ETF마다 투자의견(매수/중립/매도), 리스크레벨, 경쟁ETF, 단기/중기/장기 전망 포함\n3. sector_trends 상위 8개 (섹터별 단기/중기 전망 포함)\n4. etf_issues 5개\n5. risk_analysis 상위 5개 (리스크 높은 ETF 위주)\n6. portfolio_suggestion (투자성향별 추천)\n7. 시장 심리 판단`;
 
   const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
