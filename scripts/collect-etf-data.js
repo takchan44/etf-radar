@@ -402,12 +402,20 @@ async function getAIRecommendations(etfData) {
     }),
   });
 
-  if (!res.ok) return null;
+  if (!res.ok) {
+    const errText = await res.text();
+    console.error("Grok API 오류:", res.status, errText.slice(0, 200));
+    return null;
+  }
   const data = await res.json();
   const content = data.choices?.[0]?.message?.content || "{}";
+  console.log("Grok 응답 일부:", content.slice(0, 100));
   try {
     return JSON.parse(content.replace(/```json\n?|\n?```/g, "").trim());
-  } catch { return null; }
+  } catch (e) {
+    console.error("JSON 파싱 오류:", e.message, content.slice(0, 200));
+    return null;
+  }
 }
 
 async function main() {
