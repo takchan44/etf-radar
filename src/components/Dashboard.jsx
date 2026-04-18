@@ -310,8 +310,23 @@ function CompareView({ compareList, prices, onRemove, onClear }) {
   );
 }
 
+// 나스닥 100 종목
+const NASDAQ100 = [
+  "MSFT","AAPL","NVDA","AMZN","META","GOOGL","GOOG","TSLA","AVGO","COST",
+  "NFLX","ASML","AMD","CSCO","TMUS","ADBE","PEP","AZN","INTU","INTC",
+  "BKNG","QCOM","TXN","AMGN","HON","SBUX","GILD","VRTX","LRCX","REGN",
+  "PANW","MU","ADI","SNPS","KLAC","MRVL","CDNS","MELI","CRWD","CTAS",
+  "CSX","ORLY","MNST","MDLZ","NXPI","WDAY","PAYX","FTNT","CHTR","DXCM",
+  "KDP","CEG","ROST","FAST","ODFL","GEHC","IDXX","TEAM","VRSK","CPRT",
+  "ABNB","LULU","BIIB","ON","DLTR","FANG","GFS","ZS","TTD","PCAR",
+  "DDOG","ILMN","WBD","ALGN","SIRI","ENPH","RIVN","OKTA","PYPL","ISRG",
+  "ADSK","EA","EBAY","MRNA","WBA","BMRN","ZM","XEL","AEP","EXC",
+  "PCG","NEE","TSCO","CSGP","ANSS","SWKS","CTSH","MTCH","PARA","NXST",
+];
+
 export default function Dashboard({ prices, loading, etfData }) {
   const [viewMode, setViewMode] = useState("table"); // table | card
+  const [nasdaq100View, setNasdaq100View] = useState(false);
   const [searchText, setSearchText] = useState("");
   const [assetClass, setAssetClass] = useState("전체");
   const [sectorFilter, setSectorFilter] = useState("전체");
@@ -365,6 +380,15 @@ export default function Dashboard({ prices, loading, etfData }) {
     return items.slice(0, 50);
   }, [allPrices, searchText, assetClass, sectorFilter, marketFilter, showFavOnly, favorites, sortBy, minChangePct, maxChangePct]);
 
+  // 나스닥 100 종목 데이터
+  const nasdaq100Items = useMemo(() => {
+    return NASDAQ100.map(sym => {
+      const p = Object.values(prices).find(p => p && p.symbol === sym);
+      if (p) return p;
+      return { symbol: sym, name: sym, price: 0, changePct: 0, volume: 0, market: "us", sector: "나스닥100", error: true };
+    });
+  }, [prices]);
+
   // 요약 통계
   const surge = allPrices.filter(p => (p.changePct||0) >= 2).length;
   const plunge = allPrices.filter(p => (p.changePct||0) <= -2).length;
@@ -417,8 +441,95 @@ export default function Dashboard({ prices, loading, etfData }) {
           onClear={() => setCompareList([])} />
       )}
 
+      {/* 나스닥 100 탭 버튼 */}
+      <div style={{ display: "flex", gap: "8px" }}>
+        <button onClick={() => setNasdaq100View(false)} style={{
+          padding: "10px 20px", borderRadius: "8px", fontSize: "13px", fontWeight: 600,
+          border: `2px solid ${!nasdaq100View ? BLUE : GRAY_BORDER}`,
+          background: !nasdaq100View ? BLUE_LIGHT : "#fff",
+          color: !nasdaq100View ? BLUE : "#6B7280", cursor: "pointer",
+        }}>전체 대시보드</button>
+        <button onClick={() => setNasdaq100View(true)} style={{
+          padding: "10px 20px", borderRadius: "8px", fontSize: "13px", fontWeight: 600,
+          border: `2px solid ${nasdaq100View ? "#7C3AED" : GRAY_BORDER}`,
+          background: nasdaq100View ? "#F5F3FF" : "#fff",
+          color: nasdaq100View ? "#7C3AED" : "#6B7280", cursor: "pointer",
+        }}>나스닥 100 종목</button>
+      </div>
+
+      {/* 나스닥 100 뷰 */}
+      {nasdaq100View && (
+        <div style={{ background: "#fff", border: "1.5px solid #DDD6FE", borderRadius: "10px", overflow: "hidden" }}>
+          <div style={{ padding: "14px 20px", background: "#F5F3FF", borderBottom: "1px solid #DDD6FE", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+            <span style={{ fontSize: "14px", fontWeight: 700, color: "#7C3AED" }}>나스닥 100 종목 ({nasdaq100Items.filter(p => !p.error).length}개 데이터)</span>
+            <span style={{ fontSize: "11px", color: "#A78BFA" }}>총 100개 종목</span>
+          </div>
+          <div style={{ overflowX: "auto" }}>
+            <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "13px" }}>
+              <thead>
+                <tr style={{ borderBottom: "2px solid #DDD6FE", background: "#F5F3FF" }}>
+                  {["순위", "종목", "현재가", "당일 등락", "30일 수익", "거래량"].map(h => (
+                    <th key={h} style={{ padding: "11px 14px", textAlign: "left", fontSize: "11px", color: "#7C3AED", fontWeight: 700 }}>{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {nasdaq100Items.map((item, i) => {
+                  const up = (item.changePct||0) >= 0;
+                  const hasData = !item.error && item.price > 0;
+                  return (
+                    <tr key={item.symbol}
+                      style={{ borderBottom: `1px solid ${GRAY_BORDER}`, background: i % 2 === 0 ? "#fff" : "#FAFAFA", cursor: hasData ? "pointer" : "default", transition: "background 0.1s" }}
+                      onMouseOver={e => hasData && (e.currentTarget.style.background = "#F5F3FF")}
+                      onMouseOut={e => e.currentTarget.style.background = i % 2 === 0 ? "#fff" : "#FAFAFA"}
+                      onClick={() => hasData && setDetail(item)}
+                    >
+                      <td style={{ padding: "10px 14px" }}>
+                        <span style={{
+                          width: "26px", height: "26px", borderRadius: "50%",
+                          background: i < 3 ? "#7C3AED" : "#E5E7EB",
+                          color: i < 3 ? "#fff" : "#6B7280",
+                          display: "inline-flex", alignItems: "center", justifyContent: "center",
+                          fontSize: "11px", fontWeight: 700,
+                        }}>{i + 1}</span>
+                      </td>
+                      <td style={{ padding: "10px 14px" }}>
+                        <div style={{ fontWeight: 700, color: "#111827" }}>{item.symbol}</div>
+                        <div style={{ fontSize: "11px", color: "#9CA3AF" }}>{item.name}</div>
+                      </td>
+                      <td style={{ padding: "10px 14px", fontWeight: 600, color: hasData ? "#111827" : "#D1D5DB" }}>
+                        {hasData ? `$${item.price.toFixed(2)}` : "—"}
+                      </td>
+                      <td style={{ padding: "10px 14px" }}>
+                        {hasData ? (
+                          <span style={{
+                            fontSize: "12px", fontWeight: 600, padding: "2px 8px", borderRadius: "6px",
+                            color: up ? "#16A34A" : "#DC2626",
+                            background: up ? "#F0FDF4" : "#FEF2F2",
+                            border: `1px solid ${up ? "#BBF7D0" : "#FECACA"}`,
+                          }}>{up ? "▲" : "▼"} {Math.abs(item.changePct||0).toFixed(2)}%</span>
+                        ) : <span style={{ color: "#D1D5DB" }}>—</span>}
+                      </td>
+                      <td style={{ padding: "10px 14px", fontWeight: 600, color: hasData && item.ret30d != null ? ((item.ret30d||0) >= 0 ? "#16A34A" : "#DC2626") : "#D1D5DB" }}>
+                        {hasData && item.ret30d != null ? `${(item.ret30d||0) >= 0 ? "+" : ""}${(item.ret30d||0).toFixed(2)}%` : "—"}
+                      </td>
+                      <td style={{ padding: "10px 14px", color: "#6B7280", fontSize: "11px" }}>
+                        {hasData ? (item.volume||0).toLocaleString() : "—"}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+          <div style={{ padding: "12px 16px", fontSize: "11px", color: "#A78BFA", borderTop: "1px solid #DDD6FE", background: "#F5F3FF" }}>
+            * 나스닥 100은 개별 주식 종목입니다. 데이터가 없는 종목(—)은 수집 대상에 포함되지 않아요.
+          </div>
+        </div>
+      )}
+
       {/* 필터 영역 */}
-      <div style={{ background: "#fff", border: `1.5px solid ${GRAY_BORDER}`, borderRadius: "10px", padding: "16px", display: "flex", flexDirection: "column", gap: "12px" }}>
+      {!nasdaq100View && <div style={{ background: "#fff", border: `1.5px solid ${GRAY_BORDER}`, borderRadius: "10px", padding: "16px", display: "flex", flexDirection: "column", gap: "12px" }}>
         {/* 검색 + 보기 모드 */}
         <div style={{ display: "flex", gap: "10px" }}>
           <input value={searchText} onChange={e => setSearchText(e.target.value)}
@@ -492,14 +603,16 @@ export default function Dashboard({ prices, loading, etfData }) {
         </div>
       </div>
 
+      </div>}
+
       {/* 결과 수 */}
-      <div style={{ fontSize: "12px", color: "#9CA3AF" }}>
+      {!nasdaq100View && <div style={{ fontSize: "12px", color: "#9CA3AF" }}>
         {loading ? "로딩 중..." : `${filtered.length}개 표시 (전체 ${allPrices.length}개 중 상위 50개) · 클릭 시 상세 정보`}
         {compareList.length > 0 && <span style={{ marginLeft: "12px", color: BLUE, fontWeight: 600 }}>비교 중: {compareList.join(", ")}</span>}
-      </div>
+      </div>}
 
       {/* 카드 뷰 */}
-      {viewMode === "card" && (
+      {!nasdaq100View && viewMode === "card" && (
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "14px" }}>
           {filtered.slice(0, 50).map(item => (
             <div key={item.symbol} onClick={() => setDetail(item)} style={{ position: "relative" }}>
@@ -523,7 +636,7 @@ export default function Dashboard({ prices, loading, etfData }) {
       )}
 
       {/* 테이블 뷰 */}
-      {viewMode === "table" && (
+      {!nasdaq100View && viewMode === "table" && (
         <div style={{ background: "#fff", border: `1.5px solid ${GRAY_BORDER}`, borderRadius: "10px", overflow: "hidden" }}>
           <div style={{ overflowX: "auto" }}>
             <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "13px" }}>
