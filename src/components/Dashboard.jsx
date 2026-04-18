@@ -601,8 +601,6 @@ export default function Dashboard({ prices, loading, etfData }) {
             }}>필터 초기화</button>
           )}
         </div>
-      </div>
-
       </div>}
 
       {/* 결과 수 */}
