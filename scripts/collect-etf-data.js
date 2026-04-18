@@ -1,118 +1,219 @@
 // scripts/collect-etf-data.js
+// 미국 ETF 상위 500개 + 한국 ETF 전체 자동 수집
+
 const fs = require("fs");
 const path = require("path");
 
-const ETF_LIST = [
-  // ── 미국 전체시장 ──────────────────────────────
-  { symbol: "SPY",  name: "S&P 500 SPDR",          market: "us", sector: "전체시장" },
-  { symbol: "VOO",  name: "S&P 500 Vanguard",       market: "us", sector: "전체시장" },
-  { symbol: "IVV",  name: "S&P 500 iShares",        market: "us", sector: "전체시장" },
-  { symbol: "VTI",  name: "미국 전체 주식",           market: "us", sector: "전체시장" },
-  { symbol: "ITOT", name: "미국 전체 iShares",       market: "us", sector: "전체시장" },
-  { symbol: "DIA",  name: "다우존스 30",              market: "us", sector: "전체시장" },
-  // ── 미국 기술/성장 ─────────────────────────────
-  { symbol: "QQQ",  name: "나스닥 100",              market: "us", sector: "기술" },
-  { symbol: "QQQM", name: "나스닥 100 소액",          market: "us", sector: "기술" },
-  { symbol: "VGT",  name: "IT 섹터 Vanguard",        market: "us", sector: "기술" },
-  { symbol: "XLK",  name: "기술 섹터 SPDR",           market: "us", sector: "기술" },
-  { symbol: "SOXX", name: "반도체 iShares",           market: "us", sector: "반도체" },
-  { symbol: "SMH",  name: "반도체 VanEck",            market: "us", sector: "반도체" },
-  { symbol: "IGV",  name: "소프트웨어 iShares",        market: "us", sector: "소프트웨어" },
-  { symbol: "CIBR", name: "사이버보안 First Trust",    market: "us", sector: "사이버보안" },
-  { symbol: "CLOU", name: "클라우드 컴퓨팅",           market: "us", sector: "클라우드" },
-  { symbol: "ROBO", name: "로보틱스 & AI",             market: "us", sector: "로보틱스" },
-  { symbol: "BOTZ", name: "로보틱스 Global X",         market: "us", sector: "로보틱스" },
-  // ── 미국 AI/혁신 ───────────────────────────────
-  { symbol: "ARKK", name: "ARK 혁신 ETF",             market: "us", sector: "혁신" },
-  { symbol: "ARKW", name: "ARK 차세대인터넷",           market: "us", sector: "혁신" },
-  { symbol: "ARKQ", name: "ARK 자율기술&로봇",          market: "us", sector: "혁신" },
-  { symbol: "ARKF", name: "ARK 핀테크",               market: "us", sector: "혁신" },
-  { symbol: "ARKG", name: "ARK 유전체혁명",             market: "us", sector: "혁신" },
-  { symbol: "AIQ",  name: "AI & 빅데이터",              market: "us", sector: "AI" },
-  // ── 미국 소형/중형 ─────────────────────────────
-  { symbol: "IWM",  name: "Russell 2000",             market: "us", sector: "소형주" },
-  { symbol: "IJR",  name: "S&P 600 소형주",            market: "us", sector: "소형주" },
-  { symbol: "MDY",  name: "S&P 400 중형주",            market: "us", sector: "중형주" },
-  { symbol: "IJH",  name: "S&P 400 iShares",          market: "us", sector: "중형주" },
-  // ── 미국 가치/배당 ─────────────────────────────
-  { symbol: "VTV",  name: "대형 가치주",               market: "us", sector: "가치주" },
-  { symbol: "IWD",  name: "Russell 1000 가치",         market: "us", sector: "가치주" },
-  { symbol: "DVY",  name: "고배당 iShares",            market: "us", sector: "배당" },
-  { symbol: "VYM",  name: "고배당 Vanguard",           market: "us", sector: "배당" },
-  { symbol: "SCHD", name: "배당 성장 Schwab",           market: "us", sector: "배당" },
-  { symbol: "HDV",  name: "핵심 배당 iShares",          market: "us", sector: "배당" },
-  { symbol: "DGRO", name: "배당 성장 iShares",          market: "us", sector: "배당" },
-  // ── 미국 섹터 ──────────────────────────────────
-  { symbol: "XLF",  name: "금융 섹터",                 market: "us", sector: "금융" },
-  { symbol: "XLV",  name: "헬스케어 섹터",              market: "us", sector: "헬스케어" },
-  { symbol: "XLE",  name: "에너지 섹터",                market: "us", sector: "에너지" },
-  { symbol: "XLI",  name: "산업 섹터",                  market: "us", sector: "산업" },
-  { symbol: "XLY",  name: "임의소비재 섹터",             market: "us", sector: "소비재" },
-  { symbol: "XLP",  name: "필수소비재 섹터",             market: "us", sector: "필수소비재" },
-  { symbol: "XLU",  name: "유틸리티 섹터",              market: "us", sector: "유틸리티" },
-  { symbol: "XLRE", name: "부동산 섹터",                market: "us", sector: "부동산" },
-  { symbol: "XLB",  name: "소재 섹터",                  market: "us", sector: "소재" },
-  { symbol: "XLC",  name: "통신 섹터",                  market: "us", sector: "통신" },
-  { symbol: "IBB",  name: "바이오텍 iShares",           market: "us", sector: "바이오" },
-  { symbol: "XBI",  name: "바이오텍 SPDR",              market: "us", sector: "바이오" },
-  { symbol: "IYR",  name: "부동산 iShares",             market: "us", sector: "부동산" },
-  { symbol: "VNQ",  name: "리츠 Vanguard",              market: "us", sector: "부동산" },
-  // ── 미국 채권/원자재 ───────────────────────────
-  { symbol: "TLT",  name: "20년+ 미국채",               market: "us", sector: "채권" },
-  { symbol: "IEF",  name: "7-10년 미국채",              market: "us", sector: "채권" },
-  { symbol: "SHY",  name: "1-3년 미국채",               market: "us", sector: "채권" },
-  { symbol: "AGG",  name: "미국 종합채권",               market: "us", sector: "채권" },
-  { symbol: "BND",  name: "미국 채권 Vanguard",          market: "us", sector: "채권" },
-  { symbol: "HYG",  name: "하이일드 채권",               market: "us", sector: "채권" },
-  { symbol: "LQD",  name: "투자등급 회사채",              market: "us", sector: "채권" },
-  { symbol: "GLD",  name: "금 SPDR",                    market: "us", sector: "원자재" },
-  { symbol: "IAU",  name: "금 iShares",                 market: "us", sector: "원자재" },
-  { symbol: "SLV",  name: "은 iShares",                 market: "us", sector: "원자재" },
-  { symbol: "USO",  name: "원유 US Oil Fund",            market: "us", sector: "원자재" },
-  // ── 미국 레버리지/인버스 ───────────────────────
-  { symbol: "TQQQ", name: "나스닥 3배 레버리지",          market: "us", sector: "레버리지" },
-  { symbol: "SQQQ", name: "나스닥 3배 인버스",            market: "us", sector: "인버스" },
-  { symbol: "UPRO", name: "S&P500 3배 레버리지",          market: "us", sector: "레버리지" },
-  { symbol: "SPXU", name: "S&P500 3배 인버스",            market: "us", sector: "인버스" },
-  // ── 글로벌 ────────────────────────────────────
-  { symbol: "VEA",  name: "선진국 Vanguard",             market: "global", sector: "선진국" },
-  { symbol: "EFA",  name: "선진국 iShares",              market: "global", sector: "선진국" },
-  { symbol: "IEFA", name: "핵심 선진국 iShares",          market: "global", sector: "선진국" },
-  { symbol: "VWO",  name: "신흥국 Vanguard",             market: "global", sector: "신흥국" },
-  { symbol: "EEM",  name: "신흥국 iShares",              market: "global", sector: "신흥국" },
-  { symbol: "IEMG", name: "핵심 신흥국 iShares",          market: "global", sector: "신흥국" },
-  { symbol: "ACWI", name: "전 세계 주식",                 market: "global", sector: "전세계" },
-  { symbol: "VT",   name: "전 세계 Vanguard",            market: "global", sector: "전세계" },
-  { symbol: "EWJ",  name: "일본 iShares",                market: "global", sector: "일본" },
-  { symbol: "EWG",  name: "독일 iShares",                market: "global", sector: "독일" },
-  { symbol: "EWY",  name: "한국 iShares",                market: "global", sector: "한국" },
-  { symbol: "EWZ",  name: "브라질 iShares",              market: "global", sector: "브라질" },
-  { symbol: "FXI",  name: "중국 대형주 iShares",          market: "global", sector: "중국" },
-  { symbol: "MCHI", name: "중국 MSCI iShares",           market: "global", sector: "중국" },
-  { symbol: "KWEB", name: "중국 인터넷 KraneShares",      market: "global", sector: "중국" },
-  { symbol: "EWC",  name: "캐나다 iShares",              market: "global", sector: "캐나다" },
-  { symbol: "EWA",  name: "호주 iShares",                market: "global", sector: "호주" },
-  { symbol: "EWU",  name: "영국 iShares",                market: "global", sector: "영국" },
-  // ── 한국 ──────────────────────────────────────
-  { symbol: "069500.KS", name: "KODEX 200",              market: "korea", sector: "전체시장" },
-  { symbol: "102110.KS", name: "TIGER 200",              market: "korea", sector: "전체시장" },
-  { symbol: "229200.KS", name: "KODEX 코스닥150",         market: "korea", sector: "전체시장" },
-  { symbol: "133690.KS", name: "TIGER 코스피100",         market: "korea", sector: "전체시장" },
-  { symbol: "091160.KS", name: "KODEX 반도체",            market: "korea", sector: "반도체" },
-  { symbol: "157490.KS", name: "TIGER 반도체",            market: "korea", sector: "반도체" },
-  { symbol: "305720.KS", name: "KODEX 2차전지산업",       market: "korea", sector: "2차전지" },
-  { symbol: "305540.KS", name: "TIGER 2차전지테마",       market: "korea", sector: "2차전지" },
-  { symbol: "148020.KS", name: "KODEX 바이오",            market: "korea", sector: "헬스케어" },
-  { symbol: "139220.KS", name: "TIGER IT",               market: "korea", sector: "IT" },
-  { symbol: "266390.KS", name: "KODEX 게임산업",          market: "korea", sector: "IT" },
-  { symbol: "364980.KS", name: "TIGER AI코리아그로스",     market: "korea", sector: "AI" },
-  { symbol: "385720.KS", name: "KODEX AI반도체핵심장비",   market: "korea", sector: "AI" },
-  { symbol: "195930.KS", name: "TIGER 선진국MSCI",        market: "korea", sector: "선진국" },
-  { symbol: "192090.KS", name: "TIGER 신흥국MSCI",        market: "korea", sector: "신흥국" },
-  { symbol: "122630.KS", name: "KODEX 레버리지",          market: "korea", sector: "레버리지" },
-  { symbol: "114800.KS", name: "KODEX 인버스",            market: "korea", sector: "인버스" },
-  { symbol: "252670.KS", name: "KODEX 200선물인버스2X",   market: "korea", sector: "인버스" },
-  { symbol: "233740.KS", name: "KODEX 코스닥150레버리지",  market: "korea", sector: "레버리지" },
+// ── 한국 ETF 전체 목록 (KRX 상장 주요 ETF) ────────────────────
+const KOREA_ETF_LIST = [
+  { symbol: "069500.KS", name: "KODEX 200",              sector: "전체시장" },
+  { symbol: "102110.KS", name: "TIGER 200",              sector: "전체시장" },
+  { symbol: "229200.KS", name: "KODEX 코스닥150",         sector: "전체시장" },
+  { symbol: "133690.KS", name: "TIGER 코스피100",         sector: "전체시장" },
+  { symbol: "278540.KS", name: "KODEX MSCI Korea",       sector: "전체시장" },
+  { symbol: "395160.KS", name: "TIGER 코스피",            sector: "전체시장" },
+  { symbol: "251340.KS", name: "KODEX 코스피",            sector: "전체시장" },
+  { symbol: "091160.KS", name: "KODEX 반도체",            sector: "반도체" },
+  { symbol: "157490.KS", name: "TIGER 반도체",            sector: "반도체" },
+  { symbol: "381170.KS", name: "HANARO 반도체",           sector: "반도체" },
+  { symbol: "305720.KS", name: "KODEX 2차전지산업",       sector: "2차전지" },
+  { symbol: "305540.KS", name: "TIGER 2차전지테마",       sector: "2차전지" },
+  { symbol: "371460.KS", name: "TIGER 2차전지TOP10",      sector: "2차전지" },
+  { symbol: "364980.KS", name: "TIGER AI코리아그로스",     sector: "AI" },
+  { symbol: "385720.KS", name: "KODEX AI반도체핵심장비",   sector: "AI" },
+  { symbol: "409820.KS", name: "TIGER AI반도체핵심공정",   sector: "AI" },
+  { symbol: "139220.KS", name: "TIGER IT",               sector: "IT" },
+  { symbol: "266390.KS", name: "KODEX 게임산업",          sector: "IT" },
+  { symbol: "148020.KS", name: "KODEX 바이오",            sector: "헬스케어" },
+  { symbol: "143860.KS", name: "TIGER 헬스케어",          sector: "헬스케어" },
+  { symbol: "227550.KS", name: "KODEX 헬스케어",          sector: "헬스케어" },
+  { symbol: "195930.KS", name: "TIGER 선진국MSCI",        sector: "선진국" },
+  { symbol: "192090.KS", name: "TIGER 신흥국MSCI",        sector: "신흥국" },
+  { symbol: "122630.KS", name: "KODEX 레버리지",          sector: "레버리지" },
+  { symbol: "233740.KS", name: "KODEX 코스닥150레버리지",  sector: "레버리지" },
+  { symbol: "114800.KS", name: "KODEX 인버스",            sector: "인버스" },
+  { symbol: "252670.KS", name: "KODEX 200선물인버스2X",   sector: "인버스" },
+  { symbol: "278530.KS", name: "KODEX 코스닥150인버스",   sector: "인버스" },
+  { symbol: "kodex-200futures.KS", name: "KODEX 200선물",  sector: "선물" },
+  { symbol: "182490.KS", name: "TIGER 단기채권액티브",     sector: "채권" },
+  { symbol: "130730.KS", name: "KOSEF 국고채10년",        sector: "채권" },
+  { symbol: "148070.KS", name: "KOSEF 통안채1년",         sector: "채권" },
+  { symbol: "273130.KS", name: "KODEX 종합채권(AA-이상)", sector: "채권" },
+  { symbol: "136340.KS", name: "KINDEX 국채3년",          sector: "채권" },
+  { symbol: "476550.KS", name: "TIGER 국채10년",          sector: "채권" },
+  { symbol: "411060.KS", name: "ACE 국채10년레버리지",     sector: "채권" },
+  { symbol: "287310.KS", name: "KODEX 미국채울트라30년선물(H)", sector: "채권" },
+  { symbol: "332620.KS", name: "KODEX 국채선물10년",      sector: "채권" },
+  { symbol: "272580.KS", name: "TIGER 미국달러단기채권",   sector: "채권" },
+  { symbol: "453010.KS", name: "KODEX 미국30년국채액티브", sector: "채권" },
+  { symbol: "261220.KS", name: "KODEX 골드선물(H)",       sector: "원자재" },
+  { symbol: "284430.KS", name: "KODEX 은선물(H)",         sector: "원자재" },
+  { symbol: "217770.KS", name: "TIGER 원유선물Enhanced",  sector: "원자재" },
+  { symbol: "351590.KS", name: "TIGER 200에너지화학",     sector: "에너지" },
+  { symbol: "140710.KS", name: "KODEX 운송",              sector: "산업" },
+  { symbol: "276990.KS", name: "KODEX 200철강소재",       sector: "소재" },
+  { symbol: "244620.KS", name: "KODEX 코스피고배당",       sector: "배당" },
+  { symbol: "280930.KS", name: "TIGER 코스피고배당",       sector: "배당" },
+  { symbol: "211560.KS", name: "TIGER 배당성장",          sector: "배당" },
+  { symbol: "270800.KS", name: "KODEX 배당성장채권혼합",   sector: "배당" },
+  { symbol: "400970.KS", name: "HANARO 고배당",           sector: "배당" },
+  { symbol: "381180.KS", name: "TIGER 부동산인프라고배당", sector: "부동산" },
+  { symbol: "334700.KS", name: "KODEX 리츠부동산인프라",   sector: "부동산" },
+  { symbol: "441640.KS", name: "TIGER 미국나스닥100",      sector: "기술" },
+  { symbol: "360750.KS", name: "TIGER 미국S&P500",        sector: "전체시장" },
+  { symbol: "379800.KS", name: "KODEX 미국S&P500TR",      sector: "전체시장" },
+  { symbol: "433500.KS", name: "KODEX 미국나스닥100TR",    sector: "기술" },
+  { symbol: "487190.KS", name: "ACE 미국빅테크TOP7Plus",   sector: "기술" },
+  { symbol: "453870.KS", name: "TIGER 미국테크TOP10INDXX", sector: "기술" },
+  { symbol: "458730.KS", name: "KODEX 미국반도체MV",       sector: "반도체" },
+  { symbol: "426410.KS", name: "ACE 미국반도체",           sector: "반도체" },
+  { symbol: "396500.KS", name: "ACE 미국S&P500",          sector: "전체시장" },
+  { symbol: "251350.KS", name: "KODEX 선진국MSCI World",   sector: "선진국" },
+  { symbol: "195980.KS", name: "TIGER 선진국MSCI(합성)",   sector: "선진국" },
+  { symbol: "236350.KS", name: "TIGER 중국CSI300",        sector: "중국" },
+  { symbol: "168580.KS", name: "TIGER 차이나A레버리지(합성)", sector: "중국" },
+  { symbol: "244580.KS", name: "TIGER 일본니케이225",      sector: "일본" },
+  { symbol: "371160.KS", name: "TIGER 베트남VN30",        sector: "신흥국" },
+  { symbol: "143850.KS", name: "TIGER 인도니프티50",       sector: "신흥국" },
+  { symbol: "200250.KS", name: "KODEX 은행",              sector: "금융" },
+  { symbol: "091230.KS", name: "TIGER 은행",              sector: "금융" },
+  { symbol: "102780.KS", name: "KODEX 삼성그룹",          sector: "전체시장" },
+].map(e => ({ ...e, market: "korea" }));
+
+// ── 미국 ETF 상위 500개 ────────────────────────────────────────
+const US_ETF_LIST = [
+  // 전체시장
+  "SPY","VOO","IVV","VTI","ITOT","DIA","SCHB","SPTM","BBUS","IWB",
+  // 기술
+  "QQQ","QQQM","VGT","XLK","IYW","FTEC","IGM","QTEC","PTF","ROM",
+  // 반도체
+  "SOXX","SMH","SOXQ","XSD","PSI","USD",
+  // AI/로보틱스
+  "AIQ","BOTZ","ROBO","IRBO","ARKQ","THNQ","WTAI","ARTY",
+  // 혁신
+  "ARKK","ARKW","ARKF","ARKG","ARKX","PRNT","IZRL",
+  // 소프트웨어/클라우드
+  "IGV","CLOU","WCLD","BUG","SKYY","HACK","CIBR","IHAK",
+  // 소형주
+  "IWM","IJR","SCHA","VB","VIOO","DFAS","CALF","XSMO",
+  // 중형주
+  "MDY","IJH","VO","SCHM","IVOO","DON",
+  // 가치주
+  "VTV","IWD","SCHV","IVE","VONV","RPV","FVAL","DSTL",
+  // 성장주
+  "VUG","IWF","SCHG","IVW","VONG","SPYG","MTUM","QGRO",
+  // 배당
+  "VYM","SCHD","HDV","DVY","DGRO","SDY","NOBL","SPHD","FVD","DHS",
+  "JEPI","JEPQ","DIVO","XYLD","QYLD","RYLD","SPYI","QQQI",
+  // 금융
+  "XLF","VFH","KBE","KRE","IAI","KBWB","KBWR","IAK",
+  // 헬스케어
+  "XLV","VHT","IYH","FHLC","IBB","XBI","ARKG","BBH","PJP","IHI",
+  // 에너지
+  "XLE","VDE","IYE","FENY","OIH","XOP","AMLP","MLPA",
+  // 산업
+  "XLI","VIS","IYJ","FIDU","ITA","PPA","XAR","JETS",
+  // 소비재
+  "XLY","VCR","IYC","FDIS","XRT","PEJ",
+  // 필수소비재
+  "XLP","VDC","IYK","FSTA","PBJ",
+  // 유틸리티
+  "XLU","VPU","IDU","FUTY","PUI",
+  // 부동산
+  "VNQ","IYR","XLRE","SCHH","REM","MORT","SRVR","INDS","HOMZ",
+  // 소재
+  "XLB","VAW","IYM","FMAT","MXI","GDX","GDXJ","SIL",
+  // 통신
+  "XLC","VOX","IYZ","FCOM",
+  // 바이오
+  "IBB","XBI","BBH","PJP","IHI","IDNA","GNOM","IEHS",
+  // 글로벌 선진국
+  "VEA","EFA","IEFA","SPDW","SCHF","VGK","FEZ","EZU","EWG","EWU",
+  "EWJ","EWC","EWA","EWQ","EWI","EWP","EWD","EWN","EWO","EWS",
+  // 글로벌 신흥국
+  "VWO","EEM","IEMG","SPEM","SCHE","GEM","EWZ","EWY","MCHI","FXI",
+  "KWEB","EWT","EWH","INDA","PIN","EWM","EWW","GXG","ECH","TUR",
+  // 글로벌 전체
+  "ACWI","VT","URTH","MXI","IOO","ACWX",
+  // 채권
+  "TLT","IEF","SHY","AGG","BND","BNDX","LQD","HYG","JNK","MUB",
+  "VCIT","VCLT","VGIT","VGLT","VMBS","MBB","TIP","SCHP","VTIP",
+  "BSV","BIV","BLV","GOVT","SHV","SGOV","USFR","JPST","NEAR","FLOT",
+  // 원자재
+  "GLD","IAU","SLV","PPLT","PALL","GDX","GDXJ","RING","USO","BNO",
+  "DBO","UNG","PDBC","DJP","DBC","COMT","COMB","FTGC",
+  // 레버리지
+  "TQQQ","UPRO","SPXL","TECL","SOXL","LABU","FAS","TNA","UDOW","URTY",
+  "SSO","QLD","DDM","MVV","SAA","UWM","ROM","UYG","DIG","CURE",
+  // 인버스
+  "SQQQ","SPXU","SPXS","TECS","SOXS","LABD","FAZ","TZA","SDOW","SRTY",
+  "SDS","QID","DXD","MZZ","SKK","TWM","REK","SRS","DUG",
+  // 배당 고수익
+  "PFFD","PGX","PFF","PGIM","SPFF",
+  // 멀티팩터
+  "QUAL","SIZE","USMV","VLUE","MTUM","SPHQ","DSTL","VFMF",
+  // 테마
+  "DRIV","KARS","IDRV","MSOS","MJ","POTX","YOLO","BETZ","ESPO","HERO",
+  "NERD","GAMR","METV","SOCL","EBIZ","GFIN","KOIN","BLOK","BKCH",
+  "ARKB","FBTC","IBIT","BITB","HODL","BTCO","GBTC",
+].map(s => ({ symbol: s, name: s, market: "us", sector: "기타" }));
+
+// 글로벌 ETF
+const GLOBAL_ETF_LIST = [
+  { symbol: "VEA",  name: "선진국 Vanguard",    market: "global", sector: "선진국" },
+  { symbol: "EFA",  name: "선진국 iShares",     market: "global", sector: "선진국" },
+  { symbol: "VWO",  name: "신흥국 Vanguard",    market: "global", sector: "신흥국" },
+  { symbol: "EEM",  name: "신흥국 iShares",     market: "global", sector: "신흥국" },
+  { symbol: "ACWI", name: "전 세계 주식",        market: "global", sector: "전세계" },
+  { symbol: "VT",   name: "전 세계 Vanguard",   market: "global", sector: "전세계" },
+  { symbol: "EWJ",  name: "일본 iShares",       market: "global", sector: "일본" },
+  { symbol: "EWY",  name: "한국 iShares",       market: "global", sector: "한국" },
+  { symbol: "FXI",  name: "중국 대형주",         market: "global", sector: "중국" },
+  { symbol: "KWEB", name: "중국 인터넷",         market: "global", sector: "중국" },
+  { symbol: "EWZ",  name: "브라질 iShares",     market: "global", sector: "브라질" },
+  { symbol: "MCHI", name: "중국 MSCI",          market: "global", sector: "중국" },
+  { symbol: "EWG",  name: "독일 iShares",       market: "global", sector: "독일" },
+  { symbol: "EWC",  name: "캐나다 iShares",     market: "global", sector: "캐나다" },
+  { symbol: "EWA",  name: "호주 iShares",       market: "global", sector: "호주" },
+  { symbol: "EWU",  name: "영국 iShares",       market: "global", sector: "영국" },
+  { symbol: "INDA", name: "인도 iShares",       market: "global", sector: "인도" },
+  { symbol: "EWT",  name: "대만 iShares",       market: "global", sector: "대만" },
+];
+
+// 섹터 정보 매핑
+const SECTOR_MAP = {
+  SPY:"전체시장",VOO:"전체시장",IVV:"전체시장",VTI:"전체시장",ITOT:"전체시장",DIA:"전체시장",SCHB:"전체시장",
+  QQQ:"기술",QQQM:"기술",VGT:"기술",XLK:"기술",IYW:"기술",FTEC:"기술",
+  SOXX:"반도체",SMH:"반도체",SOXQ:"반도체",
+  ARKK:"혁신",ARKW:"혁신",ARKQ:"혁신",ARKF:"혁신",ARKG:"혁신",
+  AIQ:"AI",BOTZ:"로보틱스",ROBO:"로보틱스",IRBO:"AI",
+  IGV:"소프트웨어",CLOU:"클라우드",WCLD:"클라우드",HACK:"사이버보안",CIBR:"사이버보안",
+  IWM:"소형주",IJR:"소형주",SCHA:"소형주",VB:"소형주",
+  MDY:"중형주",IJH:"중형주",VO:"중형주",
+  VTV:"가치주",IWD:"가치주",SCHV:"가치주",
+  VUG:"성장주",IWF:"성장주",SCHG:"성장주",MTUM:"성장주",
+  VYM:"배당",SCHD:"배당",HDV:"배당",DVY:"배당",DGRO:"배당",NOBL:"배당",JEPI:"배당",JEPQ:"배당",
+  XLF:"금융",VFH:"금융",KBE:"금융",KRE:"금융",
+  XLV:"헬스케어",VHT:"헬스케어",IBB:"바이오",XBI:"바이오",
+  XLE:"에너지",VDE:"에너지",OIH:"에너지",
+  XLI:"산업",VIS:"산업",ITA:"방산",JETS:"항공",
+  XLY:"소비재",VCR:"소비재",XRT:"소비재",
+  XLP:"필수소비재",VDC:"필수소비재",
+  XLU:"유틸리티",VPU:"유틸리티",
+  VNQ:"부동산",IYR:"부동산",XLRE:"부동산",
+  XLB:"소재",VAW:"소재",GDX:"금광",GDXJ:"금광",
+  XLC:"통신",VOX:"통신",
+  TLT:"채권",IEF:"채권",SHY:"채권",AGG:"채권",BND:"채권",LQD:"채권",HYG:"채권",JNK:"채권",
+  GLD:"원자재",IAU:"원자재",SLV:"원자재",GDX:"원자재",USO:"원자재",
+  TQQQ:"레버리지",UPRO:"레버리지",SPXL:"레버리지",TECL:"레버리지",SOXL:"레버리지",
+  SQQQ:"인버스",SPXU:"인버스",SPXS:"인버스",TECS:"인버스",SOXS:"인버스",
+  IBIT:"암호화폐",FBTC:"암호화폐",GBTC:"암호화폐",ARKB:"암호화폐",
+};
+
+const FULL_LIST = [
+  ...US_ETF_LIST.map(e => ({ ...e, sector: SECTOR_MAP[e.symbol] || e.sector })),
+  ...GLOBAL_ETF_LIST,
+  ...KOREA_ETF_LIST,
 ];
 
 async function fetchPrice(symbol) {
@@ -136,6 +237,7 @@ async function fetchPrice(symbol) {
     const validCloses = closes.filter(c => c !== null && c !== undefined);
 
     const price = meta.regularMarketPrice;
+    if (!price) return null;
     const prevClose = meta.previousClose || meta.chartPreviousClose || price;
     const changePct = prevClose ? ((price - prevClose) / prevClose) * 100 : 0;
     const oldest = validCloses[0];
@@ -158,7 +260,6 @@ async function fetchPrice(symbol) {
       fromLow: meta.fiftyTwoWeekLow ? ((price - meta.fiftyTwoWeekLow) / meta.fiftyTwoWeekLow) * 100 : 0,
     };
   } catch (e) {
-    console.error(`Failed: ${symbol}`, e.message);
     return null;
   }
 }
@@ -170,8 +271,11 @@ async function getAIRecommendations(etfData) {
     return null;
   }
 
-  const summary = etfData
+  // 상위 50개만 AI 분석에 사용 (토큰 절약)
+  const top50 = etfData
     .filter(e => e.price > 0)
+    .sort((a, b) => (b.volume||0) - (a.volume||0))
+    .slice(0, 50)
     .map(e => `${e.symbol}(${e.name}): 당일=${e.changePct.toFixed(2)}%, 5일=${e.ret5d.toFixed(2)}%, 30일=${e.ret30d.toFixed(2)}%`)
     .join("\n");
 
@@ -196,10 +300,7 @@ async function getAIRecommendations(etfData) {
   "summary": "시장 요약 2-3문장"
 }`
         },
-        {
-          role: "user",
-          content: `오늘 ETF 데이터:\n${summary}\n\n각 카테고리 상위 5개씩 추천해주세요.`
-        }
+        { role: "user", content: `ETF 데이터:\n${top50}\n\n각 카테고리 상위 5개씩 추천해주세요.` }
       ],
       temperature: 0.2,
       max_tokens: 3000,
@@ -211,28 +312,38 @@ async function getAIRecommendations(etfData) {
   const content = data.choices?.[0]?.message?.content || "{}";
   try {
     return JSON.parse(content.replace(/```json\n?|\n?```/g, "").trim());
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
 async function main() {
-  console.log(`ETF 데이터 수집 시작... 총 ${ETF_LIST.length}개 종목`);
+  console.log(`ETF 데이터 수집 시작... 총 ${FULL_LIST.length}개 종목`);
 
   const results = [];
-  for (let i = 0; i < ETF_LIST.length; i += 5) {
-    const chunk = ETF_LIST.slice(i, i + 5);
+  const CHUNK_SIZE = 5;
+
+  for (let i = 0; i < FULL_LIST.length; i += CHUNK_SIZE) {
+    const chunk = FULL_LIST.slice(i, i + CHUNK_SIZE);
     const prices = await Promise.all(chunk.map(e => fetchPrice(e.symbol)));
     prices.forEach((price, idx) => {
       if (price) {
-        results.push({ ...chunk[idx], ...price, symbol: price.symbol });
+        results.push({
+          ...chunk[idx],
+          ...price,
+          symbol: price.symbol,
+          name: price.name !== chunk[idx].symbol.replace(".KS","") ? price.name : chunk[idx].name,
+        });
       }
     });
-    console.log(`${Math.min(i + 5, ETF_LIST.length)}/${ETF_LIST.length} 완료`);
-    if (i + 5 < ETF_LIST.length) await new Promise(r => setTimeout(r, 300));
+
+    if ((i + CHUNK_SIZE) % 50 === 0) {
+      console.log(`${Math.min(i + CHUNK_SIZE, FULL_LIST.length)}/${FULL_LIST.length} 완료 (성공: ${results.length}개)`);
+    }
+    if (i + CHUNK_SIZE < FULL_LIST.length) {
+      await new Promise(r => setTimeout(r, 200));
+    }
   }
 
-  console.log(`${results.length}개 종목 수집 완료`);
+  console.log(`수집 완료: ${results.length}/${FULL_LIST.length}개`);
 
   console.log("AI 분석 중...");
   const aiData = await getAIRecommendations(results);
@@ -241,12 +352,18 @@ async function main() {
     prices: results,
     ai: aiData,
     updatedAt: new Date().toISOString(),
+    stats: {
+      total: results.length,
+      us: results.filter(r => r.market === "us").length,
+      korea: results.filter(r => r.market === "korea").length,
+      global: results.filter(r => r.market === "global").length,
+    }
   };
 
   const outputDir = path.join(process.cwd(), "public");
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
   fs.writeFileSync(path.join(outputDir, "data.json"), JSON.stringify(output, null, 2));
-  console.log(`data.json 저장 완료! (${results.length}개 종목)`);
+  console.log(`data.json 저장 완료! 미국:${output.stats.us} 한국:${output.stats.korea} 글로벌:${output.stats.global}`);
 }
 
 main().catch(console.error);
