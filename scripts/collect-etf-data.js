@@ -366,14 +366,18 @@ async function getAIRecommendations(etfData) {
     return null;
   }
 
-  // 거래량 상위 60개 분석
-  const top60 = etfData
-    .filter(e => e.price > 0)
-    .sort((a, b) => (b.volume||0) - (a.volume||0))
-    .slice(0, 30);
+  // 나스닥 100 종목
+  const NASDAQ100 = ["MSFT","AAPL","NVDA","AMZN","META","GOOGL","TSLA","AVGO","COST","NFLX","AMD","CSCO","TMUS","ADBE","PEP","INTU","BKNG","QCOM","TXN","AMGN","HON","SBUX","GILD","LRCX","REGN","PANW","MU","ADI","SNPS","KLAC","MRVL","CDNS","CRWD","CTAS","CSX","ORLY","MNST","MDLZ","NXPI","WDAY","PAYX","FTNT","IDXX","ABNB","LULU","ON","ZS","TTD","DDOG","PYPL","ISRG","ADSK","EA","EBAY","MRNA","ANSS","SWKS","CTSH","CDNS","ILMN"];
+
+  // 코스피 주요 50개 ETF
+  const KOSPI50 = ["069500","102110","229200","091160","157490","305720","305540","148020","139220","266390","364980","385720","195930","192090","114800","122630","252670","233740","133690","278540","395160","251340","200250","091230","140710","276990","244620","280930","211560","270800","400970","381180","334700","261220","284430","217770","411060","182490","130730","148070","273130","136340","332620","287310","453010","272580","441640","360750","379800","433500"];
+
+  const nasdaqData = etfData.filter(e => NASDAQ100.includes(e.symbol) && e.price > 0);
+  const kospiData = etfData.filter(e => KOSPI50.includes(e.symbol) && e.price > 0);
+  const top60 = [...nasdaqData, ...kospiData];
 
   const dataStr = top60
-    .map(e => `${e.symbol}(${e.sector||"기타"}): ${e.changePct.toFixed(1)}%/${e.ret30d.toFixed(1)}% vol=${Math.round((e.volume||0)/1000)}K`)
+    .map(e => `${e.symbol}(${e.sector||"기타"},${e.market==="korea"?"KR":"US"}): ${e.changePct.toFixed(1)}%/${e.ret30d.toFixed(1)}% vol=${Math.round((e.volume||0)/1000)}K`)
     .join("\n");
 
   // 섹터별 평균 등락률
