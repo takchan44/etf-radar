@@ -10036,182 +10036,381 @@
   "ai": {
     "trending_up": [
       {
-        "symbol": "MRVL",
-        "name": "Marvell Technology, Inc.",
-        "reason": "84.58% 당일 상승",
-        "ret30d": 55.96,
-        "changePct": 84.58
-      },
-      {
-        "symbol": "SOXL",
-        "name": "Direxion Daily Semiconductor Bu",
-        "reason": "72.77% 당일 상승",
-        "ret30d": 97.7,
-        "changePct": 72.77
-      },
-      {
         "symbol": "INTC",
         "name": "Intel Corporation",
-        "reason": "49.08% 당일 상승",
+        "reason": "급등 이유와 ETF 관점 영향 설명",
+        "why_important": "인텔의 급등은 반도체 산업의 회복을 의미하며, 기술 ETF에 긍정적인 영향을 미칠 수 있습니다.",
+        "impact": "high",
         "ret30d": 57.76,
         "changePct": 49.08
       },
       {
+        "symbol": "SOXL",
+        "name": "Direxion Daily Semiconductor Bu",
+        "reason": "급등 이유와 ETF 관점 영향 설명",
+        "why_important": "반도체 ETF의 급등은 기술 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "ret30d": 97.7,
+        "changePct": 72.77
+      },
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology, Inc.",
+        "reason": "급등 이유와 ETF 관점 영향 설명",
+        "why_important": "마벨의 급등은 반도체 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "ret30d": 55.96,
+        "changePct": 84.58
+      },
+      {
         "symbol": "AMD",
         "name": "Advanced Micro Devices, Inc.",
-        "reason": "39.58% 당일 상승",
+        "reason": "급등 이유와 ETF 관점 영향 설명",
+        "why_important": "AMD의 급등은 반도체 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
         "ret30d": 44.67,
         "changePct": 39.58
       },
       {
-        "symbol": "ETHA",
-        "name": "iShares Ethereum Trust ETF",
-        "reason": "16.33% 당일 상승",
-        "ret30d": 23.11,
-        "changePct": 16.33
+        "symbol": "AVGO",
+        "name": "Broadcom Inc.",
+        "reason": "급등 이유와 ETF 관점 영향 설명",
+        "why_important": "Broadcom의 급등은 반도체 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "ret30d": 23.02,
+        "changePct": 22.17
       }
     ],
     "trending_down": [
       {
         "symbol": "SOXS",
         "name": "Direxion Daily Semiconductor Be",
-        "reason": "-52.93% 당일 하락",
+        "reason": "급락 이유와 ETF 관점 영향 설명",
+        "why_important": "반도체 ETF의 급락은 기술 산업의 하락과 관련이 있습니다.",
+        "impact": "high",
         "ret30d": -58.22,
         "changePct": -52.93
       },
       {
-        "symbol": "SCO",
-        "name": "ProShares UltraShort Bloomberg ",
-        "reason": "-26.86% 당일 하락",
-        "ret30d": -19.33,
-        "changePct": -26.86
-      },
-      {
-        "symbol": "SQQQ",
-        "name": "ProShares UltraPro Short QQQ",
-        "reason": "-19.74% 당일 하락",
-        "ret30d": -23.24,
-        "changePct": -19.74
-      },
-      {
-        "symbol": "QID",
-        "name": "ProShares UltraShort QQQ",
-        "reason": "-13.09% 당일 하락",
-        "ret30d": -15.66,
-        "changePct": -13.09
+        "symbol": "TTD",
+        "name": "The Trade Desk, Inc.",
+        "reason": "급락 이유와 ETF 관점 영향 설명",
+        "why_important": "The Trade Desk의 급락은 기술 산업의 하락과 관련이 있습니다.",
+        "impact": "high",
+        "ret30d": -23.26,
+        "changePct": -24.57
       },
       {
         "symbol": "TEAM",
         "name": "Atlassian Corporation",
-        "reason": "-18.87% 당일 하락",
+        "reason": "급락 이유와 ETF 관점 영향 설명",
+        "why_important": "Atlassian의 급락은 기술 산업의 하락과 관련이 있습니다.",
+        "impact": "high",
         "ret30d": -19.95,
         "changePct": -18.87
+      },
+      {
+        "symbol": "QID",
+        "name": "ProShares UltraShort QQQ",
+        "reason": "급락 이유와 ETF 관점 영향 설명",
+        "why_important": "ProShares UltraShort QQQ의 급락은 기술 산업의 하락과 관련이 있습니다.",
+        "impact": "high",
+        "ret30d": -15.66,
+        "changePct": -13.09
+      },
+      {
+        "symbol": "SPXS",
+        "name": "Direxion Daily S&P 500 Bear 3X ",
+        "reason": "급락 이유와 ETF 관점 영향 설명",
+        "why_important": "Direxion Daily S&P 500 Bear 3X의 급락은 전체 시장의 하락과 관련이 있습니다.",
+        "impact": "high",
+        "ret30d": -16.99,
+        "changePct": -13.62
       }
     ],
     "steady_growth": [
       {
         "symbol": "NVDA",
         "name": "NVIDIA Corporation",
-        "reason": "13.42% 30일 상승",
+        "reason": "꾸준한 성장 이유",
+        "why_important": "NVIDIA의 꾸준한 성장은 기술 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
         "ret30d": 13.42,
         "changePct": 10
       },
       {
-        "symbol": "BITO",
-        "name": "ProShares Bitcoin ETF",
-        "reason": "13.21% 30일 상승",
-        "ret30d": 13.21,
-        "changePct": 8.36
+        "symbol": "TQQQ",
+        "name": "ProShares UltraPro QQQ",
+        "reason": "꾸준한 성장 이유",
+        "why_important": "ProShares UltraPro QQQ의 꾸준한 성장은 기술 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "ret30d": 23.24,
+        "changePct": 17.65
       },
       {
-        "symbol": "IBIT",
-        "name": "iShares Bitcoin Trust ETF",
-        "reason": "13.83% 30일 상승",
-        "ret30d": 13.83,
-        "changePct": 8.79
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "reason": "꾸준한 성장 이유",
+        "why_important": "Apple의 꾸준한 성장은 기술 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "ret30d": 4.96,
+        "changePct": 3.82
       },
       {
-        "symbol": "EEM",
-        "name": "iShares MSCI Emerging Index Fun",
-        "reason": "11.03% 30일 상승",
-        "ret30d": 11.03,
-        "changePct": 10.43
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "reason": "꾸준한 성장 이유",
+        "why_important": "Microsoft의 꾸준한 성장은 기술 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "ret30d": 3.38,
+        "changePct": 2.95
       },
       {
-        "symbol": "QQQ",
-        "name": "Invesco QQQ Trust, Series 1",
-        "reason": "8.19% 30일 상승",
-        "ret30d": 8.19,
-        "changePct": 6.56
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "reason": "꾸준한 성장 이유",
+        "why_important": "Alphabet의 꾸준한 성장은 기술 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "ret30d": 14.46,
+        "changePct": 13.56
       }
     ],
     "high_volume": [
       {
-        "symbol": "TQQQ",
-        "name": "ProShares UltraPro QQQ",
-        "reason": "23.24% 30일 상승",
-        "volume": 0
+        "symbol": "252670",
+        "name": "KODEX 200 Futures Inverse 2X",
+        "reason": "거래량 급증 이유",
+        "why_important": "KODEX 200 Futures Inverse 2X의 거래량 급증은 시장의 불안정성과 관련이 있습니다.",
+        "impact": "high",
+        "volume": 2148507291
       },
       {
-        "symbol": "SOXL",
-        "name": "Direxion Daily Semiconductor Bu",
-        "reason": "97.70% 30일 상승",
-        "volume": 0
+        "symbol": "114800",
+        "name": "KODEX INVERSE",
+        "reason": "거래량 급증 이유",
+        "why_important": "KODEX INVERSE의 거래량 급증은 시장의 불안정성과 관련이 있습니다.",
+        "impact": "high",
+        "volume": 170323439
       },
       {
-        "symbol": "INTC",
-        "name": "Intel Corporation",
-        "reason": "57.76% 30일 상승",
-        "volume": 0
+        "symbol": "TZA",
+        "name": "Direxion Small Cap Bear 3X ETF",
+        "reason": "거래량 급증 이유",
+        "why_important": "Direxion Small Cap Bear 3X ETF의 거래량 급증은 시장의 불안정성과 관련이 있습니다.",
+        "impact": "high",
+        "volume": 166522224
       },
       {
-        "symbol": "AMD",
-        "name": "Advanced Micro Devices, Inc.",
-        "reason": "44.67% 30일 상승",
-        "volume": 0
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "reason": "거래량 급증 이유",
+        "why_important": "NVIDIA의 거래량 급증은 기술 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "volume": 153662565
       },
       {
-        "symbol": "ETHA",
-        "name": "iShares Ethereum Trust ETF",
-        "reason": "23.11% 30일 상승",
-        "volume": 0
+        "symbol": "BITO",
+        "name": "ProShares Bitcoin ETF",
+        "reason": "거래량 급증 이유",
+        "why_important": "ProShares Bitcoin ETF의 거래량 급증은 암호화폐 시장의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "volume": 130925112
       }
     ],
     "near_52w_high": [
       {
-        "symbol": "MRVL",
-        "name": "Marvell Technology, Inc.",
-        "reason": "84.58% 당일 상승",
-        "fromHigh": 0
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "reason": "신고가 근접 이유",
+        "why_important": "인텔의 신고가 근접은 기술 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "fromHigh": -2.6
+      },
+      {
+        "symbol": "TQQQ",
+        "name": "ProShares UltraPro QQQ",
+        "reason": "신고가 근접 이유",
+        "why_important": "ProShares UltraPro QQQ의 신고가 근접은 기술 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "fromHigh": -3.45
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "reason": "신고가 근접 이유",
+        "why_important": "Apple의 신고가 근접은 기술 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "fromHigh": -6.37
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "reason": "신고가 근접 이유",
+        "why_important": "Microsoft의 신고가 근접은 기술 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "fromHigh": -23.88
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "reason": "신고가 근접 이유",
+        "why_important": "Alphabet의 신고가 근접은 기술 산업의 성장과 관련이 있습니다.",
+        "impact": "high",
+        "fromHigh": -2.1
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "한국",
+        "trend": "상승",
+        "avg_change": 21.15,
+        "keywords": [
+          "한국",
+          "증시",
+          "상승"
+        ],
+        "summary": "한국 증시는 상승세를 보이고 있습니다."
+      },
+      {
+        "sector": "대만",
+        "trend": "상승",
+        "avg_change": 18.21,
+        "keywords": [
+          "대만",
+          "증시",
+          "상승"
+        ],
+        "summary": "대만 증시는 상승세를 보이고 있습니다."
+      },
+      {
+        "sector": "레버리지",
+        "trend": "상승",
+        "avg_change": 16.71,
+        "keywords": [
+          "레버리지",
+          "증시",
+          "상승"
+        ],
+        "summary": "레버리지 증시는 상승세를 보이고 있습니다."
+      },
+      {
+        "sector": "브라질",
+        "trend": "상승",
+        "avg_change": 13.2,
+        "keywords": [
+          "브라질",
+          "증시",
+          "상승"
+        ],
+        "summary": "브라질 증시는 상승세를 보이고 있습니다."
+      },
+      {
+        "sector": "IT",
+        "trend": "상승",
+        "avg_change": 10.86,
+        "keywords": [
+          "IT",
+          "증시",
+          "상승"
+        ],
+        "summary": "IT 증시는 상승세를 보이고 있습니다."
+      },
+      {
+        "sector": "반도체",
+        "trend": "상승",
+        "avg_change": 8.83,
+        "keywords": [
+          "반도체",
+          "증시",
+          "상승"
+        ],
+        "summary": "반도체 증시는 상승세를 보이고 있습니다."
+      },
+      {
+        "sector": "암호화폐",
+        "trend": "상승",
+        "avg_change": 8.73,
+        "keywords": [
+          "암호화폐",
+          "증시",
+          "상승"
+        ],
+        "summary": "암호화폐 증시는 상승세를 보이고 있습니다."
+      },
+      {
+        "sector": "바이오",
+        "trend": "상승",
+        "avg_change": 8.33,
+        "keywords": [
+          "바이오",
+          "증시",
+          "상승"
+        ],
+        "summary": "바이오 증시는 상승세를 보이고 있습니다."
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "TQQQ",
+        "issue": "ProShares UltraPro QQQ의 급등",
+        "issue_type": "technical",
+        "impact_etfs": [
+          "TQQQ",
+          "QQQ"
+        ],
+        "is_noise": false
       },
       {
         "symbol": "SOXL",
-        "name": "Direxion Daily Semiconductor Bu",
-        "reason": "72.77% 당일 상승",
-        "fromHigh": 0
+        "issue": "Direxion Daily Semiconductor Bu의 급등",
+        "issue_type": "technical",
+        "impact_etfs": [
+          "SOXL",
+          "SMH"
+        ],
+        "is_noise": false
+      },
+      {
+        "symbol": "NVDA",
+        "issue": "NVIDIA Corporation의 급등",
+        "issue_type": "technical",
+        "impact_etfs": [
+          "NVDA",
+          "QQQ"
+        ],
+        "is_noise": false
+      },
+      {
+        "symbol": "BITO",
+        "issue": "ProShares Bitcoin ETF의 급등",
+        "issue_type": "technical",
+        "impact_etfs": [
+          "BITO",
+          "BTC"
+        ],
+        "is_noise": false
       },
       {
         "symbol": "INTC",
-        "name": "Intel Corporation",
-        "reason": "49.08% 당일 상승",
-        "fromHigh": 0
-      },
-      {
-        "symbol": "AMD",
-        "name": "Advanced Micro Devices, Inc.",
-        "reason": "39.58% 당일 상승",
-        "fromHigh": 0
-      },
-      {
-        "symbol": "ETHA",
-        "name": "iShares Ethereum Trust ETF",
-        "reason": "16.33% 당일 상승",
-        "fromHigh": 0
+        "issue": "Intel Corporation의 급등",
+        "issue_type": "technical",
+        "impact_etfs": [
+          "INTC",
+          "QQQ"
+        ],
+        "is_noise": false
       }
     ],
-    "summary": "시장은 상승세를 보이고 있습니다. MRVL, SOXL, INTC, AMD, ETHA 등이 상승세를 보이고 있습니다. 반면 SOXS, SCO, SQQQ, QID, TEAM 등은 하락세를 보이고 있습니다."
+    "market_summary": "전체 시장은 상승세를 보이고 있습니다. 기술 산업의 성장과 관련된 ETF들이 급등하고 있습니다. 반도체 산업의 성장과 관련된 ETF들도 상승세를 보이고 있습니다. 암호화폐 시장도 상승세를 보이고 있습니다.",
+    "top_keywords": [
+      "기술",
+      "증시",
+      "상승",
+      "반도체",
+      "암호화폐"
+    ]
   },
-  "updatedAt": "2026-04-18T14:03:05.989Z",
+  "updatedAt": "2026-04-18T14:04:43.713Z",
   "stats": {
     "total": 627,
     "us": 497,
