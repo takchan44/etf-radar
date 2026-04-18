@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import Dashboard from "./components/Dashboard";
 import AIRecommend from "./components/AIRecommend";
-import Portfolio from "./components/Portfolio";
-import SectorChart from "./components/SectorChart";
 import ActiveETF from "./components/ActiveETF";
 import { fetchETFData } from "./api/client";
 
@@ -10,8 +8,6 @@ const TABS = [
   { id: "dashboard", label: "대시보드" },
   { id: "active",    label: "액티브 ETF" },
   { id: "recommend", label: "AI 추천" },
-  { id: "portfolio", label: "포트폴리오" },
-  { id: "sector",    label: "섹터 분류" },
 ];
 
 const BLUE = "#2563EB";
@@ -40,7 +36,6 @@ export default function App() {
     }
   }
 
-  // prices를 symbol 키로 변환
   const prices = {};
   (etfData?.prices || []).forEach(p => { prices[p.symbol] = p; });
 
@@ -117,8 +112,6 @@ export default function App() {
         {tab === "dashboard" && <Dashboard prices={prices} loading={loading} etfData={etfData} />}
         {tab === "active"    && <ActiveETF prices={prices} etfData={etfData} />}
         {tab === "recommend" && <AIRecommend etfData={etfData} />}
-        {tab === "portfolio" && <Portfolio prices={prices} />}
-        {tab === "sector"    && <SectorChart prices={prices} />}
       </main>
     </div>
   );
