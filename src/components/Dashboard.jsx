@@ -362,7 +362,7 @@ export default function Dashboard({ prices, loading, etfData }) {
       const av = a[field] || 0, bv = b[field] || 0;
       return dir === "desc" ? bv - av : av - bv;
     });
-    return items;
+    return items.slice(0, 50);
   }, [allPrices, searchText, assetClass, sectorFilter, marketFilter, showFavOnly, favorites, sortBy, minChangePct, maxChangePct]);
 
   // 요약 통계
@@ -494,7 +494,7 @@ export default function Dashboard({ prices, loading, etfData }) {
 
       {/* 결과 수 */}
       <div style={{ fontSize: "12px", color: "#9CA3AF" }}>
-        {loading ? "로딩 중..." : `${filtered.length}개 종목 · 클릭 시 상세 정보`}
+        {loading ? "로딩 중..." : `${filtered.length}개 표시 (전체 ${allPrices.length}개 중 상위 50개) · 클릭 시 상세 정보`}
         {compareList.length > 0 && <span style={{ marginLeft: "12px", color: BLUE, fontWeight: 600 }}>비교 중: {compareList.join(", ")}</span>}
       </div>
 
