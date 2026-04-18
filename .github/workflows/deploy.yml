@@ -38,10 +38,11 @@ jobs:
         run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
-          git pull --rebase origin main
+          git fetch origin main
+          git reset --soft origin/main
           git add public/data.json
           git diff --staged --quiet || git commit -m "chore: update ETF data $(date +'%Y-%m-%d')"
-          git push
+          git push origin main --force-with-lease
 
   # ── 2. 프론트엔드 빌드 & Cloudflare Pages 배포 ─────────────────
   deploy-pages:
