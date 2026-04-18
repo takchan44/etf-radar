@@ -140,26 +140,20 @@ const KOREA_ETF_LIST = [
 // ── 미국 ETF 상위 500개 ────────────────────────────────────────
 const US_ETF_LIST = [
   // 전체시장
-  "SPY","VOO","IVV","VTI","ITOT","DIA","SCHB","SPTM","BBUS","IWB",
+  "SPY","VOO","IVV","VTI","ITOT","DIA","SCHB","IWB",
   // 기술
-  "QQQ","QQQM","VGT","XLK","IYW","FTEC","IGM","QTEC","PTF","ROM",
-  // 반도체
-  "SOXX","SMH","SOXQ","XSD","PSI","USD",
-  // AI/로보틱스
-  "AIQ","BOTZ","ROBO","IRBO","ARKQ","THNQ","WTAI","ARTY",
-  // 혁신
+  "QQQ","QQQM","VGT","XLK","IYW","FTEC","IGM",  // 반도체
+  "SOXX","SMH","XSD","PSI",  // AI/로보틱스
+  "AIQ","BOTZ","ROBO","IRBO","ARKQ",  // 혁신
   "ARKK","ARKW","ARKF","ARKG","ARKX","PRNT","IZRL",
   // 소프트웨어/클라우드
   "IGV","CLOU","WCLD","BUG","SKYY","HACK","CIBR","IHAK",
   // 소형주
-  "IWM","IJR","SCHA","VB","VIOO","DFAS","CALF","XSMO",
-  // 중형주
+  "IWM","IJR","SCHA","VB", // 중형주
   "MDY","IJH","VO","SCHM","IVOO","DON",
   // 가치주
-  "VTV","IWD","SCHV","IVE","VONV","RPV","FVAL","DSTL",
-  // 성장주
-  "VUG","IWF","SCHG","IVW","VONG","SPYG","MTUM","QGRO",
-  // 배당
+  "VTV","IWD","SCHV","IVE", // 성장주
+  "VUG","IWF","SCHG","IVW","MTUM",  // 배당
   "VYM","SCHD","HDV","DVY","DGRO","SDY","NOBL","SPHD","FVD","DHS",
   "JEPI","JEPQ","DIVO","XYLD","QYLD","RYLD","SPYI","QQQI",
   // 금융
@@ -177,8 +171,7 @@ const US_ETF_LIST = [
   // 유틸리티
   "XLU","VPU","IDU","FUTY","PUI",
   // 부동산
-  "VNQ","IYR","XLRE","SCHH","REM","MORT","SRVR","INDS","HOMZ",
-  // 소재
+  "VNQ","IYR","XLRE","SCHH","REM","MORT","SRVR","INDS",  // 소재
   "XLB","VAW","IYM","FMAT","MXI","GDX","GDXJ","SIL",
   // 통신
   "XLC","VOX","IYZ","FCOM",
@@ -200,21 +193,21 @@ const US_ETF_LIST = [
   "GLD","IAU","SLV","PPLT","PALL","GDX","GDXJ","RING","USO","BNO",
   "DBO","UNG","PDBC","DJP","DBC","COMT","COMB","FTGC",
   // 레버리지
-  "TQQQ","UPRO","SPXL","TECL","SOXL","LABU","FAS","TNA","UDOW","URTY",
-  "SSO","QLD","DDM","MVV","SAA","UWM","ROM","UYG","DIG","CURE",
-  // 인버스
+  "TQQQ","UPRO","SPXL","TECL","SOXL","LABU","FAS","TNA", // 인버스
   "SQQQ","SPXU","SPXS","TECS","SOXS","LABD","FAZ","TZA","SDOW","SRTY",
-  "SDS","QID","DXD","MZZ","SKK","TWM","REK","SRS","DUG",
+  "SDS","QID","DXD","MZZ","SKK","TWM","DUG",
   // 배당 고수익
   "PFFD","PGX","PFF","PGIM","SPFF",
   // 멀티팩터
-  "QUAL","SIZE","USMV","VLUE","MTUM","SPHQ","DSTL","VFMF",
+  "QUAL","SIZE","USMV","VLUE","MTUM","SPHQ","VFMF",
   // 테마
   "DRIV","KARS","IDRV","MSOS","MJ","POTX","YOLO","BETZ","ESPO","HERO",
   "NERD","GAMR","METV","SOCL","EBIZ","GFIN","KOIN","BLOK","BKCH",
   "ARKB","FBTC","IBIT","BITB","HODL","BTCO","GBTC",
 ,
-  "SPYD","DIV","FDVV","RDIV","DGRW","SDOG","FDL","PEY","DTD","PFXF","EMLC","IGIB","IGSB","VOOG","IWO","IJT","VBK","SLYG","PDP","QMOM","IMOM","GMOM","VFMO","JPMO","LRGF","FLQL","FLQM","FLQS","SPLV","EFAV","EEMV","ACWV","FMHI","FUMB","FALN","LEGR","DTEC","EDOC","GXUS","REZ","KBWY","RIET","NETL","ICF","USRT","BBRE","DFAR","IRET","NURE","HYLS","USHY","ANGL","HYLB","SHYG","BSJN","BSJO","BSJP","BSJQ","BSJR","BSJS","IBDU","IBDV","IBDW","IBDX","IBDY","IBDZ","STPZ","LTPZ","BOND","TOTL","INKM","DBB","DBP","DBA","WEAT","CORN","SOYB","UGA","UNL","EURL","EWUS","HEWG","HEDJ","DXJ","DBJP","HEWJ","HEFA","DBAW","DBGR","DBIN","DBKO","DBCN","GCOW","FYLD","IDLV","FNDB","FNDX","FNDE","FNDF","INTF","ISCF","ISVL","IUSB","IUSG","IUSV","BSCN","BSCO","BSCP","BSCQ","BSCR","ERX","MIDU","NAIL","NUGT","RETL","TPVG","UHNW","UMDD","BEAR","CRSH","ERY","MYY","RWM","SAGG","SCO","SH","SMN","SVXY","BITO","BTF","XBTF","ETHA","FETH","ETHW","CETH","ETHU","MOO","WOOD","GRID","HYDR","ACES","ICLN","TAN","QCLN","CNRG","SMOG","ERTH","KRBN","VEGN","VETS","NXTG","SNSR"
+  "SPYD","DIV","DGRW","PEY","DTD","EMLC","PDP","FALN","REZ","KBWY","USHY","WEAT","ERY","SCO","SH","BITO","MOO","WOOD","GRID","HYDR","ACES","ICLN","TAN","QCLN","CNRG","SMOG","SNSR"
+,
+  "CDC","REGL","MDIV","VOOG","IWO","IJT","VBK","SLYG","SPLV","EFAV","EEMV","ACWV","HOMZ","HYLS","HYLB","SHYG","STPZ","LTPZ","BOND","CORN","SOYB","UGA","EURL","HEWG","HEDJ","DXJ","DBJP","HEWJ","HEFA","GCOW","FYLD","IDLV","FNDB","FNDX","FNDE","FNDF","CURE","DIG","ERX","MIDU","NAIL","NUGT","RETL","UDOW","URTY","SSO","QLD","DDM","MYY","REK","RWM","SMN","SRS","ETHA","FETH","KRBN","VEGN","NXTG","PAVE","SCHI","SCHX","SCHZ","SCHR","SCHQ"
 ].map(s => ({ symbol: s, name: s, market: "us", sector: "기타" }));
 
 // 글로벌 ETF
@@ -309,8 +302,7 @@ async function fetchPrice(symbol) {
       price,
       changePct,
       volume: meta.regularMarketVolume || 0,
-      currency: meta.currency || "USD",
-      name: meta.shortName || meta.longName || symbol.replace(".KS", ""),
+      currency: meta.currency ||       name: meta.shortName || meta.longName || symbol.replace(".KS", ""),
       ret5d,
       ret30d,
       high52: meta.fiftyTwoWeekHigh,
