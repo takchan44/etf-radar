@@ -135,6 +135,47 @@ const KOREA_ETF_LIST = [
   { symbol: "500030.KS", name: "ACE K컬처&미디어액티브", market: "korea", sector: "테마" },
   { symbol: "475010.KS", name: "TIGER 글로벌클린에너지", market: "korea", sector: "테마" },
   { symbol: "483770.KS", name: "ACE 탄소효율그린뉴딜", market: "korea", sector: "테마" },
+
+  { symbol: "453450.KS", name: "KODEX CD금리액티브(합성)", market: "korea", sector: "채권" },
+  { symbol: "357870.KS", name: "TIGER CD금리투자KIS(합성)", market: "korea", sector: "채권" },
+  { symbol: "458760.KS", name: "KODEX KOFR금리액티브(합성)", market: "korea", sector: "채권" },
+  { symbol: "472160.KS", name: "ACE CD금리&초단기채권액티브", market: "korea", sector: "채권" },
+  { symbol: "346000.KS", name: "KODEX 단기채권PLUS", market: "korea", sector: "채권" },
+  { symbol: "305080.KS", name: "TIGER 단기통안채", market: "korea", sector: "채권" },
+  { symbol: "304660.KS", name: "KODEX 1년은행채권혼합", market: "korea", sector: "채권" },
+  { symbol: "441800.KS", name: "ACE 단기채권혼합액티브", market: "korea", sector: "채권" },
+  { symbol: "483160.KS", name: "TIGER 조선TOP10", market: "korea", sector: "산업" },
+  { symbol: "468380.KS", name: "ACE 조선해양", market: "korea", sector: "산업" },
+  { symbol: "494600.KS", name: "KODEX 방산항공우주", market: "korea", sector: "테마" },
+  { symbol: "469070.KS", name: "TIGER 방산&우주", market: "korea", sector: "테마" },
+  { symbol: "494580.KS", name: "ACE 방산우주항공", market: "korea", sector: "테마" },
+  { symbol: "494610.KS", name: "TIGER 글로벌방산&우주", market: "korea", sector: "테마" },
+  { symbol: "395290.KS", name: "TIGER 글로벌리튬&2차전지SOLACTIVE", market: "korea", sector: "2차전지" },
+  { symbol: "463250.KS", name: "KODEX 글로벌배터리소재", market: "korea", sector: "2차전지" },
+  { symbol: "463240.KS", name: "TIGER 글로벌배터리소재", market: "korea", sector: "2차전지" },
+  { symbol: "488290.KS", name: "TIGER 미국AI반도체핵심기업", market: "korea", sector: "반도체" },
+  { symbol: "494650.KS", name: "KODEX 미국AI반도체", market: "korea", sector: "반도체" },
+
+  { symbol: "488260.KS", name: "KODEX 미국S&P500(H)", market: "korea", sector: "전체시장" },
+  { symbol: "490090.KS", name: "TIGER 미국S&P500(H)", market: "korea", sector: "전체시장" },
+  { symbol: "487240.KS", name: "ACE 미국S&P500(H)", market: "korea", sector: "전체시장" },
+  { symbol: "494660.KS", name: "KODEX 미국나스닥100(H)", market: "korea", sector: "기술" },
+  { symbol: "488270.KS", name: "TIGER 미국나스닥100(H)", market: "korea", sector: "기술" },
+  { symbol: "494640.KS", name: "ACE 미국나스닥100(H)", market: "korea", sector: "기술" },
+  { symbol: "395300.KS", name: "KODEX 코스피소형주", market: "korea", sector: "소형주" },
+  { symbol: "228800.KS", name: "TIGER 200IT", market: "korea", sector: "IT" },
+  { symbol: "266410.KS", name: "KODEX 200IT", market: "korea", sector: "IT" },
+  { symbol: "483730.KS", name: "ACE 글로벌반도체TOP4Plus", market: "korea", sector: "반도체" },
+  { symbol: "494690.KS", name: "TIGER 글로벌반도체TOP4Plus", market: "korea", sector: "반도체" },
+  { symbol: "466960.KS", name: "KODEX 미국배당다우존스", market: "korea", sector: "배당" },
+  { symbol: "466970.KS", name: "TIGER 미국배당다우존스", market: "korea", sector: "배당" },
+
+  { symbol: "091170.KS", name: "TIGER 코스닥150", market: "korea", sector: "전체시장" },
+  { symbol: "292560.KS", name: "TIGER 코스닥150선물레버리지", market: "korea", sector: "레버리지" },
+  { symbol: "219480.KS", name: "KODEX 미국나스닥100선물(H)", market: "korea", sector: "기술" },
+  { symbol: "269530.KS", name: "KODEX 미국S&P500선물(H)", market: "korea", sector: "전체시장" },
+  { symbol: "279530.KS", name: "KODEX 미국채울트라30년선물", market: "korea", sector: "채권" },
+
 ].map(e => ({ ...e, market: "korea" }));
 
 // ── 미국 ETF 상위 500개 ────────────────────────────────────────
@@ -208,7 +249,9 @@ const US_ETF_LIST = [
   "SPYD","DIV","DGRW","PEY","DTD","EMLC","PDP","FALN","REZ","KBWY","USHY","WEAT","ERY","SCO","SH","BITO","MOO","WOOD","GRID","HYDR","ACES","ICLN","TAN","QCLN","CNRG","SMOG","SNSR"
 ,
   "CDC","REGL","MDIV","VOOG","IWO","IJT","VBK","SLYG","SPLV","EFAV","EEMV","ACWV","HOMZ","HYLS","HYLB","SHYG","STPZ","LTPZ","BOND","CORN","SOYB","UGA","EURL","HEWG","HEDJ","DXJ","DBJP","HEWJ","HEFA","GCOW","FYLD","IDLV","FNDB","FNDX","FNDE","FNDF","CURE","DIG","ERX","MIDU","NAIL","NUGT","RETL","UDOW","URTY","SSO","QLD","DDM","MYY","REK","RWM","SMN","SRS","ETHA","FETH","KRBN","VEGN","NXTG","PAVE","SCHI","SCHX","SCHZ","SCHR","SCHQ"
-].map(s => ({ symbol: s, name: s, market: "us", sector: "기타" }));
+,
+  "MSFT","AAPL","NVDA","AMZN","META","GOOGL","GOOG","TSLA","AVGO","COST","NFLX","ASML","AMD","CSCO","TMUS","ADBE","PEP","AZN","INTU","INTC","BKNG","QCOM","TXN","AMGN","HON","SBUX","GILD","VRTX","LRCX","REGN","PANW","MU","ADI","SNPS","KLAC","MRVL","CDNS","MELI","CRWD","CTAS","CSX","ORLY","MNST","MDLZ","NXPI","WDAY","PAYX","FTNT","CHTR","DXCM","KDP","CEG","ROST","FAST","ODFL","GEHC","IDXX","TEAM","VRSK","CPRT","ABNB","LULU","BIIB","ON","DLTR","FANG","GFS","ZS","TTD","PCAR","DDOG","ILMN","WBD","ALGN","SIRI","ENPH","RIVN","OKTA","PYPL","ISRG","ADSK","EA","EBAY","MRNA","WBA","BMRN","ZM","XEL","AEP","EXC","PCG","NEE","TSCO","CSGP","ANSS","SWKS","CTSH","MTCH","PARA","NXST"
+].map(s => ({ symbol: s, name: s, market: "us", sector: "나스닥100" }));
 
 // 글로벌 ETF
 const GLOBAL_ETF_LIST = [
