@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "iShares Currency Hedged MSCI Ge",
+      "name": "HEWG,116946,3000",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -10033,8 +10033,185 @@
       "fromLow": 75.97156398104265
     }
   ],
-  "ai": null,
-  "updatedAt": "2026-04-18T13:24:18.158Z",
+  "ai": {
+    "trending_up": [
+      {
+        "symbol": "SOXL",
+        "name": "Direxion Daily Semiconductor Bu",
+        "reason": "72.77%의 당일 상승률",
+        "ret30d": 97.7,
+        "changePct": 72.77
+      },
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology, Inc.",
+        "reason": "84.58%의 당일 상승률",
+        "ret30d": 55.96,
+        "changePct": 84.58
+      },
+      {
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "reason": "49.08%의 당일 상승률",
+        "ret30d": 57.76,
+        "changePct": 49.08
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "reason": "39.58%의 당일 상승률",
+        "ret30d": 44.67,
+        "changePct": 39.58
+      },
+      {
+        "symbol": "ETHA",
+        "name": "iShares Ethereum Trust ETF",
+        "reason": "16.33%의 당일 상승률",
+        "ret30d": 23.11,
+        "changePct": 16.33
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "SOXS",
+        "name": "Direxion Daily Semiconductor Be",
+        "reason": "-52.93%의 당일 하락률",
+        "ret30d": -58.22,
+        "changePct": -52.93
+      },
+      {
+        "symbol": "SQQQ",
+        "name": "ProShares UltraPro Short QQQ",
+        "reason": "-19.74%의 당일 하락률",
+        "ret30d": -23.24,
+        "changePct": -19.74
+      },
+      {
+        "symbol": "QID",
+        "name": "ProShares UltraShort QQQ",
+        "reason": "-13.09%의 당일 하락률",
+        "ret30d": -15.66,
+        "changePct": -13.09
+      },
+      {
+        "symbol": "TEAM",
+        "name": "Atlassian Corporation",
+        "reason": "-18.87%의 당일 하락률",
+        "ret30d": -19.95,
+        "changePct": -18.87
+      },
+      {
+        "symbol": "RWM",
+        "name": "ProShares Short Russell2000",
+        "reason": "-7.23%의 당일 하락률",
+        "ret30d": -9.42,
+        "changePct": -7.23
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "QQQ",
+        "name": "Invesco QQQ Trust, Series 1",
+        "reason": "6.56%의 당일 상승률",
+        "ret30d": 8.19,
+        "changePct": 6.56
+      },
+      {
+        "symbol": "SPY",
+        "name": "State Street SPDR S&P 500 ETF T",
+        "reason": "4.23%의 당일 상승률",
+        "ret30d": 5.62,
+        "changePct": 4.23
+      },
+      {
+        "symbol": "IWM",
+        "name": "iShares Russell 2000 ETF",
+        "reason": "7.41%의 당일 상승률",
+        "ret30d": 9.92,
+        "changePct": 7.41
+      },
+      {
+        "symbol": "EEM",
+        "name": "iShares MSCI Emerging Index Fun",
+        "reason": "10.43%의 당일 상승률",
+        "ret30d": 11.03,
+        "changePct": 10.43
+      },
+      {
+        "symbol": "KRE",
+        "name": "State Street SPDR S&P Regional ",
+        "reason": "5.66%의 당일 상승률",
+        "ret30d": 8.41,
+        "changePct": 5.66
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "TQQQ",
+        "name": "ProShares UltraPro QQQ",
+        "reason": "23.24%의 30일 수익률",
+        "volume": 0
+      },
+      {
+        "symbol": "SOXL",
+        "name": "Direxion Daily Semiconductor Bu",
+        "reason": "97.70%의 30일 수익률",
+        "volume": 0
+      },
+      {
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "reason": "57.76%의 30일 수익률",
+        "volume": 0
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "reason": "44.67%의 30일 수익률",
+        "volume": 0
+      },
+      {
+        "symbol": "ETHA",
+        "name": "iShares Ethereum Trust ETF",
+        "reason": "23.11%의 30일 수익률",
+        "volume": 0
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "SOXL",
+        "name": "Direxion Daily Semiconductor Bu",
+        "reason": "72.77%의 당일 상승률",
+        "fromHigh": 0
+      },
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology, Inc.",
+        "reason": "84.58%의 당일 상승률",
+        "fromHigh": 0
+      },
+      {
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "reason": "49.08%의 당일 상승률",
+        "fromHigh": 0
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "reason": "39.58%의 당일 상승률",
+        "fromHigh": 0
+      },
+      {
+        "symbol": "ETHA",
+        "name": "iShares Ethereum Trust ETF",
+        "reason": "16.33%의 당일 상승률",
+        "fromHigh": 0
+      }
+    ],
+    "summary": "시장은 상승세를 보이고 있으며, 기술주와 반도체 주가 강세를 보이고 있습니다. 그러나 일부 주가는 하락세를 보이고 있으며, 투자자들은 시장의 변동성을 주시해야 합니다."
+  },
+  "updatedAt": "2026-04-18T13:40:59.487Z",
   "stats": {
     "total": 627,
     "us": 497,
