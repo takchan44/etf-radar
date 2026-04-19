@@ -10037,14 +10037,14 @@
     "trending_up": [
       {
         "symbol": "NVDA",
-        "name": "NVIDIA",
+        "name": "나스닥",
         "reason": "고성장",
-        "why_important": "반도체",
+        "why_important": "기술",
         "impact": "high",
         "ret30d": 13.4,
         "changePct": 10,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강세",
         "risk_level": "high",
         "competitors": [
           "AMD",
@@ -10056,18 +10056,18 @@
       },
       {
         "symbol": "AMZN",
-        "name": "Amazon",
-        "reason": "클라우드",
-        "why_important": "IT",
+        "name": "아마존",
+        "reason": "고성장",
+        "why_important": "이커머스",
         "impact": "high",
         "ret30d": 17.5,
         "changePct": 14.4,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강세",
         "risk_level": "high",
         "competitors": [
-          "MSFT",
-          "GOOGL"
+          "GOOGL",
+          "FB"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10075,18 +10075,18 @@
       },
       {
         "symbol": "AVGO",
-        "name": "Broadcom",
-        "reason": "반도체",
-        "why_important": "성장",
+        "name": "브로드컴",
+        "reason": "고성장",
+        "why_important": "반도체",
         "impact": "high",
         "ret30d": 23,
         "changePct": 22.2,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강세",
         "risk_level": "high",
         "competitors": [
           "TXN",
-          "QCOM"
+          "ADI"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10096,131 +10096,131 @@
     "trending_down": [
       {
         "symbol": "TSLA",
-        "name": "Tesla",
-        "reason": "하락",
+        "name": "테슬라",
+        "reason": "고변동",
         "why_important": "전기차",
-        "impact": "medium",
+        "impact": "high",
         "ret30d": 1,
         "changePct": -1.2,
         "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "medium",
+        "rating_reason": "약세",
+        "risk_level": "high",
         "competitors": [
           "GM",
           "F"
         ],
         "short_term": "하락",
         "mid_term": "하락",
-        "long_term": "상승"
+        "long_term": "하락"
       },
       {
         "symbol": "NFLX",
-        "name": "Netflix",
-        "reason": "하락",
+        "name": "넷플릭스",
+        "reason": "고변동",
         "why_important": "OTT",
-        "impact": "medium",
+        "impact": "high",
         "ret30d": -1.7,
         "changePct": -1.9,
         "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "medium",
+        "rating_reason": "약세",
+        "risk_level": "high",
         "competitors": [
-          "AAPL",
-          "AMZN"
+          "AMZN",
+          "AAPL"
         ],
         "short_term": "하락",
         "mid_term": "하락",
-        "long_term": "상승"
+        "long_term": "하락"
       },
       {
         "symbol": "INTU",
-        "name": "Intuit",
-        "reason": "하락",
-        "why_important": "회계",
-        "impact": "medium",
+        "name": "인튜이트",
+        "reason": "고변동",
+        "why_important": "클라우드",
+        "impact": "high",
         "ret30d": -18.3,
         "changePct": -15.8,
         "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "medium",
+        "rating_reason": "약세",
+        "risk_level": "high",
         "competitors": [
           "ADBE",
           "MSFT"
         ],
         "short_term": "하락",
         "mid_term": "하락",
-        "long_term": "상승"
+        "long_term": "하락"
       }
     ],
     "steady_growth": [
       {
-        "symbol": "MSFT",
-        "name": "Microsoft",
-        "reason": "안정",
-        "why_important": "클라우드",
-        "impact": "low",
-        "ret30d": 3.4,
-        "changePct": 2.9,
-        "rating": "neutral",
-        "rating_reason": "안정",
-        "risk_level": "low",
-        "competitors": [
-          "AMZN",
-          "GOOGL"
-        ],
-        "short_term": "안정",
-        "mid_term": "안정",
-        "long_term": "안정"
-      },
-      {
         "symbol": "CSCO",
-        "name": "Cisco",
-        "reason": "안정",
+        "name": "시스코",
+        "reason": "안정성",
         "why_important": "네트워크",
-        "impact": "low",
+        "impact": "medium",
         "ret30d": 9.7,
         "changePct": 7.8,
         "rating": "neutral",
         "rating_reason": "안정",
-        "risk_level": "low",
+        "risk_level": "medium",
         "competitors": [
           "JNPR",
-          "VMW"
+          "HP"
         ],
-        "short_term": "안정",
-        "mid_term": "안정",
-        "long_term": "안정"
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "보합"
       },
       {
-        "symbol": "PEP",
-        "name": "Pepsi",
-        "reason": "안정",
-        "why_important": "음료",
-        "impact": "low",
-        "ret30d": -1.1,
-        "changePct": -1.9,
+        "symbol": "BKNG",
+        "name": "부킹홀드",
+        "reason": "안정성",
+        "why_important": "여행",
+        "impact": "medium",
+        "ret30d": 5.5,
+        "changePct": 4.1,
         "rating": "neutral",
         "rating_reason": "안정",
-        "risk_level": "low",
+        "risk_level": "medium",
         "competitors": [
-          "KO",
-          "DPZ"
+          "EXPE",
+          "TRIP"
         ],
-        "short_term": "안정",
-        "mid_term": "안정",
-        "long_term": "안정"
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "보합"
+      },
+      {
+        "symbol": "PYPL",
+        "name": "페이팔",
+        "reason": "안정성",
+        "why_important": "페이먼트",
+        "impact": "medium",
+        "ret30d": 8.2,
+        "changePct": 6.7,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "medium",
+        "competitors": [
+          "V",
+          "MA"
+        ],
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "보합"
       }
     ],
     "high_volume": [
       {
         "symbol": "NVDA",
-        "name": "NVIDIA",
+        "name": "나스닥",
         "reason": "고성장",
-        "why_important": "반도체",
+        "why_important": "기술",
         "impact": "high",
         "volume": 153663,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강세",
         "risk_level": "high",
         "competitors": [
           "AMD",
@@ -10229,29 +10229,29 @@
       },
       {
         "symbol": "AMZN",
-        "name": "Amazon",
-        "reason": "클라우드",
-        "why_important": "IT",
+        "name": "아마존",
+        "reason": "고성장",
+        "why_important": "이커머스",
         "impact": "high",
         "volume": 51830,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강세",
         "risk_level": "high",
         "competitors": [
-          "MSFT",
-          "GOOGL"
+          "GOOGL",
+          "FB"
         ]
       },
       {
         "symbol": "TSLA",
-        "name": "Tesla",
-        "reason": "하락",
+        "name": "테슬라",
+        "reason": "고변동",
         "why_important": "전기차",
-        "impact": "medium",
+        "impact": "high",
         "volume": 90217,
         "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "medium",
+        "rating_reason": "약세",
+        "risk_level": "high",
         "competitors": [
           "GM",
           "F"
@@ -10261,28 +10261,28 @@
     "near_52w_high": [
       {
         "symbol": "AVGO",
-        "name": "Broadcom",
-        "reason": "반도체",
-        "why_important": "성장",
+        "name": "브로드컴",
+        "reason": "고성장",
+        "why_important": "반도체",
         "impact": "high",
         "volume": 20456,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강세",
         "risk_level": "high",
         "competitors": [
           "TXN",
-          "QCOM"
+          "ADI"
         ]
       },
       {
         "symbol": "LRCX",
-        "name": "Lam Research",
-        "reason": "반도체",
-        "why_important": "성장",
+        "name": "라믹",
+        "reason": "고성장",
+        "why_important": "반도체",
         "impact": "high",
         "volume": 8440,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강세",
         "risk_level": "high",
         "competitors": [
           "KLAC",
@@ -10291,17 +10291,17 @@
       },
       {
         "symbol": "MRVL",
-        "name": "Marvell",
-        "reason": "반도체",
-        "why_important": "성장",
+        "name": "마벨",
+        "reason": "고성장",
+        "why_important": "반도체",
         "impact": "high",
         "volume": 25878,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강세",
         "risk_level": "high",
         "competitors": [
-          "NVDA",
-          "AMD"
+          "TXN",
+          "ADI"
         ]
       }
     ],
@@ -10319,7 +10319,7 @@
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
-          "MSFT",
+          "NVDA",
           "AMZN",
           "GOOGL"
         ]
@@ -10330,34 +10330,16 @@
         "avg_change": 8.83,
         "keywords": [
           "반도체",
-          "성장"
+          "메모리"
         ],
         "summary": "반도체 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
-          "NVDA",
-          "AMD",
-          "TXN"
-        ]
-      },
-      {
-        "sector": "전체시장",
-        "trend": "상승",
-        "avg_change": 6.97,
-        "keywords": [
-          "전체시장",
-          "성장"
-        ],
-        "summary": "전체시장 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "AAPL",
-          "MSFT",
-          "AMZN"
+          "TXN",
+          "ADI",
+          "KLAC"
         ]
       },
       {
@@ -10366,16 +10348,34 @@
         "avg_change": 7.35,
         "keywords": [
           "기술",
-          "성장"
+          "소프트웨어"
         ],
         "summary": "기술 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
-          "GOOGL",
-          "FB",
-          "AMZN"
+          "MSFT",
+          "AAPL",
+          "GOOGL"
+        ]
+      },
+      {
+        "sector": "전체시장",
+        "trend": "상승",
+        "avg_change": 6.97,
+        "keywords": [
+          "전체시장",
+          "주식"
+        ],
+        "summary": "전체시장 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "SPY",
+          "DIA",
+          "QQQ"
         ]
       },
       {
@@ -10384,16 +10384,16 @@
         "avg_change": 6.09,
         "keywords": [
           "소재",
-          "성장"
+          "에너지"
         ],
         "summary": "소재 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
-          "MMM",
-          "DD",
-          "DOW"
+          "XLE",
+          "XLF",
+          "XLI"
         ]
       }
     ],
@@ -10401,18 +10401,18 @@
       {
         "symbol": "NVDA",
         "issue": "고성장",
-        "issue_type": "macro",
+        "issue_type": "기술",
         "impact_etfs": [
-          "MSFT",
-          "AMZN"
+          "TXN",
+          "ADI"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
         "symbol": "AMZN",
-        "issue": "클라우드",
-        "issue_type": "earnings",
+        "issue": "고성장",
+        "issue_type": "이커머스",
         "impact_etfs": [
           "GOOGL",
           "FB"
@@ -10422,65 +10422,73 @@
       },
       {
         "symbol": "TSLA",
-        "issue": "하락",
-        "issue_type": "sentiment",
+        "issue": "고변동",
+        "issue_type": "전기차",
         "impact_etfs": [
           "GM",
           "F"
         ],
         "is_noise": false,
-        "impact": "medium"
+        "impact": "high"
       }
     ],
     "risk_analysis": [
       {
         "symbol": "NVDA",
-        "name": "NVIDIA",
+        "name": "나스닥",
         "risk_level": "high",
         "volatility": "고변동성",
         "max_drawdown_risk": "20%",
-        "hedge_suggestion": "안정적 ETF",
-        "suitable_for": "고위험 투자자"
+        "hedge_suggestion": ".Put 옵션",
+        "suitable_for": "적극 투자자"
       },
       {
         "symbol": "AMZN",
-        "name": "Amazon",
+        "name": "아마존",
         "risk_level": "high",
         "volatility": "고변동성",
         "max_drawdown_risk": "25%",
-        "hedge_suggestion": "안정적 ETF",
-        "suitable_for": "고위험 투자자"
+        "hedge_suggestion": "콜 옵션",
+        "suitable_for": "적극 투자자"
       },
       {
-        "symbol": "MSFT",
-        "name": "Microsoft",
-        "risk_level": "low",
-        "volatility": "저변동성",
-        "max_drawdown_risk": "10%",
-        "hedge_suggestion": "없음",
-        "suitable_for": "안정적 투자자"
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "30%",
+        "hedge_suggestion": "Put 옵션",
+        "suitable_for": "적극 투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
         "NVDA",
         "AMZN",
-        "GOOGL"
+        "TSLA"
       ],
       "balanced": [
-        "MSFT",
-        "AAPL",
-        "AMZN"
+        "CSCO",
+        "BKNG",
+        "PYPL"
       ],
       "conservative": [
-        "PEP",
-        "KO",
-        "MMM"
+        "SPY",
+        "DIA",
+        "QQQ"
       ],
-      "suggestion": "적극적 포트폴리오"
-    }
+      "suggestion": "적극 투자자: NVDA, AMZN, TSLA, 보수 투자자: SPY, DIA, QQQ"
+    },
+    "market_summary": "시장은 상승 중입니다.",
+    "top_keywords": [
+      "클라우드",
+      "AI",
+      "반도체"
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "기술 섹터의 강세로 시장은 상승 중입니다."
   },
-  "updatedAt": "2026-04-19T19:43:33.681Z",
+  "updatedAt": "2026-04-19T22:25:43.984Z",
   "stats": {
     "total": 627,
     "us": 497,
