@@ -10033,8 +10033,465 @@
       "fromLow": 75.97156398104265
     }
   ],
-  "ai": null,
-  "updatedAt": "2026-04-19T08:06:03.773Z",
+  "ai": {
+    "trending_up": [
+      {
+        "symbol": "AMD",
+        "name": "AMD",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 44.7,
+        "changePct": 39.6,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "INTC"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "MRVL",
+        "name": "MRVL",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 56,
+        "changePct": 84.6,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "INTC"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "ON",
+        "name": "ON",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 46,
+        "changePct": 36.4,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "INTC"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "TTD",
+        "name": "TTD",
+        "reason": "하락",
+        "why_important": "테크",
+        "impact": "high",
+        "ret30d": -23.3,
+        "changePct": -24.6,
+        "rating": "sell",
+        "rating_reason": "하락",
+        "risk_level": "high",
+        "competitors": [
+          "GOOGL",
+          "FB"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "ADBE",
+        "name": "ADBE",
+        "reason": "하락",
+        "why_important": "테크",
+        "impact": "high",
+        "ret30d": -13.8,
+        "changePct": -13.2,
+        "rating": "sell",
+        "rating_reason": "하락",
+        "risk_level": "high",
+        "competitors": [
+          "GOOGL",
+          "FB"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "INTU",
+        "name": "INTU",
+        "reason": "하락",
+        "why_important": "테크",
+        "impact": "high",
+        "ret30d": -18.3,
+        "changePct": -15.8,
+        "rating": "sell",
+        "rating_reason": "하락",
+        "risk_level": "high",
+        "competitors": [
+          "GOOGL",
+          "FB"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "AAPL",
+        "name": "AAPL",
+        "reason": "안정",
+        "why_important": "테크",
+        "impact": "medium",
+        "ret30d": 5,
+        "changePct": 3.8,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "medium",
+        "competitors": [
+          "GOOGL",
+          "FB"
+        ],
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "보합"
+      },
+      {
+        "symbol": "MSFT",
+        "name": "MSFT",
+        "reason": "안정",
+        "why_important": "테크",
+        "impact": "medium",
+        "ret30d": 3.4,
+        "changePct": 2.9,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "medium",
+        "competitors": [
+          "GOOGL",
+          "FB"
+        ],
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "보합"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "GOOGL",
+        "reason": "안정",
+        "why_important": "테크",
+        "impact": "medium",
+        "ret30d": 14.5,
+        "changePct": 13.6,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "medium",
+        "competitors": [
+          "FB",
+          "AMZN"
+        ],
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "보합"
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "NVDA",
+        "name": "NVDA",
+        "reason": "고거래량",
+        "why_important": "반도체",
+        "impact": "high",
+        "volume": 153663,
+        "rating": "buy",
+        "rating_reason": "고거래량",
+        "risk_level": "high",
+        "competitors": [
+          "AMD",
+          "INTC"
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "AMZN",
+        "reason": "고거래량",
+        "why_important": "테크",
+        "impact": "high",
+        "volume": 51830,
+        "rating": "buy",
+        "rating_reason": "고거래량",
+        "risk_level": "high",
+        "competitors": [
+          "GOOGL",
+          "FB"
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "TSLA",
+        "reason": "고거래량",
+        "why_important": "테크",
+        "impact": "high",
+        "volume": 90217,
+        "rating": "buy",
+        "rating_reason": "고거래량",
+        "risk_level": "high",
+        "competitors": [
+          "GOOGL",
+          "FB"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "AVGO",
+        "name": "AVGO",
+        "reason": "고점",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 23,
+        "changePct": 22.2,
+        "rating": "buy",
+        "rating_reason": "고점",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "INTC"
+        ]
+      },
+      {
+        "symbol": "LRCX",
+        "name": "LRCX",
+        "reason": "고점",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 34.2,
+        "changePct": 24.7,
+        "rating": "buy",
+        "rating_reason": "고점",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "INTC"
+        ]
+      },
+      {
+        "symbol": "KLAC",
+        "name": "KLAC",
+        "reason": "고점",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 33.2,
+        "changePct": 25.3,
+        "rating": "buy",
+        "rating_reason": "고점",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "INTC"
+        ]
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "IT",
+        "trend": "상승",
+        "avg_change": 10.86,
+        "keywords": [
+          "테크",
+          "반도체"
+        ],
+        "summary": "테크 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "NVDA",
+          "AMD",
+          "ON"
+        ]
+      },
+      {
+        "sector": "반도체",
+        "trend": "상승",
+        "avg_change": 8.83,
+        "keywords": [
+          "반도체",
+          "테크"
+        ],
+        "summary": "반도체 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "NVDA",
+          "AMD",
+          "ON"
+        ]
+      },
+      {
+        "sector": "테크",
+        "trend": "상승",
+        "avg_change": 7.35,
+        "keywords": [
+          "테크",
+          "IT"
+        ],
+        "summary": "테크 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "GOOGL",
+          "FB",
+          "AMZN"
+        ]
+      },
+      {
+        "sector": "소재",
+        "trend": "상승",
+        "avg_change": 6.09,
+        "keywords": [
+          "소재",
+          "산업"
+        ],
+        "summary": "소재 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "MMM",
+          "DD",
+          "DOW"
+        ]
+      },
+      {
+        "sector": "전체시장",
+        "trend": "상승",
+        "avg_change": 6.97,
+        "keywords": [
+          "전체시장",
+          "테크"
+        ],
+        "summary": "전체시장 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "SPY",
+          "QQQ",
+          "DIA"
+        ]
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "NVDA",
+        "issue": "고성장",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "AMD",
+          "ON"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "GOOGL",
+        "issue": "안정",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "FB",
+          "AMZN"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "TSLA",
+        "issue": "고거래량",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "GOOGL",
+          "FB"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      }
+    ],
+    "risk_analysis": [
+      {
+        "symbol": "NVDA",
+        "name": "NVDA",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "안정적 ETF",
+        "suitable_for": "고위험 투자자"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "GOOGL",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "중위험",
+        "hedge_suggestion": "안정적 ETF",
+        "suitable_for": "중위험 투자자"
+      },
+      {
+        "symbol": "TSLA",
+        "name": "TSLA",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "안정적 ETF",
+        "suitable_for": "고위험 투자자"
+      }
+    ],
+    "portfolio_suggestion": {
+      "aggressive": [
+        "NVDA",
+        "AMD",
+        "ON"
+      ],
+      "balanced": [
+        "GOOGL",
+        "FB",
+        "AMZN"
+      ],
+      "conservative": [
+        "SPY",
+        "QQQ",
+        "DIA"
+      ],
+      "suggestion": "테크 섹터에 투자"
+    },
+    "market_summary": "테크 섹터 상승",
+    "top_keywords": [
+      "테크",
+      "반도체",
+      "IT"
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "테크 섹터 상승"
+  },
+  "updatedAt": "2026-04-19T08:56:09.966Z",
   "stats": {
     "total": 627,
     "us": 497,
