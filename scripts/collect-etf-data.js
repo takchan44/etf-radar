@@ -427,7 +427,10 @@ async function getAIRecommendations(etfData) {
   const aiContent = data.choices?.[0]?.message?.content || "{}";
   console.log("AI 응답 일부:", aiContent.slice(0, 150));
   try {
-    let cleaned = aiContent.replace(/```json\n?|\n?```/g, "").trim();
+    let cleaned = aiContent
+      .replace(/```json\n?|\n?```/g, "")
+      .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, "")
+      .trim();
     // 잘린 JSON 복구 시도
     if (!cleaned.endsWith("}")) {
       // 마지막 완성된 객체까지만 파싱
