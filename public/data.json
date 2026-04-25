@@ -361,7 +361,7 @@
       "changePct": -34.734879867439936,
       "volume": 86115,
       "currency": "USD",
-      "ret5d": -45.34258600868334,
+      "ret5d": -46.27451120168099,
       "ret30d": -34.91014232737194,
       "high52": 41.455,
       "low52": 26.313,
@@ -1321,7 +1321,7 @@
       "changePct": -0.9955720611341276,
       "volume": 3013,
       "currency": "USD",
-      "ret5d": -3.932087963797648,
+      "ret5d": -4.388869362057032,
       "ret30d": -1.3197578188533563,
       "high52": 72.99,
       "low52": 46.85,
@@ -3017,7 +3017,7 @@
       "changePct": 10.710987996306558,
       "volume": 81768,
       "currency": "USD",
-      "ret5d": 8.925735475039422,
+      "ret5d": 6.767591173136651,
       "ret30d": 12.804594289582152,
       "high52": 27.203,
       "low52": 22.99,
@@ -3065,7 +3065,7 @@
       "changePct": -22.909567496723458,
       "volume": 42685,
       "currency": "USD",
-      "ret5d": -28.703030303030303,
+      "ret5d": -28.285781019996698,
       "ret30d": -21.3846561882986,
       "high52": 30.48,
       "low52": 22.3,
@@ -9655,7 +9655,7 @@
       "sector": "AI",
       "price": 33275,
       "changePct": 10.145647136709698,
-      "volume": 2980148,
+      "volume": 2971473,
       "currency": "KRW",
       "ret5d": 16.06208580397628,
       "ret30d": 13.411724608043626,
@@ -9671,7 +9671,7 @@
       "sector": "테마",
       "price": 53,
       "changePct": 0,
-      "volume": 577264,
+      "volume": 558054,
       "currency": "KRW",
       "ret5d": 0,
       "ret30d": 0,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 0,
+      "low52": 39515,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -9879,7 +9879,7 @@
       "sector": "반도체",
       "price": 42490,
       "changePct": 22.59088286208886,
-      "volume": 6119,
+      "volume": 6114,
       "currency": "KRW",
       "ret5d": 5.960099750623441,
       "ret30d": 22.379032258064516,
@@ -9895,7 +9895,7 @@
       "sector": "전체시장",
       "price": 15980,
       "changePct": 9.190297232661427,
-      "volume": 248956,
+      "volume": 248465,
       "currency": "KRW",
       "ret5d": 1.78343949044586,
       "ret30d": 9.903713892709765,
@@ -9911,7 +9911,7 @@
       "sector": "전체시장",
       "price": 45340,
       "changePct": 44.71752314075966,
-      "volume": 10874804,
+      "volume": 10852522,
       "currency": "KRW",
       "ret5d": 18.319415448851775,
       "ret30d": 46.66019731521915,
@@ -10034,14 +10034,454 @@
     }
   ],
   "ai": {
-    "market_summary": "현재 시장은 상승세를 보이고 있습니다.",
+    "trending_up": [
+      {
+        "symbol": "MRVL",
+        "name": "마벨",
+        "reason": "수급",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 87,
+        "changePct": 87.4,
+        "rating": "buy",
+        "rating_reason": "상승",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "ON",
+        "name": "온세미",
+        "reason": "실적",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 68.1,
+        "changePct": 70.6,
+        "rating": "buy",
+        "rating_reason": "상승",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "ADI",
+        "name": "아날로그",
+        "reason": "수요",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 30.5,
+        "changePct": 30,
+        "rating": "buy",
+        "rating_reason": "상승",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "reason": "실적",
+        "why_important": "전기차",
+        "impact": "high",
+        "ret30d": -3.8,
+        "changePct": -4.7,
+        "rating": "sell",
+        "rating_reason": "하락",
+        "risk_level": "high",
+        "competitors": [
+          "GM",
+          "FORD"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "ADBE",
+        "name": "아도비",
+        "reason": "경쟁",
+        "why_important": "소프트웨어",
+        "impact": "high",
+        "ret30d": -1.6,
+        "changePct": -9,
+        "rating": "sell",
+        "rating_reason": "하락",
+        "risk_level": "high",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "INTU",
+        "name": "인튜이트",
+        "reason": "실적",
+        "why_important": "소프트웨어",
+        "impact": "high",
+        "ret30d": -10,
+        "changePct": -9,
+        "rating": "sell",
+        "rating_reason": "하락",
+        "risk_level": "high",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "상승"
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "reason": "수요",
+        "why_important": "클라우드",
+        "impact": "high",
+        "ret30d": 7.3,
+        "changePct": 5.7,
+        "rating": "buy",
+        "rating_reason": "상승",
+        "risk_level": "medium",
+        "competitors": [
+          "GOOGL",
+          "AMZN"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "AAPL",
+        "name": "애플",
+        "reason": "브랜드",
+        "why_important": "스마트폰",
+        "impact": "high",
+        "ret30d": 8.4,
+        "changePct": 6,
+        "rating": "buy",
+        "rating_reason": "상승",
+        "risk_level": "medium",
+        "competitors": [
+          "SAM",
+          "GOOGL"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "구글",
+        "reason": "수요",
+        "why_important": "광고",
+        "impact": "high",
+        "ret30d": 13.9,
+        "changePct": 13.5,
+        "rating": "buy",
+        "rating_reason": "상승",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "FB"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "reason": "수요",
+        "why_important": "반도체",
+        "impact": "high",
+        "volume": 213442,
+        "rating": "buy",
+        "rating_reason": "상승",
+        "risk_level": "high",
+        "competitors": [
+          "AMD",
+          "INTEL"
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "아마존",
+        "reason": "수요",
+        "why_important": "클라우드",
+        "impact": "high",
+        "volume": 53602,
+        "rating": "buy",
+        "rating_reason": "상승",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "reason": "실적",
+        "why_important": "전기차",
+        "impact": "high",
+        "volume": 62357,
+        "rating": "sell",
+        "rating_reason": "하락",
+        "risk_level": "high",
+        "competitors": [
+          "GM",
+          "FORD"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "MRVL",
+        "name": "마벨",
+        "reason": "수급",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 87,
+        "changePct": 87.4,
+        "rating": "buy",
+        "rating_reason": "상승",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ]
+      },
+      {
+        "symbol": "ON",
+        "name": "온세미",
+        "reason": "실적",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 68.1,
+        "changePct": 70.6,
+        "rating": "buy",
+        "rating_reason": "상승",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ]
+      },
+      {
+        "symbol": "ADI",
+        "name": "아날로그",
+        "reason": "수요",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 30.5,
+        "changePct": 30,
+        "rating": "buy",
+        "rating_reason": "상승",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ]
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "반도체",
+        "trend": "상승",
+        "avg_change": 15.81,
+        "keywords": [
+          "NVDA",
+          "AMD"
+        ],
+        "summary": "반도체 업황 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "MRVL",
+          "ON"
+        ]
+      },
+      {
+        "sector": "IT",
+        "trend": "상승",
+        "avg_change": 12.64,
+        "keywords": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "summary": "IT 업황 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "MSFT",
+          "GOOGL"
+        ]
+      },
+      {
+        "sector": "전체시장",
+        "trend": "상승",
+        "avg_change": 12.4,
+        "keywords": [
+          "AAPL",
+          "AMZN"
+        ],
+        "summary": "전체시장 업황 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "AAPL",
+          "AMZN"
+        ]
+      },
+      {
+        "sector": "2차전지",
+        "trend": "상승",
+        "avg_change": 11.67,
+        "keywords": [
+          "LG",
+          "SAMSUNG"
+        ],
+        "summary": "2차전지 업황 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "LG",
+          "SAMSUNG"
+        ]
+      },
+      {
+        "sector": "기술",
+        "trend": "상승",
+        "avg_change": 11.52,
+        "keywords": [
+          "GOOGL",
+          "FB"
+        ],
+        "summary": "기술 업황 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "GOOGL",
+          "FB"
+        ]
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "MRVL",
+        "issue": "수급",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "NVDA",
+          "AMD"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "ON",
+        "issue": "실적",
+        "issue_type": "earnings",
+        "impact_etfs": [
+          "NVDA",
+          "AMD"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "ADI",
+        "issue": "수요",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "NVDA",
+          "AMD"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      }
+    ],
+    "risk_analysis": [
+      {
+        "symbol": "MRVL",
+        "name": "마벨",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "옵션",
+        "suitable_for": "적극 투자자"
+      },
+      {
+        "symbol": "ON",
+        "name": "온세미",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "옵션",
+        "suitable_for": "적극 투자자"
+      },
+      {
+        "symbol": "ADI",
+        "name": "아날로그",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "옵션",
+        "suitable_for": "적극 투자자"
+      }
+    ],
+    "portfolio_suggestion": {
+      "aggressive": [
+        "MRVL",
+        "ON",
+        "ADI"
+      ],
+      "balanced": [
+        "MSFT",
+        "AAPL",
+        "GOOGL"
+      ],
+      "conservative": [
+        "TSLA",
+        "ADBE",
+        "INTU"
+      ],
+      "suggestion": "적극 투자자: MRVL, ON, ADI"
+    },
+    "market_summary": "시장은 상승 중",
     "top_keywords": [
       "NVDA",
-      "AMZN",
-      "TSLA"
-    ]
+      "AMD",
+      "MSFT"
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "시장은 상승 중"
   },
-  "updatedAt": "2026-04-25T03:30:13.206Z",
+  "updatedAt": "2026-04-25T05:51:14.386Z",
   "stats": {
     "total": 627,
     "us": 497,
