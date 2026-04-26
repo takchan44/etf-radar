@@ -10033,8 +10033,15 @@
       "fromLow": 0
     }
   ],
-  "ai": null,
-  "updatedAt": "2026-04-26T19:49:59.361Z",
+  "ai": {
+    "market_summary": "시장은 상승 중입니다.",
+    "top_keywords": [
+      "NVDA",
+      "MSFT",
+      "GOOGL"
+    ]
+  },
+  "updatedAt": "2026-04-26T22:28:37.058Z",
   "stats": {
     "total": 627,
     "us": 497,
