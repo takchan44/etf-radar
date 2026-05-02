@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 39515,
+      "low52": 0,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10033,15 +10033,8 @@
       "fromLow": 67.09323583180988
     }
   ],
-  "ai": {
-    "market_summary": "시장은 상승 중입니다.",
-    "top_keywords": [
-      "NVDA",
-      "AMZN",
-      "GOOGL"
-    ]
-  },
-  "updatedAt": "2026-05-02T06:11:29.247Z",
+  "ai": null,
+  "updatedAt": "2026-05-02T08:20:52.637Z",
   "stats": {
     "total": 627,
     "us": 497,
