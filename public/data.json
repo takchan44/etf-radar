@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "HEWG,116946,3000",
+      "name": "iShares Currency Hedged MSCI Ge",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 0,
+      "low52": 39515,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10034,14 +10034,14 @@
     }
   ],
   "ai": {
-    "market_summary": "시장은 상승 중입니다.",
+    "market_summary": "시장은 상승세를 보이고 있습니다.",
     "top_keywords": [
       "NVDA",
-      "AMZN",
+      "MSFT",
       "GOOGL"
     ]
   },
-  "updatedAt": "2026-05-02T19:55:29.890Z",
+  "updatedAt": "2026-05-02T22:30:57.243Z",
   "stats": {
     "total": 627,
     "us": 497,
