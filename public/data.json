@@ -9655,7 +9655,7 @@
       "sector": "AI",
       "price": 32640,
       "changePct": 12.377345498364607,
-      "volume": 2895084,
+      "volume": 2891338,
       "currency": "KRW",
       "ret5d": 1.0526315789473684,
       "ret30d": 13.569937369519833,
@@ -9671,7 +9671,7 @@
       "sector": "테마",
       "price": 57,
       "changePct": 5.555555555555555,
-      "volume": 227934,
+      "volume": 227834,
       "currency": "KRW",
       "ret5d": 0,
       "ret30d": 0,
@@ -10033,15 +10033,8 @@
       "fromLow": 67.09323583180988
     }
   ],
-  "ai": {
-    "market_summary": "시장은 상승 중입니다.",
-    "top_keywords": [
-      "NVDA",
-      "AAPL",
-      "GOOGL"
-    ]
-  },
-  "updatedAt": "2026-05-03T08:46:30.743Z",
+  "ai": null,
+  "updatedAt": "2026-05-03T16:00:43.172Z",
   "stats": {
     "total": 627,
     "us": 497,
