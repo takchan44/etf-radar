@@ -9671,7 +9671,7 @@
       "sector": "테마",
       "price": 57,
       "changePct": 5.555555555555555,
-      "volume": 227834,
+      "volume": 227934,
       "currency": "KRW",
       "ret5d": 0,
       "ret30d": 0,
@@ -10037,11 +10037,11 @@
     "market_summary": "시장은 상승 중입니다.",
     "top_keywords": [
       "NVDA",
-      "AMD",
-      "TSLA"
+      "AAPL",
+      "GOOGL"
     ]
   },
-  "updatedAt": "2026-05-03T06:30:48.751Z",
+  "updatedAt": "2026-05-03T08:46:30.743Z",
   "stats": {
     "total": 627,
     "us": 497,
