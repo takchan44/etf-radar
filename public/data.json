@@ -361,7 +361,7 @@
       "changePct": -32.51231527093596,
       "volume": 86115,
       "currency": "USD",
-      "ret5d": -49.128187441688674,
+      "ret5d": -49.84081478339114,
       "ret30d": -31.27589738572173,
       "high52": 41.455,
       "low52": 26.313,
@@ -1321,7 +1321,7 @@
       "changePct": 2.929907929907928,
       "volume": 3013,
       "currency": "USD",
-      "ret5d": -2.7423514486047256,
+      "ret5d": -2.764044654721135,
       "ret30d": 4.908430937119912,
       "high52": 72.99,
       "low52": 46.85,
@@ -3017,7 +3017,7 @@
       "changePct": 17.97697530256814,
       "volume": 81768,
       "currency": "USD",
-      "ret5d": 11.327757570863225,
+      "ret5d": 12.030425048911404,
       "ret30d": 19.4818154690063,
       "high52": 27.203,
       "low52": 22.99,
@@ -3065,7 +3065,7 @@
       "changePct": -23.351576752671352,
       "volume": 42685,
       "currency": "USD",
-      "ret5d": -23.78854655685268,
+      "ret5d": -23.070885817019256,
       "ret30d": -22.909570580095938,
       "high52": 30.48,
       "low52": 22.3,
@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "HEWG,116946,3000",
+      "name": "iShares Currency Hedged MSCI Ge",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 0,
+      "low52": 39515,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10034,14 +10034,450 @@
     }
   ],
   "ai": {
-    "market_summary": "기술 섹터 상승",
+    "trending_up": [
+      {
+        "symbol": "NVDA",
+        "name": "나스닥",
+        "reason": "고성장",
+        "why_important": "기술",
+        "impact": "high",
+        "ret30d": 28.5,
+        "changePct": 25.7,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "high",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "QCOM",
+        "name": "나스닥",
+        "reason": "고성장",
+        "why_important": "기술",
+        "impact": "high",
+        "ret30d": 72.4,
+        "changePct": 67.8,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "high",
+        "competitors": [
+          "TXN",
+          "ADI"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "MRVL",
+        "name": "나스닥",
+        "reason": "고성장",
+        "why_important": "기술",
+        "impact": "high",
+        "ret30d": 79.3,
+        "changePct": 74.2,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "QCOM"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "NFLX",
+        "name": "나스닥",
+        "reason": "하락",
+        "why_important": "기술",
+        "impact": "low",
+        "ret30d": -6.4,
+        "changePct": -6.2,
+        "rating": "sell",
+        "rating_reason": "약세",
+        "risk_level": "low",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "TMUS",
+        "name": "나스닥",
+        "reason": "하락",
+        "why_important": "기술",
+        "impact": "low",
+        "ret30d": -8.2,
+        "changePct": -8.5,
+        "rating": "sell",
+        "rating_reason": "약세",
+        "risk_level": "low",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "INTU",
+        "name": "나스닥",
+        "reason": "하락",
+        "why_important": "기술",
+        "impact": "low",
+        "ret30d": -4.8,
+        "changePct": -8.4,
+        "rating": "sell",
+        "rating_reason": "약세",
+        "risk_level": "low",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "PEP",
+        "name": "나스닥",
+        "reason": "안정",
+        "why_important": "소비",
+        "impact": "medium",
+        "ret30d": 1,
+        "changePct": 2.5,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "medium",
+        "competitors": [
+          "KO",
+          "PM"
+        ],
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
+      },
+      {
+        "symbol": "MDLZ",
+        "name": "나스닥",
+        "reason": "안정",
+        "why_important": "소비",
+        "impact": "medium",
+        "ret30d": 5.6,
+        "changePct": 6.9,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "medium",
+        "competitors": [
+          "PEP",
+          "KO"
+        ],
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
+      },
+      {
+        "symbol": "PYPL",
+        "name": "나스닥",
+        "reason": "안정",
+        "why_important": "기술",
+        "impact": "medium",
+        "ret30d": 4.1,
+        "changePct": 0.4,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "medium",
+        "competitors": [
+          "V",
+          "MA"
+        ],
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "NVDA",
+        "name": "나스닥",
+        "reason": "고거래",
+        "why_important": "기술",
+        "impact": "high",
+        "volume": 134128,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "high",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "나스닥",
+        "reason": "고거래",
+        "why_important": "기술",
+        "impact": "high",
+        "volume": 63490,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "high",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ]
+      },
+      {
+        "symbol": "QCOM",
+        "name": "나스닥",
+        "reason": "고거래",
+        "why_important": "기술",
+        "impact": "high",
+        "volume": 37739,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "high",
+        "competitors": [
+          "TXN",
+          "ADI"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "NVDA",
+        "name": "나스닥",
+        "reason": "고점",
+        "why_important": "기술",
+        "impact": "high",
+        "ret30d": 28.5,
+        "changePct": 25.7,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "high",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ]
+      },
+      {
+        "symbol": "QCOM",
+        "name": "나스닥",
+        "reason": "고점",
+        "why_important": "기술",
+        "impact": "high",
+        "ret30d": 72.4,
+        "changePct": 67.8,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "high",
+        "competitors": [
+          "TXN",
+          "ADI"
+        ]
+      },
+      {
+        "symbol": "MRVL",
+        "name": "나스닥",
+        "reason": "고점",
+        "why_important": "기술",
+        "impact": "high",
+        "ret30d": 79.3,
+        "changePct": 74.2,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "QCOM"
+        ]
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "기술",
+        "trend": "상승",
+        "avg_change": 25,
+        "keywords": [
+          "AI",
+          "로보틱스"
+        ],
+        "summary": "기술 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "NVDA",
+          "QCOM"
+        ]
+      },
+      {
+        "sector": "반도체",
+        "trend": "상승",
+        "avg_change": 20,
+        "keywords": [
+          "반도체"
+        ],
+        "summary": "반도체 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "TXN",
+          "ADI"
+        ]
+      },
+      {
+        "sector": "소프트웨어",
+        "trend": "상승",
+        "avg_change": 15,
+        "keywords": [
+          "소프트웨어"
+        ],
+        "summary": "소프트웨어 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "MSFT",
+          "GOOGL"
+        ]
+      },
+      {
+        "sector": "금융",
+        "trend": "하락",
+        "avg_change": -5,
+        "keywords": [
+          "금융"
+        ],
+        "summary": "금융 섹터 하락",
+        "short_term": "하락",
+        "mid_term": "하락",
+        "top_etfs": [
+          "JPM",
+          "BAC"
+        ]
+      },
+      {
+        "sector": "에너지",
+        "trend": "상승",
+        "avg_change": 10,
+        "keywords": [
+          "에너지"
+        ],
+        "summary": "에너지 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "XOM",
+          "CVX"
+        ]
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "NVDA",
+        "issue": "고성장",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "QCOM",
+          "TXN"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "AAPL",
+        "issue": "하락",
+        "issue_type": "earnings",
+        "impact_etfs": [
+          "GOOGL",
+          "MSFT"
+        ],
+        "is_noise": false,
+        "impact": "medium"
+      },
+      {
+        "symbol": "TSLA",
+        "issue": "고거래",
+        "issue_type": "sentiment",
+        "impact_etfs": [
+          "NVDA",
+          "QCOM"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      }
+    ],
+    "risk_analysis": [
+      {
+        "symbol": "NVDA",
+        "name": "나스닥",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": ".Put 옵션",
+        "suitable_for": "적극 투자자"
+      },
+      {
+        "symbol": "QCOM",
+        "name": "나스닥",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "25%",
+        "hedge_suggestion": "콜 옵션",
+        "suitable_for": "적극 투자자"
+      },
+      {
+        "symbol": "TSLA",
+        "name": "나스닥",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "30%",
+        "hedge_suggestion": ".Put 옵션",
+        "suitable_for": "적극 투자자"
+      }
+    ],
+    "portfolio_suggestion": {
+      "aggressive": [
+        "NVDA",
+        "QCOM",
+        "TSLA"
+      ],
+      "balanced": [
+        "MSFT",
+        "GOOGL",
+        "AAPL"
+      ],
+      "conservative": [
+        "PEP",
+        "KO",
+        "PM"
+      ],
+      "suggestion": "적극 투자자: 기술 섹터, 중립 투자자: 소프트웨어 섹터, 보수 투자자: 소비 섹터"
+    },
+    "market_summary": "기술 섹터 상승, 반도체 섹터 상승, 소프트웨어 섹터 상승",
     "top_keywords": [
-      "NVDA",
-      "QCOM",
-      "MRVL"
-    ]
+      "AI",
+      "로보틱스",
+      "반도체"
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "기술 섹터의 강세"
   },
-  "updatedAt": "2026-05-09T03:52:30.105Z",
+  "updatedAt": "2026-05-09T06:20:44.254Z",
   "stats": {
     "total": 627,
     "us": 497,
