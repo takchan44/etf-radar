@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "HEWG,116946,3000",
+      "name": "iShares Currency Hedged MSCI Ge",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 0,
+      "low52": 39515,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10044,26 +10044,7 @@
         "ret30d": 72.4,
         "changePct": 67.8,
         "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "NVDA",
-          "TXN"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "ON",
-        "name": "온세미컨덕터",
-        "reason": "고성장",
-        "why_important": "반도체",
-        "impact": "high",
-        "ret30d": 76.9,
-        "changePct": 69.5,
-        "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "고성장",
         "risk_level": "medium",
         "competitors": [
           "NVDA",
@@ -10082,7 +10063,26 @@
         "ret30d": 79.3,
         "changePct": 74.2,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
+        "competitors": [
+          "NVDA",
+          "TXN"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "ON",
+        "name": "온세미컨덕터",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 76.9,
+        "changePct": 69.5,
+        "rating": "buy",
+        "rating_reason": "고성장",
         "risk_level": "medium",
         "competitors": [
           "NVDA",
@@ -10133,19 +10133,19 @@
         "long_term": "보합"
       },
       {
-        "symbol": "INTU",
-        "name": "인튜이트",
+        "symbol": "CTSH",
+        "name": "코그니赞트",
         "reason": "하락",
         "why_important": "서비스",
         "impact": "medium",
-        "ret30d": -4.8,
-        "changePct": -8.4,
+        "ret30d": -13.5,
+        "changePct": -14.9,
         "rating": "sell",
         "rating_reason": "하락",
         "risk_level": "low",
         "competitors": [
-          "ADBE",
-          "MSFT"
+          "ACN",
+          "IBM"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10157,12 +10157,12 @@
         "symbol": "MSFT",
         "name": "마이크로소프트",
         "reason": "안정성",
-        "why_important": "서비스",
+        "why_important": "소프트웨어",
         "impact": "low",
         "ret30d": 16.4,
         "changePct": 13.4,
         "rating": "neutral",
-        "rating_reason": "안정",
+        "rating_reason": "안정성",
         "risk_level": "low",
         "competitors": [
           "GOOGL",
@@ -10176,16 +10176,16 @@
         "symbol": "AAPL",
         "name": "애플",
         "reason": "안정성",
-        "why_important": "제품",
+        "why_important": "소프트웨어",
         "impact": "low",
         "ret30d": 17.9,
         "changePct": 16,
         "rating": "neutral",
-        "rating_reason": "안정",
+        "rating_reason": "안정성",
         "risk_level": "low",
         "competitors": [
-          "SAM",
-          "GOOGL"
+          "GOOGL",
+          "AMZN"
         ],
         "short_term": "보합",
         "mid_term": "상승",
@@ -10195,16 +10195,16 @@
         "symbol": "CSCO",
         "name": "시스코",
         "reason": "안정성",
-        "why_important": "서비스",
+        "why_important": "네트워크",
         "impact": "low",
         "ret30d": 20.8,
         "changePct": 17.5,
         "rating": "neutral",
-        "rating_reason": "안정",
+        "rating_reason": "안정성",
         "risk_level": "low",
         "competitors": [
           "JNPR",
-          "VMW"
+          "HPQ"
         ],
         "short_term": "보합",
         "mid_term": "상승",
@@ -10220,7 +10220,7 @@
         "impact": "high",
         "volume": 134128,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "고성장",
         "risk_level": "medium",
         "competitors": [
           "QCOM",
@@ -10235,22 +10235,22 @@
         "impact": "high",
         "volume": 34555,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "고성장",
         "risk_level": "medium",
         "competitors": [
-          "MSFT",
-          "GOOGL"
+          "GOOGL",
+          "MSFT"
         ]
       },
       {
         "symbol": "TSLA",
         "name": "테슬라",
         "reason": "고성장",
-        "why_important": "제품",
+        "why_important": "전기차",
         "impact": "high",
         "volume": 63490,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "고성장",
         "risk_level": "medium",
         "competitors": [
           "GM",
@@ -10265,13 +10265,14 @@
         "reason": "고성장",
         "why_important": "서비스",
         "impact": "high",
-        "volume": 21169,
+        "ret30d": 46.1,
+        "changePct": 42.7,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "고성장",
         "risk_level": "medium",
         "competitors": [
-          "MSFT",
-          "AMZN"
+          "AMZN",
+          "MSFT"
         ]
       },
       {
@@ -10280,9 +10281,10 @@
         "reason": "고성장",
         "why_important": "반도체",
         "impact": "high",
-        "volume": 22402,
+        "ret30d": 43,
+        "changePct": 39,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "고성장",
         "risk_level": "medium",
         "competitors": [
           "QCOM",
@@ -10290,18 +10292,19 @@
         ]
       },
       {
-        "symbol": "FTNT",
-        "name": "포트넷",
+        "symbol": "LRCX",
+        "name": "라믹리서치",
         "reason": "고성장",
-        "why_important": "서비스",
+        "why_important": "반도체",
         "impact": "high",
-        "volume": 9896,
+        "ret30d": 39.1,
+        "changePct": 39,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "고성장",
         "risk_level": "medium",
         "competitors": [
-          "CHKP",
-          "PFPT"
+          "ASML",
+          "KLAC"
         ]
       }
     ],
@@ -10315,14 +10318,14 @@
           "QCOM",
           "TXN"
         ],
-        "summary": "반도체 섹터 상승",
+        "summary": "반도체 섹터는 최근 고성장",
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
-          "QCOM",
-          "ON",
-          "MRVL"
+          "SMH",
+          "SOXX",
+          "PSI"
         ]
       },
       {
@@ -10330,18 +10333,37 @@
         "trend": "상승",
         "avg_change": 22.69,
         "keywords": [
-          "NVDA",
           "GOOGL",
-          "MSFT"
+          "MSFT",
+          "AMZN"
         ],
-        "summary": "AI 섹터 상승",
+        "summary": "AI 섹터는 최근 고성장",
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
-          "NVDA",
-          "GOOGL",
-          "MSFT"
+          "ROBO",
+          "BOTZ",
+          "AIQ"
+        ]
+      },
+      {
+        "sector": "전체시장",
+        "trend": "상승",
+        "avg_change": 22.27,
+        "keywords": [
+          "SPY",
+          "QQQ",
+          "DIA"
+        ],
+        "summary": "전체시장 섹터는 최근 상승",
+        "short_term": "보합",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "SPY",
+          "QQQ",
+          "DIA"
         ]
       },
       {
@@ -10349,89 +10371,73 @@
         "trend": "상승",
         "avg_change": 21.29,
         "keywords": [
-          "MSFT",
-          "AAPL",
-          "GOOGL"
+          "XLK",
+          "VGT",
+          "TECL"
         ],
-        "summary": "기술 섹터 상승",
-        "short_term": "상승",
+        "summary": "기술 섹터는 최근 상승",
+        "short_term": "보합",
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
-          "MSFT",
-          "AAPL",
-          "GOOGL"
+          "XLK",
+          "VGT",
+          "TECL"
         ]
       },
       {
-        "sector": "성장주",
+        "sector": "금융",
         "trend": "상승",
-        "avg_change": 21.79,
+        "avg_change": 16.09,
         "keywords": [
-          "TSLA",
-          "NVDA",
-          "AMZN"
+          "XLF",
+          "VFIS",
+          "KBE"
         ],
-        "summary": "성장주 섹터 상승",
-        "short_term": "상승",
+        "summary": "금융 섹터는 최근 상승",
+        "short_term": "보합",
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
-          "TSLA",
-          "NVDA",
-          "AMZN"
-        ]
-      },
-      {
-        "sector": "레버리지",
-        "trend": "상승",
-        "avg_change": 71.28,
-        "keywords": [
-          "UPRO",
-          "UMDD",
-          "UDOW"
-        ],
-        "summary": "레버리지 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "UPRO",
-          "UMDD",
-          "UDOW"
+          "XLF",
+          "VFIS",
+          "KBE"
         ]
       }
     ],
     "etf_issues": [
       {
-        "symbol": "NVDA",
+        "symbol": "QQQ",
         "issue": "고성장",
         "issue_type": "macro",
         "impact_etfs": [
-          "QCOM",
-          "TXN"
+          "SMH",
+          "SOXX",
+          "PSI"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "MSFT",
+        "symbol": "SPY",
         "issue": "안정성",
         "issue_type": "macro",
         "impact_etfs": [
-          "GOOGL",
-          "AMZN"
+          "DIA",
+          "IWM",
+          "MDY"
         ],
         "is_noise": false,
         "impact": "medium"
       },
       {
-        "symbol": "TSLA",
+        "symbol": "XLK",
         "issue": "고성장",
         "issue_type": "macro",
         "impact_etfs": [
-          "GM",
-          "F"
+          "VGT",
+          "TECL",
+          "IGM"
         ],
         "is_noise": false,
         "impact": "high"
@@ -10444,17 +10450,17 @@
         "risk_level": "medium",
         "volatility": "고변동성",
         "max_drawdown_risk": "20%",
-        "hedge_suggestion": "QCOM",
-        "suitable_for": "적극 투자자"
+        "hedge_suggestion": "QLD",
+        "suitable_for": "고위험投資家"
       },
       {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "risk_level": "low",
-        "volatility": "저변동성",
-        "max_drawdown_risk": "10%",
-        "hedge_suggestion": "GOOGL",
-        "suitable_for": "보수 투자자"
+        "symbol": "AMZN",
+        "name": "아마존",
+        "risk_level": "medium",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "QID",
+        "suitable_for": "고위험投資家"
       },
       {
         "symbol": "TSLA",
@@ -10462,38 +10468,38 @@
         "risk_level": "high",
         "volatility": "고변동성",
         "max_drawdown_risk": "30%",
-        "hedge_suggestion": "GM",
-        "suitable_for": "적극 투자자"
+        "hedge_suggestion": "TQQQ",
+        "suitable_for": "고위험投資家"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
-        "TSLA",
-        "NVDA",
-        "AMZN"
+        "TQQQ",
+        "QLD",
+        "SOXL"
       ],
       "balanced": [
-        "MSFT",
-        "AAPL",
-        "GOOGL"
+        "SPY",
+        "QQQ",
+        "IWM"
       ],
       "conservative": [
-        "JNJ",
-        "PG",
-        "XOM"
+        "SH",
+        "PSQ",
+        "SPXS"
       ],
-      "suggestion": "적극 투자자: TSLA, NVDA, AMZN, 보수 투자자: JNJ, PG, XOM"
+      "suggestion": "고위험投資家는 TQQQ, QLD, SOXL을 고려하고, 중위험投資家는 SPY, QQQ, IWM을 고려하고, 저위험投資家는 SH, PSQ, SPXS을 고려하세요."
     },
-    "market_summary": "기술 섹터 상승",
+    "market_summary": "현재 시장은 상승세를 보이고 있습니다.",
     "top_keywords": [
-      "NVDA",
-      "MSFT",
-      "TSLA"
+      "고성장",
+      "안정성",
+      "반도체"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "기술 섹터 성장"
+    "market_sentiment_reason": "현재 시장은 상승세를 보이고 있습니다."
   },
-  "updatedAt": "2026-05-09T08:26:55.299Z",
+  "updatedAt": "2026-05-09T16:07:29.266Z",
   "stats": {
     "total": 627,
     "us": 497,
