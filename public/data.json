@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "iShares Currency Hedged MSCI Ge",
+      "name": "HEWG,116946,3000",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 39515,
+      "low52": 0,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10036,57 +10036,19 @@
   "ai": {
     "trending_up": [
       {
-        "symbol": "QCOM",
-        "name": "퀄컴",
-        "reason": "수요 증가",
-        "why_important": "5G 성장",
+        "symbol": "AAPL",
+        "name": "애플",
+        "reason": "수익성",
+        "why_important": "주도적",
         "impact": "high",
-        "ret30d": 67.8,
-        "changePct": 72.4,
+        "ret30d": 17.9,
+        "changePct": 16,
         "rating": "buy",
-        "rating_reason": "성장 가능성",
+        "rating_reason": "성장",
         "risk_level": "medium",
         "competitors": [
-          "NVDA",
-          "TXN"
-        ],
-        "short_term": "상승",
-        "mid_term": "유지",
-        "long_term": "성장"
-      },
-      {
-        "symbol": "MRVL",
-        "name": "마벨",
-        "reason": "신제품 출시",
-        "why_important": "기술 혁신",
-        "impact": "high",
-        "ret30d": 74.2,
-        "changePct": 79.3,
-        "rating": "buy",
-        "rating_reason": "성장 가능성",
-        "risk_level": "medium",
-        "competitors": [
-          "QCOM",
-          "TXN"
-        ],
-        "short_term": "상승",
-        "mid_term": "유지",
-        "long_term": "성장"
-      },
-      {
-        "symbol": "ON",
-        "name": "온 세미컨덕터",
-        "reason": "수요 증가",
-        "why_important": "전기차 성장",
-        "impact": "high",
-        "ret30d": 69.5,
-        "changePct": 76.9,
-        "rating": "buy",
-        "rating_reason": "성장 가능성",
-        "risk_level": "medium",
-        "competitors": [
-          "NVDA",
-          "TXN"
+          "MSFT",
+          "GOOGL"
         ],
         "short_term": "상승",
         "mid_term": "유지",
@@ -10097,232 +10059,123 @@
       {
         "symbol": "NFLX",
         "name": "넷플릭스",
-        "reason": "경쟁 심화",
-        "why_important": "시장 점유율",
+        "reason": "경쟁",
+        "why_important": "하락",
         "impact": "medium",
-        "ret30d": -6.3,
-        "changePct": -6.4,
+        "ret30d": -6.4,
+        "changePct": -6.3,
         "rating": "sell",
-        "rating_reason": "하락 가능성",
+        "rating_reason": "하락",
         "risk_level": "high",
         "competitors": [
-          "AAPL",
-          "AMZN"
+          "AMZN",
+          "DIS"
         ],
         "short_term": "하락",
-        "mid_term": "유지",
-        "long_term": "회복"
-      },
-      {
-        "symbol": "TMUS",
-        "name": "T모바일",
-        "reason": "경쟁 심화",
-        "why_important": "시장 점유율",
-        "impact": "medium",
-        "ret30d": -8.5,
-        "changePct": -8.2,
-        "rating": "sell",
-        "rating_reason": "하락 가능성",
-        "risk_level": "high",
-        "competitors": [
-          "AAPL",
-          "AMZN"
-        ],
-        "short_term": "하락",
-        "mid_term": "유지",
-        "long_term": "회복"
-      },
-      {
-        "symbol": "LULU",
-        "name": "루루레몬",
-        "reason": "경쟁 심화",
-        "why_important": "시장 점유율",
-        "impact": "medium",
-        "ret30d": -13.3,
-        "changePct": -10.1,
-        "rating": "sell",
-        "rating_reason": "하락 가능성",
-        "risk_level": "high",
-        "competitors": [
-          "AAPL",
-          "AMZN"
-        ],
-        "short_term": "하락",
-        "mid_term": "유지",
-        "long_term": "회복"
+        "mid_term": "회복",
+        "long_term": "불안정"
       }
     ],
     "steady_growth": [
       {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "reason": "클라우드 성장",
-        "why_important": "기술 혁신",
-        "impact": "medium",
-        "ret30d": 13.4,
-        "changePct": 16.3,
-        "rating": "buy",
-        "rating_reason": "성장 가능성",
+        "symbol": "PEP",
+        "name": "펩시",
+        "reason": "안정성",
+        "why_important": "유지",
+        "impact": "low",
+        "ret30d": 1,
+        "changePct": 2.5,
+        "rating": "neutral",
+        "rating_reason": "안정",
         "risk_level": "low",
         "competitors": [
-          "AMZN",
-          "GOOGL"
+          "KO",
+          "DM"
         ],
-        "short_term": "상승",
-        "mid_term": "유지",
-        "long_term": "성장"
-      },
-      {
-        "symbol": "AAPL",
-        "name": "애플",
-        "reason": "신제품 출시",
-        "why_important": "기술 혁신",
-        "impact": "medium",
-        "ret30d": 16,
-        "changePct": 17.9,
-        "rating": "buy",
-        "rating_reason": "성장 가능성",
-        "risk_level": "low",
-        "competitors": [
-          "SAM",
-          "GOOGL"
-        ],
-        "short_term": "상승",
-        "mid_term": "유지",
-        "long_term": "성장"
-      },
-      {
-        "symbol": "GOOGL",
-        "name": "구글",
-        "reason": "광고 수익 증가",
-        "why_important": "시장 점유율",
-        "impact": "medium",
-        "ret30d": 42.6,
-        "changePct": 46.1,
-        "rating": "buy",
-        "rating_reason": "성장 가능성",
-        "risk_level": "low",
-        "competitors": [
-          "AMZN",
-          "FB"
-        ],
-        "short_term": "상승",
-        "mid_term": "유지",
-        "long_term": "성장"
+        "short_term": "유지",
+        "mid_term": "상승",
+        "long_term": "안정"
       }
     ],
     "high_volume": [
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "reason": "수요 증가",
-        "why_important": "AI 성장",
+        "reason": "성장",
+        "why_important": "주도적",
         "impact": "high",
         "volume": 136421,
         "rating": "buy",
-        "rating_reason": "성장 가능성",
+        "rating_reason": "성장",
         "risk_level": "medium",
         "competitors": [
-          "QCOM",
-          "TXN"
-        ]
-      },
-      {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "reason": "전기차 성장",
-        "why_important": "환경 문제",
-        "impact": "high",
-        "volume": 65050,
-        "rating": "buy",
-        "rating_reason": "성장 가능성",
-        "risk_level": "medium",
-        "competitors": [
-          "GM",
-          "F"
-        ]
-      },
-      {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "reason": "클라우드 성장",
-        "why_important": "기술 혁신",
-        "impact": "high",
-        "volume": 34733,
-        "rating": "buy",
-        "rating_reason": "성장 가능성",
-        "risk_level": "low",
-        "competitors": [
-          "MSFT",
-          "GOOGL"
+          "AMD",
+          "INTC"
         ]
       }
     ],
     "near_52w_high": [
       {
-        "symbol": "QCOM",
-        "name": "퀄컴",
-        "reason": "수요 증가",
-        "why_important": "5G 성장",
+        "symbol": "GOOGL",
+        "name": "구글",
+        "reason": "수익성",
+        "why_important": "주도적",
         "impact": "high",
-        "ret30d": 67.8,
-        "changePct": 72.4,
+        "ret30d": 46.1,
+        "changePct": 42.6,
         "rating": "buy",
-        "rating_reason": "성장 가능성",
+        "rating_reason": "성장",
         "risk_level": "medium",
         "competitors": [
-          "NVDA",
-          "TXN"
-        ]
-      },
-      {
-        "symbol": "MRVL",
-        "name": "마벨",
-        "reason": "신제품 출시",
-        "why_important": "기술 혁신",
-        "impact": "high",
-        "ret30d": 74.2,
-        "changePct": 79.3,
-        "rating": "buy",
-        "rating_reason": "성장 가능성",
-        "risk_level": "medium",
-        "competitors": [
-          "QCOM",
-          "TXN"
-        ]
-      },
-      {
-        "symbol": "ON",
-        "name": "온 세미컨덕터",
-        "reason": "수요 증가",
-        "why_important": "전기차 성장",
-        "impact": "high",
-        "ret30d": 69.5,
-        "changePct": 76.9,
-        "rating": "buy",
-        "rating_reason": "성장 가능성",
-        "risk_level": "medium",
-        "competitors": [
-          "NVDA",
-          "TXN"
+          "MSFT",
+          "AMZN"
         ]
       }
     ],
     "sector_trends": [
       {
+        "sector": "레버리지",
+        "trend": "상승",
+        "avg_change": 71.28,
+        "keywords": [
+          "성장"
+        ],
+        "summary": "레버리지 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "유지",
+        "top_etfs": [
+          "122630",
+          "233740"
+        ]
+      },
+      {
+        "sector": "한국",
+        "trend": "상승",
+        "avg_change": 58.51,
+        "keywords": [
+          "성장"
+        ],
+        "summary": "한국 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "유지",
+        "top_etfs": [
+          "091160",
+          "157490"
+        ]
+      },
+      {
         "sector": "반도체",
         "trend": "상승",
         "avg_change": 25.37,
         "keywords": [
-          "5G",
-          "AI"
+          "성장"
         ],
-        "summary": "수요 증가",
+        "summary": "반도체 섹터 상승",
         "short_term": "상승",
         "mid_term": "유지",
         "top_etfs": [
-          "QCOM",
-          "NVDA"
+          "091160",
+          "157490"
         ]
       },
       {
@@ -10330,15 +10183,14 @@
         "trend": "상승",
         "avg_change": 22.69,
         "keywords": [
-          "머신러닝",
-          "딥러닝"
+          "성장"
         ],
-        "summary": "기술 혁신",
+        "summary": "AI 섹터 상승",
         "short_term": "상승",
         "mid_term": "유지",
         "top_etfs": [
-          "GOOGL",
-          "MSFT"
+          "364980",
+          "385720"
         ]
       },
       {
@@ -10346,80 +10198,47 @@
         "trend": "상승",
         "avg_change": 22.27,
         "keywords": [
-          "경제 성장",
-          "시장 점유율"
+          "성장"
         ],
-        "summary": "성장 가능성",
+        "summary": "전체시장 섹터 상승",
         "short_term": "상승",
         "mid_term": "유지",
         "top_etfs": [
-          "AAPL",
-          "AMZN"
-        ]
-      },
-      {
-        "sector": "기술",
-        "trend": "상승",
-        "avg_change": 21.29,
-        "keywords": [
-          "클라우드",
-          "사물인터넷"
-        ],
-        "summary": "기술 혁신",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "MSFT",
-          "GOOGL"
-        ]
-      },
-      {
-        "sector": "금융",
-        "trend": "상승",
-        "avg_change": 18.81,
-        "keywords": [
-          "금리",
-          "증시"
-        ],
-        "summary": "성장 가능성",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "JPM",
-          "BAC"
+          "360750",
+          "379800"
         ]
       }
     ],
     "etf_issues": [
       {
-        "symbol": "QCOM",
-        "issue": "특허 분쟁",
+        "symbol": "NFLX",
+        "issue": "경쟁",
         "issue_type": "macro",
         "impact_etfs": [
-          "NVDA",
-          "TXN"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      },
-      {
-        "symbol": "AMZN",
-        "issue": "경쟁 심화",
-        "issue_type": "earnings",
-        "impact_etfs": [
-          "MSFT",
-          "GOOGL"
+          "NFLX",
+          "AMZN"
         ],
         "is_noise": false,
         "impact": "medium"
       },
       {
-        "symbol": "TSLA",
-        "issue": "전기차 보안 문제",
+        "symbol": "AAPL",
+        "issue": "수익성",
+        "issue_type": "earnings",
+        "impact_etfs": [
+          "AAPL",
+          "MSFT"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "GOOGL",
+        "issue": "성장",
         "issue_type": "policy",
         "impact_etfs": [
-          "GM",
-          "F"
+          "GOOGL",
+          "AMZN"
         ],
         "is_noise": false,
         "impact": "high"
@@ -10432,56 +10251,48 @@
         "risk_level": "medium",
         "volatility": "고변동성",
         "max_drawdown_risk": "20%",
-        "hedge_suggestion": "고정 수입 자산",
-        "suitable_for": "적극 투자자"
+        "hedge_suggestion": "안정적 ETF",
+        "suitable_for": "중장기 투자자"
       },
       {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "risk_level": "high",
+        "symbol": "AAPL",
+        "name": "애플",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "15%",
+        "hedge_suggestion": "안정적 ETF",
+        "suitable_for": "중장기 투자자"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "구글",
+        "risk_level": "medium",
         "volatility": "고변동성",
-        "max_drawdown_risk": "30%",
-        "hedge_suggestion": "옵션 거래",
-        "suitable_for": "적극 투자자"
-      },
-      {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "risk_level": "low",
-        "volatility": "저변동성",
-        "max_drawdown_risk": "10%",
-        "hedge_suggestion": "없음",
-        "suitable_for": "보수 투자자"
+        "max_drawdown_risk": "25%",
+        "hedge_suggestion": "안정적 ETF",
+        "suitable_for": "중장기 투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
-        "QCOM",
-        "MRVL",
-        "ON"
-      ],
-      "balanced": [
-        "MSFT",
+        "NVDA",
         "AAPL",
         "GOOGL"
       ],
-      "conservative": [
-        "JPM",
-        "BAC",
-        "PG"
+      "balanced": [
+        "PEP",
+        "KO",
+        "MSFT"
       ],
-      "suggestion": "적극 투자자: 기술 ETF, 보수 투자자: 금융 ETF"
-    },
-    "market_summary": "기술 및 금융 섹터 상승",
-    "top_keywords": [
-      "5G",
-      "AI",
-      "클라우드"
-    ],
-    "market_sentiment": "bullish",
-    "market_sentiment_reason": "기술 혁신 및 경제 성장"
+      "conservative": [
+        "DM",
+        "PG",
+        "JNJ"
+      ],
+      "suggestion": "중장기 투자자에게 적합한 포트폴리오"
+    }
   },
-  "updatedAt": "2026-05-10T19:59:54.199Z",
+  "updatedAt": "2026-05-10T22:37:23.221Z",
   "stats": {
     "total": 627,
     "us": 497,
