@@ -10034,14 +10034,451 @@
     }
   ],
   "ai": {
-    "market_summary": "기술 섹터 상승, 반도체 섹터 상승",
+    "trending_up": [
+      {
+        "symbol": "NVDA",
+        "name": "나스닥100",
+        "reason": "고성장",
+        "why_important": "기술",
+        "impact": "high",
+        "ret30d": 26.8,
+        "changePct": 27,
+        "rating": "buy",
+        "rating_reason": "성장",
+        "risk_level": "high",
+        "competitors": [
+          "AMD",
+          "QCOM"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "AVGO",
+        "name": "나스닥100",
+        "reason": "수익성",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 35.2,
+        "changePct": 35.2,
+        "rating": "buy",
+        "rating_reason": "수익",
+        "risk_level": "medium",
+        "competitors": [
+          "TXN",
+          "ADI"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "ON",
+        "name": "나스닥100",
+        "reason": "신기술",
+        "why_important": "AI",
+        "impact": "high",
+        "ret30d": 78.2,
+        "changePct": 81.9,
+        "rating": "buy",
+        "rating_reason": "신기술",
+        "risk_level": "high",
+        "competitors": [
+          "MRVL",
+          "CRWD"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "NFLX",
+        "name": "나스닥100",
+        "reason": "하락",
+        "why_important": "서비스",
+        "impact": "medium",
+        "ret30d": -12,
+        "changePct": -11.8,
+        "rating": "sell",
+        "rating_reason": "하락",
+        "risk_level": "medium",
+        "competitors": [
+          "AMZN",
+          "DIS"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "TMUS",
+        "name": "나스닥100",
+        "reason": "경쟁",
+        "why_important": "통신",
+        "impact": "medium",
+        "ret30d": -6.7,
+        "changePct": -8,
+        "rating": "sell",
+        "rating_reason": "경쟁",
+        "risk_level": "medium",
+        "competitors": [
+          "VZ",
+          "T"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "LULU",
+        "name": "나스닥100",
+        "reason": "수요감소",
+        "why_important": "소비",
+        "impact": "low",
+        "ret30d": -23.7,
+        "changePct": -23.5,
+        "rating": "sell",
+        "rating_reason": "수요감소",
+        "risk_level": "low",
+        "competitors": [
+          "NKE",
+          "UA"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "MSFT",
+        "name": "나스닥100",
+        "reason": "안정성",
+        "why_important": "소프트웨어",
+        "impact": "medium",
+        "ret30d": 13.2,
+        "changePct": 13,
+        "rating": "neutral",
+        "rating_reason": "안정성",
+        "risk_level": "low",
+        "competitors": [
+          "GOOGL",
+          "AMZN"
+        ],
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "보합"
+      },
+      {
+        "symbol": "AAPL",
+        "name": "나스닥100",
+        "reason": "브랜드",
+        "why_important": "제조",
+        "impact": "high",
+        "ret30d": 16,
+        "changePct": 17.3,
+        "rating": "buy",
+        "rating_reason": "브랜드",
+        "risk_level": "medium",
+        "competitors": [
+          "SAM",
+          "GOOGL"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "CSCO",
+        "name": "나스닥100",
+        "reason": "네트워크",
+        "why_important": "통신",
+        "impact": "medium",
+        "ret30d": 47,
+        "changePct": 49.6,
+        "rating": "buy",
+        "rating_reason": "네트워크",
+        "risk_level": "medium",
+        "competitors": [
+          "JNPR",
+          "VMW"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "NVDA",
+        "name": "나스닥100",
+        "reason": "고성장",
+        "why_important": "기술",
+        "impact": "high",
+        "volume": 177324,
+        "rating": "buy",
+        "rating_reason": "성장",
+        "risk_level": "high",
+        "competitors": [
+          "AMD",
+          "QCOM"
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "나스닥100",
+        "reason": "수익성",
+        "why_important": "제조",
+        "impact": "high",
+        "volume": 40582,
+        "rating": "buy",
+        "rating_reason": "수익",
+        "risk_level": "medium",
+        "competitors": [
+          "GOOGL",
+          "MSFT"
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "나스닥100",
+        "reason": "신기술",
+        "why_important": "전기차",
+        "impact": "high",
+        "volume": 52085,
+        "rating": "buy",
+        "rating_reason": "신기술",
+        "risk_level": "high",
+        "competitors": [
+          "GM",
+          "F"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "GOOGL",
+        "name": "나스닥100",
+        "reason": "고성장",
+        "why_important": "기술",
+        "impact": "high",
+        "volume": 20176,
+        "rating": "buy",
+        "rating_reason": "성장",
+        "risk_level": "high",
+        "competitors": [
+          "AMZN",
+          "MSFT"
+        ]
+      },
+      {
+        "symbol": "AVGO",
+        "name": "나스닥100",
+        "reason": "수익성",
+        "why_important": "반도체",
+        "impact": "high",
+        "volume": 18852,
+        "rating": "buy",
+        "rating_reason": "수익",
+        "risk_level": "medium",
+        "competitors": [
+          "TXN",
+          "ADI"
+        ]
+      },
+      {
+        "symbol": "ON",
+        "name": "나스닥100",
+        "reason": "신기술",
+        "why_important": "AI",
+        "impact": "high",
+        "volume": 10935,
+        "rating": "buy",
+        "rating_reason": "신기술",
+        "risk_level": "high",
+        "competitors": [
+          "MRVL",
+          "CRWD"
+        ]
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "레버리지",
+        "trend": "상승",
+        "avg_change": 62.52,
+        "keywords": [
+          "고성장",
+          "신기술"
+        ],
+        "summary": "레버리지 섹터는 고성장과 신기술에 힘입어 상승세를 보임",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "122630",
+          "233740"
+        ]
+      },
+      {
+        "sector": "한국",
+        "trend": "상승",
+        "avg_change": 45.57,
+        "keywords": [
+          "수출",
+          "제조"
+        ],
+        "summary": "한국 섹터는 수출과 제조에 힘입어 상승세를 보임",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "069500",
+          "102110"
+        ]
+      },
+      {
+        "sector": "대만",
+        "trend": "상승",
+        "avg_change": 28.98,
+        "keywords": [
+          "반도체",
+          "기술"
+        ],
+        "summary": "대만 섹터는 반도체와 기술에 힘입어 상승세를 보임",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "091160",
+          "157490"
+        ]
+      },
+      {
+        "sector": "반도체",
+        "trend": "상승",
+        "avg_change": 25.86,
+        "keywords": [
+          "고성장",
+          "신기술"
+        ],
+        "summary": "반도체 섹터는 고성장과 신기술에 힘입어 상승세를 보임",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "NVDA",
+          "AVGO"
+        ]
+      },
+      {
+        "sector": "전체시장",
+        "trend": "상승",
+        "avg_change": 23.49,
+        "keywords": [
+          "안정성",
+          "브랜드"
+        ],
+        "summary": "전체시장 섹터는 안정성과 브랜드에 힘입어 상승세를 보임",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "MSFT",
+          "AAPL"
+        ]
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "NVDA",
+        "issue": "고성장",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "AVGO",
+          "QCOM"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "AMZN",
+        "issue": "수익성",
+        "issue_type": "earnings",
+        "impact_etfs": [
+          "GOOGL",
+          "MSFT"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "TSLA",
+        "issue": "신기술",
+        "issue_type": "policy",
+        "impact_etfs": [
+          "GM",
+          "F"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      }
+    ],
+    "risk_analysis": [
+      {
+        "symbol": "NVDA",
+        "name": "나스닥100",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "고정수익",
+        "suitable_for": "적극투자자"
+      },
+      {
+        "symbol": "AAPL",
+        "name": "나스닥100",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "15%",
+        "hedge_suggestion": "주식",
+        "suitable_for": "보수투자자"
+      },
+      {
+        "symbol": "MSFT",
+        "name": "나스닥100",
+        "risk_level": "low",
+        "volatility": "저변동성",
+        "max_drawdown_risk": "10%",
+        "hedge_suggestion": "채권",
+        "suitable_for": "안정투자자"
+      }
+    ],
+    "portfolio_suggestion": {
+      "aggressive": [
+        "NVDA",
+        "TSLA",
+        "ON"
+      ],
+      "balanced": [
+        "MSFT",
+        "AAPL",
+        "CSCO"
+      ],
+      "conservative": [
+        "GOOGL",
+        "AMZN",
+        "JNJ"
+      ],
+      "suggestion": "적극투자자는 고성장 ETF에 투자하고, 보수투자자는 안정성 ETF에 투자하는 것이 좋음"
+    },
+    "market_summary": "현재 시장은 고성장과 신기술에 힘입어 상승세를 보임",
     "top_keywords": [
-      "NVDA",
-      "AMD",
-      "MSFT"
-    ]
+      "고성장",
+      "신기술",
+      "안정성"
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "고성장과 신기술에 힘입어 상승세를 보임"
   },
-  "updatedAt": "2026-05-16T20:02:47.524Z",
+  "updatedAt": "2026-05-16T22:36:49.478Z",
   "stats": {
     "total": 627,
     "us": 497,
