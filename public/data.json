@@ -10034,14 +10034,13 @@
     }
   ],
   "ai": {
-    "market_summary": "시장은 상승 중입니다.",
+    "market_summary": "레버리지 섹터와 한국 섹터가 상승세를 보임",
     "top_keywords": [
-      "NVDA",
-      "GOOGL",
-      "MSFT"
+      "고성장",
+      "수급호재"
     ]
   },
-  "updatedAt": "2026-05-17T06:48:52.952Z",
+  "updatedAt": "2026-05-17T09:04:54.299Z",
   "stats": {
     "total": 627,
     "us": 497,
