@@ -10034,13 +10034,449 @@
     }
   ],
   "ai": {
-    "market_summary": "레버리지 섹터와 한국 섹터가 상승세를 보임",
+    "trending_up": [
+      {
+        "symbol": "ON",
+        "name": "ON",
+        "reason": "상승",
+        "why_important": "고성장",
+        "impact": "high",
+        "ret30d": 78.2,
+        "changePct": 81.9,
+        "rating": "buy",
+        "rating_reason": "강력 추천",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "MU",
+        "name": "MU",
+        "reason": "상승",
+        "why_important": "고성장",
+        "impact": "high",
+        "ret30d": 91.8,
+        "changePct": 97.9,
+        "rating": "buy",
+        "rating_reason": "강력 추천",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "MRVL",
+        "name": "MRVL",
+        "reason": "상승",
+        "why_important": "고성장",
+        "impact": "high",
+        "ret30d": 61.5,
+        "changePct": 65.1,
+        "rating": "buy",
+        "rating_reason": "강력 추천",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "NFLX",
+        "name": "NFLX",
+        "reason": "하락",
+        "why_important": "저성장",
+        "impact": "low",
+        "ret30d": -12,
+        "changePct": -11.8,
+        "rating": "sell",
+        "rating_reason": "매도 추천",
+        "risk_level": "low",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "LULU",
+        "name": "LULU",
+        "reason": "하락",
+        "why_important": "저성장",
+        "impact": "low",
+        "ret30d": -23.7,
+        "changePct": -23.5,
+        "rating": "sell",
+        "rating_reason": "매도 추천",
+        "risk_level": "low",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "CTSH",
+        "name": "CTSH",
+        "reason": "하락",
+        "why_important": "저성장",
+        "impact": "low",
+        "ret30d": -24.4,
+        "changePct": -24.6,
+        "rating": "sell",
+        "rating_reason": "매도 추천",
+        "risk_level": "low",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "MSFT",
+        "name": "MSFT",
+        "reason": "안정",
+        "why_important": "안정성",
+        "impact": "medium",
+        "ret30d": 13.2,
+        "changePct": 13,
+        "rating": "neutral",
+        "rating_reason": "중립 추천",
+        "risk_level": "medium",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ],
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
+      },
+      {
+        "symbol": "AAPL",
+        "name": "AAPL",
+        "reason": "안정",
+        "why_important": "안정성",
+        "impact": "medium",
+        "ret30d": 16,
+        "changePct": 17.3,
+        "rating": "neutral",
+        "rating_reason": "중립 추천",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "GOOGL",
+        "reason": "안정",
+        "why_important": "안정성",
+        "impact": "medium",
+        "ret30d": 32.3,
+        "changePct": 34.2,
+        "rating": "neutral",
+        "rating_reason": "중립 추천",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "AAPL"
+        ],
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "NVDA",
+        "name": "NVDA",
+        "reason": "고거래",
+        "why_important": "고성장",
+        "impact": "high",
+        "volume": 177324,
+        "rating": "buy",
+        "rating_reason": "강력 추천",
+        "risk_level": "high",
+        "competitors": [
+          "AMD",
+          "MU"
+        ]
+      },
+      {
+        "symbol": "QCOM",
+        "name": "QCOM",
+        "reason": "고거래",
+        "why_important": "고성장",
+        "impact": "high",
+        "volume": 25785,
+        "rating": "buy",
+        "rating_reason": "강력 추천",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ]
+      },
+      {
+        "symbol": "TXN",
+        "name": "TXN",
+        "reason": "고거래",
+        "why_important": "고성장",
+        "impact": "high",
+        "volume": 6572,
+        "rating": "buy",
+        "rating_reason": "강력 추천",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "ON",
+        "name": "ON",
+        "reason": "고점",
+        "why_important": "고성장",
+        "impact": "high",
+        "ret30d": 78.2,
+        "changePct": 81.9,
+        "rating": "buy",
+        "rating_reason": "강력 추천",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ]
+      },
+      {
+        "symbol": "MU",
+        "name": "MU",
+        "reason": "고점",
+        "why_important": "고성장",
+        "impact": "high",
+        "ret30d": 91.8,
+        "changePct": 97.9,
+        "rating": "buy",
+        "rating_reason": "강력 추천",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ]
+      },
+      {
+        "symbol": "MRVL",
+        "name": "MRVL",
+        "reason": "고점",
+        "why_important": "고성장",
+        "impact": "high",
+        "ret30d": 61.5,
+        "changePct": 65.1,
+        "rating": "buy",
+        "rating_reason": "강력 추천",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ]
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "레버리지",
+        "trend": "상승",
+        "avg_change": 62.52,
+        "keywords": [
+          "고성장"
+        ],
+        "summary": "레버리지 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "122630",
+          "233740"
+        ]
+      },
+      {
+        "sector": "한국",
+        "trend": "상승",
+        "avg_change": 45.57,
+        "keywords": [
+          "고성장"
+        ],
+        "summary": "한국 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "069500",
+          "102110"
+        ]
+      },
+      {
+        "sector": "대만",
+        "trend": "상승",
+        "avg_change": 28.98,
+        "keywords": [
+          "고성장"
+        ],
+        "summary": "대만 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "091160",
+          "157490"
+        ]
+      },
+      {
+        "sector": "반도체",
+        "trend": "상승",
+        "avg_change": 25.86,
+        "keywords": [
+          "고성장"
+        ],
+        "summary": "반도체 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "091160",
+          "157490"
+        ]
+      },
+      {
+        "sector": "전체시장",
+        "trend": "상승",
+        "avg_change": 23.49,
+        "keywords": [
+          "고성장"
+        ],
+        "summary": "전체시장 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "360750",
+          "379800"
+        ]
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "NVDA",
+        "issue": "고성장",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "QCOM",
+          "TXN"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "AAPL",
+        "issue": "고성장",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "GOOGL",
+        "issue": "고성장",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "MSFT",
+          "AAPL"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      }
+    ],
+    "risk_analysis": [
+      {
+        "symbol": "ON",
+        "name": "ON",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "방어 추천",
+        "suitable_for": "고위험 투자자"
+      },
+      {
+        "symbol": "MU",
+        "name": "MU",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "방어 추천",
+        "suitable_for": "고위험 투자자"
+      },
+      {
+        "symbol": "MRVL",
+        "name": "MRVL",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "방어 추천",
+        "suitable_for": "고위험 투자자"
+      }
+    ],
+    "portfolio_suggestion": {
+      "aggressive": [
+        "ON",
+        "MU",
+        "MRVL"
+      ],
+      "balanced": [
+        "MSFT",
+        "AAPL",
+        "GOOGL"
+      ],
+      "conservative": [
+        "NFLX",
+        "LULU",
+        "CTSH"
+      ],
+      "suggestion": "고위험 투자자에게 ON, MU, MRVL 추천"
+    },
+    "market_summary": "고성장 섹터 상승",
     "top_keywords": [
       "고성장",
-      "수급호재"
-    ]
+      "레버리지",
+      "한국"
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "고성장 섹터 상승"
   },
-  "updatedAt": "2026-05-17T09:04:54.299Z",
+  "updatedAt": "2026-05-17T16:10:14.676Z",
   "stats": {
     "total": 627,
     "us": 497,
