@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "HEWG,116946,3000",
+      "name": "iShares Currency Hedged MSCI Ge",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 0,
+      "low52": 39515,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10034,270 +10034,14 @@
     }
   ],
   "ai": {
-    "trending_up": [
-      {
-        "symbol": "AAPL",
-        "name": "애플",
-        "reason": "수익성",
-        "why_important": "주도적",
-        "impact": "high",
-        "ret30d": 16.7,
-        "changePct": 20.1,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "MSFT",
-          "GOOGL"
-        ],
-        "short_term": "상승",
-        "mid_term": "유지",
-        "long_term": "성장"
-      }
-    ],
-    "trending_down": [
-      {
-        "symbol": "NFLX",
-        "name": "넷플릭스",
-        "reason": "경쟁",
-        "why_important": "하락",
-        "impact": "medium",
-        "ret30d": -18.9,
-        "changePct": -17.8,
-        "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "high",
-        "competitors": [
-          "AMZN",
-          "DIS"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "불안정"
-      }
-    ],
-    "steady_growth": [
-      {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "reason": "안정",
-        "why_important": "성장",
-        "impact": "low",
-        "ret30d": 0.4,
-        "changePct": 5,
-        "rating": "neutral",
-        "rating_reason": "안정",
-        "risk_level": "low",
-        "competitors": [
-          "GOOGL",
-          "AMZN"
-        ],
-        "short_term": "유지",
-        "mid_term": "성장",
-        "long_term": "안정"
-      }
-    ],
-    "high_volume": [
-      {
-        "symbol": "NVDA",
-        "name": "엔비디아",
-        "reason": "수요",
-        "why_important": "성장",
-        "impact": "high",
-        "volume": 161327,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "AMD",
-          "INTEL"
-        ]
-      }
-    ],
-    "near_52w_high": [
-      {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "reason": "수익성",
-        "why_important": "주도적",
-        "impact": "high",
-        "ret30d": 12.4,
-        "changePct": 20.9,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "GM",
-          "FORD"
-        ]
-      }
-    ],
-    "sector_trends": [
-      {
-        "sector": "반도체",
-        "trend": "상승",
-        "avg_change": 24.29,
-        "keywords": [
-          "수요",
-          "성장"
-        ],
-        "summary": "반도체 수요 증가",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "091160",
-          "157490"
-        ]
-      },
-      {
-        "sector": "AI",
-        "trend": "상승",
-        "avg_change": 16.28,
-        "keywords": [
-          "성장",
-          "수요"
-        ],
-        "summary": "AI 성장",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "364980",
-          "385720"
-        ]
-      },
-      {
-        "sector": "부동산",
-        "trend": "상승",
-        "avg_change": 12.13,
-        "keywords": [
-          "수요",
-          "성장"
-        ],
-        "summary": "부동산 수요 증가",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "381180",
-          "334700"
-        ]
-      },
-      {
-        "sector": "기술",
-        "trend": "상승",
-        "avg_change": 13.88,
-        "keywords": [
-          "성장",
-          "수요"
-        ],
-        "summary": "기술 성장",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "441640",
-          "433500"
-        ]
-      },
-      {
-        "sector": "금융",
-        "trend": "하락",
-        "avg_change": 8.92,
-        "keywords": [
-          "하락",
-          "불안정"
-        ],
-        "summary": "금융 하락",
-        "short_term": "하락",
-        "mid_term": "하락",
-        "top_etfs": [
-          "200250",
-          "091230"
-        ]
-      }
-    ],
-    "etf_issues": [
-      {
-        "symbol": "AAPL",
-        "issue": "경쟁",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "MSFT",
-          "GOOGL"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      },
-      {
-        "symbol": "NFLX",
-        "issue": "경쟁",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "AMZN",
-          "DIS"
-        ],
-        "is_noise": false,
-        "impact": "medium"
-      },
-      {
-        "symbol": "TSLA",
-        "issue": "수급",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "GM",
-          "FORD"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      }
-    ],
-    "risk_analysis": [
-      {
-        "symbol": "NVDA",
-        "name": "엔비디아",
-        "risk_level": "medium",
-        "volatility": "중변동성",
-        "max_drawdown_risk": "10%",
-        "hedge_suggestion": "안정적",
-        "suitable_for": "중장기 투자자"
-      },
-      {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "risk_level": "medium",
-        "volatility": "중변동성",
-        "max_drawdown_risk": "15%",
-        "hedge_suggestion": "안정적",
-        "suitable_for": "중장기 투자자"
-      },
-      {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "risk_level": "low",
-        "volatility": "저변동성",
-        "max_drawdown_risk": "5%",
-        "hedge_suggestion": "안정적",
-        "suitable_for": "장기 투자자"
-      }
-    ],
-    "portfolio_suggestion": {
-      "aggressive": [
-        "NVDA",
-        "TSLA",
-        "AAPL"
-      ],
-      "balanced": [
-        "MSFT",
-        "GOOGL",
-        "AMZN"
-      ],
-      "conservative": [
-        "JNJ",
-        "PG",
-        "XOM"
-      ],
-      "suggestion": "중장기 투자자에게 적합한 포트폴리오"
-    }
+    "market_summary": "성장주 상승, 안정주 유지",
+    "top_keywords": [
+      "성장",
+      "안정",
+      "주도"
+    ]
   },
-  "updatedAt": "2026-05-27T21:02:55.032Z",
+  "updatedAt": "2026-05-27T23:10:24.916Z",
   "stats": {
     "total": 627,
     "us": 497,
