@@ -529,6 +529,22 @@
       "fromLow": 31.27853881278539
     },
     {
+      "symbol": "WCLD",
+      "name": "WisdomTree Cloud Computing Fund",
+      "market": "us",
+      "sector": "클라우드",
+      "price": 30.52,
+      "changePct": 14.73684210526315,
+      "volume": 621847,
+      "currency": "USD",
+      "ret5d": 1.5978664109312646,
+      "ret30d": 12.911576857927226,
+      "high52": 37.115,
+      "low52": 23.89,
+      "fromHigh": -17.769096052808845,
+      "fromLow": 27.75219757220594
+    },
+    {
       "symbol": "BUG",
       "name": "Global X Cybersecurity ETF",
       "market": "us",
@@ -2673,6 +2689,22 @@
       "fromLow": 12.441945734539242
     },
     {
+      "symbol": "EWI",
+      "name": "iShares MSCI Italy ETF",
+      "market": "us",
+      "sector": "나스닥100",
+      "price": 59.25,
+      "changePct": 1.8216188348513531,
+      "volume": 425921,
+      "currency": "USD",
+      "ret5d": 1.0747203677831565,
+      "ret30d": 2.349284202263699,
+      "high52": 59.67,
+      "low52": 45.79,
+      "fromHigh": -0.703871292106589,
+      "fromLow": 29.395064424546845
+    },
+    {
       "symbol": "EWP",
       "name": "iShares MSCI Spain ETF",
       "market": "us",
@@ -3759,6 +3791,22 @@
       "low52": 41.59,
       "fromHigh": -24.46967433522557,
       "fromLow": 82.35152680932916
+    },
+    {
+      "symbol": "USO",
+      "name": "United States Oil Fund",
+      "market": "us",
+      "sector": "원자재",
+      "price": 130.78,
+      "changePct": 6.680805938494165,
+      "volume": 7210185,
+      "currency": "USD",
+      "ret5d": -9.35052600884686,
+      "ret30d": 3.925622859082946,
+      "high52": 154.08,
+      "low52": 65.96,
+      "fromHigh": -15.122014537902395,
+      "fromLow": 98.27167980594301
     },
     {
       "symbol": "BNO",
@@ -5698,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "HEWG,116946,3000",
+      "name": "iShares Currency Hedged MSCI Ge",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -7761,6 +7809,22 @@
       "fromLow": 26.84670373312153
     },
     {
+      "symbol": "EXC",
+      "name": "Exelon Corporation",
+      "market": "us",
+      "sector": "나스닥100",
+      "price": 45.58,
+      "changePct": -4.803675856307444,
+      "volume": 8024653,
+      "currency": "USD",
+      "ret5d": 1.5823514263796954,
+      "ret30d": -4.22357668868087,
+      "high52": 50.65,
+      "low52": 42.11,
+      "fromHigh": -10.009871668311945,
+      "fromLow": 8.240322963666586
+    },
+    {
       "symbol": "PCG",
       "name": "Pacific Gas & Electric Co.",
       "market": "us",
@@ -7839,6 +7903,22 @@
       "low52": 51.93,
       "fromHigh": -10.440044004400448,
       "fromLow": 56.7687271326786
+    },
+    {
+      "symbol": "CTSH",
+      "name": "Cognizant Technology Solutions ",
+      "market": "us",
+      "sector": "나스닥100",
+      "price": 53.85,
+      "changePct": -10.829607550919025,
+      "volume": 9211470,
+      "currency": "USD",
+      "ret5d": 4.970761795055278,
+      "ret30d": -11.035848197607496,
+      "high52": 87.03,
+      "low52": 45.48,
+      "fromHigh": -38.12478455704929,
+      "fromLow": 18.40369393139843
     },
     {
       "symbol": "MTCH",
@@ -9676,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 0,
+      "low52": 39515,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -9956,19 +10036,57 @@
   "ai": {
     "trending_up": [
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "reason": "수익성",
-        "why_important": "주도적",
+        "symbol": "QCOM",
+        "name": "퀄컴",
+        "reason": "수요 증가",
+        "why_important": "5G 성장",
         "impact": "high",
-        "ret30d": 18.6,
-        "changePct": 17.3,
+        "ret30d": 80.9,
+        "changePct": 82.9,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "성장 가능성",
         "risk_level": "medium",
         "competitors": [
-          "MSFT",
-          "GOOGL"
+          "TXN",
+          "NVDA"
+        ],
+        "short_term": "상승",
+        "mid_term": "유지",
+        "long_term": "성장"
+      },
+      {
+        "symbol": "MU",
+        "name": "마이크론",
+        "reason": "수요 증가",
+        "why_important": "반도체 성장",
+        "impact": "high",
+        "ret30d": 102,
+        "changePct": 102.4,
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
+        "risk_level": "medium",
+        "competitors": [
+          "SNPS",
+          "KLAC"
+        ],
+        "short_term": "상승",
+        "mid_term": "유지",
+        "long_term": "성장"
+      },
+      {
+        "symbol": "ON",
+        "name": "온 세미컨덕터",
+        "reason": "수요 증가",
+        "why_important": "반도체 성장",
+        "impact": "high",
+        "ret30d": 54.8,
+        "changePct": 70.9,
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
+        "risk_level": "medium",
+        "competitors": [
+          "TXN",
+          "NVDA"
         ],
         "short_term": "상승",
         "mid_term": "유지",
@@ -9979,17 +10097,55 @@
       {
         "symbol": "NFLX",
         "name": "넷플릭스",
-        "reason": "경쟁",
-        "why_important": "하락",
+        "reason": "수요 감소",
+        "why_important": "競爭 심화",
         "impact": "medium",
         "ret30d": -19.9,
         "changePct": -19.8,
         "rating": "sell",
-        "rating_reason": "하락",
+        "rating_reason": "경쟁 심화",
         "risk_level": "high",
         "competitors": [
-          "AMZN",
-          "DIS"
+          "AAPL",
+          "AMZN"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "회복"
+      },
+      {
+        "symbol": "INTU",
+        "name": "인튜이트",
+        "reason": "수요 감소",
+        "why_important": "競爭 심화",
+        "impact": "medium",
+        "ret30d": -19.1,
+        "changePct": -19.7,
+        "rating": "sell",
+        "rating_reason": "경쟁 심화",
+        "risk_level": "high",
+        "competitors": [
+          "ADBE",
+          "MSFT"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "회복"
+      },
+      {
+        "symbol": "LULU",
+        "name": "루루레몬",
+        "reason": "수요 감소",
+        "why_important": "競爭 심화",
+        "impact": "medium",
+        "ret30d": -19.4,
+        "changePct": -19.3,
+        "rating": "sell",
+        "rating_reason": "경쟁 심화",
+        "risk_level": "high",
+        "competitors": [
+          "NKE",
+          "UA"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10000,20 +10156,58 @@
       {
         "symbol": "MSFT",
         "name": "마이크로소프트",
-        "reason": "안정",
-        "why_important": "유지",
-        "impact": "low",
+        "reason": "수요 증가",
+        "why_important": "클라우드 성장",
+        "impact": "medium",
         "ret30d": 1.6,
         "changePct": 3.8,
-        "rating": "neutral",
-        "rating_reason": "안정",
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
         "risk_level": "low",
         "competitors": [
-          "GOOGL",
-          "AMZN"
+          "AMZN",
+          "GOOGL"
         ],
         "short_term": "유지",
-        "mid_term": "유지",
+        "mid_term": "성장",
+        "long_term": "성장"
+      },
+      {
+        "symbol": "AAPL",
+        "name": "애플",
+        "reason": "수요 증가",
+        "why_important": "스마트폰 성장",
+        "impact": "medium",
+        "ret30d": 18.6,
+        "changePct": 17.3,
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
+        "risk_level": "low",
+        "competitors": [
+          "SAM",
+          "GOOGL"
+        ],
+        "short_term": "유지",
+        "mid_term": "성장",
+        "long_term": "성장"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "구글",
+        "reason": "수요 증가",
+        "why_important": "광고 성장",
+        "impact": "medium",
+        "ret30d": 16.1,
+        "changePct": 15.7,
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
+        "risk_level": "low",
+        "competitors": [
+          "MSFT",
+          "FB"
+        ],
+        "short_term": "유지",
+        "mid_term": "성장",
         "long_term": "성장"
       }
     ],
@@ -10021,34 +10215,96 @@
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "reason": "수요",
-        "why_important": "증가",
+        "reason": "수요 증가",
+        "why_important": "AI 성장",
         "impact": "high",
         "volume": 141557,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "성장 가능성",
         "risk_level": "medium",
         "competitors": [
           "AMD",
-          "INTC"
+          "TXN"
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "아마존",
+        "reason": "수요 증가",
+        "why_important": "클라우드 성장",
+        "impact": "high",
+        "volume": 38605,
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "reason": "수요 증가",
+        "why_important": "전기차 성장",
+        "impact": "high",
+        "volume": 32191,
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
+        "risk_level": "medium",
+        "competitors": [
+          "GM",
+          "F"
         ]
       }
     ],
     "near_52w_high": [
       {
-        "symbol": "GOOGL",
-        "name": "구글",
-        "reason": "수익성",
-        "why_important": "주도적",
+        "symbol": "QCOM",
+        "name": "퀄컴",
+        "reason": "수요 증가",
+        "why_important": "5G 성장",
         "impact": "high",
-        "ret30d": 16.1,
-        "changePct": 15.7,
+        "ret30d": 80.9,
+        "changePct": 82.9,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "성장 가능성",
         "risk_level": "medium",
         "competitors": [
-          "MSFT",
-          "AMZN"
+          "TXN",
+          "NVDA"
+        ]
+      },
+      {
+        "symbol": "MU",
+        "name": "마이크론",
+        "reason": "수요 증가",
+        "why_important": "반도체 성장",
+        "impact": "high",
+        "ret30d": 102,
+        "changePct": 102.4,
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
+        "risk_level": "medium",
+        "competitors": [
+          "SNPS",
+          "KLAC"
+        ]
+      },
+      {
+        "symbol": "ON",
+        "name": "온 세미컨덕터",
+        "reason": "수요 증가",
+        "why_important": "반도체 성장",
+        "impact": "high",
+        "ret30d": 54.8,
+        "changePct": 70.9,
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
+        "risk_level": "medium",
+        "competitors": [
+          "TXN",
+          "NVDA"
         ]
       }
     ],
@@ -10058,15 +10314,33 @@
         "trend": "상승",
         "avg_change": 24.31,
         "keywords": [
-          "반도체",
-          "성장"
+          "5G",
+          "AI"
         ],
-        "summary": "반도체 섹터 상승",
+        "summary": "수요 증가",
         "short_term": "상승",
         "mid_term": "유지",
         "top_etfs": [
-          "091160",
-          "157490"
+          "QCOM",
+          "MU",
+          "ON"
+        ]
+      },
+      {
+        "sector": "클라우드",
+        "trend": "상승",
+        "avg_change": 17.64,
+        "keywords": [
+          "AWS",
+          "Azure"
+        ],
+        "summary": "수요 증가",
+        "short_term": "상승",
+        "mid_term": "유지",
+        "top_etfs": [
+          "MSFT",
+          "AMZN",
+          "GOOGL"
         ]
       },
       {
@@ -10074,153 +10348,148 @@
         "trend": "상승",
         "avg_change": 17.31,
         "keywords": [
-          "AI",
-          "성장"
+          "머신러닝",
+          "딥러닝"
         ],
-        "summary": "AI 섹터 상승",
+        "summary": "수요 증가",
         "short_term": "상승",
         "mid_term": "유지",
         "top_etfs": [
-          "364980",
-          "385720"
+          "NVDA",
+          "GOOGL",
+          "MSFT"
         ]
       },
       {
-        "sector": "클라우드",
+        "sector": "소프트웨어",
         "trend": "상승",
-        "avg_change": 20.55,
+        "avg_change": 15.3,
         "keywords": [
-          "클라우드",
-          "성장"
+          "SaaS",
+          "PaaS"
         ],
-        "summary": "클라우드 섹터 상승",
+        "summary": "수요 증가",
         "short_term": "상승",
         "mid_term": "유지",
         "top_etfs": [
-          "CRWD",
-          "FTNT"
+          "MSFT",
+          "ADBE",
+          "GOOGL"
         ]
       },
       {
-        "sector": "산업",
+        "sector": "기술",
         "trend": "상승",
-        "avg_change": 19.81,
+        "avg_change": 13.15,
         "keywords": [
-          "산업",
-          "성장"
+          "5G",
+          "AI"
         ],
-        "summary": "산업 섹터 상승",
+        "summary": "수요 증가",
         "short_term": "상승",
         "mid_term": "유지",
         "top_etfs": [
-          "140710",
-          "276990"
-        ]
-      },
-      {
-        "sector": "부동산",
-        "trend": "상승",
-        "avg_change": 10.85,
-        "keywords": [
-          "부동산",
-          "성장"
-        ],
-        "summary": "부동산 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "381180",
-          "334700"
+          "AAPL",
+          "GOOGL",
+          "MSFT"
         ]
       }
     ],
     "etf_issues": [
       {
-        "symbol": "AAPL",
-        "issue": "경쟁",
+        "symbol": "QCOM",
+        "issue": "5G 성장",
         "issue_type": "macro",
         "impact_etfs": [
-          "MSFT",
+          "NVDA",
+          "TXN"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "MSFT",
+        "issue": "클라우드 성장",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "AMZN",
           "GOOGL"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "NFLX",
-        "issue": "하락",
-        "issue_type": "earnings",
-        "impact_etfs": [
-          "AMZN",
-          "DIS"
-        ],
-        "is_noise": false,
-        "impact": "medium"
-      },
-      {
-        "symbol": "MSFT",
-        "issue": "안정",
-        "issue_type": "policy",
+        "symbol": "NVDA",
+        "issue": "AI 성장",
+        "issue_type": "macro",
         "impact_etfs": [
           "GOOGL",
-          "AMZN"
+          "MSFT"
         ],
         "is_noise": false,
-        "impact": "low"
+        "impact": "high"
       }
     ],
     "risk_analysis": [
       {
-        "symbol": "NVDA",
-        "name": "엔비디아",
+        "symbol": "QCOM",
+        "name": "퀄컴",
         "risk_level": "medium",
         "volatility": "중변동성",
         "max_drawdown_risk": "20%",
-        "hedge_suggestion": "안정적 자산",
+        "hedge_suggestion": "고정 수익",
         "suitable_for": "중장기 투자자"
       },
       {
-        "symbol": "GOOGL",
-        "name": "구글",
+        "symbol": "MU",
+        "name": "마이크론",
         "risk_level": "medium",
         "volatility": "중변동성",
         "max_drawdown_risk": "25%",
-        "hedge_suggestion": "다각화 투자",
+        "hedge_suggestion": "고정 수익",
         "suitable_for": "중장기 투자자"
       },
       {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "risk_level": "low",
-        "volatility": "저변동성",
-        "max_drawdown_risk": "10%",
-        "hedge_suggestion": "안정적 자산",
-        "suitable_for": "장기 투자자"
+        "symbol": "ON",
+        "name": "온 세미컨덕터",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "고정 수익",
+        "suitable_for": "중장기 투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
-        "NVDA",
-        "GOOGL",
-        "CRWD"
+        "QCOM",
+        "MU",
+        "ON"
       ],
       "balanced": [
         "MSFT",
         "AAPL",
-        "AMZN"
+        "GOOGL"
       ],
       "conservative": [
         "JNJ",
         "PG",
-        "XOM"
+        "KO"
       ],
       "suggestion": "중장기 투자자에게 적합"
-    }
+    },
+    "market_summary": "기술 섹터 상승",
+    "top_keywords": [
+      "5G",
+      "AI",
+      "클라우드"
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "기술 섹터 성장"
   },
-  "updatedAt": "2026-05-28T21:09:54.544Z",
+  "updatedAt": "2026-05-28T23:08:08.409Z",
   "stats": {
-    "total": 622,
-    "us": 492,
+    "total": 627,
+    "us": 497,
     "korea": 112,
     "global": 18
   }
