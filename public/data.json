@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "HEWG,116946,3000",
+      "name": "iShares Currency Hedged MSCI Ge",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 0,
+      "low52": 39515,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10034,14 +10034,14 @@
     }
   ],
   "ai": {
-    "market_summary": "현재 시장은 상승세를 보이고 있습니다.",
+    "market_summary": "고성장 섹터는 반도체, AI, 클라우드",
     "top_keywords": [
-      "레버리지",
-      "한국",
-      "サイ버보안"
+      "반도체",
+      "AI",
+      "클라우드"
     ]
   },
-  "updatedAt": "2026-05-30T22:48:32.601Z",
+  "updatedAt": "2026-05-31T04:48:15.669Z",
   "stats": {
     "total": 627,
     "us": 497,
