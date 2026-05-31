@@ -10034,14 +10034,461 @@
     }
   ],
   "ai": {
-    "market_summary": "시장은 상승 중입니다.",
+    "trending_up": [
+      {
+        "symbol": "AMD",
+        "name": "AMD",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 85.4,
+        "changePct": 85.5,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "QCOM"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "QCOM",
+        "name": "QCOM",
+        "reason": "5G 성장",
+        "why_important": "모바일",
+        "impact": "high",
+        "ret30d": 84.3,
+        "changePct": 86.7,
+        "rating": "buy",
+        "rating_reason": "5G 성장",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "TXN"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "MU",
+        "name": "MU",
+        "reason": "메모리 성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 113.4,
+        "changePct": 112.4,
+        "rating": "buy",
+        "rating_reason": "메모리 성장",
+        "risk_level": "high",
+        "competitors": [
+          "SK하이닉스",
+          "삼성전자"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "META",
+        "name": "META",
+        "reason": "광고 성장 둔화",
+        "why_important": "소셜미디어",
+        "impact": "high",
+        "ret30d": -8.1,
+        "changePct": -6.6,
+        "rating": "sell",
+        "rating_reason": "광고 성장 둔화",
+        "risk_level": "high",
+        "competitors": [
+          "GOOGL",
+          "TWTR"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "NFLX",
+        "name": "NFLX",
+        "reason": "성장 둔화",
+        "why_important": "OTT",
+        "impact": "high",
+        "ret30d": -11.6,
+        "changePct": -20.2,
+        "rating": "sell",
+        "rating_reason": "성장 둔화",
+        "risk_level": "high",
+        "competitors": [
+          "AMZN",
+          "AAPL"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "PEP",
+        "name": "PEP",
+        "reason": "소비자 지출 감소",
+        "why_important": "식음료",
+        "impact": "high",
+        "ret30d": -8.5,
+        "changePct": -9,
+        "rating": "sell",
+        "rating_reason": "소비자 지출 감소",
+        "risk_level": "high",
+        "competitors": [
+          "KO",
+          "PG"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "MSFT",
+        "name": "MSFT",
+        "reason": "클라우드 성장",
+        "why_important": "소프트웨어",
+        "impact": "high",
+        "ret30d": 6.5,
+        "changePct": 7.1,
+        "rating": "buy",
+        "rating_reason": "클라우드 성장",
+        "risk_level": "high",
+        "competitors": [
+          "AMZN",
+          "GOOGL"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "AAPL",
+        "name": "AAPL",
+        "reason": "아이폰 성장",
+        "why_important": "모바일",
+        "impact": "high",
+        "ret30d": 15.5,
+        "changePct": 18.5,
+        "rating": "buy",
+        "rating_reason": "아이폰 성장",
+        "risk_level": "high",
+        "competitors": [
+          "SAM",
+          "GOOGL"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "GOOGL",
+        "reason": "광고 성장",
+        "why_important": "검색",
+        "impact": "high",
+        "ret30d": 11.3,
+        "changePct": 13.2,
+        "rating": "buy",
+        "rating_reason": "광고 성장",
+        "risk_level": "high",
+        "competitors": [
+          "FB",
+          "AMZN"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "NVDA",
+        "name": "NVDA",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "volume": 289411,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "AMD",
+          "QCOM"
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "AMZN",
+        "reason": "클라우드 성장",
+        "why_important": "소프트웨어",
+        "impact": "high",
+        "volume": 54750,
+        "rating": "buy",
+        "rating_reason": "클라우드 성장",
+        "risk_level": "high",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "TSLA",
+        "reason": "전기차 성장",
+        "why_important": "자동차",
+        "impact": "high",
+        "volume": 45177,
+        "rating": "buy",
+        "rating_reason": "전기차 성장",
+        "risk_level": "high",
+        "competitors": [
+          "GM",
+          "F"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "AMD",
+        "name": "AMD",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "volume": 79654,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "QCOM"
+        ]
+      },
+      {
+        "symbol": "QCOM",
+        "name": "QCOM",
+        "reason": "5G 성장",
+        "why_important": "모바일",
+        "impact": "high",
+        "volume": 289411,
+        "rating": "buy",
+        "rating_reason": "5G 성장",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "TXN"
+        ]
+      },
+      {
+        "symbol": "MU",
+        "name": "MU",
+        "reason": "메모리 성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "volume": 30803,
+        "rating": "buy",
+        "rating_reason": "메모리 성장",
+        "risk_level": "high",
+        "competitors": [
+          "SK하이닉스",
+          "삼성전자"
+        ]
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "반도체",
+        "trend": "상승",
+        "avg_change": 25.02,
+        "keywords": [
+          "반도체",
+          "메모리"
+        ],
+        "summary": "반도체 성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "AMD",
+          "QCOM",
+          "MU"
+        ]
+      },
+      {
+        "sector": "클라우드",
+        "trend": "상승",
+        "avg_change": 22.83,
+        "keywords": [
+          "클라우드",
+          "소프트웨어"
+        ],
+        "summary": "클라우드 성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "MSFT",
+          "AMZN",
+          "GOOGL"
+        ]
+      },
+      {
+        "sector": "AI",
+        "trend": "상승",
+        "avg_change": 17.09,
+        "keywords": [
+          "AI",
+          "로봇"
+        ],
+        "summary": "AI 성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "NVDA",
+          "GOOGL",
+          "BIDU"
+        ]
+      },
+      {
+        "sector": "부동산",
+        "trend": "상승",
+        "avg_change": 10.16,
+        "keywords": [
+          "부동산",
+          "주택"
+        ],
+        "summary": "부동산 성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "SPG",
+          "VTR",
+          "HCP"
+        ]
+      },
+      {
+        "sector": "기술",
+        "trend": "상승",
+        "avg_change": 13.42,
+        "keywords": [
+          "기술",
+          "소프트웨어"
+        ],
+        "summary": "기술 성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "AAPL",
+          "GOOGL",
+          "MSFT"
+        ]
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "AMD",
+        "issue": "고성장",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "NVDA",
+          "QCOM"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "QCOM",
+        "issue": "5G 성장",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "NVDA",
+          "TXN"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "MU",
+        "issue": "메모리 성장",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "SK하이닉스",
+          "삼성전자"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      }
+    ],
+    "risk_analysis": [
+      {
+        "symbol": "AMD",
+        "name": "AMD",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "고위험",
+        "suitable_for": "고위험 투자자"
+      },
+      {
+        "symbol": "QCOM",
+        "name": "QCOM",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "고위험",
+        "suitable_for": "고위험 투자자"
+      },
+      {
+        "symbol": "MU",
+        "name": "MU",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "고위험",
+        "suitable_for": "고위험 투자자"
+      }
+    ],
+    "portfolio_suggestion": {
+      "aggressive": [
+        "AMD",
+        "QCOM",
+        "MU"
+      ],
+      "balanced": [
+        "MSFT",
+        "AAPL",
+        "GOOGL"
+      ],
+      "conservative": [
+        "SPG",
+        "VTR",
+        "HCP"
+      ],
+      "suggestion": "고위험 투자자에게 적합한 포트폴리오는 AMD, QCOM, MU를 포함한 공격적인 포트폴리오입니다."
+    },
+    "market_summary": "시장은 상승세를 보이고 있습니다.",
     "top_keywords": [
       "반도체",
       "클라우드",
       "AI"
-    ]
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "시장은 상승세를 보이고 있습니다."
   },
-  "updatedAt": "2026-05-31T20:12:46.642Z",
+  "updatedAt": "2026-05-31T22:50:30.439Z",
   "stats": {
     "total": 627,
     "us": 497,
