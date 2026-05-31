@@ -10034,14 +10034,464 @@
     }
   ],
   "ai": {
-    "market_summary": "반도체와 클라우드 수요 증가로 상승",
+    "trending_up": [
+      {
+        "symbol": "QCOM",
+        "name": "퀄컴",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 84.3,
+        "changePct": 86.7,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
+        "competitors": [
+          "NVDA",
+          "TXN"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "MU",
+        "name": "마이크론",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 113.4,
+        "changePct": 112.4,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
+        "competitors": [
+          "NVDA",
+          "TXN"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "CRWD",
+        "name": "크라우드스트라이크",
+        "reason": "고성장",
+        "why_important": "サイ버보안",
+        "impact": "high",
+        "ret30d": 72.4,
+        "changePct": 74.8,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
+        "competitors": [
+          "PANW",
+          "FTNT"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "NFLX",
+        "name": "넷플릭스",
+        "reason": "低成長",
+        "why_important": "엔터테인먼트",
+        "impact": "medium",
+        "ret30d": -11.6,
+        "changePct": -20.2,
+        "rating": "sell",
+        "rating_reason": "低成長",
+        "risk_level": "low",
+        "competitors": [
+          "AAPL",
+          "AMZN"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "META",
+        "name": "메타",
+        "reason": "低成長",
+        "why_important": "소셜미디어",
+        "impact": "medium",
+        "ret30d": -8.1,
+        "changePct": -6.6,
+        "rating": "sell",
+        "rating_reason": "低成長",
+        "risk_level": "low",
+        "competitors": [
+          "GOOGL",
+          "TWTR"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "LULU",
+        "name": "루루레몬",
+        "reason": "低成長",
+        "why_important": "패션",
+        "impact": "medium",
+        "ret30d": -21.6,
+        "changePct": -19.5,
+        "rating": "sell",
+        "rating_reason": "低成長",
+        "risk_level": "low",
+        "competitors": [
+          "NKE",
+          "ADIDAS"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "reason": "안정성",
+        "why_important": "소프트웨어",
+        "impact": "medium",
+        "ret30d": 6.5,
+        "changePct": 7.1,
+        "rating": "neutral",
+        "rating_reason": "안정성",
+        "risk_level": "low",
+        "competitors": [
+          "GOOGL",
+          "AMZN"
+        ],
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "보합"
+      },
+      {
+        "symbol": "ADBE",
+        "name": "어도비",
+        "reason": "안정성",
+        "why_important": "소프트웨어",
+        "impact": "medium",
+        "ret30d": 6,
+        "changePct": 4.5,
+        "rating": "neutral",
+        "rating_reason": "안정성",
+        "risk_level": "low",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "보합"
+      },
+      {
+        "symbol": "CSCO",
+        "name": "시스코",
+        "reason": "안정성",
+        "why_important": "네트워크",
+        "impact": "medium",
+        "ret30d": 39.6,
+        "changePct": 42.5,
+        "rating": "neutral",
+        "rating_reason": "안정성",
+        "risk_level": "low",
+        "competitors": [
+          "JNPR",
+          "VMW"
+        ],
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "보합"
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "volume": 230466,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
+        "competitors": [
+          "QCOM",
+          "TXN"
+        ]
+      },
+      {
+        "symbol": "MU",
+        "name": "마이크론",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "volume": 60134,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
+        "competitors": [
+          "NVDA",
+          "TXN"
+        ]
+      },
+      {
+        "symbol": "QCOM",
+        "name": "퀄컴",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "volume": 28744,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
+        "competitors": [
+          "NVDA",
+          "TXN"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "QCOM",
+        "name": "퀄컴",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 84.3,
+        "changePct": 86.7,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
+        "competitors": [
+          "NVDA",
+          "TXN"
+        ]
+      },
+      {
+        "symbol": "MU",
+        "name": "마이크론",
+        "reason": "고성장",
+        "why_important": "反도체",
+        "impact": "high",
+        "ret30d": 113.4,
+        "changePct": 112.4,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
+        "competitors": [
+          "NVDA",
+          "TXN"
+        ]
+      },
+      {
+        "symbol": "CRWD",
+        "name": "크라우드스트라이크",
+        "reason": "고성장",
+        "why_important": "サイ버보안",
+        "impact": "high",
+        "ret30d": 72.4,
+        "changePct": 74.8,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
+        "competitors": [
+          "PANW",
+          "FTNT"
+        ]
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "반도체",
+        "trend": "상승",
+        "avg_change": 25.02,
+        "keywords": [
+          "반도체",
+          "고성장"
+        ],
+        "summary": "반도체 섹터는 고성장으로 상승 중",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "QCOM",
+          "MU",
+          "NVDA"
+        ]
+      },
+      {
+        "sector": "サイ버보안",
+        "trend": "상승",
+        "avg_change": 31.41,
+        "keywords": [
+          "サイ버보안",
+          "고성장"
+        ],
+        "summary": "サイ버보안 섹터는 고성장으로 상승 중",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "CRWD",
+          "PANW",
+          "FTNT"
+        ]
+      },
+      {
+        "sector": "클라우드",
+        "trend": "상승",
+        "avg_change": 22.83,
+        "keywords": [
+          "클라우드",
+          "고성장"
+        ],
+        "summary": "클라우드 섹터는 고성장으로 상승 중",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "MSFT",
+          "GOOGL",
+          "AMZN"
+        ]
+      },
+      {
+        "sector": "산업",
+        "trend": "상승",
+        "avg_change": 21.5,
+        "keywords": [
+          "산업",
+          "고성장"
+        ],
+        "summary": "산업 섹터는 고성장으로 상승 중",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "CSCO",
+          "JNPR",
+          "VMW"
+        ]
+      },
+      {
+        "sector": "소프트웨어",
+        "trend": "상승",
+        "avg_change": 20.51,
+        "keywords": [
+          "소프트웨어",
+          "고성장"
+        ],
+        "summary": "소프트웨어 섹터는 고성장으로 상승 중",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "MSFT",
+          "ADBE",
+          "GOOGL"
+        ]
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "QCOM",
+        "issue": "고성장",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "NVDA",
+          "TXN"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "MU",
+        "issue": "고성장",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "NVDA",
+          "TXN"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "CRWD",
+        "issue": "고성장",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "PANW",
+          "FTNT"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      }
+    ],
+    "risk_analysis": [
+      {
+        "symbol": "QCOM",
+        "name": "퀄컴",
+        "risk_level": "medium",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "반도체",
+        "suitable_for": "고위험投資家"
+      },
+      {
+        "symbol": "MU",
+        "name": "마이크론",
+        "risk_level": "medium",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "반도체",
+        "suitable_for": "고위험投資家"
+      },
+      {
+        "symbol": "CRWD",
+        "name": "크라우드스트라이크",
+        "risk_level": "medium",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "サイ버보안",
+        "suitable_for": "고위험投資家"
+      }
+    ],
+    "portfolio_suggestion": {
+      "aggressive": [
+        "QCOM",
+        "MU",
+        "CRWD"
+      ],
+      "balanced": [
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ],
+      "conservative": [
+        "CSCO",
+        "JNPR",
+        "VMW"
+      ],
+      "suggestion": "고위험投資家는 반도체나 サイ버보안에 투자하십시오."
+    },
+    "market_summary": "시장은 상승 중입니다.",
     "top_keywords": [
       "반도체",
-      "클라우드",
-      "AI"
-    ]
+      "고성장",
+      "サイ버보안"
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "고성장과 기술 혁신으로 인해 시장은 상승 중입니다."
   },
-  "updatedAt": "2026-05-31T09:46:52.411Z",
+  "updatedAt": "2026-05-31T16:36:21.587Z",
   "stats": {
     "total": 627,
     "us": 497,
