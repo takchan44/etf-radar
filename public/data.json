@@ -10037,9 +10037,9 @@
     "trending_up": [
       {
         "symbol": "MU",
-        "name": "MU",
-        "reason": "고성장",
-        "why_important": "반도체",
+        "name": "마이크론",
+        "reason": "수급과제",
+        "why_important": "반도체 수요 증가",
         "impact": "high",
         "ret30d": 130.9,
         "changePct": 127.5,
@@ -10056,15 +10056,15 @@
       },
       {
         "symbol": "PANW",
-        "name": "PANW",
-        "reason": "고성장",
-        "why_important": "サイ버보안",
+        "name": "팰로앨토네트웍스",
+        "reason": "サイ버보안 수요 증가",
+        "why_important": "보안 필요성 증가",
         "impact": "high",
         "ret30d": 77.2,
         "changePct": 79,
         "rating": "buy",
         "rating_reason": "고성장",
-        "risk_level": "high",
+        "risk_level": "medium",
         "competitors": [
           "FTNT",
           "CRWD"
@@ -10075,9 +10075,9 @@
       },
       {
         "symbol": "DDOG",
-        "name": "DDOG",
-        "reason": "고성장",
-        "why_important": "클라우드",
+        "name": "데이타독",
+        "reason": "클라우드 수요 증가",
+        "why_important": "디지털 전환",
         "impact": "high",
         "ret30d": 113.9,
         "changePct": 119.2,
@@ -10085,8 +10085,8 @@
         "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "TTD",
-          "ZS"
+          "SNPS",
+          "TTD"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10096,56 +10096,56 @@
     "trending_down": [
       {
         "symbol": "META",
-        "name": "META",
-        "reason": "하락",
-        "why_important": "소셜미디어",
-        "impact": "high",
+        "name": "메타플랫폼",
+        "reason": "광고 수요 감소",
+        "why_important": "제로서미 해법",
+        "impact": "medium",
         "ret30d": -10.5,
         "changePct": -12.8,
         "rating": "sell",
         "rating_reason": "하락",
-        "risk_level": "high",
+        "risk_level": "medium",
         "competitors": [
           "GOOGL",
-          "TWTR"
+          "AAPL"
         ],
         "short_term": "하락",
         "mid_term": "하락",
         "long_term": "하락"
       },
       {
-        "symbol": "PEP",
-        "name": "PEP",
-        "reason": "하락",
-        "why_important": "음료",
+        "symbol": "NFLX",
+        "name": "넷플릭스",
+        "reason": "구독자 감소",
+        "why_important": "콘텐츠 경쟁",
         "impact": "medium",
-        "ret30d": -9.9,
-        "changePct": -10.2,
+        "ret30d": -9.5,
+        "changePct": -11.8,
         "rating": "sell",
         "rating_reason": "하락",
         "risk_level": "medium",
         "competitors": [
-          "KO",
-          "PM"
+          "AAPL",
+          "AMZN"
         ],
         "short_term": "하락",
         "mid_term": "하락",
         "long_term": "하락"
       },
       {
-        "symbol": "INTU",
-        "name": "INTU",
-        "reason": "하락",
-        "why_important": "회계",
-        "impact": "medium",
-        "ret30d": -12.6,
-        "changePct": -10,
+        "symbol": "LULU",
+        "name": "루루레몬",
+        "reason": "소비자 감소",
+        "why_important": "경기 침체",
+        "impact": "low",
+        "ret30d": -20.8,
+        "changePct": -21,
         "rating": "sell",
         "rating_reason": "하락",
-        "risk_level": "medium",
+        "risk_level": "low",
         "competitors": [
-          "ADBE",
-          "MSFT"
+          "NKE",
+          "ADIDAS"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10155,118 +10155,85 @@
     "steady_growth": [
       {
         "symbol": "MSFT",
-        "name": "MSFT",
-        "reason": "안정성",
-        "why_important": "클라우드",
-        "impact": "medium",
+        "name": "마이크로소프트",
+        "reason": "클라우드 수요 증가",
+        "why_important": "디지털 전환",
+        "impact": "high",
         "ret30d": 10.2,
         "changePct": 8.9,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "low",
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
         "competitors": [
-          "GOOGL",
-          "AMZN"
+          "AMZN",
+          "GOOGL"
         ],
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합"
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
       },
       {
         "symbol": "AAPL",
-        "name": "AAPL",
-        "reason": "안정성",
-        "why_important": "스마트폰",
-        "impact": "medium",
+        "name": "애플",
+        "reason": "스마트폰 수요 증가",
+        "why_important": "모바일 시장",
+        "impact": "high",
         "ret30d": 12.2,
         "changePct": 13.4,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "low",
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
         "competitors": [
           "SAM",
           "GOOGL"
         ],
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합"
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
       },
       {
-        "symbol": "GOOGL",
-        "name": "GOOGL",
-        "reason": "안정성",
-        "why_important": "검색",
-        "impact": "medium",
-        "ret30d": 11.5,
-        "changePct": 10.2,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "low",
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "reason": "AI 수요 증가",
+        "why_important": "인공지능 시장",
+        "impact": "high",
+        "ret30d": 11,
+        "changePct": 11.2,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
         "competitors": [
-          "MSFT",
-          "BIDU"
+          "AMD",
+          "INTC"
         ],
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합"
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
       }
     ],
     "high_volume": [
       {
         "symbol": "NVDA",
-        "name": "NVDA",
-        "reason": "고거래량",
-        "why_important": "반도체",
+        "name": "엔비디아",
+        "reason": "AI 수요 증가",
+        "why_important": "인공지능 시장",
         "impact": "high",
         "volume": 197230,
         "rating": "buy",
-        "rating_reason": "고거래량",
+        "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "MU",
-          "AMD"
+          "AMD",
+          "INTC"
         ]
       },
-      {
-        "symbol": "AMZN",
-        "name": "AMZN",
-        "reason": "고거래량",
-        "why_important": "전자상거래",
-        "impact": "medium",
-        "volume": 51806,
-        "rating": "neutral",
-        "rating_reason": "고거래량",
-        "risk_level": "medium",
-        "competitors": [
-          "GOOGL",
-          "EBAY"
-        ]
-      },
-      {
-        "symbol": "TSLA",
-        "name": "TSLA",
-        "reason": "고거래량",
-        "why_important": "전기차",
-        "impact": "medium",
-        "volume": 42806,
-        "rating": "neutral",
-        "rating_reason": "고거래량",
-        "risk_level": "medium",
-        "competitors": [
-          "GM",
-          "F"
-        ]
-      }
-    ],
-    "near_52w_high": [
       {
         "symbol": "MU",
-        "name": "MU",
-        "reason": "고성장",
-        "why_important": "반도체",
+        "name": "마이크론",
+        "reason": "수급과제",
+        "why_important": "반도체 수요 증가",
         "impact": "high",
-        "ret30d": 130.9,
-        "changePct": 127.5,
+        "volume": 45209,
         "rating": "buy",
         "rating_reason": "고성장",
         "risk_level": "high",
@@ -10276,35 +10243,68 @@
         ]
       },
       {
-        "symbol": "PANW",
-        "name": "PANW",
-        "reason": "고성장",
-        "why_important": "サイ버보안",
+        "symbol": "AMD",
+        "name": "AMD",
+        "reason": "수급과제",
+        "why_important": "반도체 수요 증가",
         "impact": "high",
-        "ret30d": 77.2,
-        "changePct": 79,
+        "volume": 33165,
         "rating": "buy",
         "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "FTNT",
-          "CRWD"
+          "NVDA",
+          "INTC"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "reason": "클라우드 수요 증가",
+        "why_important": "디지털 전환",
+        "impact": "high",
+        "ret30d": 10.2,
+        "changePct": 8.9,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
+        "competitors": [
+          "AMZN",
+          "GOOGL"
         ]
       },
       {
-        "symbol": "DDOG",
-        "name": "DDOG",
-        "reason": "고성장",
-        "why_important": "클라우드",
+        "symbol": "AAPL",
+        "name": "애플",
+        "reason": "스마트폰 수요 증가",
+        "why_important": "모바일 시장",
         "impact": "high",
-        "ret30d": 113.9,
-        "changePct": 119.2,
+        "ret30d": 12.2,
+        "changePct": 13.4,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "medium",
+        "competitors": [
+          "SAM",
+          "GOOGL"
+        ]
+      },
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "reason": "AI 수요 증가",
+        "why_important": "인공지능 시장",
+        "impact": "high",
+        "ret30d": 11,
+        "changePct": 11.2,
         "rating": "buy",
         "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "TTD",
-          "ZS"
+          "AMD",
+          "INTC"
         ]
       }
     ],
@@ -10314,14 +10314,12 @@
         "trend": "상승",
         "avg_change": 25.11,
         "keywords": [
-          "MU",
-          "NVDA",
-          "AMD"
+          "반도체",
+          "AI"
         ],
-        "summary": "반도체 섹터 상승",
+        "summary": "반도체 수요 증가",
         "short_term": "상승",
         "mid_term": "상승",
-        "long_term": "상승",
         "top_etfs": [
           "MU",
           "NVDA",
@@ -10333,56 +10331,16 @@
         "trend": "상승",
         "avg_change": 33.21,
         "keywords": [
-          "MSFT",
-          "GOOGL",
-          "AMZN"
+          "클라우드",
+          "디지털 전환"
         ],
-        "summary": "클라우드 섹터 상승",
+        "summary": "클라우드 수요 증가",
         "short_term": "상승",
         "mid_term": "상승",
-        "long_term": "상승",
         "top_etfs": [
           "MSFT",
-          "GOOGL",
-          "AMZN"
-        ]
-      },
-      {
-        "sector": "サイ버보안",
-        "trend": "상승",
-        "avg_change": 37.63,
-        "keywords": [
-          "PANW",
-          "FTNT",
-          "CRWD"
-        ],
-        "summary": "サイ버보안 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "PANW",
-          "FTNT",
-          "CRWD"
-        ]
-      },
-      {
-        "sector": "소프트웨어",
-        "trend": "상승",
-        "avg_change": 26.59,
-        "keywords": [
-          "MSFT",
-          "ADBE",
-          "INTU"
-        ],
-        "summary": "소프트웨어 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "MSFT",
-          "ADBE",
-          "INTU"
+          "AMZN",
+          "GOOGL"
         ]
       },
       {
@@ -10390,25 +10348,57 @@
         "trend": "상승",
         "avg_change": 16.17,
         "keywords": [
-          "NVDA",
-          "GOOGL",
-          "MSFT"
+          "AI",
+          "인공지능"
         ],
-        "summary": "AI 섹터 상승",
+        "summary": "AI 수요 증가",
         "short_term": "상승",
         "mid_term": "상승",
-        "long_term": "상승",
         "top_etfs": [
           "NVDA",
-          "GOOGL",
-          "MSFT"
+          "AMD",
+          "INTC"
+        ]
+      },
+      {
+        "sector": "소프트웨어",
+        "trend": "상승",
+        "avg_change": 26.59,
+        "keywords": [
+          "소프트웨어",
+          "모바일"
+        ],
+        "summary": "소프트웨어 수요 증가",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "MSFT",
+          "AAPL",
+          "GOOGL"
+        ]
+      },
+      {
+        "sector": "サイ버보안",
+        "trend": "상승",
+        "avg_change": 37.63,
+        "keywords": [
+          "サイ버보안",
+          "보안"
+        ],
+        "summary": "サイ버보안 수요 증가",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "PANW",
+          "FTNT",
+          "CRWD"
         ]
       }
     ],
     "etf_issues": [
       {
         "symbol": "MU",
-        "issue": "고성장",
+        "issue": "수급과제",
         "issue_type": "macro",
         "impact_etfs": [
           "NVDA",
@@ -10418,23 +10408,23 @@
         "impact": "high"
       },
       {
-        "symbol": "PANW",
-        "issue": "サイ버보안",
-        "issue_type": "macro",
+        "symbol": "NVDA",
+        "issue": "AI 수요 증가",
+        "issue_type": "earnings",
         "impact_etfs": [
-          "FTNT",
-          "CRWD"
+          "AMD",
+          "INTC"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "DDOG",
-        "issue": "클라우드",
-        "issue_type": "macro",
+        "symbol": "MSFT",
+        "issue": "클라우드 수요 증가",
+        "issue_type": "policy",
         "impact_etfs": [
-          "TTD",
-          "ZS"
+          "AMZN",
+          "GOOGL"
         ],
         "is_noise": false,
         "impact": "high"
@@ -10443,60 +10433,60 @@
     "risk_analysis": [
       {
         "symbol": "MU",
-        "name": "MU",
+        "name": "마이크론",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "하이브리드",
-        "suitable_for": "적극투자자"
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "반도체 ETF",
+        "suitable_for": "적극 투자자"
       },
       {
-        "symbol": "PANW",
-        "name": "PANW",
+        "symbol": "NVDA",
+        "name": "엔비디아",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "하이브리드",
-        "suitable_for": "적극투자자"
+        "max_drawdown_risk": "25%",
+        "hedge_suggestion": "AI ETF",
+        "suitable_for": "적극 투자자"
       },
       {
-        "symbol": "DDOG",
-        "name": "DDOG",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "하이브리드",
-        "suitable_for": "적극투자자"
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "15%",
+        "hedge_suggestion": "클라우드 ETF",
+        "suitable_for": "중립 투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
         "MU",
-        "PANW",
-        "DDOG"
+        "NVDA",
+        "PANW"
       ],
       "balanced": [
         "MSFT",
-        "GOOGL",
-        "AMZN"
+        "AAPL",
+        "GOOGL"
       ],
       "conservative": [
-        "AAPL",
-        "PG",
-        "JNJ"
+        "AMZN",
+        "INTC",
+        "CSCO"
       ],
-      "suggestion": "적극투자자: MU, PANW, DDOG"
+      "suggestion": "적극 투자자: MU, NVDA, PANW, 중립 투자자: MSFT, AAPL, GOOGL, 보수 투자자: AMZN, INTC, CSCO"
     },
     "market_summary": "시장은 상승 중입니다.",
     "top_keywords": [
       "반도체",
-      "클라우드",
-      "サイ버보안"
+      "AI",
+      "클라우드"
     ],
     "market_sentiment": "bullish",
     "market_sentiment_reason": "시장은 상승 중입니다."
   },
-  "updatedAt": "2026-06-01T22:12:42.984Z",
+  "updatedAt": "2026-06-01T23:21:46.898Z",
   "stats": {
     "total": 627,
     "us": 497,
