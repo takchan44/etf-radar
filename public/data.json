@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "HEWG,116946,3000",
+      "name": "iShares Currency Hedged MSCI Ge",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -8327,7 +8327,7 @@
       "market": "korea",
       "price": 48725,
       "changePct": 59.75409836065574,
-      "volume": 8854389,
+      "volume": 8885429,
       "currency": "KRW",
       "ret5d": -2.8414755732801593,
       "ret30d": 56.42054574638844,
@@ -8391,7 +8391,7 @@
       "market": "korea",
       "price": 34860,
       "changePct": 10.124782814721213,
-      "volume": 1655605,
+      "volume": 1666997,
       "currency": "KRW",
       "ret5d": 1.1460902364717829,
       "ret30d": 10.05524861878453,
@@ -8439,7 +8439,7 @@
       "market": "korea",
       "price": 13485,
       "changePct": -4.463336875664187,
-      "volume": 946299,
+      "volume": 946807,
       "currency": "KRW",
       "ret5d": -1.9629225736095965,
       "ret30d": -5.001761183515322,
@@ -8471,7 +8471,7 @@
       "market": "korea",
       "price": 31145,
       "changePct": 34.76849848550411,
-      "volume": 438383,
+      "volume": 481082,
       "currency": "KRW",
       "ret5d": -2.7022805373320837,
       "ret30d": 28.432989690721648,
@@ -8487,7 +8487,7 @@
       "market": "korea",
       "price": 21385,
       "changePct": 28.284343131373724,
-      "volume": 197778,
+      "volume": 199544,
       "currency": "KRW",
       "ret5d": 1.5673236760864402,
       "ret30d": 26.16519174041298,
@@ -8791,7 +8791,7 @@
       "market": "korea",
       "price": 30165,
       "changePct": -4.887277313574018,
-      "volume": 1726670,
+      "volume": 1735163,
       "currency": "KRW",
       "ret5d": 2.95221843003413,
       "ret30d": -4.38985736925515,
@@ -9015,7 +9015,7 @@
       "market": "korea",
       "price": 9675,
       "changePct": 15.798922800718133,
-      "volume": 98931,
+      "volume": 99462,
       "currency": "KRW",
       "ret5d": 0.7287870900572618,
       "ret30d": 15.798922800718133,
@@ -9031,7 +9031,7 @@
       "market": "korea",
       "price": 53780,
       "changePct": 46.360048986256636,
-      "volume": 3382193,
+      "volume": 3452968,
       "currency": "KRW",
       "ret5d": 8.965656974977206,
       "ret30d": 44.35646221983626,
@@ -9095,7 +9095,7 @@
       "market": "korea",
       "price": 26280,
       "changePct": 10.606060606060606,
-      "volume": 13323059,
+      "volume": 13410635,
       "currency": "KRW",
       "ret5d": 2.9982363315696645,
       "ret30d": 10.53627760252366,
@@ -9175,7 +9175,7 @@
       "market": "korea",
       "price": 49555,
       "changePct": 36.5715860548436,
-      "volume": 21426264,
+      "volume": 21614264,
       "currency": "KRW",
       "ret5d": -1.1174299112042303,
       "ret30d": 32.482288464109075,
@@ -9479,7 +9479,7 @@
       "sector": "채권",
       "price": 55075,
       "changePct": -14.850030921459492,
-      "volume": 258543,
+      "volume": 258909,
       "currency": "KRW",
       "ret5d": -3.0028178936245156,
       "ret30d": -15.580931943592887,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 0,
+      "low52": 39515,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -9847,7 +9847,7 @@
       "sector": "2차전지",
       "price": 5690,
       "changePct": -20.196353436185134,
-      "volume": 51535,
+      "volume": 54632,
       "currency": "KRW",
       "ret5d": -6.797706797706797,
       "ret30d": -19.4621372965322,
@@ -10034,463 +10034,14 @@
     }
   ],
   "ai": {
-    "trending_up": [
-      {
-        "symbol": "QCOM",
-        "name": "퀄컴",
-        "reason": "고성장",
-        "why_important": "5G 수혜",
-        "impact": "high",
-        "ret30d": 45.1,
-        "changePct": 61.2,
-        "rating": "buy",
-        "rating_reason": "수혜 예상",
-        "risk_level": "medium",
-        "competitors": [
-          "NVDA",
-          "TXN"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "MU",
-        "name": "마이크론",
-        "reason": "수급 개선",
-        "why_important": "반도체 수혜",
-        "impact": "high",
-        "ret30d": 73.9,
-        "changePct": 79.4,
-        "rating": "buy",
-        "rating_reason": "수급 개선",
-        "risk_level": "medium",
-        "competitors": [
-          "NVDA",
-          "TXN"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "MRVL",
-        "name": "마벨",
-        "reason": "고성장",
-        "why_important": "5G 수혜",
-        "impact": "high",
-        "ret30d": 60.3,
-        "changePct": 59.1,
-        "rating": "buy",
-        "rating_reason": "수혜 예상",
-        "risk_level": "medium",
-        "competitors": [
-          "NVDA",
-          "TXN"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      }
-    ],
-    "trending_down": [
-      {
-        "symbol": "INTU",
-        "name": "인튜이트",
-        "reason": "실적 부진",
-        "why_important": "회계 소프트웨어",
-        "impact": "medium",
-        "ret30d": -25.1,
-        "changePct": -22.6,
-        "rating": "sell",
-        "rating_reason": "실적 부진",
-        "risk_level": "low",
-        "competitors": [
-          "ADBE",
-          "MSFT"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      },
-      {
-        "symbol": "LULU",
-        "name": "루루레몬",
-        "reason": "실적 부진",
-        "why_important": "의류 소비",
-        "impact": "medium",
-        "ret30d": -20.6,
-        "changePct": -19.4,
-        "rating": "sell",
-        "rating_reason": "실적 부진",
-        "risk_level": "low",
-        "competitors": [
-          "NKE",
-          "UA"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      },
-      {
-        "symbol": "TTD",
-        "name": "트레이딩 데스크",
-        "reason": "실적 부진",
-        "why_important": "광고 소프트웨어",
-        "impact": "medium",
-        "ret30d": -16.8,
-        "changePct": -11.8,
-        "rating": "sell",
-        "rating_reason": "실적 부진",
-        "risk_level": "low",
-        "competitors": [
-          "GOOGL",
-          "FB"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      }
-    ],
-    "steady_growth": [
-      {
-        "symbol": "GOOGL",
-        "name": "구글",
-        "reason": "안정성",
-        "why_important": "검색 엔진",
-        "impact": "low",
-        "ret30d": 7,
-        "changePct": 8.7,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "low",
-        "competitors": [
-          "MSFT",
-          "AMZN"
-        ],
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합"
-      },
-      {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "reason": "안정성",
-        "why_important": "운용 체제",
-        "impact": "low",
-        "ret30d": -1.9,
-        "changePct": 0.2,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "low",
-        "competitors": [
-          "GOOGL",
-          "AMZN"
-        ],
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합"
-      },
-      {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "reason": "안정성",
-        "why_important": "전자 상거래",
-        "impact": "low",
-        "ret30d": -6.8,
-        "changePct": -3.5,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "low",
-        "competitors": [
-          "GOOGL",
-          "MSFT"
-        ],
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합"
-      }
-    ],
-    "high_volume": [
-      {
-        "symbol": "NVDA",
-        "name": "엔비디아",
-        "reason": "고성장",
-        "why_important": "5G 수혜",
-        "impact": "high",
-        "volume": 215650,
-        "rating": "buy",
-        "rating_reason": "수혜 예상",
-        "risk_level": "medium",
-        "competitors": [
-          "QCOM",
-          "TXN"
-        ]
-      },
-      {
-        "symbol": "AAPL",
-        "name": "애플",
-        "reason": "안정성",
-        "why_important": "스마트폰",
-        "impact": "low",
-        "volume": 64824,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "low",
-        "competitors": [
-          "GOOGL",
-          "MSFT"
-        ]
-      },
-      {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "reason": "고성장",
-        "why_important": "전기차",
-        "impact": "high",
-        "volume": 60830,
-        "rating": "buy",
-        "rating_reason": "수혜 예상",
-        "risk_level": "medium",
-        "competitors": [
-          "GM",
-          "F"
-        ]
-      }
-    ],
-    "near_52w_high": [
-      {
-        "symbol": "QCOM",
-        "name": "퀄컴",
-        "reason": "고성장",
-        "why_important": "5G 수혜",
-        "impact": "high",
-        "ret30d": 45.1,
-        "changePct": 61.2,
-        "rating": "buy",
-        "rating_reason": "수혜 예상",
-        "risk_level": "medium",
-        "competitors": [
-          "NVDA",
-          "TXN"
-        ]
-      },
-      {
-        "symbol": "MU",
-        "name": "마이크론",
-        "reason": "수급 개선",
-        "why_important": "반도체 수혜",
-        "impact": "high",
-        "ret30d": 73.9,
-        "changePct": 79.4,
-        "rating": "buy",
-        "rating_reason": "수급 개선",
-        "risk_level": "medium",
-        "competitors": [
-          "NVDA",
-          "TXN"
-        ]
-      },
-      {
-        "symbol": "MRVL",
-        "name": "마벨",
-        "reason": "고성장",
-        "why_important": "5G 수혜",
-        "impact": "high",
-        "ret30d": 60.3,
-        "changePct": 59.1,
-        "rating": "buy",
-        "rating_reason": "수혜 예상",
-        "risk_level": "medium",
-        "competitors": [
-          "NVDA",
-          "TXN"
-        ]
-      }
-    ],
-    "sector_trends": [
-      {
-        "sector": "サイバ",
-        "trend": "상승",
-        "avg_change": 27.4,
-        "keywords": [
-          "보안",
-          "클라우드"
-        ],
-        "summary": "サイバ 보안 수혜",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "QCOM",
-          "MU",
-          "MRVL"
-        ]
-      },
-      {
-        "sector": "レバレッジ",
-        "trend": "상승",
-        "avg_change": 23.9,
-        "keywords": [
-          "증거금",
-          "레버리지"
-        ],
-        "summary": "레버리지 수혜",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "122630",
-          "233740"
-        ]
-      },
-      {
-        "sector": "클라우드",
-        "trend": "상승",
-        "avg_change": 22.27,
-        "keywords": [
-          "클라우드",
-          "소프트웨어"
-        ],
-        "summary": "클라우드 수혜",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "GOOGL",
-          "MSFT",
-          "AMZN"
-        ]
-      },
-      {
-        "sector": "반도체",
-        "trend": "상승",
-        "avg_change": 18.23,
-        "keywords": [
-          "반도체",
-          "5G"
-        ],
-        "summary": "반도체 수혜",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "NVDA",
-          "TXN",
-          "QCOM"
-        ]
-      },
-      {
-        "sector": "전체시장",
-        "trend": "상승",
-        "avg_change": 18.03,
-        "keywords": [
-          "전체시장",
-          "성장주"
-        ],
-        "summary": "전체시장 수혜",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "AAPL",
-          "GOOGL",
-          "MSFT"
-        ]
-      }
-    ],
-    "etf_issues": [
-      {
-        "symbol": "INTU",
-        "issue": "실적 부진",
-        "issue_type": "earnings",
-        "impact_etfs": [
-          "ADBE",
-          "MSFT"
-        ],
-        "is_noise": false,
-        "impact": "medium"
-      },
-      {
-        "symbol": "LULU",
-        "issue": "실적 부진",
-        "issue_type": "earnings",
-        "impact_etfs": [
-          "NKE",
-          "UA"
-        ],
-        "is_noise": false,
-        "impact": "medium"
-      },
-      {
-        "symbol": "TTD",
-        "issue": "실적 부진",
-        "issue_type": "earnings",
-        "impact_etfs": [
-          "GOOGL",
-          "FB"
-        ],
-        "is_noise": false,
-        "impact": "medium"
-      }
-    ],
-    "risk_analysis": [
-      {
-        "symbol": "QCOM",
-        "name": "퀄컴",
-        "risk_level": "medium",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "20%",
-        "hedge_suggestion": "반도체",
-        "suitable_for": "고위험 고수익 투자자"
-      },
-      {
-        "symbol": "MU",
-        "name": "마이크론",
-        "risk_level": "medium",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "25%",
-        "hedge_suggestion": "반도체",
-        "suitable_for": "고위험 고수익 투자자"
-      },
-      {
-        "symbol": "MRVL",
-        "name": "마벨",
-        "risk_level": "medium",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "22%",
-        "hedge_suggestion": "반도체",
-        "suitable_for": "고위험 고수익 투자자"
-      }
-    ],
-    "portfolio_suggestion": {
-      "aggressive": [
-        "QCOM",
-        "MU",
-        "MRVL"
-      ],
-      "balanced": [
-        "GOOGL",
-        "MSFT",
-        "AMZN"
-      ],
-      "conservative": [
-        "AAPL",
-        "TSLA",
-        "NVDA"
-      ],
-      "suggestion": "고위험 고수익 투자자에게 적합한 포트폴리오는 QCOM, MU, MRVL을 포함하는 공격적인 포트폴리오입니다."
-    },
-    "market_summary": "현재 시장은 상승세를 보이고 있습니다.",
+    "market_summary": "시장은 상승하고 있습니다.",
     "top_keywords": [
-      "5G",
-      "클라우드",
-      "반도체"
-    ],
-    "market_sentiment": "bullish",
-    "market_sentiment_reason": "시장의 상승세는 5G, 클라우드, 반도체 등 기술 관련 주식의 성장에 기인합니다."
+      "サイ버보안",
+      "반도체",
+      "클라우드"
+    ]
   },
-  "updatedAt": "2026-06-07T09:59:31.954Z",
+  "updatedAt": "2026-06-07T16:44:14.680Z",
   "stats": {
     "total": 627,
     "us": 497,
