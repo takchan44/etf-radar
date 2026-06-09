@@ -7,7 +7,7 @@
       "sector": "전체시장",
       "price": 737.05,
       "changePct": 3.0594124473901303,
-      "volume": 86255633,
+      "volume": 86844734,
       "currency": "USD",
       "ret5d": -2.964836303048791,
       "ret30d": 3.5633488557655557,
@@ -55,7 +55,7 @@
       "sector": "전체시장",
       "price": 363.67,
       "changePct": 3.1600147505176994,
-      "volume": 4646409,
+      "volume": 4675020,
       "currency": "USD",
       "ret5d": -2.8555363206148994,
       "ret30d": 3.719018605251921,
@@ -87,7 +87,7 @@
       "sector": "전체시장",
       "price": 509.41,
       "changePct": 3.5744057906187185,
-      "volume": 5958651,
+      "volume": 6085113,
       "currency": "USD",
       "ret5d": -0.9026335771137997,
       "ret30d": 3.660816832994361,
@@ -119,7 +119,7 @@
       "sector": "나스닥100",
       "price": 403.11,
       "changePct": 3.0602853198343376,
-      "volume": 568575,
+      "volume": 607003,
       "currency": "USD",
       "ret5d": -2.8135394217758387,
       "ret30d": 3.6086031848971323,
@@ -215,7 +215,7 @@
       "sector": "기술",
       "price": 274.63,
       "changePct": 10.359654410287323,
-      "volume": 1022888,
+      "volume": 1025907,
       "currency": "USD",
       "ret5d": -8.612029191909263,
       "ret30d": 12.116759918976108,
@@ -247,7 +247,7 @@
       "sector": "반도체",
       "price": 562.14,
       "changePct": 23.43602468105662,
-      "volume": 24175868,
+      "volume": 24368905,
       "currency": "USD",
       "ret5d": -7.087372011999219,
       "ret30d": 28.13476122017169,
@@ -295,7 +295,7 @@
       "sector": "나스닥100",
       "price": 151.94,
       "changePct": 16.23317013463892,
-      "volume": 488456,
+      "volume": 585681,
       "currency": "USD",
       "ret5d": -5.989354912533395,
       "ret30d": 21.164272847830876,
@@ -311,7 +311,7 @@
       "sector": "AI",
       "price": 63.16,
       "changePct": 14.048392921632347,
-      "volume": 5690816,
+      "volume": 5691371,
       "currency": "USD",
       "ret5d": -9.951524736794592,
       "ret30d": 15.889908256880728,
@@ -327,7 +327,7 @@
       "sector": "로보틱스",
       "price": 37.62,
       "changePct": -2.2603273577552727,
-      "volume": 1658034,
+      "volume": 1659494,
       "currency": "USD",
       "ret5d": -7.431100971959352,
       "ret30d": -0.10621308437116367,
@@ -375,7 +375,7 @@
       "sector": "혁신",
       "price": 128.87,
       "changePct": -0.96065170611743,
-      "volume": 238751,
+      "volume": 240485,
       "currency": "USD",
       "ret5d": -9.150515012345792,
       "ret30d": 1.5364023472951933,
@@ -455,7 +455,7 @@
       "sector": "나스닥100",
       "price": 33.7,
       "changePct": 1.3838748495788231,
-      "volume": 3365199,
+      "volume": 3480960,
       "currency": "USD",
       "ret5d": -8.074194925620159,
       "ret30d": 3.089634186970594,
@@ -535,7 +535,7 @@
       "sector": "클라우드",
       "price": 31.16,
       "changePct": 14.432611090708775,
-      "volume": 730041,
+      "volume": 730075,
       "currency": "USD",
       "ret5d": -10.38251484105922,
       "ret30d": 14.39060301695783,
@@ -567,7 +567,7 @@
       "sector": "나스닥100",
       "price": 136.3,
       "changePct": 14.316866560429428,
-      "volume": 1111171,
+      "volume": 1111268,
       "currency": "USD",
       "ret5d": -10.96740266479123,
       "ret30d": 15.635867331777431,
@@ -583,7 +583,7 @@
       "sector": "사이버보안",
       "price": 95.09,
       "changePct": 19.595019494403214,
-      "volume": 149940,
+      "volume": 151045,
       "currency": "USD",
       "ret5d": -9.756099913279623,
       "ret30d": 20.047975128231336,
@@ -599,7 +599,7 @@
       "sector": "사이버보안",
       "price": 84.34,
       "changePct": 24.85566247224279,
-      "volume": 2442826,
+      "volume": 2443201,
       "currency": "USD",
       "ret5d": -10.581000558858001,
       "ret30d": 25.59940146463921,
@@ -631,7 +631,7 @@
       "sector": "소형주",
       "price": 285.02,
       "changePct": 2.8433282817348617,
-      "volume": 40285886,
+      "volume": 41108955,
       "currency": "USD",
       "ret5d": -2.2766246927027725,
       "ret30d": 4.056075422347738,
@@ -727,7 +727,7 @@
       "sector": "중형주",
       "price": 78.83,
       "changePct": 2.938103943588404,
-      "volume": 3246048,
+      "volume": 3252536,
       "currency": "USD",
       "ret5d": -1.3515249813728616,
       "ret30d": 3.710035238145805,
@@ -839,7 +839,7 @@
       "sector": "나스닥100",
       "price": 226.51,
       "changePct": 2.9310188130509807,
-      "volume": 1541004,
+      "volume": 1557874,
       "currency": "USD",
       "ret5d": -0.5924693262246229,
       "ret30d": 2.8655781740273882,
@@ -887,7 +887,7 @@
       "sector": "성장주",
       "price": 33.53,
       "changePct": 1.5752802181157322,
-      "volume": 13908992,
+      "volume": 13949154,
       "currency": "USD",
       "ret5d": -4.472930320149837,
       "ret30d": 2.3191929558129583,
@@ -999,7 +999,7 @@
       "sector": "배당",
       "price": 75.33,
       "changePct": 3.7746246039399294,
-      "volume": 1849112,
+      "volume": 1893866,
       "currency": "USD",
       "ret5d": -0.03980972678952351,
       "ret30d": 3.6746438251047993,
@@ -1095,7 +1095,7 @@
       "sector": "배당",
       "price": 55.8,
       "changePct": -2.1910604732690624,
-      "volume": 6270220,
+      "volume": 6294690,
       "currency": "USD",
       "ret5d": 0.8494454245282838,
       "ret30d": -2.328025631453248,
@@ -1191,7 +1191,7 @@
       "sector": "나스닥100",
       "price": 52.77,
       "changePct": 0.946915351506465,
-      "volume": 4804851,
+      "volume": 4811020,
       "currency": "USD",
       "ret5d": -2.4042901833947234,
       "ret30d": 1.1888752751300091,
@@ -1223,7 +1223,7 @@
       "sector": "금융",
       "price": 52.46,
       "changePct": 1.254584057131825,
-      "volume": 41393141,
+      "volume": 41654224,
       "currency": "USD",
       "ret5d": 1.9432587122394276,
       "ret30d": 1.1764735657289664,
@@ -1239,7 +1239,7 @@
       "sector": "금융",
       "price": 128.68,
       "changePct": 0.901748608170631,
-      "volume": 820532,
+      "volume": 823119,
       "currency": "USD",
       "ret5d": 1.8763379678689647,
       "ret30d": 0.7437537133790768,
@@ -1255,7 +1255,7 @@
       "sector": "금융",
       "price": 65.09,
       "changePct": 1.1028269648959428,
-      "volume": 2203127,
+      "volume": 2222101,
       "currency": "USD",
       "ret5d": 2.4716617300408723,
       "ret30d": 0.742918101089659,
@@ -1271,7 +1271,7 @@
       "sector": "금융",
       "price": 71.24,
       "changePct": 1.6697588126159582,
-      "volume": 22628930,
+      "volume": 23450278,
       "currency": "USD",
       "ret5d": 2.4446348318828743,
       "ret30d": 1.236318345120742,
@@ -1367,7 +1367,7 @@
       "sector": "헬스케어",
       "price": 287.39,
       "changePct": 6.923878264751846,
-      "volume": 348798,
+      "volume": 349956,
       "currency": "USD",
       "ret5d": 5.278770764791847,
       "ret30d": 6.907965244337009,
@@ -1495,7 +1495,7 @@
       "sector": "나스닥100",
       "price": 50.94,
       "changePct": -3.376327769347499,
-      "volume": 3260125,
+      "volume": 3261051,
       "currency": "USD",
       "ret5d": 5.706581140607967,
       "ret30d": -2.0761254291809426,
@@ -1575,7 +1575,7 @@
       "sector": "에너지",
       "price": 420.75,
       "changePct": -4.24660340001366,
-      "volume": 389842,
+      "volume": 396298,
       "currency": "USD",
       "ret5d": -2.2534584578814894,
       "ret30d": -4.721468708183886,
@@ -1607,7 +1607,7 @@
       "sector": "나스닥100",
       "price": 52.13,
       "changePct": 0.21145713187235565,
-      "volume": 1032353,
+      "volume": 1184856,
       "currency": "USD",
       "ret5d": -1.1378713207758149,
       "ret30d": -0.9500305110541729,
@@ -1703,7 +1703,7 @@
       "sector": "방산",
       "price": 230.45,
       "changePct": 6.670061099796333,
-      "volume": 854881,
+      "volume": 866229,
       "currency": "USD",
       "ret5d": 0.9284798983682943,
       "ret30d": 6.586186043173312,
@@ -1831,7 +1831,7 @@
       "sector": "소비재",
       "price": 84.83,
       "changePct": -0.49266862170088177,
-      "volume": 8495696,
+      "volume": 8882372,
       "currency": "USD",
       "ret5d": 1.350063432447404,
       "ret30d": 0.39053254437869617,
@@ -1863,7 +1863,7 @@
       "sector": "필수소비재",
       "price": 84.1,
       "changePct": 2.1374787466601783,
-      "volume": 12426775,
+      "volume": 12433909,
       "currency": "USD",
       "ret5d": 2.7740414495308454,
       "ret30d": 1.227730075186444,
@@ -1943,7 +1943,7 @@
       "sector": "유틸리티",
       "price": 43.98,
       "changePct": -4.7845854080969925,
-      "volume": 19663886,
+      "volume": 20418421,
       "currency": "USD",
       "ret5d": 0.18222886410136407,
       "ret30d": -4.908108108108115,
@@ -2119,7 +2119,7 @@
       "sector": "나스닥100",
       "price": 33.56,
       "changePct": -3.3688453786351706,
-      "volume": 81843,
+      "volume": 82382,
       "currency": "USD",
       "ret5d": -3.229527956516845,
       "ret30d": -2.7246376811594137,
@@ -2135,7 +2135,7 @@
       "sector": "나스닥100",
       "price": 40.3888,
       "changePct": 1.6479589268636474,
-      "volume": 5867,
+      "volume": 5881,
       "currency": "USD",
       "ret5d": 3.329727749989981,
       "ret30d": 1.741932180447654,
@@ -2151,7 +2151,7 @@
       "sector": "소재",
       "price": 50.77,
       "changePct": -1.9505600617999188,
-      "volume": 13262338,
+      "volume": 13504392,
       "currency": "USD",
       "ret5d": -1.4557462171968,
       "ret30d": -1.2256838661020457,
@@ -2263,7 +2263,7 @@
       "sector": "나스닥100",
       "price": 77.79,
       "changePct": -16.979722518676624,
-      "volume": 1637748,
+      "volume": 2084739,
       "currency": "USD",
       "ret5d": -15.500758132772347,
       "ret30d": -12.811030110197796,
@@ -2279,7 +2279,7 @@
       "sector": "통신",
       "price": 111.48,
       "changePct": -3.73888265262067,
-      "volume": 6342560,
+      "volume": 6588963,
       "currency": "USD",
       "ret5d": -1.8402744566701477,
       "ret30d": -3.6889848812094996,
@@ -2407,7 +2407,7 @@
       "sector": "나스닥100",
       "price": 50.94,
       "changePct": -3.376327769347499,
-      "volume": 3260125,
+      "volume": 3261051,
       "currency": "USD",
       "ret5d": 5.706581140607967,
       "ret30d": -2.0761254291809426,
@@ -2439,7 +2439,7 @@
       "sector": "나스닥100",
       "price": 48.9,
       "changePct": 7.3639836648662875,
-      "volume": 9089,
+      "volume": 9130,
       "currency": "USD",
       "ret5d": 1.764758791360452,
       "ret30d": 8.983932259259984,
@@ -2519,7 +2519,7 @@
       "sector": "나스닥100",
       "price": 49.8,
       "changePct": 2.765167148163426,
-      "volume": 3842552,
+      "volume": 3871994,
       "currency": "USD",
       "ret5d": -3.3385101756234237,
       "ret30d": 3.34094504912204,
@@ -2535,7 +2535,7 @@
       "sector": "나스닥100",
       "price": 27.07,
       "changePct": 3.04529881994671,
-      "volume": 9660100,
+      "volume": 9685310,
       "currency": "USD",
       "ret5d": -3.3904369815970123,
       "ret30d": 3.478593875748486,
@@ -2551,7 +2551,7 @@
       "sector": "나스닥100",
       "price": 87.88,
       "changePct": 1.536683997689195,
-      "volume": 4732446,
+      "volume": 4819300,
       "currency": "USD",
       "ret5d": -1.214027760327582,
       "ret30d": 1.9962816443646743,
@@ -2631,7 +2631,7 @@
       "sector": "나스닥100",
       "price": 90.95,
       "changePct": 3.729470802919703,
-      "volume": 8715803,
+      "volume": 8716192,
       "currency": "USD",
       "ret5d": -2.810431480652006,
       "ret30d": 3.8716337778992256,
@@ -2695,7 +2695,7 @@
       "sector": "나스닥100",
       "price": 59.51,
       "changePct": 4.0748513466246905,
-      "volume": 328993,
+      "volume": 340141,
       "currency": "USD",
       "ret5d": 0.033616273271076066,
       "ret30d": 3.3877668175557423,
@@ -2743,7 +2743,7 @@
       "sector": "나스닥100",
       "price": 67.47,
       "changePct": 7.693535514764566,
-      "volume": 143153,
+      "volume": 143824,
       "currency": "USD",
       "ret5d": -1.1138843903579592,
       "ret30d": 9.387158991856163,
@@ -2903,7 +2903,7 @@
       "sector": "나스닥100",
       "price": 184.05,
       "changePct": 17.431251196324904,
-      "volume": 25863826,
+      "volume": 32556592,
       "currency": "USD",
       "ret5d": -14.207802616292339,
       "ret30d": 19.22653742411627,
@@ -2951,7 +2951,7 @@
       "sector": "나스닥100",
       "price": 26.2,
       "changePct": -7.6163610719323,
-      "volume": 19043234,
+      "volume": 19818953,
       "currency": "USD",
       "ret5d": -7.5185313428953044,
       "ret30d": -6.794736993524653,
@@ -3111,7 +3111,7 @@
       "sector": "나스닥100",
       "price": 154.6,
       "changePct": 2.717427413460902,
-      "volume": 3249008,
+      "volume": 3260905,
       "currency": "USD",
       "ret5d": -3.3568801523570606,
       "ret30d": 3.3284353999022547,
@@ -3127,7 +3127,7 @@
       "sector": "나스닥100",
       "price": 154.3,
       "changePct": 2.6476849387972448,
-      "volume": 5069604,
+      "volume": 5070870,
       "currency": "USD",
       "ret5d": -3.169128277431675,
       "ret30d": 3.2383199978029706,
@@ -3239,7 +3239,7 @@
       "sector": "채권",
       "price": 81.94,
       "changePct": -0.7389460932768013,
-      "volume": 3199241,
+      "volume": 3240443,
       "currency": "USD",
       "ret5d": -0.08535804707599855,
       "ret30d": -0.6787878787878816,
@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "HEWG,116946,3000",
+      "name": "iShares Currency Hedged MSCI Ge",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -10047,7 +10047,7 @@
         "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "MRVL",
+          "NVDA",
           "AMD"
         ],
         "short_term": "상승",
@@ -10066,7 +10066,7 @@
         "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "MU",
+          "NVDA",
           "AMD"
         ],
         "short_term": "상승",
@@ -10074,19 +10074,19 @@
         "long_term": "상승"
       },
       {
-        "symbol": "PANW",
-        "name": "PANW",
+        "symbol": "DDOG",
+        "name": "DDOG",
         "reason": "고성장",
-        "why_important": "サイバーセキュリティ",
+        "why_important": "클라우드",
         "impact": "high",
-        "ret30d": 43.9,
-        "changePct": 42.4,
+        "ret30d": 72.8,
+        "changePct": 71.4,
         "rating": "buy",
         "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "FTNT",
-          "CRWD"
+          "CRM",
+          "NOW"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10097,17 +10097,17 @@
       {
         "symbol": "INTU",
         "name": "INTU",
-        "reason": "고하락",
+        "reason": "하락",
         "why_important": "회계",
-        "impact": "high",
+        "impact": "low",
         "ret30d": -26.6,
         "changePct": -24.7,
         "rating": "sell",
-        "rating_reason": "고하락",
-        "risk_level": "high",
+        "rating_reason": "하락",
+        "risk_level": "low",
         "competitors": [
           "ADBE",
-          "PYPL"
+          "MSFT"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10116,17 +10116,17 @@
       {
         "symbol": "META",
         "name": "META",
-        "reason": "고하락",
-        "why_important": "SNS",
-        "impact": "high",
+        "reason": "하락",
+        "why_important": "소셜",
+        "impact": "low",
         "ret30d": -12.9,
         "changePct": -13.9,
         "rating": "sell",
-        "rating_reason": "고하락",
-        "risk_level": "high",
+        "rating_reason": "하락",
+        "risk_level": "low",
         "competitors": [
           "GOOGL",
-          "TTD"
+          "TWTR"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10135,17 +10135,17 @@
       {
         "symbol": "LULU",
         "name": "LULU",
-        "reason": "고하락",
-        "why_important": "스포츠",
-        "impact": "high",
+        "reason": "하락",
+        "why_important": "의류",
+        "impact": "low",
         "ret30d": -14.8,
         "changePct": -17.4,
         "rating": "sell",
-        "rating_reason": "고하락",
-        "risk_level": "high",
+        "rating_reason": "하락",
+        "risk_level": "low",
         "competitors": [
           "NKE",
-          "ADIDAS"
+          "UA"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10156,59 +10156,59 @@
       {
         "symbol": "AAPL",
         "name": "AAPL",
-        "reason": "안정성",
-        "why_important": "가전",
+        "reason": "안정",
+        "why_important": "전자",
         "impact": "medium",
         "ret30d": 7.3,
         "changePct": 8.6,
         "rating": "neutral",
-        "rating_reason": "안정성",
+        "rating_reason": "안정",
         "risk_level": "medium",
         "competitors": [
           "GOOGL",
           "MSFT"
         ],
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승"
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
       },
       {
         "symbol": "GOOGL",
         "name": "GOOGL",
-        "reason": "안정성",
+        "reason": "안정",
         "why_important": "검색",
         "impact": "medium",
         "ret30d": 4.1,
         "changePct": 4,
         "rating": "neutral",
-        "rating_reason": "안정성",
+        "rating_reason": "안정",
         "risk_level": "medium",
         "competitors": [
-          "AAPL",
-          "MSFT"
+          "MSFT",
+          "BIDU"
         ],
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승"
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
       },
       {
         "symbol": "TSLA",
         "name": "TSLA",
-        "reason": "안정성",
+        "reason": "안정",
         "why_important": "전기차",
         "impact": "medium",
         "ret30d": 5.5,
         "changePct": 4.8,
         "rating": "neutral",
-        "rating_reason": "안정성",
+        "rating_reason": "안정",
         "risk_level": "medium",
         "competitors": [
           "GM",
-          "FORD"
+          "F"
         ],
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승"
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
       }
     ],
     "high_volume": [
@@ -10223,8 +10223,8 @@
         "rating_reason": "고거래량",
         "risk_level": "high",
         "competitors": [
-          "MU",
-          "AMD"
+          "AMD",
+          "MU"
         ]
       },
       {
@@ -10238,8 +10238,8 @@
         "rating_reason": "고거래량",
         "risk_level": "medium",
         "competitors": [
-          "GOOGL",
-          "FB"
+          "WMT",
+          "TGT"
         ]
       },
       {
@@ -10270,7 +10270,7 @@
         "rating_reason": "고점",
         "risk_level": "high",
         "competitors": [
-          "MRVL",
+          "NVDA",
           "AMD"
         ]
       },
@@ -10285,42 +10285,43 @@
         "rating_reason": "고점",
         "risk_level": "high",
         "competitors": [
-          "MU",
+          "NVDA",
           "AMD"
         ]
       },
       {
-        "symbol": "PANW",
-        "name": "PANW",
+        "symbol": "DDOG",
+        "name": "DDOG",
         "reason": "고점",
-        "why_important": "サイバーセキュリティ",
+        "why_important": "클라우드",
         "impact": "high",
-        "volume": 3734,
+        "volume": 4407,
         "rating": "buy",
         "rating_reason": "고점",
         "risk_level": "high",
         "competitors": [
-          "FTNT",
-          "CRWD"
+          "CRM",
+          "NOW"
         ]
       }
     ],
     "sector_trends": [
       {
-        "sector": "サイバーセキュリティ",
+        "sector": "サイ버보안",
         "trend": "상승",
         "avg_change": 22.23,
         "keywords": [
-          "サイバーセキュリティ",
-          "보안"
+          "보안",
+          "클라우드"
         ],
-        "summary": "サイバーセキュリティ 섹터가 상승세를 보이고 있습니다.",
+        "summary": "サイ버보안 섹터가 상승세",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          "PANW",
           "FTNT",
-          "CRWD"
+          "CRWD",
+          "ZS"
         ]
       },
       {
@@ -10331,9 +10332,10 @@
           "레버리지",
           "증거금"
         ],
-        "summary": "레버리지 섹터가 상승세를 보이고 있습니다.",
+        "summary": "레버리지 섹터가 상승세",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
           "122630",
           "233740",
@@ -10348,13 +10350,14 @@
           "한국",
           "KOSPI"
         ],
-        "summary": "한국 섹터가 상승세를 보이고 있습니다.",
+        "summary": "한국 섹터가 상승세",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          "195930",
-          "192090",
-          "091230"
+          "069500",
+          "102110",
+          "229200"
         ]
       },
       {
@@ -10365,13 +10368,14 @@
           "클라우드",
           "AWS"
         ],
-        "summary": "클라우드 섹터가 상승세를 보이고 있습니다.",
+        "summary": "클라우드 섹터가 상승세",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          "AMZN",
-          "MSFT",
-          "GOOGL"
+          "DDOG",
+          "NOW",
+          "CRM"
         ]
       },
       {
@@ -10382,49 +10386,50 @@
           "대만",
           "TSMC"
         ],
-        "summary": "대만 섹터가 상승세를 보이고 있습니다.",
+        "summary": "대만 섹터가 상승세",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          "TSM",
-          "UMC",
-          "SPIL"
+          "2330.TW",
+          "2454.TW",
+          "2303.TW"
         ]
       }
     ],
     "etf_issues": [
       {
-        "symbol": "MU",
-        "issue": "고점",
-        "issue_type": "technical",
-        "impact_etfs": [
-          "MRVL",
-          "AMD"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      },
-      {
-        "symbol": "PANW",
-        "issue": "고점",
-        "issue_type": "technical",
-        "impact_etfs": [
-          "FTNT",
-          "CRWD"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      },
-      {
         "symbol": "INTU",
-        "issue": "고하락",
+        "issue": "회계",
         "issue_type": "earnings",
         "impact_etfs": [
-          "ADBE",
-          "PYPL"
+          "MSFT",
+          "ADBE"
         ],
         "is_noise": false,
-        "impact": "high"
+        "impact": "low"
+      },
+      {
+        "symbol": "META",
+        "issue": "소셜",
+        "issue_type": "sentiment",
+        "impact_etfs": [
+          "GOOGL",
+          "TWTR"
+        ],
+        "is_noise": false,
+        "impact": "low"
+      },
+      {
+        "symbol": "LULU",
+        "issue": "의류",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "NKE",
+          "UA"
+        ],
+        "is_noise": false,
+        "impact": "low"
       }
     ],
     "risk_analysis": [
@@ -10433,7 +10438,7 @@
         "name": "MU",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
+        "max_drawdown_risk": "20%",
         "hedge_suggestion": "반도체",
         "suitable_for": "고위험投資家"
       },
@@ -10442,17 +10447,17 @@
         "name": "MRVL",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
+        "max_drawdown_risk": "25%",
         "hedge_suggestion": "반도체",
         "suitable_for": "고위험投資家"
       },
       {
-        "symbol": "PANW",
-        "name": "PANW",
+        "symbol": "DDOG",
+        "name": "DDOG",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "サイバーセキュリティ",
+        "max_drawdown_risk": "30%",
+        "hedge_suggestion": "클라우드",
         "suitable_for": "고위험投資家"
       }
     ],
@@ -10460,7 +10465,7 @@
       "aggressive": [
         "MU",
         "MRVL",
-        "PANW"
+        "DDOG"
       ],
       "balanced": [
         "AAPL",
@@ -10469,21 +10474,21 @@
       ],
       "conservative": [
         "MSFT",
-        "AMZN",
-        "FB"
+        "ADBE",
+        "CSCO"
       ],
-      "suggestion": "고위험投資家에게 적합한 포트폴리오는 MU, MRVL, PANW를 포함하는 공격적인 포트폴리오입니다."
+      "suggestion": "고위험投資家는 MU, MRVL, DDOG를 고려하세요."
     },
-    "market_summary": "현재 시장은 상승세를 보이고 있습니다.",
+    "market_summary": "시장은 상승세를 보이고 있습니다.",
     "top_keywords": [
-      "サイバーセキュリティ",
-      "반도체",
-      "클라우드"
+      "サイ버보安",
+      "レバレッジ",
+      "한국"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "サイバーセキュリティ와 반도체 섹터의 상승세가 시장의 상승을 주도하고 있습니다."
+    "market_sentiment_reason": "시장은 상승세를 보이고 있습니다."
   },
-  "updatedAt": "2026-06-09T21:00:33.720Z",
+  "updatedAt": "2026-06-09T23:11:19.967Z",
   "stats": {
     "total": 627,
     "us": 497,
