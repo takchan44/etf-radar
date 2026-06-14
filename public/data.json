@@ -6955,10 +6955,10 @@
       "currency": "USD",
       "ret5d": 31.94070206090939,
       "ret30d": 47.45171037984064,
-      "high52": 2262.82,
-      "low52": 212.256,
-      "fromHigh": -88.75120424956471,
-      "fromLow": 19.921227197346596
+      "high52": 254.93,
+      "low52": 83.224,
+      "fromHigh": -0.15298317185110216,
+      "fromLow": 205.84927424781307
     },
     {
       "symbol": "MRVL",
@@ -10047,8 +10047,8 @@
         "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "NVDA",
-          "AMD"
+          "KLAC",
+          "LRCX"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10066,8 +10066,8 @@
         "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "NVDA",
-          "AMD"
+          "KLAC",
+          "LRCX"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10077,7 +10077,7 @@
         "symbol": "PANW",
         "name": "PANW",
         "reason": "고성장",
-        "why_important": "サイ버보안",
+        "why_important": "サイバー",
         "impact": "high",
         "ret30d": 54.4,
         "changePct": 55.9,
@@ -10097,13 +10097,13 @@
       {
         "symbol": "INTU",
         "name": "INTU",
-        "reason": "고하락",
+        "reason": "하락",
         "why_important": "소프트웨어",
         "impact": "high",
         "ret30d": -30.7,
         "changePct": -28.8,
         "rating": "sell",
-        "rating_reason": "고하락",
+        "rating_reason": "하락",
         "risk_level": "high",
         "competitors": [
           "ADBE",
@@ -10114,38 +10114,38 @@
         "long_term": "하락"
       },
       {
-        "symbol": "TTD",
-        "name": "TTD",
-        "reason": "고하락",
-        "why_important": "광고",
+        "symbol": "ADBE",
+        "name": "ADBE",
+        "reason": "하락",
+        "why_important": "소프트웨어",
         "impact": "high",
-        "ret30d": -20.5,
-        "changePct": -18.3,
+        "ret30d": -18.6,
+        "changePct": -17.1,
         "rating": "sell",
-        "rating_reason": "고하락",
+        "rating_reason": "하락",
         "risk_level": "high",
         "competitors": [
-          "GOOGL",
-          "FB"
+          "MSFT",
+          "INTU"
         ],
         "short_term": "하락",
         "mid_term": "하락",
         "long_term": "하락"
       },
       {
-        "symbol": "ADBE",
-        "name": "ADBE",
-        "reason": "고하락",
-        "why_important": "소프트웨어",
+        "symbol": "TTD",
+        "name": "TTD",
+        "reason": "하락",
+        "why_important": "광고",
         "impact": "high",
-        "ret30d": -18.6,
-        "changePct": -17.1,
+        "ret30d": -20.5,
+        "changePct": -18.3,
         "rating": "sell",
-        "rating_reason": "고하락",
+        "rating_reason": "하락",
         "risk_level": "high",
         "competitors": [
-          "MSFT",
-          "INTU"
+          "GOOGL",
+          "FB"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10165,27 +10165,8 @@
         "rating_reason": "안정성",
         "risk_level": "medium",
         "competitors": [
-          "GOOGL",
-          "AMZN"
-        ],
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "TSLA",
-        "name": "TSLA",
-        "reason": "안정성",
-        "why_important": "전기차",
-        "impact": "medium",
-        "ret30d": 4,
-        "changePct": 6.5,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "medium",
-        "competitors": [
-          "GM",
-          "F"
+          "MSFT",
+          "GOOGL"
         ],
         "short_term": "보합",
         "mid_term": "상승",
@@ -10209,6 +10190,25 @@
         "short_term": "보합",
         "mid_term": "상승",
         "long_term": "상승"
+      },
+      {
+        "symbol": "HON",
+        "name": "HON",
+        "reason": "안정성",
+        "why_important": "산업",
+        "impact": "medium",
+        "ret30d": 3.7,
+        "changePct": 2.8,
+        "rating": "neutral",
+        "rating_reason": "안정성",
+        "risk_level": "medium",
+        "competitors": [
+          "GE",
+          "UTX"
+        ],
+        "short_term": "보합",
+        "mid_term": "상승",
+        "long_term": "상승"
       }
     ],
     "high_volume": [
@@ -10223,8 +10223,8 @@
         "rating_reason": "고거래량",
         "risk_level": "high",
         "competitors": [
-          "AMD",
-          "MU"
+          "KLAC",
+          "LRCX"
         ]
       },
       {
@@ -10246,15 +10246,15 @@
         "symbol": "AMZN",
         "name": "AMZN",
         "reason": "고거래량",
-        "why_important": "전자상거래",
+        "why_important": "이커머스",
         "impact": "high",
         "volume": 51013,
         "rating": "buy",
         "rating_reason": "고거래량",
         "risk_level": "high",
         "competitors": [
-          "GOOGL",
-          "FB"
+          "EBAY",
+          "WMT"
         ]
       }
     ],
@@ -10262,42 +10262,45 @@
       {
         "symbol": "MU",
         "name": "MU",
-        "reason": "고점",
+        "reason": "고성장",
         "why_important": "반도체",
         "impact": "high",
-        "volume": 40309,
+        "ret30d": 81,
+        "changePct": 89.8,
         "rating": "buy",
-        "rating_reason": "고점",
+        "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "NVDA",
-          "AMD"
+          "KLAC",
+          "LRCX"
         ]
       },
       {
         "symbol": "MRVL",
         "name": "MRVL",
-        "reason": "고점",
+        "reason": "고성장",
         "why_important": "반도체",
         "impact": "high",
-        "volume": 40789,
+        "ret30d": 69.6,
+        "changePct": 69.4,
         "rating": "buy",
-        "rating_reason": "고점",
+        "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "NVDA",
-          "AMD"
+          "KLAC",
+          "LRCX"
         ]
       },
       {
         "symbol": "PANW",
         "name": "PANW",
-        "reason": "고점",
-        "why_important": "サイ버보안",
+        "reason": "고성장",
+        "why_important": "サイバー",
         "impact": "high",
-        "volume": 2253,
+        "ret30d": 54.4,
+        "changePct": 55.9,
         "rating": "buy",
-        "rating_reason": "고점",
+        "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
           "FTNT",
@@ -10307,13 +10310,14 @@
     ],
     "sector_trends": [
       {
-        "sector": "サイバ",
+        "sector": "サイバー",
         "trend": "상승",
         "avg_change": 23.85,
         "keywords": [
-          "サイバ"
+          "サイバー",
+          "보안"
         ],
-        "summary": "サイバ 보안",
+        "summary": "サイバー 보안 관련 주가 상승",
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승",
@@ -10324,78 +10328,82 @@
         ]
       },
       {
-        "sector": "레버",
-        "trend": "상승",
-        "avg_change": 23.21,
-        "keywords": [
-          "레버"
-        ],
-        "summary": "레버리지",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "122630",
-          "233740",
-          "114800"
-        ]
-      },
-      {
-        "sector": "한국",
-        "trend": "상승",
-        "avg_change": 22.82,
-        "keywords": [
-          "한국"
-        ],
-        "summary": "한국시장",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "360750",
-          "379800",
-          "091230"
-        ]
-      },
-      {
-        "sector": "항공",
-        "trend": "상승",
-        "avg_change": 16.17,
-        "keywords": [
-          "항공"
-        ],
-        "summary": "항공산업",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "CSX",
-          "ALK",
-          "DAL"
-        ]
-      },
-      {
         "sector": "반도체",
         "trend": "상승",
         "avg_change": 14.73,
         "keywords": [
-          "반도체"
+          "반도체",
+          "半導体"
         ],
-        "summary": "반도체산업",
+        "summary": "반도체 관련 주가 상승",
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
-          "NVDA",
-          "AMD",
-          "MU"
+          "MU",
+          "KLAC",
+          "LRCX"
+        ]
+      },
+      {
+        "sector": "클라우드",
+        "trend": "상승",
+        "avg_change": 13.31,
+        "keywords": [
+          "클라우드",
+          "雲"
+        ],
+        "summary": "클라우드 관련 주가 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "AMZN",
+          "MSFT",
+          "GOOGL"
+        ]
+      },
+      {
+        "sector": "부동산",
+        "trend": "상승",
+        "avg_change": 7.63,
+        "keywords": [
+          "부동산",
+          "不動産"
+        ],
+        "summary": "부동산 관련 주가 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "SPG",
+          "VNO",
+          "EQR"
+        ]
+      },
+      {
+        "sector": "금융",
+        "trend": "상승",
+        "avg_change": 6.12,
+        "keywords": [
+          "금융",
+          "金融"
+        ],
+        "summary": "금융 관련 주가 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "JPM",
+          "BAC",
+          "WFC"
         ]
       }
     ],
     "etf_issues": [
       {
         "symbol": "INTU",
-        "issue": "고하락",
+        "issue": "하락",
         "issue_type": "earnings",
         "impact_etfs": [
           "MSFT",
@@ -10406,7 +10414,7 @@
       },
       {
         "symbol": "TTD",
-        "issue": "고하락",
+        "issue": "하락",
         "issue_type": "earnings",
         "impact_etfs": [
           "GOOGL",
@@ -10416,12 +10424,12 @@
         "impact": "high"
       },
       {
-        "symbol": "ADBE",
-        "issue": "고하락",
-        "issue_type": "earnings",
+        "symbol": "MU",
+        "issue": "고성장",
+        "issue_type": "macro",
         "impact_etfs": [
-          "MSFT",
-          "INTU"
+          "KLAC",
+          "LRCX"
         ],
         "is_noise": false,
         "impact": "high"
@@ -10434,8 +10442,8 @@
         "risk_level": "high",
         "volatility": "고변동성",
         "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "레버리지",
-        "suitable_for": "고위험投資家"
+        "hedge_suggestion": "KLAC",
+        "suitable_for": "적극투자자"
       },
       {
         "symbol": "MRVL",
@@ -10443,8 +10451,8 @@
         "risk_level": "high",
         "volatility": "고변동성",
         "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "레버리지",
-        "suitable_for": "고위험投資家"
+        "hedge_suggestion": "LRCX",
+        "suitable_for": "적극투자자"
       },
       {
         "symbol": "PANW",
@@ -10452,8 +10460,8 @@
         "risk_level": "high",
         "volatility": "고변동성",
         "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "레버리지",
-        "suitable_for": "고위험投資家"
+        "hedge_suggestion": "FTNT",
+        "suitable_for": "적극투자자"
       }
     ],
     "portfolio_suggestion": {
@@ -10464,26 +10472,26 @@
       ],
       "balanced": [
         "AAPL",
-        "TSLA",
-        "AMGN"
+        "AMGN",
+        "HON"
       ],
       "conservative": [
-        "MSFT",
-        "GOOGL",
-        "AMZN"
+        "JNJ",
+        "PFE",
+        "PG"
       ],
-      "suggestion": "고위험投資家는 레버리지 ETF를 포함한 포트폴리오를 구성하는 것이 좋습니다."
+      "suggestion": "적극투자자: MU, MRVL, PANW / 중립투자자: AAPL, AMGN, HON / 보수투자자: JNJ, PFE, PG"
     },
-    "market_summary": "현재 시장은 상승세를 보이고 있습니다.",
+    "market_summary": "주식시장은 상승세를 보이고 있습니다.",
     "top_keywords": [
-      "サイバ",
-      "レバ",
-      "한국"
+      "サイバー",
+      "반도체",
+      "클라우드"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "고성장과 레버리지의 상승세가 시장의 상승을 이끌고 있습니다."
+    "market_sentiment_reason": "주식시장이 상승세를 보이고 있습니다."
   },
-  "updatedAt": "2026-06-13T22:54:44.187Z",
+  "updatedAt": "2026-06-14T05:03:43.659Z",
   "stats": {
     "total": 627,
     "us": 497,
