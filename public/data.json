@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "iShares Currency Hedged MSCI Ge",
+      "name": "HEWG,116946,3000",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 39515,
+      "low52": 0,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10074,18 +10074,18 @@
         "long_term": "상승"
       },
       {
-        "symbol": "FTNT",
-        "name": "FTNT",
+        "symbol": "PANW",
+        "name": "PANW",
         "reason": "고성장",
         "why_important": "サイ버보안",
         "impact": "high",
-        "ret30d": 69.5,
-        "changePct": 73.5,
+        "ret30d": 54.4,
+        "changePct": 55.9,
         "rating": "buy",
         "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "PANW",
+          "FTNT",
           "CRWD"
         ],
         "short_term": "상승",
@@ -10114,6 +10114,25 @@
         "long_term": "하락"
       },
       {
+        "symbol": "TTD",
+        "name": "TTD",
+        "reason": "고하락",
+        "why_important": "광고",
+        "impact": "high",
+        "ret30d": -20.5,
+        "changePCT": -18.3,
+        "rating": "sell",
+        "rating_reason": "고하락",
+        "risk_level": "high",
+        "competitors": [
+          "GOOGL",
+          "FB"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
         "symbol": "ADBE",
         "name": "ADBE",
         "reason": "고하락",
@@ -10131,25 +10150,6 @@
         "short_term": "하락",
         "mid_term": "하락",
         "long_term": "하락"
-      },
-      {
-        "symbol": "TTD",
-        "name": "TTD",
-        "reason": "고하락",
-        "why_important": "광고",
-        "impact": "high",
-        "ret30d": -20.5,
-        "changePct": -18.3,
-        "rating": "sell",
-        "rating_reason": "고하락",
-        "risk_level": "high",
-        "competitors": [
-          "GOOGL",
-          "FB"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
       }
     ],
     "steady_growth": [
@@ -10157,7 +10157,7 @@
         "symbol": "AAPL",
         "name": "AAPL",
         "reason": "안정성",
-        "why_important": "가전",
+        "why_important": "나스닥100",
         "impact": "medium",
         "ret30d": 3.9,
         "changePct": 7.3,
@@ -10169,45 +10169,45 @@
           "GOOGL"
         ],
         "short_term": "보합",
-        "mid_term": "보합",
+        "mid_term": "상승",
         "long_term": "상승"
       },
       {
-        "symbol": "TXN",
-        "name": "TXN",
+        "symbol": "TSLA",
+        "name": "TSLA",
         "reason": "안정성",
-        "why_important": "반도체",
+        "why_important": "나스닥100",
         "impact": "medium",
-        "ret30d": 7.2,
-        "changePct": 7.1,
+        "ret30d": 4,
+        "changePct": 6.5,
         "rating": "neutral",
         "rating_reason": "안정성",
         "risk_level": "medium",
         "competitors": [
-          "NVDA",
-          "AMD"
+          "GM",
+          "F"
         ],
         "short_term": "보합",
-        "mid_term": "보합",
+        "mid_term": "상승",
         "long_term": "상승"
       },
       {
-        "symbol": "MDLZ",
-        "name": "MDLZ",
+        "symbol": "AMGN",
+        "name": "AMGN",
         "reason": "안정성",
-        "why_important": "식품",
+        "why_important": "나스닥100",
         "impact": "medium",
-        "ret30d": 2.6,
-        "changePct": 2.5,
+        "ret30d": 7.7,
+        "changePct": 2.6,
         "rating": "neutral",
         "rating_reason": "안정성",
         "risk_level": "medium",
         "competitors": [
-          "PEP",
-          "KO"
+          "JNJ",
+          "PFE"
         ],
         "short_term": "보합",
-        "mid_term": "보합",
+        "mid_term": "상승",
         "long_term": "상승"
       }
     ],
@@ -10223,15 +10223,15 @@
         "rating_reason": "고거래량",
         "risk_level": "high",
         "competitors": [
-          "AMD",
-          "MU"
+          "MU",
+          "AMD"
         ]
       },
       {
         "symbol": "TSLA",
         "name": "TSLA",
         "reason": "고거래량",
-        "why_important": "전기차",
+        "why_important": "나스닥100",
         "impact": "high",
         "volume": 62460,
         "rating": "buy",
@@ -10246,15 +10246,15 @@
         "symbol": "AMZN",
         "name": "AMZN",
         "reason": "고거래량",
-        "why_important": "전자상거래",
+        "why_important": "나스닥100",
         "impact": "high",
         "volume": 51013,
         "rating": "buy",
         "rating_reason": "고거래량",
         "risk_level": "high",
         "competitors": [
-          "GOOGL",
-          "FB"
+          "MSFT",
+          "GOOGL"
         ]
       }
     ],
@@ -10292,89 +10292,39 @@
         ]
       },
       {
-        "symbol": "FTNT",
-        "name": "FTNT",
+        "symbol": "PANW",
+        "name": "PANW",
         "reason": "고성장",
         "why_important": "サイ버보안",
         "impact": "high",
-        "ret30d": 69.5,
-        "changePct": 73.5,
+        "ret30d": 54.4,
+        "changePct": 55.9,
         "rating": "buy",
         "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "PANW",
+          "FTNT",
           "CRWD"
         ]
       }
     ],
     "sector_trends": [
       {
-        "sector": "サイ버보안",
+        "sector": "サイバセキュリティ",
         "trend": "상승",
         "avg_change": 23.85,
         "keywords": [
-          "サイバー",
+          "サイバセキュリティ",
           "보안"
         ],
-        "summary": "サイ버보안 섹터가 상승세",
+        "summary": "サイバセキュリティ 섹터가 상승하고 있습니다.",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          "FTNT",
           "PANW",
+          "FTNT",
           "CRWD"
-        ]
-      },
-      {
-        "sector": "레버리지",
-        "trend": "상승",
-        "avg_change": 23.21,
-        "keywords": [
-          "레버리지",
-          "증거금"
-        ],
-        "summary": "레버리지 섹터가 상승세",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "top_etfs": [
-          "122630",
-          "233740",
-          "114800"
-        ]
-      },
-      {
-        "sector": "한국",
-        "trend": "상승",
-        "avg_change": 22.82,
-        "keywords": [
-          "한국",
-          "KOSPI"
-        ],
-        "summary": "한국 섹터가 상승세",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "top_etfs": [
-          "069500",
-          "102110",
-          "229200"
-        ]
-      },
-      {
-        "sector": "항공",
-        "trend": "상승",
-        "avg_change": 16.17,
-        "keywords": [
-          "항공",
-          "여행"
-        ],
-        "summary": "항공 섹터가 상승세",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "top_etfs": [
-          "AAL",
-          "DAL",
-          "UAL"
         ]
       },
       {
@@ -10383,15 +10333,70 @@
         "avg_change": 14.73,
         "keywords": [
           "반도체",
-          "IT"
+          "-semi"
         ],
-        "summary": "반도체 섹터가 상승세",
+        "summary": "반도체 섹터가 상승하고 있습니다.",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
           "NVDA",
-          "AMD",
-          "MU"
+          "MU",
+          "AMD"
+        ]
+      },
+      {
+        "sector": "클라우드",
+        "trend": "상승",
+        "avg_change": 13.31,
+        "keywords": [
+          "클라우드",
+          "cloud"
+        ],
+        "summary": "클라우드 섹터가 상승하고 있습니다.",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "MSFT",
+          "GOOGL",
+          "AMZN"
+        ]
+      },
+      {
+        "sector": "부동산",
+        "trend": "상승",
+        "avg_change": 7.63,
+        "keywords": [
+          "부동산",
+          "realestate"
+        ],
+        "summary": "부동산 섹터가 상승하고 있습니다.",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "SPG",
+          "VNO",
+          "EQR"
+        ]
+      },
+      {
+        "sector": "금융",
+        "trend": "상승",
+        "avg_change": 6.12,
+        "keywords": [
+          "금융",
+          "finance"
+        ],
+        "summary": "금융 섹터가 상승하고 있습니다.",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "JPM",
+          "BAC",
+          "WFC"
         ]
       }
     ],
@@ -10450,12 +10455,12 @@
         "suitable_for": "고위험投資家"
       },
       {
-        "symbol": "FTNT",
-        "name": "FTNT",
+        "symbol": "PANW",
+        "name": "PANW",
         "risk_level": "high",
         "volatility": "고변동성",
         "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "サイ버보안",
+        "hedge_suggestion": "サイバセキュリティ",
         "suitable_for": "고위험投資家"
       }
     ],
@@ -10463,30 +10468,30 @@
       "aggressive": [
         "MU",
         "MRVL",
-        "FTNT"
+        "PANW"
       ],
       "balanced": [
         "AAPL",
-        "TXN",
-        "MDLZ"
+        "TSLA",
+        "AMGN"
       ],
       "conservative": [
-        "182490",
-        "130730",
-        "148070"
+        "MSFT",
+        "GOOGL",
+        "AMZN"
       ],
-      "suggestion": "고위험投資家는 MU, MRVL, FTNT를 고려하고, 중위험投資家는 AAPL, TXN, MDLZ를 고려하고, 低위험投資家는 182490, 130730, 148070를 고려할 수 있습니다."
+      "suggestion": "고위험投資家에게는 MU, MRVL, PANW를 추천합니다."
     },
-    "market_summary": "현재 시장은 상승세를 보이고 있습니다.",
+    "market_summary": "현재 시장은 상승하고 있습니다.",
     "top_keywords": [
-      "サイバー보안",
-      "레버리지",
-      "한국"
+      "サイバセキュリティ",
+      "반도체",
+      "클라우드"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "시장의 상승세는 사이버보안, 레버리지, 한국 섹터의 성장으로 인한 것입니다."
+    "market_sentiment_reason": "サイバセキュリティ, 반도체, 클라우드 섹터의 상승으로 시장 전망이 좋습니다."
   },
-  "updatedAt": "2026-06-14T08:18:27.837Z",
+  "updatedAt": "2026-06-14T10:24:00.697Z",
   "stats": {
     "total": 627,
     "us": 497,
