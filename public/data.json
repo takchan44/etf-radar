@@ -10033,8 +10033,465 @@
       "fromLow": 54.54168394856905
     }
   ],
-  "ai": null,
-  "updatedAt": "2026-06-15T10:27:43.260Z",
+  "ai": {
+    "trending_up": [
+      {
+        "symbol": "MU",
+        "name": "MU",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 81,
+        "changePct": 89.8,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "PANW",
+        "name": "PANW",
+        "reason": "고성장",
+        "why_important": "サイバーセキュリティ",
+        "impact": "high",
+        "ret30d": 54.4,
+        "changePct": 55.9,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "FTNT",
+          "CRWD"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "MRVL",
+        "name": "MRVL",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 69.6,
+        "changePct": 69.4,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "INTU",
+        "name": "INTU",
+        "reason": "고변동",
+        "why_important": "소프트웨어",
+        "impact": "high",
+        "ret30d": -30.7,
+        "changePct": -28.8,
+        "rating": "sell",
+        "rating_reason": "고변동",
+        "risk_level": "high",
+        "competitors": [
+          "ADBE",
+          "MSFT"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "TTD",
+        "name": "TTD",
+        "reason": "고변동",
+        "why_important": "광고",
+        "impact": "high",
+        "ret30d": -20.5,
+        "changePct": -18.3,
+        "rating": "sell",
+        "rating_reason": "고변동",
+        "risk_level": "high",
+        "competitors": [
+          "GOOGL",
+          "FB"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "ADBE",
+        "name": "ADBE",
+        "reason": "고변동",
+        "why_important": "소프트웨어",
+        "impact": "high",
+        "ret30d": -18.6,
+        "changePct": -17.1,
+        "rating": "sell",
+        "rating_reason": "고변동",
+        "risk_level": "high",
+        "competitors": [
+          "MSFT",
+          "INTU"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "TXN",
+        "name": "TXN",
+        "reason": "안정성",
+        "why_important": "반도체",
+        "impact": "medium",
+        "ret30d": 7.2,
+        "changePct": 7.1,
+        "rating": "neutral",
+        "rating_reason": "안정성",
+        "risk_level": "medium",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ],
+        "short_term": "보합",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "HON",
+        "name": "HON",
+        "reason": "안정성",
+        "why_important": "산업",
+        "impact": "medium",
+        "ret30d": 3.7,
+        "changePct": 2.8,
+        "rating": "neutral",
+        "rating_reason": "안정성",
+        "risk_level": "medium",
+        "competitors": [
+          "GE",
+          "MMM"
+        ],
+        "short_term": "보합",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "MDLZ",
+        "name": "MDLZ",
+        "reason": "안정성",
+        "why_important": "식품",
+        "impact": "medium",
+        "ret30d": 2.6,
+        "changePct": 2.5,
+        "rating": "neutral",
+        "rating_reason": "안정성",
+        "risk_level": "medium",
+        "competitors": [
+          "PEP",
+          "KHC"
+        ],
+        "short_term": "보합",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "NVDA",
+        "name": "NVDA",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "volume": 112345,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "MU",
+          "AMD"
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "TSLA",
+        "reason": "고성장",
+        "why_important": "전기차",
+        "impact": "high",
+        "volume": 63652,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "GM",
+          "F"
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "AMZN",
+        "reason": "고성장",
+        "why_important": "이커머스",
+        "impact": "high",
+        "volume": 51251,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "WMT",
+          "TGT"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "MU",
+        "name": "MU",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "volume": 40995,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ]
+      },
+      {
+        "symbol": "MRVL",
+        "name": "MRVL",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "volume": 42162,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ]
+      },
+      {
+        "symbol": "PANW",
+        "name": "PANW",
+        "reason": "고성장",
+        "why_important": "サイバーセキュリティ",
+        "impact": "high",
+        "volume": 2312,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "FTNT",
+          "CRWD"
+        ]
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "레버리지",
+        "trend": "상승",
+        "avg_change": 25.44,
+        "keywords": [
+          " MU",
+          "MRVL"
+        ],
+        "summary": "고성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "MU",
+          "MRVL",
+          "PANW"
+        ]
+      },
+      {
+        "sector": "サイバーセキュリティ",
+        "trend": "상승",
+        "avg_change": 23.85,
+        "keywords": [
+          "PANW",
+          "FTNT"
+        ],
+        "summary": "고성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "PANW",
+          "FTNT",
+          "CRWD"
+        ]
+      },
+      {
+        "sector": "한국",
+        "trend": "상승",
+        "avg_change": 22.82,
+        "keywords": [
+          "091160",
+          "157490"
+        ],
+        "summary": "고성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "091160",
+          "157490",
+          "305720"
+        ]
+      },
+      {
+        "sector": "반도체",
+        "trend": "상승",
+        "avg_change": 16.66,
+        "keywords": [
+          "MU",
+          "NVDA"
+        ],
+        "summary": "고성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "MU",
+          "NVDA",
+          "AMD"
+        ]
+      },
+      {
+        "sector": "항공",
+        "trend": "상승",
+        "avg_change": 16.17,
+        "keywords": [
+          "BA",
+          "LMT"
+        ],
+        "summary": "고성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "BA",
+          "LMT",
+          "NOC"
+        ]
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "INTU",
+        "issue": "고변동",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "INTU",
+          "ADBE",
+          "MSFT"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "TTD",
+        "issue": "고변동",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "TTD",
+          "GOOGL",
+          "FB"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "ADBE",
+        "issue": "고변동",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "ADBE",
+          "MSFT",
+          "INTU"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      }
+    ],
+    "risk_analysis": [
+      {
+        "symbol": "MU",
+        "name": "MU",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "안정성",
+        "suitable_for": "고위험投資家"
+      },
+      {
+        "symbol": "PANW",
+        "name": "PANW",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "안정성",
+        "suitable_for": "고위험投資家"
+      },
+      {
+        "symbol": "MRVL",
+        "name": "MRVL",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "안정성",
+        "suitable_for": "고위험投資家"
+      }
+    ],
+    "portfolio_suggestion": {
+      "aggressive": [
+        "MU",
+        "PANW",
+        "MRVL"
+      ],
+      "balanced": [
+        "TXN",
+        "HON",
+        "MDLZ"
+      ],
+      "conservative": [
+        "MMM",
+        "PG",
+        "JNJ"
+      ],
+      "suggestion": "고위험投資家는 MU, PANW, MRVL을 고려하고, 중위험投資家는 TXN, HON, MDLZ을 고려하고, 低위험投資家는 MMM, PG, JNJ을 고려한다."
+    },
+    "market_summary": "고성장 섹터가 상승하고, 고변동 섹터가 하락하고 있다.",
+    "top_keywords": [
+      "MU",
+      "PANW",
+      "MRVL"
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "고성장 섹터의 상승으로 시장 전망이 좋다."
+  },
+  "updatedAt": "2026-06-15T13:12:20.968Z",
   "stats": {
     "total": 627,
     "us": 497,
