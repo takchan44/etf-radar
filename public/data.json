@@ -1737,7 +1737,7 @@
       "changePct": 10.62217860647694,
       "volume": 179031,
       "currency": "USD",
-      "ret5d": 3.9467431030112126,
+      "ret5d": 3.083618028612267,
       "ret30d": 10.418461974813253,
       "high52": 295.39,
       "low52": 195.7,
@@ -3081,7 +3081,7 @@
       "changePct": 3.6150585888805855,
       "volume": 301736,
       "currency": "USD",
-      "ret5d": 9.31088768967509,
+      "ret5d": 6.155806845953864,
       "ret30d": 2.5666326023870156,
       "high52": 47.85,
       "low52": 29.28,
@@ -3097,7 +3097,7 @@
       "changePct": -3.9780848022867907,
       "volume": 232512,
       "currency": "USD",
-      "ret5d": 4.511279022408905,
+      "ret5d": 4.83744915514627,
       "ret30d": -5.018847067936753,
       "high52": 43.98,
       "low52": 29.64,
@@ -3337,7 +3337,7 @@
       "changePct": 0.34339229968783824,
       "volume": 1621373,
       "currency": "USD",
-      "ret5d": 0.6576168352539887,
+      "ret5d": 0.5316949966537954,
       "ret30d": 0.21824857268001938,
       "high52": 98.24,
       "low52": 94.49,
@@ -4057,7 +4057,7 @@
       "changePct": 14.701251967913647,
       "volume": 647453,
       "currency": "USD",
-      "ret5d": 13.813887031152314,
+      "ret5d": 10.645068954764113,
       "ret30d": 14.675462524187102,
       "high52": 184.75,
       "low52": 106.91,
@@ -4185,7 +4185,7 @@
       "changePct": -13.90013495276653,
       "volume": 342097,
       "currency": "USD",
-      "ret5d": -12.562811632369822,
+      "ret5d": -10.183010419171868,
       "ret30d": -14.28571399285799,
       "high52": 56.37,
       "low52": 34.87,
@@ -4313,7 +4313,7 @@
       "changePct": -63.330598851517635,
       "volume": 5069,
       "currency": "USD",
-      "ret5d": 2.522932640300848,
+      "ret5d": -15.01901510467754,
       "ret30d": -19.604315719374473,
       "high52": 17.95,
       "low52": 1.61,
@@ -4377,7 +4377,7 @@
       "changePct": -0.9909909909909859,
       "volume": 2516702,
       "currency": "USD",
-      "ret5d": 1.1039569062032806,
+      "ret5d": 1.0110283492835672,
       "ret30d": -1.0801049539648242,
       "high52": 11.92,
       "low52": 10.84,
@@ -5305,7 +5305,7 @@
       "changePct": 3.7684138403562786,
       "volume": 2554571,
       "currency": "USD",
-      "ret5d": -4.718467670111616,
+      "ret5d": -2.0216752289126805,
       "ret30d": -0.21413125750796932,
       "high52": 75.6,
       "low52": 31.4,
@@ -5721,7 +5721,7 @@
       "changePct": -18.877831715210355,
       "volume": 51123,
       "currency": "USD",
-      "ret5d": -5.310227048880438,
+      "ret5d": -4.215705284973705,
       "ret30d": -16.499834717632993,
       "high52": 125.47,
       "low52": 59.78,
@@ -5993,7 +5993,7 @@
       "changePct": -14.732235882475516,
       "volume": 269213,
       "currency": "USD",
-      "ret5d": -10.322158575197642,
+      "ret5d": -7.368419452806167,
       "ret30d": -14.856431896106887,
       "high52": 110.78,
       "low52": 50.06,
@@ -6169,7 +6169,7 @@
       "changePct": -1.709943001899934,
       "volume": 3397,
       "currency": "USD",
-      "ret5d": -2.2670032232149815,
+      "ret5d": -0.25707209857315033,
       "ret30d": -1.5852913792440346,
       "high52": 17.64,
       "low52": 15.37,
@@ -7209,7 +7209,7 @@
       "changePct": 10.841704191201936,
       "volume": 11958953,
       "currency": "USD",
-      "ret5d": 4.0650406504065035,
+      "ret5d": 1.651843917805633,
       "ret30d": 10.650068864386919,
       "high52": 35.94,
       "low52": 24.88,
@@ -7705,7 +7705,7 @@
       "changePct": 0.5945892379348019,
       "volume": 892885,
       "currency": "USD",
-      "ret5d": -0.08858117664638791,
+      "ret5d": 0.26669512240981463,
       "ret30d": 0.71934941861117,
       "high52": 204.89,
       "low52": 146.97,
@@ -10038,8 +10038,8 @@
       {
         "symbol": "MU",
         "name": "MU",
-        "reason": "고성장",
-        "why_important": "반도체",
+        "reason": "상승",
+        "why_important": "고성장",
         "impact": "high",
         "ret30d": 59.4,
         "changePct": 77.1,
@@ -10048,7 +10048,7 @@
         "risk_level": "high",
         "competitors": [
           "MRVL",
-          "KLAC"
+          "LRCX"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10057,8 +10057,8 @@
       {
         "symbol": "MRVL",
         "name": "MRVL",
-        "reason": "고성장",
-        "why_important": "반도체",
+        "reason": "상승",
+        "why_important": "고성장",
         "impact": "high",
         "ret30d": 65.1,
         "changePct": 70.3,
@@ -10067,26 +10067,26 @@
         "risk_level": "high",
         "competitors": [
           "MU",
-          "KLAC"
+          "LRCX"
         ],
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승"
       },
       {
-        "symbol": "FTNT",
-        "name": "FTNT",
-        "reason": "고성장",
-        "why_important": "サイバー",
+        "symbol": "LRCX",
+        "name": "LRCX",
+        "reason": "상승",
+        "why_important": "고성장",
         "impact": "high",
-        "ret30d": 63.5,
-        "changePct": 64.7,
+        "ret30d": 33.9,
+        "changePct": 42.8,
         "rating": "buy",
         "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          "CRWD",
-          "ZS"
+          "MU",
+          "MRVL"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10095,38 +10095,38 @@
     ],
     "trending_down": [
       {
-        "symbol": "INTU",
-        "name": "INTU",
+        "symbol": "ADBE",
+        "name": "ADBE",
         "reason": "하락",
-        "why_important": "회계",
-        "impact": "low",
-        "ret30d": -29.5,
-        "changePct": -31,
+        "why_important": "고변동",
+        "impact": "high",
+        "ret30d": -18.9,
+        "changePct": -18.4,
         "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "low",
+        "rating_reason": "고변동",
+        "risk_level": "high",
         "competitors": [
-          "ADBE",
-          "PYPL"
+          "ADSK",
+          "INTU"
         ],
         "short_term": "하락",
         "mid_term": "하락",
         "long_term": "하락"
       },
       {
-        "symbol": "ADBE",
-        "name": "ADBE",
+        "symbol": "INTU",
+        "name": "INTU",
         "reason": "하락",
-        "why_important": "회계",
-        "impact": "low",
-        "ret30d": -18.9,
-        "changePct": -18.4,
+        "why_important": "고변동",
+        "impact": "high",
+        "ret30d": -29.5,
+        "changePct": -31,
         "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "low",
+        "rating_reason": "고변동",
+        "risk_level": "high",
         "competitors": [
-          "INTU",
-          "PYPL"
+          "ADBE",
+          "ADSK"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10136,16 +10136,16 @@
         "symbol": "TTD",
         "name": "TTD",
         "reason": "하락",
-        "why_important": "광고",
-        "impact": "low",
+        "why_important": "고변동",
+        "impact": "high",
         "ret30d": -23,
         "changePct": -21.3,
         "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "low",
+        "rating_reason": "고변동",
+        "risk_level": "high",
         "competitors": [
-          "CRWD",
-          "ZS"
+          "PYPL",
+          "ISRG"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10157,81 +10157,81 @@
         "symbol": "HON",
         "name": "HON",
         "reason": "안정",
-        "why_important": "산업",
+        "why_important": "안정성",
         "impact": "medium",
         "ret30d": 9.8,
         "changePct": 9.5,
         "rating": "neutral",
-        "rating_reason": "안정",
+        "rating_reason": "안정성",
         "risk_level": "medium",
         "competitors": [
-          "CTAS",
-          "CSX"
+          "AMGN",
+          "GILD"
         ],
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합"
-      },
-      {
-        "symbol": "TXN",
-        "name": "TXN",
-        "reason": "안정",
-        "why_important": "반도체",
-        "impact": "medium",
-        "ret30d": 8.8,
-        "changePct": 8.8,
-        "rating": "neutral",
-        "rating_reason": "안정",
-        "risk_level": "medium",
-        "competitors": [
-          "ADI",
-          "KLAC"
-        ],
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합"
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
       },
       {
         "symbol": "AMGN",
         "name": "AMGN",
         "reason": "안정",
-        "why_important": "바이오",
+        "why_important": "안정성",
         "impact": "medium",
         "ret30d": 5.5,
         "changePct": 7.4,
         "rating": "neutral",
-        "rating_reason": "안정",
+        "rating_reason": "안정성",
         "risk_level": "medium",
         "competitors": [
-          "GILD",
-          "REGN"
+          "HON",
+          "GILD"
         ],
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합"
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
+      },
+      {
+        "symbol": "GILD",
+        "name": "GILD",
+        "reason": "안정",
+        "why_important": "안정성",
+        "impact": "medium",
+        "ret30d": -4.7,
+        "changePct": -4.1,
+        "rating": "neutral",
+        "rating_reason": "안정성",
+        "risk_level": "medium",
+        "competitors": [
+          "HON",
+          "AMGN"
+        ],
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
       }
     ],
     "high_volume": [
       {
         "symbol": "NVDA",
         "name": "NVDA",
-        "reason": "고거래량",
-        "why_important": "반도체",
+        "reason": "고거래",
+        "why_important": "고거래량",
         "impact": "high",
         "volume": 125087,
         "rating": "buy",
         "rating_reason": "고거래량",
         "risk_level": "high",
         "competitors": [
-          "MU",
-          "KLAC"
+          "AMD",
+          "QCOM"
         ]
       },
       {
         "symbol": "AAPL",
         "name": "AAPL",
-        "reason": "고거래량",
-        "why_important": "전자",
+        "reason": "고거래",
+        "why_important": "고거래량",
         "impact": "high",
         "volume": 37342,
         "rating": "buy",
@@ -10243,18 +10243,18 @@
         ]
       },
       {
-        "symbol": "NFLX",
-        "name": "NFLX",
-        "reason": "고거래량",
-        "why_important": "미디어",
+        "symbol": "MSFT",
+        "name": "MSFT",
+        "reason": "고거래",
+        "why_important": "고거래량",
         "impact": "high",
-        "volume": 62620,
+        "volume": 31182,
         "rating": "buy",
         "rating_reason": "고거래량",
         "risk_level": "high",
         "competitors": [
-          "DIS",
-          "CMCSA"
+          "AAPL",
+          "GOOGL"
         ]
       }
     ],
@@ -10263,178 +10263,158 @@
         "symbol": "MU",
         "name": "MU",
         "reason": "고점",
-        "why_important": "반도체",
+        "why_important": "고점근접",
         "impact": "high",
-        "volume": 43671,
+        "ret30d": 59.4,
+        "changePct": 77.1,
         "rating": "buy",
-        "rating_reason": "고점",
+        "rating_reason": "고점근접",
         "risk_level": "high",
         "competitors": [
           "MRVL",
-          "KLAC"
+          "LRCX"
         ]
       },
       {
         "symbol": "MRVL",
         "name": "MRVL",
         "reason": "고점",
-        "why_important": "반도체",
+        "why_important": "고점근접",
         "impact": "high",
-        "volume": 58400,
+        "ret30d": 65.1,
+        "changePct": 70.3,
         "rating": "buy",
-        "rating_reason": "고점",
+        "rating_reason": "고점근접",
         "risk_level": "high",
         "competitors": [
           "MU",
-          "KLAC"
+          "LRCX"
         ]
       },
       {
-        "symbol": "FTNT",
-        "name": "FTNT",
+        "symbol": "LRCX",
+        "name": "LRCX",
         "reason": "고점",
-        "why_important": "サイバー",
+        "why_important": "고점근접",
         "impact": "high",
-        "volume": 5073,
+        "ret30d": 33.9,
+        "changePct": 42.8,
         "rating": "buy",
-        "rating_reason": "고점",
+        "rating_reason": "고점근접",
         "risk_level": "high",
         "competitors": [
-          "CRWD",
-          "ZS"
+          "MU",
+          "MRVL"
         ]
       }
     ],
     "sector_trends": [
       {
-        "sector": "반도체",
+        "sector": "한국",
         "trend": "상승",
-        "avg_change": 16.3,
+        "avg_change": 25.87,
         "keywords": [
-          "반도체",
-          "MU",
-          "MRVL"
+          "한국"
         ],
-        "summary": "반도체 섹터 상승",
+        "summary": "한국 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
-        "long_term": "상승",
         "top_etfs": [
-          "MU",
-          "MRVL",
-          "KLAC"
+          "122630",
+          "233740"
         ]
       },
       {
-        "sector": "サイバー",
+        "sector": "레버리지",
         "trend": "상승",
-        "avg_change": 19.4,
+        "avg_change": 24.78,
         "keywords": [
-          "サイバー",
-          "FTNT",
-          "CRWD"
+          "레버리지"
         ],
-        "summary": "サイバー 섹터 상승",
+        "summary": "레버리지 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
-        "long_term": "상승",
         "top_etfs": [
-          "FTNT",
-          "CRWD",
-          "ZS"
+          "122630",
+          "233740"
         ]
       },
       {
-        "sector": "산업",
-        "trend": "보합",
-        "avg_change": 14.9,
+        "sector": "항공",
+        "trend": "상승",
+        "avg_change": 20.5,
         "keywords": [
-          "산업",
-          "HON",
-          "TXN"
+          "항공"
         ],
-        "summary": "산업 섹터 보합",
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합",
+        "summary": "항공 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
         "top_etfs": [
-          "HON",
-          "TXN",
-          "AMGN"
+          "122630",
+          "233740"
         ]
       },
       {
-        "sector": "바이오",
-        "trend": "보합",
-        "avg_change": 5.5,
+        "sector": "사이버보안",
+        "trend": "상승",
+        "avg_change": 19.42,
         "keywords": [
-          "바이오",
-          "AMGN",
-          "GILD"
+          "사이버보안"
         ],
-        "summary": "바이오 섹터 보합",
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합",
+        "summary": "사이버보안 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
         "top_etfs": [
-          "AMGN",
-          "GILD",
-          "REGN"
+          "122630",
+          "233740"
         ]
       },
       {
-        "sector": "금융",
-        "trend": "하락",
-        "avg_change": 8.7,
+        "sector": "전체시장",
+        "trend": "상승",
+        "avg_change": 16.45,
         "keywords": [
-          "금융",
-          "MSFT",
-          "GOOGL"
+          "전체시장"
         ],
-        "summary": "금융 섹터 하락",
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락",
+        "summary": "전체시장 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
         "top_etfs": [
-          "MSFT",
-          "GOOGL",
-          "AAPL"
+          "122630",
+          "233740"
         ]
       }
     ],
     "etf_issues": [
       {
-        "symbol": "INTU",
-        "issue": "회계",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "INTU",
-          "ADBE",
-          "PYPL"
-        ],
-        "is_noise": false,
-        "impact": "low"
-      },
-      {
-        "symbol": "TTD",
-        "issue": "광고",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "TTD",
-          "CRWD",
-          "ZS"
-        ],
-        "is_noise": false,
-        "impact": "low"
-      },
-      {
         "symbol": "MU",
-        "issue": "반도체",
-        "issue_type": "macro",
+        "issue": "고점근접",
+        "issue_type": "technical",
+        "impact_etfs": [
+          "MRVL",
+          "LRCX"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "MRVL",
+        "issue": "고점근접",
+        "issue_type": "technical",
         "impact_etfs": [
           "MU",
-          "MRVL",
-          "KLAC"
+          "LRCX"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "LRCX",
+        "issue": "고점근접",
+        "issue_type": "technical",
+        "impact_etfs": [
+          "MU",
+          "MRVL"
         ],
         "is_noise": false,
         "impact": "high"
@@ -10447,56 +10427,56 @@
         "risk_level": "high",
         "volatility": "고변동성",
         "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "반도체",
-        "suitable_for": "고위험投資家"
+        "hedge_suggestion": "하이브리드",
+        "suitable_for": "적극투자자"
       },
       {
-        "symbol": "FTNT",
-        "name": "FTNT",
+        "symbol": "MRVL",
+        "name": "MRVL",
         "risk_level": "high",
         "volatility": "고변동성",
         "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "サイバー",
-        "suitable_for": "고위험投資家"
+        "hedge_suggestion": "하이브리드",
+        "suitable_for": "적극투자자"
       },
       {
-        "symbol": "HON",
-        "name": "HON",
-        "risk_level": "medium",
-        "volatility": "중변동성",
-        "max_drawdown_risk": "중위험",
-        "hedge_suggestion": "산업",
-        "suitable_for": "중위험投資家"
+        "symbol": "LRCX",
+        "name": "LRCX",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "하이브리드",
+        "suitable_for": "적극투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
         "MU",
         "MRVL",
-        "FTNT"
+        "LRCX"
       ],
       "balanced": [
         "HON",
-        "TXN",
-        "AMGN"
+        "AMGN",
+        "GILD"
       ],
       "conservative": [
         "MSFT",
-        "GOOGL",
-        "AAPL"
+        "AAPL",
+        "GOOGL"
       ],
-      "suggestion": "고위험投資家는 MU, MRVL, FTNT를 고려하고, 중위험投資家는 HON, TXN, AMGN을 고려하고, 低위험投資家는 MSFT, GOOGL, AAPL을 고려할 수 있습니다."
+      "suggestion": "적극투자자: MU, MRVL, LRCX"
     },
-    "market_summary": "현재 시장은 반도체와 サイバー 섹터의 상승으로 주도되고 있습니다.",
+    "market_summary": "시장 요약",
     "top_keywords": [
-      "반도체",
-      "サイバー",
-      "산업"
+      "한국",
+      "레버리지",
+      "항공"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "반도체와 サイバー 섹터의 상승으로 시장 전망이 긍정적입니다."
+    "market_sentiment_reason": "시장 전망 양호"
   },
-  "updatedAt": "2026-06-16T21:43:02.418Z",
+  "updatedAt": "2026-06-16T23:18:06.392Z",
   "stats": {
     "total": 627,
     "us": 497,
