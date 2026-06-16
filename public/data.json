@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "iShares Currency Hedged MSCI Ge",
+      "name": "HEWG,116946,3000",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -8407,7 +8407,7 @@
       "market": "korea",
       "price": 18005,
       "changePct": -18.14048647419868,
-      "volume": 2798366,
+      "volume": 2798372,
       "currency": "KRW",
       "ret5d": 7.332339791356185,
       "ret30d": -16.060606060606062,
@@ -8423,7 +8423,7 @@
       "market": "korea",
       "price": 22285,
       "changePct": -18.429721815519766,
-      "volume": 413726,
+      "volume": 422520,
       "currency": "KRW",
       "ret5d": 7.062214748979101,
       "ret30d": -16.53558052434457,
@@ -8695,7 +8695,7 @@
       "market": "korea",
       "price": 13865,
       "changePct": 0.4346251358203549,
-      "volume": 145,
+      "volume": 144,
       "currency": "KRW",
       "ret5d": 1.1674571324334184,
       "ret30d": 0.3256150506512301,
@@ -8711,7 +8711,7 @@
       "market": "korea",
       "price": 102420,
       "changePct": 0.24959624137424757,
-      "volume": 40531,
+      "volume": 40350,
       "currency": "KRW",
       "ret5d": 0.06350446973767769,
       "ret30d": 0.2397846831416687,
@@ -8759,7 +8759,7 @@
       "market": "korea",
       "price": 104400,
       "changePct": -0.09569377990430622,
-      "volume": 844,
+      "volume": 835,
       "currency": "KRW",
       "ret5d": 0.5247701121756295,
       "ret30d": -0.023940627244433802,
@@ -8823,7 +8823,7 @@
       "market": "korea",
       "price": 101080,
       "changePct": 2.6714068054850175,
-      "volume": 626,
+      "volume": 649,
       "currency": "KRW",
       "ret5d": 0.8983829107606308,
       "ret30d": 3.353783231083845,
@@ -8967,7 +8967,7 @@
       "market": "korea",
       "price": 16890,
       "changePct": 7.000316756414317,
-      "volume": 5777,
+      "volume": 5780,
       "currency": "KRW",
       "ret5d": 3.5561005518087065,
       "ret30d": 8.5824493731919,
@@ -9111,7 +9111,7 @@
       "market": "korea",
       "price": 71200,
       "changePct": -19.937029124030136,
-      "volume": 148786,
+      "volume": 148939,
       "currency": "KRW",
       "ret5d": 10.387596899224807,
       "ret30d": -18.23140970427792,
@@ -9175,7 +9175,7 @@
       "market": "korea",
       "price": 52450,
       "changePct": 29.971502911659027,
-      "volume": 14422717,
+      "volume": 15576144,
       "currency": "KRW",
       "ret5d": 6.152600688119813,
       "ret30d": 30.7490963479995,
@@ -9383,7 +9383,7 @@
       "sector": "전체시장",
       "price": 114965,
       "changePct": -0.09993048314216198,
-      "volume": 14559,
+      "volume": 14882,
       "currency": "KRW",
       "ret5d": 0.44997815640017474,
       "ret30d": 0.1219246679730024,
@@ -9447,7 +9447,7 @@
       "sector": "배당",
       "price": 38790,
       "changePct": -8.015176665876215,
-      "volume": 3574872,
+      "volume": 3624872,
       "currency": "KRW",
       "ret5d": 16.53898152320865,
       "ret30d": -6.665062560153995,
@@ -9495,7 +9495,7 @@
       "sector": "채권",
       "price": 14445,
       "changePct": -21.94001621183464,
-      "volume": 492611,
+      "volume": 495264,
       "currency": "KRW",
       "ret5d": 3.920863309352518,
       "ret30d": -18.802698145025296,
@@ -9607,7 +9607,7 @@
       "sector": "IT",
       "price": 16690,
       "changePct": 5.766793409378961,
-      "volume": 815,
+      "volume": 782,
       "currency": "KRW",
       "ret5d": 5.901015228426396,
       "ret30d": 7.090150786012191,
@@ -9671,7 +9671,7 @@
       "sector": "테마",
       "price": 55,
       "changePct": 0,
-      "volume": 2045,
+      "volume": 2044,
       "currency": "KRW",
       "ret5d": 0,
       "ret30d": 0,
@@ -9735,7 +9735,7 @@
       "sector": "채권",
       "price": 18575,
       "changePct": -0.3487124463519313,
-      "volume": 405356,
+      "volume": 405468,
       "currency": "KRW",
       "ret5d": -0.4821859094562015,
       "ret30d": 0.1617686708007549,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 39515,
+      "low52": 0,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -9847,7 +9847,7 @@
       "sector": "2차전지",
       "price": 6025,
       "changePct": -17.125171939477305,
-      "volume": 128256,
+      "volume": 128273,
       "currency": "KRW",
       "ret5d": 7.78175313059034,
       "ret30d": -16.319444444444446,
@@ -9879,7 +9879,7 @@
       "sector": "반도체",
       "price": 56275,
       "changePct": 32.27171230461864,
-      "volume": 3051,
+      "volume": 3053,
       "currency": "KRW",
       "ret5d": 8.996707340693396,
       "ret30d": 31.054960409874244,
@@ -10034,464 +10034,14 @@
     }
   ],
   "ai": {
-    "trending_up": [
-      {
-        "symbol": "AMD",
-        "name": "AMD",
-        "reason": "고성장",
-        "why_important": "반도체",
-        "impact": "high",
-        "ret30d": 60.2,
-        "changePct": 51.8,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
-        "competitors": [
-          "NVDA",
-          "INTC"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "MU",
-        "name": "MU",
-        "reason": "수급호조",
-        "why_important": "반도체",
-        "impact": "high",
-        "ret30d": 88.7,
-        "changePct": 100.7,
-        "rating": "buy",
-        "rating_reason": "수급호조",
-        "risk_level": "high",
-        "competitors": [
-          "SKHYNIX",
-          "SAMSUNG"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "MRVL",
-        "name": "MRVL",
-        "reason": "고성장",
-        "why_important": "반도체",
-        "impact": "high",
-        "ret30d": 88.7,
-        "changePct": 87.3,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
-        "competitors": [
-          "BRCM",
-          "QCOM"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      }
-    ],
-    "trending_down": [
-      {
-        "symbol": "ADBE",
-        "name": "ADBE",
-        "reason": "실적부진",
-        "why_important": "소프트웨어",
-        "impact": "high",
-        "ret30d": -18.7,
-        "changePct": -17.7,
-        "rating": "sell",
-        "rating_reason": "실적부진",
-        "risk_level": "high",
-        "competitors": [
-          "MSFT",
-          "GOOGL"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      },
-      {
-        "symbol": "INTU",
-        "name": "INTU",
-        "reason": "실적부진",
-        "why_important": "소프트웨어",
-        "impact": "high",
-        "ret30d": -30.8,
-        "changePct": -29.4,
-        "rating": "sell",
-        "rating_reason": "실적부진",
-        "risk_level": "high",
-        "competitors": [
-          "MSFT",
-          "GOOGL"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      },
-      {
-        "symbol": "TTD",
-        "name": "TTD",
-        "reason": "실적부진",
-        "why_important": "광고",
-        "impact": "high",
-        "ret30d": -20,
-        "changePct": -20.5,
-        "rating": "sell",
-        "rating_reason": "실적부진",
-        "risk_level": "high",
-        "competitors": [
-          "GOOGL",
-          "FB"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      }
-    ],
-    "steady_growth": [
-      {
-        "symbol": "AAPL",
-        "name": "AAPL",
-        "reason": "안정성",
-        "why_important": "소비재",
-        "impact": "medium",
-        "ret30d": 7.1,
-        "changePct": 5.8,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "medium",
-        "competitors": [
-          "SAMSUNG",
-          "GOOGL"
-        ],
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합"
-      },
-      {
-        "symbol": "MSFT",
-        "name": "MSFT",
-        "reason": "안정성",
-        "why_important": "소프트웨어",
-        "impact": "medium",
-        "ret30d": -3.4,
-        "changePct": -3.5,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "medium",
-        "competitors": [
-          "GOOGL",
-          "AMZN"
-        ],
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합"
-      },
-      {
-        "symbol": "GOOGL",
-        "name": "GOOGL",
-        "reason": "안정성",
-        "why_important": "소프트웨어",
-        "impact": "medium",
-        "ret30d": -3.6,
-        "changePct": -4.2,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "medium",
-        "competitors": [
-          "MSFT",
-          "AMZN"
-        ],
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합"
-      }
-    ],
-    "high_volume": [
-      {
-        "symbol": "NVDA",
-        "name": "NVDA",
-        "reason": "고성장",
-        "why_important": "반도체",
-        "impact": "high",
-        "volume": 130007,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
-        "competitors": [
-          "AMD",
-          "INTC"
-        ]
-      },
-      {
-        "symbol": "MU",
-        "name": "MU",
-        "reason": "수급호조",
-        "why_important": "반도체",
-        "impact": "high",
-        "volume": 44256,
-        "rating": "buy",
-        "rating_reason": "수급호조",
-        "risk_level": "high",
-        "competitors": [
-          "SKHYNIX",
-          "SAMSUNG"
-        ]
-      },
-      {
-        "symbol": "MRVL",
-        "name": "MRVL",
-        "reason": "고성장",
-        "why_important": "반도체",
-        "impact": "high",
-        "volume": 50307,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
-        "competitors": [
-          "BRCM",
-          "QCOM"
-        ]
-      }
-    ],
-    "near_52w_high": [
-      {
-        "symbol": "AMD",
-        "name": "AMD",
-        "reason": "고성장",
-        "why_important": "반도체",
-        "impact": "high",
-        "ret30d": 60.2,
-        "changePct": 51.8,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
-        "competitors": [
-          "NVDA",
-          "INTC"
-        ]
-      },
-      {
-        "symbol": "MU",
-        "name": "MU",
-        "reason": "수급호조",
-        "why_important": "반도체",
-        "impact": "high",
-        "ret30d": 88.7,
-        "changePct": 100.7,
-        "rating": "buy",
-        "rating_reason": "수급호조",
-        "risk_level": "high",
-        "competitors": [
-          "SKHYNIX",
-          "SAMSUNG"
-        ]
-      },
-      {
-        "symbol": "MRVL",
-        "name": "MRVL",
-        "reason": "고성장",
-        "why_important": "반도체",
-        "impact": "high",
-        "ret30d": 88.7,
-        "changePct": 87.3,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
-        "competitors": [
-          "BRCM",
-          "QCOM"
-        ]
-      }
-    ],
-    "sector_trends": [
-      {
-        "sector": "반도체",
-        "trend": "상승",
-        "avg_change": 17.84,
-        "keywords": [
-          "반도체",
-          "고성장"
-        ],
-        "summary": "반도체 섹터는 고성장으로 인해 상승세를 보이고 있습니다.",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "AMD",
-          "NVDA",
-          "INTC"
-        ]
-      },
-      {
-        "sector": "전체시장",
-        "trend": "상승",
-        "avg_change": 16.44,
-        "keywords": [
-          "전체시장",
-          "안정성"
-        ],
-        "summary": "전체시장 섹터는 안정성으로 인해 상승세를 보이고 있습니다.",
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합",
-        "top_etfs": [
-          "AAPL",
-          "MSFT",
-          "GOOGL"
-        ]
-      },
-      {
-        "sector": "산업",
-        "trend": "상승",
-        "avg_change": 14.19,
-        "keywords": [
-          "산업",
-          "성장"
-        ],
-        "summary": "산업 섹터는 성장으로 인해 상승세를 보이고 있습니다.",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "CSCO",
-          "INTU",
-          "ADBE"
-        ]
-      },
-      {
-        "sector": "부동산",
-        "trend": "상승",
-        "avg_change": 8.7,
-        "keywords": [
-          "부동산",
-          "안정성"
-        ],
-        "summary": "부동산 섹터는 안정성으로 인해 상승세를 보이고 있습니다.",
-        "short_term": "보합",
-        "mid_term": "보합",
-        "long_term": "보합",
-        "top_etfs": [
-          "SPG",
-          "VNO",
-          "EQR"
-        ]
-      },
-      {
-        "sector": "기술",
-        "trend": "상승",
-        "avg_change": 7.58,
-        "keywords": [
-          "기술",
-          "고성장"
-        ],
-        "summary": "기술 섹터는 고성장으로 인해 상승세를 보이고 있습니다.",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "AAPL",
-          "GOOGL",
-          "MSFT"
-        ]
-      }
-    ],
-    "etf_issues": [
-      {
-        "symbol": "AMD",
-        "issue": "고성장",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "NVDA",
-          "INTC"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      },
-      {
-        "symbol": "MU",
-        "issue": "수급호조",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "SKHYNIX",
-          "SAMSUNG"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      },
-      {
-        "symbol": "MRVL",
-        "issue": "고성장",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "BRCM",
-          "QCOM"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      }
-    ],
-    "risk_analysis": [
-      {
-        "symbol": "AMD",
-        "name": "AMD",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "20%",
-        "hedge_suggestion": "반도체",
-        "suitable_for": "고위험投資家"
-      },
-      {
-        "symbol": "MU",
-        "name": "MU",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "25%",
-        "hedge_suggestion": "반도체",
-        "suitable_for": "고위험投資家"
-      },
-      {
-        "symbol": "MRVL",
-        "name": "MRVL",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "30%",
-        "hedge_suggestion": "반도체",
-        "suitable_for": "고위험投資家"
-      }
-    ],
-    "portfolio_suggestion": {
-      "aggressive": [
-        "AMD",
-        "MU",
-        "MRVL"
-      ],
-      "balanced": [
-        "AAPL",
-        "MSFT",
-        "GOOGL"
-      ],
-      "conservative": [
-        "SPG",
-        "VNO",
-        "EQR"
-      ],
-      "suggestion": "고위험投資家는 반도체 섹터를 고려해 보세요."
-    },
-    "market_summary": "현재 시장은 상승세를 보이고 있습니다.",
+    "market_summary": "시장은 상승 중입니다.",
     "top_keywords": [
       "반도체",
-      "고성장",
-      "안정성"
-    ],
-    "market_sentiment": "bullish",
-    "market_sentiment_reason": "고성장과 안정성으로 인해 시장은 상승세를 보이고 있습니다."
+      "サイ버보안",
+      "항공"
+    ]
   },
-  "updatedAt": "2026-06-16T09:30:32.456Z",
+  "updatedAt": "2026-06-16T12:11:47.397Z",
   "stats": {
     "total": 627,
     "us": 497,
