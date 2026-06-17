@@ -10033,18 +10033,8 @@
       "fromLow": 0
     }
   ],
-  "ai": {
-    "market_summary": "반도체와 사이버보안 섹터가 상승세를 보이고 있습니다.",
-    "top_keywords": [
-      "MU",
-      "MRVL",
-      "KLAC",
-      "PANW",
-      "FTNT",
-      "CRWD"
-    ]
-  },
-  "updatedAt": "2026-06-17T21:10:19.281Z",
+  "ai": null,
+  "updatedAt": "2026-06-17T23:17:05.645Z",
   "stats": {
     "total": 627,
     "us": 497,
