@@ -9577,7 +9577,7 @@
       "changePct": -7.760314341846758,
       "volume": 0,
       "currency": "KRW",
-      "ret5d": 23.715415019762844,
+      "ret5d": 22.265625,
       "ret30d": -12.242990654205608,
       "high52": 11540,
       "low52": 5600,
@@ -9689,7 +9689,7 @@
       "changePct": 14.741035856573706,
       "volume": 0,
       "currency": "KRW",
-      "ret5d": 91.74434087882824,
+      "ret5d": 84.14322250639387,
       "ret30d": 16.363636363636363,
       "high52": 29800,
       "low52": 13450,
@@ -10044,10 +10044,11 @@
         "ret30d": 75.4,
         "changePct": 70.1,
         "rating": "buy",
-        "rating_reason": "강세 지속",
+        "rating_reason": "강한 상승势",
         "risk_level": "high",
         "competitors": [
-          ""
+          "NVDA",
+          "AMD"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10057,33 +10058,35 @@
         "symbol": "MRVL",
         "name": "마벨",
         "reason": "신제품 출시",
-        "why_important": "기술 혁신",
+        "why_important": "5G 수요 증가",
         "impact": "high",
         "ret30d": 94.1,
         "changePct": 80.4,
         "rating": "buy",
-        "rating_reason": "성장 가능성",
+        "rating_reason": "강한 상승势",
         "risk_level": "high",
         "competitors": [
-          ""
+          "QCOM",
+          "TXN"
         ],
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승"
       },
       {
-        "symbol": "FTNT",
-        "name": "포트넷",
-        "reason": "サイ버보안 수요 증가",
-        "why_important": "보안 필요성",
+        "symbol": "KLAC",
+        "name": "KLA",
+        "reason": "수익성 개선",
+        "why_important": "반도체 산업 성장",
         "impact": "high",
-        "ret30d": 34,
-        "changePct": 60.9,
+        "ret30d": 47.2,
+        "changePct": 42.9,
         "rating": "buy",
-        "rating_reason": "강세 지속",
+        "rating_reason": "강한 상승势",
         "risk_level": "high",
         "competitors": [
-          ""
+          "LRCX",
+          "ADI"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10094,34 +10097,17 @@
       {
         "symbol": "INTU",
         "name": "인튜이트",
-        "reason": "경쟁 심화",
-        "why_important": "시장 점유율",
+        "reason": "수익성 악화",
+        "why_important": "경쟁 심화",
         "impact": "high",
         "ret30d": -34.4,
         "changePct": -31.3,
         "rating": "sell",
-        "rating_reason": "하락 가능성",
+        "rating_reason": "약한 하락势",
         "risk_level": "high",
         "competitors": [
-          ""
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      },
-      {
-        "symbol": "ADBE",
-        "name": "어도비",
-        "reason": "수익성 악화",
-        "why_important": "경영 효율성",
-        "impact": "high",
-        "ret30d": -23.9,
-        "changePct": -22,
-        "rating": "sell",
-        "rating_reason": "하락 가능성",
-        "risk_level": "high",
-        "competitors": [
-          ""
+          "ADBE",
+          "PYPL"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10131,15 +10117,35 @@
         "symbol": "TTD",
         "name": "트레이딩 데스크",
         "reason": "광고 수요 감소",
-        "why_important": "매체 환경 변화",
+        "why_important": "디지털 광고 시장 변동",
         "impact": "high",
         "ret30d": -21.2,
         "changePct": -22.9,
         "rating": "sell",
-        "rating_reason": "하락 가능성",
+        "rating_reason": "약한 하락势",
         "risk_level": "high",
         "competitors": [
-          ""
+          "GOOGL",
+          "FB"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "ADSK",
+        "name": "오토데스크",
+        "reason": "수익성 악화",
+        "why_important": "경쟁 심화",
+        "impact": "high",
+        "ret30d": -22.8,
+        "changePct": -20.3,
+        "rating": "sell",
+        "rating_reason": "약한 하락势",
+        "risk_level": "high",
+        "competitors": [
+          "ADBE",
+          "MSFT"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10149,35 +10155,18 @@
     "steady_growth": [
       {
         "symbol": "HON",
-        "name": "하니웰",
-        "reason": "다각화 전략",
-        "why_important": "안정성",
+        "name": "혼리웰",
+        "reason": "수익성 개선",
+        "why_important": "산업 성장",
         "impact": "medium",
         "ret30d": 6,
         "changePct": 5.6,
         "rating": "neutral",
-        "rating_reason": "안정적 성장",
+        "rating_reason": "안정적인 성장",
         "risk_level": "medium",
         "competitors": [
-          ""
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "AMGN",
-        "name": "암젠",
-        "reason": "신제품 개발",
-        "why_important": "의료 기술 발전",
-        "impact": "medium",
-        "ret30d": 2.6,
-        "changePct": 2,
-        "rating": "neutral",
-        "rating_reason": "안정적 성장",
-        "risk_level": "medium",
-        "competitors": [
-          ""
+          "UTX",
+          "GE"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10186,16 +10175,36 @@
       {
         "symbol": "ADI",
         "name": "아날로그 디바이스",
-        "reason": "반도체 수요 증가",
-        "why_important": "기술 혁신",
+        "reason": "신제품 출시",
+        "why_important": "반도체 산업 성장",
         "impact": "medium",
         "ret30d": 6.3,
         "changePct": 4.5,
         "rating": "neutral",
-        "rating_reason": "안정적 성장",
+        "rating_reason": "안정적인 성장",
         "risk_level": "medium",
         "competitors": [
-          ""
+          "TXN",
+          "QCOM"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "NXPI",
+        "name": "NXP",
+        "reason": "수익성 개선",
+        "why_important": "반도체 산업 성장",
+        "impact": "medium",
+        "ret30d": 7.9,
+        "changePct": 3.2,
+        "rating": "neutral",
+        "rating_reason": "안정적인 성장",
+        "risk_level": "medium",
+        "competitors": [
+          "QCOM",
+          "TXN"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10206,43 +10215,46 @@
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "reason": "인공지능 수요 증가",
-        "why_important": "기술 혁신",
+        "reason": "신제품 출시",
+        "why_important": "5G 수요 증가",
         "impact": "high",
         "volume": 238265,
         "rating": "buy",
-        "rating_reason": "강세 지속",
+        "rating_reason": "강한 상승势",
         "risk_level": "high",
         "competitors": [
-          ""
+          "AMD",
+          "QCOM"
         ]
       },
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "reason": "신제품 출시",
-        "why_important": "소비자 수요",
-        "impact": "high",
-        "volume": 76702,
-        "rating": "buy",
-        "rating_reason": "강세 지속",
-        "risk_level": "high",
-        "competitors": [
-          ""
-        ]
-      },
-      {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
+        "symbol": "AMZN",
+        "name": "아마존",
         "reason": "클라우드 수요 증가",
-        "why_important": "기업 수요",
+        "why_important": "디지털 전환",
         "impact": "high",
-        "volume": 58466,
+        "volume": 66533,
         "rating": "buy",
-        "rating_reason": "강세 지속",
+        "rating_reason": "강한 상승势",
         "risk_level": "high",
         "competitors": [
-          ""
+          "MSFT",
+          "GOOGL"
+        ]
+      },
+      {
+        "symbol": "NFLX",
+        "name": "넷플릭스",
+        "reason": "콘텐츠 수요 증가",
+        "why_important": "OTT 성장",
+        "impact": "high",
+        "volume": 91280,
+        "rating": "buy",
+        "rating_reason": "강한 상승势",
+        "risk_level": "high",
+        "competitors": [
+          "AAPL",
+          "DIS"
         ]
       }
     ],
@@ -10256,40 +10268,43 @@
         "ret30d": 75.4,
         "changePct": 70.1,
         "rating": "buy",
-        "rating_reason": "강세 지속",
+        "rating_reason": "강한 상승势",
         "risk_level": "high",
         "competitors": [
-          ""
+          "NVDA",
+          "AMD"
         ]
       },
       {
         "symbol": "MRVL",
         "name": "마벨",
         "reason": "신제품 출시",
-        "why_important": "기술 혁신",
+        "why_important": "5G 수요 증가",
         "impact": "high",
         "ret30d": 94.1,
         "changePct": 80.4,
         "rating": "buy",
-        "rating_reason": "성장 가능성",
+        "rating_reason": "강한 상승势",
         "risk_level": "high",
         "competitors": [
-          ""
+          "QCOM",
+          "TXN"
         ]
       },
       {
-        "symbol": "FTNT",
-        "name": "포트넷",
-        "reason": "サイ버보안 수요 증가",
-        "why_important": "보안 필요성",
+        "symbol": "KLAC",
+        "name": "KLA",
+        "reason": "수익성 개선",
+        "why_important": "반도체 산업 성장",
         "impact": "high",
-        "ret30d": 34,
-        "changePct": 60.9,
+        "ret30d": 47.2,
+        "changePct": 42.9,
         "rating": "buy",
-        "rating_reason": "강세 지속",
+        "rating_reason": "강한 상승势",
         "risk_level": "high",
         "competitors": [
-          ""
+          "LRCX",
+          "ADI"
         ]
       }
     ],
@@ -10299,27 +10314,35 @@
         "trend": "상승",
         "avg_change": 20.45,
         "keywords": [
-          ""
+          "반도체",
+          "5G"
         ],
-        "summary": "한국 시장 상승",
+        "summary": "한국 시장은 반도체와 5G 수요 증가로 상승세를 보이고 있습니다.",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          ""
+          "MU",
+          "MRVL",
+          "KLAC"
         ]
       },
       {
-        "sector": "サイ버보안",
+        "sector": "사이버보안",
         "trend": "상승",
         "avg_change": 17.99,
         "keywords": [
-          ""
+          "보안",
+          "클라우드"
         ],
-        "summary": "サイ버보안 수요 증가",
+        "summary": "사이버보안 시장은 보안 수요 증가로 상승세를 보이고 있습니다.",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          ""
+          "PANW",
+          "FTNT",
+          "CRWD"
         ]
       },
       {
@@ -10327,13 +10350,17 @@
         "trend": "상승",
         "avg_change": 17.29,
         "keywords": [
-          ""
+          "레버리지",
+          "증거금"
         ],
-        "summary": "레버리지 수요 증가",
+        "summary": "레버리지 시장은 증거금 증가로 상승세를 보이고 있습니다.",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          ""
+          "122630",
+          "233740",
+          "114800"
         ]
       },
       {
@@ -10341,13 +10368,17 @@
         "trend": "상승",
         "avg_change": 15.96,
         "keywords": [
-          ""
+          "반도체",
+          "대만"
         ],
-        "summary": "대만 시장 상승",
+        "summary": "대만 시장은 반도체 수요 증가로 상승세를 보이고 있습니다.",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          ""
+          "TSM",
+          "UMC",
+          "SPIL"
         ]
       },
       {
@@ -10355,33 +10386,28 @@
         "trend": "상승",
         "avg_change": 14.64,
         "keywords": [
-          ""
+          "반도체",
+          "5G"
         ],
-        "summary": "반도체 수요 증가",
+        "summary": "반도체 시장은 5G 수요 증가로 상승세를 보이고 있습니다.",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          ""
+          "NVDA",
+          "AMD",
+          "QCOM"
         ]
       }
     ],
     "etf_issues": [
       {
         "symbol": "INTU",
-        "issue": "경쟁 심화",
-        "issue_type": "macro",
-        "impact_etfs": [
-          ""
-        ],
-        "is_noise": false,
-        "impact": "high"
-      },
-      {
-        "symbol": "ADBE",
         "issue": "수익성 악화",
         "issue_type": "earnings",
         "impact_etfs": [
-          ""
+          "ADBE",
+          "PYPL"
         ],
         "is_noise": false,
         "impact": "high"
@@ -10391,7 +10417,19 @@
         "issue": "광고 수요 감소",
         "issue_type": "macro",
         "impact_etfs": [
-          ""
+          "GOOGL",
+          "FB"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "ADSK",
+        "issue": "수익성 악화",
+        "issue_type": "earnings",
+        "impact_etfs": [
+          "ADBE",
+          "MSFT"
         ],
         "is_noise": false,
         "impact": "high"
@@ -10403,57 +10441,57 @@
         "name": "마이크론",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "방어적 투자",
-        "suitable_for": "적극적 투자자"
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "QLD",
+        "suitable_for": "적극 투자자"
       },
       {
         "symbol": "MRVL",
         "name": "마벨",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "방어적 투자",
-        "suitable_for": "적극적 투자자"
+        "max_drawdown_risk": "25%",
+        "hedge_suggestion": "QLD",
+        "suitable_for": "적극 투자자"
       },
       {
-        "symbol": "FTNT",
-        "name": "포트넷",
+        "symbol": "KLAC",
+        "name": "KLA",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "방어적 투자",
-        "suitable_for": "적극적 투자자"
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "QLD",
+        "suitable_for": "적극 투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
         "MU",
         "MRVL",
-        "FTNT"
+        "KLAC"
       ],
       "balanced": [
         "HON",
-        "AMGN",
-        "ADI"
+        "ADI",
+        "NXPI"
       ],
       "conservative": [
         "MSFT",
         "AAPL",
-        "NVDA"
+        "GOOGL"
       ],
-      "suggestion": "적극적 투자자: MU, MRVL, FTNT / 중립적 투자자: HON, AMGN, ADI / 보수적 투자자: MSFT, AAPL, NVDA"
+      "suggestion": "적극 투자자는 MU, MRVL, KLAC를 고려하고, 중립 투자자는 HON, ADI, NXPI를 고려하며, 보수 투자자는 MSFT, AAPL, GOOGL을 고려합니다."
     },
-    "market_summary": "시장은 상승세를 보이고 있습니다.",
+    "market_summary": "한국 시장은 반도체와 5G 수요 증가로 상승세를 보이고 있습니다.",
     "top_keywords": [
       "반도체",
-      "サイ버보안",
-      "레버리지"
+      "5G",
+      "클라우드"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "기술 혁신과 수요 증가"
+    "market_sentiment_reason": "한국 시장의 상승세와 사이버보안 시장의 상승세로 투자자들의 낙관적인 기대가 높아지고 있습니다."
   },
-  "updatedAt": "2026-06-19T17:26:33.870Z",
+  "updatedAt": "2026-06-19T20:27:08.674Z",
   "stats": {
     "total": 627,
     "us": 497,
