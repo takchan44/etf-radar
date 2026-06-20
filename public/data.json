@@ -300,9 +300,9 @@
       "ret5d": 19.77822334990504,
       "ret30d": 24.497063034912944,
       "high52": 178.98,
-      "low52": 55.47,
+      "low52": 55.52,
       "fromHigh": -0.4190412336573919,
-      "fromLow": 221.30881557598704
+      "fromLow": 221.01945244956767
     },
     {
       "symbol": "AIQ",
@@ -380,9 +380,9 @@
       "ret5d": 7.09288430567569,
       "ret30d": 2.0616219807962284,
       "high52": 144.416,
-      "low52": 82.87,
+      "low52": 83.021,
       "fromHigh": -7.787225792156001,
-      "fromLow": 60.69747797755518
+      "fromLow": 60.405198684670125
     },
     {
       "symbol": "ARKK",
@@ -1068,9 +1068,9 @@
       "ret5d": -0.7118893079606933,
       "ret30d": 0.35978835978836343,
       "high52": 50.23,
-      "low52": 44.12,
+      "low52": 44.15,
       "fromHigh": -5.5942663746764785,
-      "fromLow": 7.479601087941987
+      "fromLow": 7.406568516421299
     },
     {
       "symbol": "DHS",
@@ -1132,9 +1132,9 @@
       "ret5d": -0.47732729845855837,
       "ret30d": 0.901893805069128,
       "high52": 47.3,
-      "low52": 41.37,
+      "low52": 41.39,
       "fromHigh": -3.023255813953488,
-      "fromLow": 10.877447425670777
+      "fromLow": 10.823870500120794
     },
     {
       "symbol": "XYLD",
@@ -1660,9 +1660,9 @@
       "ret5d": 6.738319775288022,
       "ret30d": 4.058631260035517,
       "high52": 356.19,
-      "low52": 268.94,
+      "low52": 269.71,
       "fromHigh": -0.7383699710828477,
-      "fromLow": 31.464267122778317
+      "fromLow": 31.0889473879352
     },
     {
       "symbol": "IYJ",
@@ -1676,9 +1676,9 @@
       "ret5d": 5.507869220924604,
       "ret30d": 2.885227101970803,
       "high52": 164.58,
-      "low52": 136.21,
+      "low52": 136.26,
       "fromHigh": -1.4157248754405227,
-      "fromLow": 19.117539094045952
+      "fromLow": 19.07382944371056
     },
     {
       "symbol": "FIDU",
@@ -1708,9 +1708,9 @@
       "ret5d": 6.27918583600008,
       "ret30d": 7.406411352303446,
       "high52": 250.65,
-      "low52": 177.56,
+      "low52": 179.89,
       "fromHigh": -4.651905046878115,
-      "fromLow": 34.59675602613201
+      "fromLow": 32.85341041747736
     },
     {
       "symbol": "PPA",
@@ -1724,9 +1724,9 @@
       "ret5d": 4.587761070769761,
       "ret30d": 5.183897477635259,
       "high52": 186.3,
-      "low52": 133.95,
+      "low52": 135.21,
       "fromHigh": -5.899087493290396,
-      "fromLow": 30.877192982456155
+      "fromLow": 29.65756970638266
     },
     {
       "symbol": "XAR",
@@ -1740,9 +1740,9 @@
       "ret5d": 6.58343204378752,
       "ret30d": 8.19378498789797,
       "high52": 295.39,
-      "low52": 196,
+      "low52": 197.91,
       "fromHigh": -3.7577439994583317,
-      "fromLow": 45.04591836734695
+      "fromLow": 43.646101763427836
     },
     {
       "symbol": "JETS",
@@ -1772,9 +1772,9 @@
       "ret5d": 3.233767032611844,
       "ret30d": -2.2689333631432165,
       "high52": 125.01,
-      "low52": 104.81,
+      "low52": 104.855,
       "fromHigh": -6.279497640188792,
-      "fromLow": 11.783226791336698
+      "fromLow": 11.735253445233887
     },
     {
       "symbol": "VCR",
@@ -1996,9 +1996,9 @@
       "ret5d": 1.0722457670874166,
       "ret30d": -1.3722114022807703,
       "high52": 61.51,
-      "low52": 51.72,
+      "low52": 51.82,
       "fromHigh": -6.51926516013656,
-      "fromLow": 11.175560711523591
+      "fromLow": 10.961018911617137
     },
     {
       "symbol": "PUI",
@@ -2988,9 +2988,9 @@
       "ret5d": -0.4677229405607463,
       "ret30d": -12.57189865819513,
       "high52": 24.66,
-      "low52": 19,
+      "low52": 19.24,
       "fromHigh": -13.706407137064067,
-      "fromLow": 12.000000000000007
+      "fromLow": 10.602910602910617
     },
     {
       "symbol": "INDA",
@@ -3468,9 +3468,9 @@
       "ret5d": -0.19160444985834404,
       "ret30d": -1.4770771839391172,
       "high52": 112.26,
-      "low52": 108.93,
+      "low52": 109.02,
       "fromHigh": -2.5565651166933945,
-      "fromLow": 0.4222895437436828
+      "fromLow": 0.33938726839112504
     },
     {
       "symbol": "SCHP",
@@ -3724,9 +3724,9 @@
       "ret5d": -1.6634684103469626,
       "ret30d": -16.57167822864537,
       "high52": 26.162,
-      "low52": 11.507,
+      "low52": 11.635,
       "fromHigh": -41.25066890910481,
-      "fromLow": 33.570869905275046
+      "fromLow": 32.10141813493768
     },
     {
       "symbol": "PALL",
@@ -3740,9 +3740,9 @@
       "ret5d": 0.08617370235367507,
       "ret30d": -13.950215770754726,
       "high52": 39.482,
-      "low52": 19.006,
+      "low52": 19.152,
       "fromHigh": -41.16306164834608,
-      "fromLow": 22.224560665053144
+      "fromLow": 21.292815371762735
     },
     {
       "symbol": "GDX",
@@ -3851,9 +3851,9 @@
       "currency": "USD",
       "ret5d": 5.197134054821578,
       "ret30d": 9.925090491903058,
-      "high52": 18.07,
+      "high52": 17.16,
       "low52": 9.95,
-      "fromHigh": -35.03043718871057,
+      "fromHigh": -31.585081585081586,
       "fromLow": 17.98994974874373
     },
     {
@@ -4299,9 +4299,9 @@
       "currency": "USD",
       "ret5d": -6.309150519887863,
       "ret30d": -6.012660780695573,
-      "high52": 9.78,
+      "high52": 9.71,
       "low52": 5.77,
-      "fromHigh": -39.26380368098158,
+      "fromHigh": -38.825952626158596,
       "fromLow": 2.9462738301559934
     },
     {
@@ -4428,9 +4428,9 @@
       "ret5d": 1.6766345491664878,
       "ret30d": 3.069795225833488,
       "high52": 219.82,
-      "low52": 175.2,
+      "low52": 175.21,
       "fromHigh": -1.787826403420984,
-      "fromLow": 23.224885844748858
+      "fromLow": 23.217852862279535
     },
     {
       "symbol": "SIZE",
@@ -4444,9 +4444,9 @@
       "ret5d": 1.3228579409475818,
       "ret30d": 2.6631511465838655,
       "high52": 178.34,
-      "low52": 149.79,
+      "low52": 150.07,
       "fromHigh": -1.6485365033082862,
-      "fromLow": 17.09726951064825
+      "fromLow": 16.878789898047586
     },
     {
       "symbol": "USMV",
@@ -4524,9 +4524,9 @@
       "ret5d": 1.1738482161297707,
       "ret30d": 3.7355126300148567,
       "high52": 178.19,
-      "low52": 129.401,
+      "low52": 129.415,
       "fromHigh": -2.0511813233065834,
-      "fromLow": 34.879174040386076
+      "fromLow": 34.86458293088128
     },
     {
       "symbol": "DRIV",
@@ -5052,9 +5052,9 @@
       "ret5d": 8.867886562422306,
       "ret30d": 8.32854776160968,
       "high52": 152.11,
-      "low52": 104.31,
+      "low52": 104.55,
       "fromHigh": -0.8086253369272356,
-      "fromLow": 44.645767424024534
+      "fromLow": 44.31372549019608
     },
     {
       "symbol": "FALN",
@@ -5356,9 +5356,9 @@
       "ret5d": 6.446520347871794,
       "ret30d": -2.762500000000008,
       "high52": 157.27,
-      "low52": 107.61,
+      "low52": 108.15,
       "fromHigh": -6.0208558529916845,
-      "fromLow": 37.34875940897685
+      "fromLow": 36.66296809986129
     },
     {
       "symbol": "SNSR",
@@ -5404,9 +5404,9 @@
       "ret5d": 1.3397886841527773,
       "ret30d": 0.45759099649687035,
       "high52": 93.738,
-      "low52": 80.07,
+      "low52": 80.18,
       "fromHigh": -3.9770423947598568,
-      "fromLow": 12.414137629574139
+      "fromLow": 12.25991519082065
     },
     {
       "symbol": "MDIV",
@@ -5564,9 +5564,9 @@
       "ret5d": -1.3969278476108837,
       "ret30d": -1.225467155919946,
       "high52": 125.28,
-      "low52": 115.8,
+      "low52": 115.93,
       "fromHigh": -4.781289910600251,
-      "fromLow": 3.0138169257340324
+      "fromLow": 2.898300698697489
     },
     {
       "symbol": "HOMZ",
@@ -6300,9 +6300,9 @@
       "ret5d": 6.543131066628481,
       "ret30d": 13.016445245158263,
       "high52": 167.58,
-      "low52": 93.55,
+      "low52": 93.8,
       "fromHigh": -5.651032342761665,
-      "fromLow": 69.01122394441477
+      "fromLow": 68.56076759061835
     },
     {
       "symbol": "PAVE",
@@ -6428,9 +6428,9 @@
       "ret5d": 0.8050587145682045,
       "ret30d": 3.6772882927971735,
       "high52": 317.4,
-      "low52": 196.86,
+      "low52": 198.96,
       "fromHigh": -6.109010712035283,
-      "fromLow": 51.381692573402404
+      "fromLow": 49.783876156011246
     },
     {
       "symbol": "NVDA",
@@ -6540,9 +6540,9 @@
       "ret5d": 6.686202812996123,
       "ret30d": -0.2932900828374369,
       "high52": 495,
-      "low52": 244.17,
+      "low52": 246.46,
       "fromHigh": -16.898989898989893,
-      "fromLow": 68.4686898472376
+      "fromLow": 66.90335145662583
     },
     {
       "symbol": "COST",
@@ -6620,9 +6620,9 @@
       "ret5d": -1.879669865088154,
       "ret30d": 29.709196234708518,
       "high52": 130.37,
-      "low52": 65.72,
+      "low52": 65.75,
       "fromHigh": -8.30712587251668,
-      "fromLow": 81.8928788800974
+      "fromLow": 81.80988593155895
     },
     {
       "symbol": "TMUS",
@@ -6860,9 +6860,9 @@
       "ret5d": 7.315461709706712,
       "ret30d": 35.7811025119913,
       "high52": 401,
-      "low52": 87.75,
+      "low52": 90.29,
       "fromHigh": -2.9825436408977506,
-      "fromLow": 343.35042735042737
+      "fromLow": 330.87828109425186
     },
     {
       "symbol": "REGN",
@@ -6876,9 +6876,9 @@
       "ret5d": 1.3778733897685838,
       "ret30d": -13.983920321531587,
       "high52": 821.11,
-      "low52": 506.38,
+      "low52": 507.61,
       "fromHigh": -25.717626140224816,
-      "fromLow": 20.451044670010678
+      "fromLow": 20.15917732117177
     },
     {
       "symbol": "PANW",
@@ -7788,9 +7788,9 @@
       "ret5d": -0.8834807779794417,
       "ret30d": -3.7548182192179396,
       "high52": 84.23,
-      "low52": 66.32,
+      "low52": 66.56,
       "fromHigh": -8.09687759705569,
-      "fromLow": 16.721954161640536
+      "fromLow": 16.30108173076922
     },
     {
       "symbol": "AEP",
@@ -7804,9 +7804,9 @@
       "ret5d": -0.6148783887060272,
       "ret30d": -3.0889455650552424,
       "high52": 139.44,
-      "low52": 101.11,
+      "low52": 101.15,
       "fromHigh": -8.426563396442914,
-      "fromLow": 26.28820096924142
+      "fromLow": 26.2382600098863
     },
     {
       "symbol": "EXC",
@@ -8412,9 +8412,9 @@
       "ret5d": -1.5406976744186047,
       "ret30d": -25.396475770925107,
       "high52": 22860,
-      "low52": 9955,
+      "low52": 10010,
       "fromHigh": -25.918635170603675,
-      "fromLow": 70.11551983927674
+      "fromLow": 69.18081918081919
     },
     {
       "symbol": "305540",
@@ -8428,9 +8428,9 @@
       "ret5d": -2.6382781763480674,
       "ret30d": -26.192982456140353,
       "high52": 28500,
-      "low52": 12450,
+      "low52": 12550,
       "fromHigh": -26.192982456140353,
-      "fromLow": 68.95582329317268
+      "fromLow": 67.60956175298804
     },
     {
       "symbol": "371460",
@@ -8460,9 +8460,9 @@
       "ret5d": -0.6619593998234775,
       "ret30d": -24.46308724832215,
       "high52": 14945,
-      "low52": 6880,
+      "low52": 6925,
       "fromHigh": -24.690531950485113,
-      "fromLow": 63.59011627906976
+      "fromLow": 62.52707581227437
     },
     {
       "symbol": "385720",
@@ -8487,7 +8487,7 @@
       "market": "korea",
       "price": 21350,
       "changePct": 13.112582781456952,
-      "volume": 305603,
+      "volume": 302165,
       "currency": "KRW",
       "ret5d": 5.328071040947212,
       "ret30d": 10.051546391752577,
@@ -8775,7 +8775,7 @@
       "market": "korea",
       "price": 7295,
       "changePct": 0.34387895460797796,
-      "volume": 1037076,
+      "volume": 1047336,
       "currency": "KRW",
       "ret5d": 0.7596685082872928,
       "ret30d": -0.13689253935660506,
@@ -8855,7 +8855,7 @@
       "market": "korea",
       "price": 109275,
       "changePct": 0.30290513561889026,
-      "volume": 4737,
+      "volume": 4735,
       "currency": "KRW",
       "ret5d": 0.05035707745834096,
       "ret30d": 0.29369923362856226,
@@ -8892,9 +8892,9 @@
       "ret5d": 5.125523012552302,
       "ret30d": 12.845272849764203,
       "high52": 25670,
-      "low52": 13725,
+      "low52": 13765,
       "fromHigh": -2.123100895987534,
-      "fromLow": 83.06010928961749
+      "fromLow": 82.52815110788231
     },
     {
       "symbol": "217770",
@@ -8972,9 +8972,9 @@
       "ret5d": 1.1459589867310012,
       "ret30d": 1.7288444040036397,
       "high52": 17045,
-      "low52": 12420,
+      "low52": 12425,
       "fromHigh": -1.6133763567028454,
-      "fromLow": 35.02415458937198
+      "fromLow": 34.969818913480886
     },
     {
       "symbol": "211560",
@@ -9051,9 +9051,9 @@
       "currency": "KRW",
       "ret5d": 2.295552367288379,
       "ret30d": 19.831932773109244,
-      "high52": 5325,
+      "high52": 5320,
       "low52": 2245,
-      "fromHigh": -33.051643192488264,
+      "fromHigh": -32.98872180451128,
       "fromLow": 58.797327394209354
     },
     {
@@ -9063,7 +9063,7 @@
       "market": "korea",
       "price": 13455,
       "changePct": 4.586086280606296,
-      "volume": 1266191,
+      "volume": 1255030,
       "currency": "KRW",
       "ret5d": 0.4479283314669653,
       "ret30d": 4.708171206225681,
@@ -9084,9 +9084,9 @@
       "ret5d": 1.7037302725968435,
       "ret30d": 6.7984934086629005,
       "high52": 29000,
-      "low52": 20275,
+      "low52": 20300,
       "fromHigh": -2.2241379310344827,
-      "fromLow": 39.85203452527743
+      "fromLow": 39.679802955665025
     },
     {
       "symbol": "379800",
@@ -9100,9 +9100,9 @@
       "ret5d": 1.5735641227380015,
       "ret30d": 6.694214876033058,
       "high52": 26440,
-      "low52": 18655,
+      "low52": 18680,
       "fromHigh": -2.344931921331316,
-      "fromLow": 38.407933529884744
+      "fromLow": 38.22269807280514
     },
     {
       "symbol": "433500",
@@ -9111,7 +9111,7 @@
       "market": "korea",
       "price": 64410,
       "changePct": -28.985667034178608,
-      "volume": 194347,
+      "volume": 193972,
       "currency": "KRW",
       "ret5d": -5.819564263781254,
       "ret30d": -30.57771071351584,
@@ -9127,7 +9127,7 @@
       "market": "korea",
       "price": 12905,
       "changePct": 5.2181002853648595,
-      "volume": 255653,
+      "volume": 254936,
       "currency": "KRW",
       "ret5d": 4.240710823909531,
       "ret30d": 4.07258064516129,
@@ -9143,7 +9143,7 @@
       "market": "korea",
       "price": 15405,
       "changePct": 4.902962206332993,
-      "volume": 2435039,
+      "volume": 2425401,
       "currency": "KRW",
       "ret5d": -1.691129546904914,
       "ret30d": 5.369357045143639,
@@ -9383,7 +9383,7 @@
       "sector": "전체시장",
       "price": 114700,
       "changePct": -0.15668523676880222,
-      "volume": 13238,
+      "volume": 13228,
       "currency": "KRW",
       "ret5d": -0.06969855375500958,
       "ret30d": -0.35618104421857355,
@@ -9431,7 +9431,7 @@
       "sector": "배당",
       "price": 17380,
       "changePct": 2.5368731563421827,
-      "volume": 382128,
+      "volume": 381142,
       "currency": "KRW",
       "ret5d": 0.9291521486643438,
       "ret30d": 1.3115709705625183,
@@ -9447,7 +9447,7 @@
       "sector": "배당",
       "price": 37470,
       "changePct": -7.811538934678312,
-      "volume": 3475631,
+      "volume": 3460405,
       "currency": "KRW",
       "ret5d": 5.564163966755881,
       "ret30d": -10.63677557834486,
@@ -9495,7 +9495,7 @@
       "sector": "채권",
       "price": 14065,
       "changePct": -19.02705814622913,
-      "volume": 546540,
+      "volume": 544780,
       "currency": "KRW",
       "ret5d": 1.40591204037491,
       "ret30d": -18.6524002313476,
@@ -9527,7 +9527,7 @@
       "sector": "금융",
       "price": 25175,
       "changePct": 3.218532185321853,
-      "volume": 505119,
+      "volume": 497102,
       "currency": "KRW",
       "ret5d": 1.6555622854835454,
       "ret30d": 1.5940274414850686,
@@ -9612,9 +9612,9 @@
       "ret5d": 1.3429106808244848,
       "ret30d": -0.7341694707861731,
       "high52": 17715,
-      "low52": 9860,
+      "low52": 9930,
       "fromHigh": -8.410951171323736,
-      "fromLow": 64.55375253549695
+      "fromLow": 63.39375629405841
     },
     {
       "symbol": "228790",
@@ -9655,7 +9655,7 @@
       "sector": "AI",
       "price": 29030,
       "changePct": -9.025383892196803,
-      "volume": 1674453,
+      "volume": 1677532,
       "currency": "KRW",
       "ret5d": 4.85822647643128,
       "ret30d": -11.49390243902439,
@@ -9671,7 +9671,7 @@
       "sector": "테마",
       "price": 65,
       "changePct": 16.071428571428573,
-      "volume": 211378,
+      "volume": 191378,
       "currency": "KRW",
       "ret5d": 0,
       "ret30d": 0,
@@ -9708,9 +9708,9 @@
       "ret5d": 0.06074806907923284,
       "ret30d": 0.3393960490818902,
       "high52": 57650,
-      "low52": 56200,
+      "low52": 56205,
       "fromHigh": 0,
-      "fromLow": 2.580071174377224
+      "fromLow": 2.5709456454052133
     },
     {
       "symbol": "458760",
@@ -9719,7 +9719,7 @@
       "sector": "채권",
       "price": 11410,
       "changePct": 3.633060853769301,
-      "volume": 870842,
+      "volume": 669368,
       "currency": "KRW",
       "ret5d": -2.227934875749786,
       "ret30d": 4.200913242009133,
@@ -9735,7 +9735,7 @@
       "sector": "채권",
       "price": 18260,
       "changePct": -2.7947830715996806,
-      "volume": 212818,
+      "volume": 205184,
       "currency": "KRW",
       "ret5d": 0.32967032967032966,
       "ret30d": -4.622616871245756,
@@ -9799,7 +9799,7 @@
       "sector": "채권",
       "price": 37290,
       "changePct": 7.75899436497616,
-      "volume": 1056445,
+      "volume": 1054825,
       "currency": "KRW",
       "ret5d": 8.590564938846827,
       "ret30d": 7.6190476190476195,
@@ -9815,7 +9815,7 @@
       "sector": "산업",
       "price": 12195,
       "changePct": 4.993542832544124,
-      "volume": 64529,
+      "volume": 64195,
       "currency": "KRW",
       "ret5d": 0.5358615004122012,
       "ret30d": 4.903225806451613,
@@ -9831,7 +9831,7 @@
       "sector": "테마",
       "price": 13230,
       "changePct": -15.946632782719186,
-      "volume": 1122048,
+      "volume": 1118816,
       "currency": "KRW",
       "ret5d": -9.25925925925926,
       "ret30d": -15.273775216138327,
@@ -9863,7 +9863,7 @@
       "sector": "2차전지",
       "price": 40955,
       "changePct": -21.21008080030781,
-      "volume": 1810312,
+      "volume": 1808413,
       "currency": "KRW",
       "ret5d": 1.3737623762376239,
       "ret30d": -14.597018037743718,
@@ -9879,7 +9879,7 @@
       "sector": "반도체",
       "price": 60240,
       "changePct": 34.539363484087104,
-      "volume": 7210,
+      "volume": 7265,
       "currency": "KRW",
       "ret5d": 15.413353769518153,
       "ret30d": 28.66296454506621,
@@ -9895,7 +9895,7 @@
       "sector": "전체시장",
       "price": 16890,
       "changePct": 4.776674937965261,
-      "volume": 110661,
+      "volume": 111094,
       "currency": "KRW",
       "ret5d": 1.6857314870559903,
       "ret30d": 2.4567788898999092,
@@ -9911,7 +9911,7 @@
       "sector": "전체시장",
       "price": 46485,
       "changePct": -25.445068163592623,
-      "volume": 9176359,
+      "volume": 9193423,
       "currency": "KRW",
       "ret5d": 7.1082949308755765,
       "ret30d": -25.367263386048005,
@@ -10044,7 +10044,7 @@
         "ret30d": 75.4,
         "changePct": 70.1,
         "rating": "buy",
-        "rating_reason": "강한 상승势",
+        "rating_reason": "강세 지속",
         "risk_level": "high",
         "competitors": [
           ""
@@ -10057,12 +10057,12 @@
         "symbol": "MRVL",
         "name": "마벨",
         "reason": "신제품 출시",
-        "why_important": "5G 수요 증가",
+        "why_important": "기술 혁신",
         "impact": "high",
         "ret30d": 94.1,
         "changePct": 80.4,
         "rating": "buy",
-        "rating_reason": "강한 상승势",
+        "rating_reason": "성장 가능성",
         "risk_level": "high",
         "competitors": [
           ""
@@ -10075,12 +10075,12 @@
         "symbol": "FTNT",
         "name": "포트넷",
         "reason": "サイ버보안 수요 증가",
-        "why_important": "보안 필요성 증가",
+        "why_important": "보안 필요성",
         "impact": "high",
         "ret30d": 34,
         "changePct": 60.9,
         "rating": "buy",
-        "rating_reason": "강한 상승势",
+        "rating_reason": "강세 지속",
         "risk_level": "high",
         "competitors": [
           ""
@@ -10095,12 +10095,12 @@
         "symbol": "INTU",
         "name": "인튜이트",
         "reason": "경쟁 심화",
-        "why_important": "시장 점유율 감소",
+        "why_important": "시장 점유율 하락",
         "impact": "high",
         "ret30d": -34.4,
         "changePct": -31.3,
         "rating": "sell",
-        "rating_reason": "약한 하락势",
+        "rating_reason": "하락 가능성",
         "risk_level": "high",
         "competitors": [
           ""
@@ -10112,13 +10112,13 @@
       {
         "symbol": "ADBE",
         "name": "어도비",
-        "reason": "고객 유출",
-        "why_important": "수익 감소",
+        "reason": "수익성 악화",
+        "why_important": "경쟁 심화",
         "impact": "high",
         "ret30d": -23.9,
         "changePct": -22,
         "rating": "sell",
-        "rating_reason": "약한 하락势",
+        "rating_reason": "하락 가능성",
         "risk_level": "high",
         "competitors": [
           ""
@@ -10131,12 +10131,12 @@
         "symbol": "TTD",
         "name": "트레이딩 데스크",
         "reason": "광고 수요 감소",
-        "why_important": "수익 감소",
+        "why_important": "시장 변동성",
         "impact": "high",
         "ret30d": -21.2,
         "changePct": -22.9,
         "rating": "sell",
-        "rating_reason": "약한 하락势",
+        "rating_reason": "하락 가능성",
         "risk_level": "high",
         "competitors": [
           ""
@@ -10149,97 +10149,97 @@
     "steady_growth": [
       {
         "symbol": "HON",
-        "name": "허니웰",
-        "reason": "신제품 출시",
-        "why_important": "수요 증가",
+        "name": "하니웰",
+        "reason": "다각화 전략",
+        "why_important": "안정성",
         "impact": "medium",
         "ret30d": 6,
         "changePct": 5.6,
-        "rating": "buy",
-        "rating_reason": "안정적인 성장",
+        "rating": "neutral",
+        "rating_reason": "안정성",
         "risk_level": "medium",
         "competitors": [
           ""
         ],
-        "short_term": "상승",
+        "short_term": "보합",
         "mid_term": "상승",
         "long_term": "상승"
       },
       {
         "symbol": "AMGN",
         "name": "암젠",
-        "reason": "신약 개발",
-        "why_important": "수요 증가",
+        "reason": "신제품 출시",
+        "why_important": "성장 가능성",
         "impact": "medium",
         "ret30d": 2.6,
         "changePct": 2,
-        "rating": "buy",
-        "rating_reason": "안정적인 성장",
+        "rating": "neutral",
+        "rating_reason": "안정성",
         "risk_level": "medium",
         "competitors": [
           ""
         ],
-        "short_term": "상승",
+        "short_term": "보합",
         "mid_term": "상승",
         "long_term": "상승"
       },
       {
         "symbol": "ADI",
         "name": "아날로그 디바이스",
-        "reason": "신제품 출시",
-        "why_important": "수요 증가",
+        "reason": "반도체 수요 증가",
+        "why_important": "기술 혁신",
         "impact": "medium",
         "ret30d": 6.3,
         "changePct": 4.5,
-        "rating": "buy",
-        "rating_reason": "안정적인 성장",
+        "rating": "neutral",
+        "rating_reason": "안정성",
         "risk_level": "medium",
         "competitors": [
           ""
         ],
-        "short_term": "상승",
+        "short_term": "보합",
         "mid_term": "상승",
         "long_term": "상승"
       }
     ],
     "high_volume": [
       {
-        "symbol": "MRVL",
-        "name": "마벨",
-        "reason": "신제품 출시",
-        "why_important": "5G 수요 증가",
-        "impact": "high",
-        "volume": 250206,
-        "rating": "buy",
-        "rating_reason": "강한 상승势",
-        "risk_level": "high",
-        "competitors": [
-          ""
-        ]
-      },
-      {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "reason": "신제품 출시",
-        "why_important": "AI 수요 증가",
+        "reason": "기술 혁신",
+        "why_important": "성장 가능성",
         "impact": "high",
         "volume": 238265,
         "rating": "buy",
-        "rating_reason": "강한 상승势",
+        "rating_reason": "강세 지속",
         "risk_level": "high",
         "competitors": [
           ""
         ]
       },
       {
-        "symbol": "NFLX",
-        "name": "넷플릭스",
-        "reason": "신작 출시",
-        "why_important": "콘텐츠 수요 증가",
+        "symbol": "AAPL",
+        "name": "애플",
+        "reason": "신제품 출시",
+        "why_important": "브랜드 가치",
         "impact": "high",
-        "volume": 91280,
+        "volume": 76702,
         "rating": "buy",
-        "rating_reason": "강한 상승势",
+        "rating_reason": "안정성",
+        "risk_level": "medium",
+        "competitors": [
+          ""
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "reason": "클라우드 수요 증가",
+        "why_important": "성장 가능성",
+        "impact": "high",
+        "volume": 58466,
+        "rating": "buy",
+        "rating_reason": "강세 지속",
         "risk_level": "high",
         "competitors": [
           ""
@@ -10253,9 +10253,10 @@
         "reason": "수급 개선",
         "why_important": "반도체 수요 증가",
         "impact": "high",
-        "volume": 61492,
+        "ret30d": 75.4,
+        "changePct": 70.1,
         "rating": "buy",
-        "rating_reason": "강한 상승势",
+        "rating_reason": "강세 지속",
         "risk_level": "high",
         "competitors": [
           ""
@@ -10265,11 +10266,12 @@
         "symbol": "MRVL",
         "name": "마벨",
         "reason": "신제품 출시",
-        "why_important": "5G 수요 증가",
+        "why_important": "기술 혁신",
         "impact": "high",
-        "volume": 250206,
+        "ret30d": 94.1,
+        "changePct": 80.4,
         "rating": "buy",
-        "rating_reason": "강한 상승势",
+        "rating_reason": "성장 가능성",
         "risk_level": "high",
         "competitors": [
           ""
@@ -10279,11 +10281,12 @@
         "symbol": "FTNT",
         "name": "포트넷",
         "reason": "サイ버보안 수요 증가",
-        "why_important": "보안 필요성 증가",
+        "why_important": "보안 필요성",
         "impact": "high",
-        "volume": 13667,
+        "ret30d": 34,
+        "changePct": 60.9,
         "rating": "buy",
-        "rating_reason": "강한 상승势",
+        "rating_reason": "강세 지속",
         "risk_level": "high",
         "competitors": [
           ""
@@ -10312,7 +10315,7 @@
         "keywords": [
           ""
         ],
-        "summary": "サイ버보안 시장 상승",
+        "summary": "サイ버보안 수요 증가",
         "short_term": "상승",
         "mid_term": "상승",
         "top_etfs": [
@@ -10326,7 +10329,7 @@
         "keywords": [
           ""
         ],
-        "summary": "레버리지 시장 상승",
+        "summary": "레버리지 수요 증가",
         "short_term": "상승",
         "mid_term": "상승",
         "top_etfs": [
@@ -10354,7 +10357,7 @@
         "keywords": [
           ""
         ],
-        "summary": "반도체 시장 상승",
+        "summary": "반도체 수요 증가",
         "short_term": "상승",
         "mid_term": "상승",
         "top_etfs": [
@@ -10375,7 +10378,7 @@
       },
       {
         "symbol": "ADBE",
-        "issue": "고객 유출",
+        "issue": "수익성 악화",
         "issue_type": "earnings",
         "impact_etfs": [
           ""
@@ -10386,7 +10389,7 @@
       {
         "symbol": "TTD",
         "issue": "광고 수요 감소",
-        "issue_type": "policy",
+        "issue_type": "macro",
         "impact_etfs": [
           ""
         ],
@@ -10435,9 +10438,9 @@
         "ADI"
       ],
       "conservative": [
-        "182490",
-        "130730",
-        "148070"
+        "MSFT",
+        "AAPL",
+        "AMZN"
       ],
       "suggestion": "적극 투자자: MU, MRVL, FTNT"
     },
@@ -10446,9 +10449,9 @@
       ""
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "시장 상승"
+    "market_sentiment_reason": "기술 혁신과 성장 가능성"
   },
-  "updatedAt": "2026-06-19T22:44:06.734Z",
+  "updatedAt": "2026-06-20T04:38:29.335Z",
   "stats": {
     "total": 627,
     "us": 497,
