@@ -4684,9 +4684,9 @@
       "ret5d": -2.734024529635036,
       "ret30d": -8.633967056505444,
       "high52": 34.68,
-      "low52": 24,
+      "low52": 24.03,
       "fromHigh": -30.55074971164936,
-      "fromLow": 0.3541666666666702
+      "fromLow": 0.22888056595921644
     },
     {
       "symbol": "NERD",
@@ -10036,15 +10036,15 @@
   "ai": {
     "trending_up": [
       {
-        "symbol": "MU",
-        "name": "마이크론",
-        "reason": "수급 개선",
+        "symbol": "MRVL",
+        "name": "마벨",
+        "reason": "수익성 개선",
         "why_important": "반도체 수요 증가",
         "impact": "high",
-        "ret30d": 32.2,
-        "changePct": 40.8,
+        "ret30d": 63.3,
+        "changePct": 64,
         "rating": "buy",
-        "rating_reason": "기술적 분석",
+        "rating_reason": "기술 발전",
         "risk_level": "medium",
         "competitors": [
           "NVDA",
@@ -10055,38 +10055,38 @@
         "long_term": "상승"
       },
       {
-        "symbol": "MRVL",
-        "name": "마벨",
-        "reason": "신제품 출시",
-        "why_important": "5G 수요 증가",
+        "symbol": "PANW",
+        "name": "팰로앨토",
+        "reason": "サイ버보안 수요 증가",
+        "why_important": "보안 필요성",
         "impact": "high",
-        "ret30d": 63.3,
-        "changePct": 64,
+        "ret30d": 36.2,
+        "changePct": 39.9,
         "rating": "buy",
-        "rating_reason": "기술팀의 평가",
-        "risk_level": "high",
+        "rating_reason": "기술 우위",
+        "risk_level": "medium",
         "competitors": [
-          "QCOM",
-          "TXN"
+          "FTNT",
+          "CRWD"
         ],
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승"
       },
       {
-        "symbol": "PANW",
-        "name": "팰로앨토네트웍스",
-        "reason": "サイ버보안 수요 증가",
-        "why_important": "보안 필요성 증가",
-        "impact": "medium",
-        "ret30d": 36.2,
-        "changePct": 39.9,
+        "symbol": "KLAC",
+        "name": "KLA",
+        "reason": "반도체 수요 증가",
+        "why_important": "장비 수요 증가",
+        "impact": "high",
+        "ret30d": 32.5,
+        "changePct": 30.8,
         "rating": "buy",
-        "rating_reason": "기술적 분석",
+        "rating_reason": "기술 발전",
         "risk_level": "medium",
         "competitors": [
-          "FTNT",
-          "CRWD"
+          "LRCX",
+          "ADI"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10098,12 +10098,12 @@
         "symbol": "INTU",
         "name": "인튜이트",
         "reason": "경쟁 심화",
-        "why_important": "시장 점유율 감소",
+        "why_important": "시장 점유율 하락",
         "impact": "high",
         "ret30d": -34.4,
         "changePct": -34.9,
         "rating": "sell",
-        "rating_reason": "기술적 분석",
+        "rating_reason": "경쟁 심화",
         "risk_level": "high",
         "competitors": [
           "ADBE",
@@ -10115,18 +10115,18 @@
       },
       {
         "symbol": "TTD",
-        "name": "트레이딩212",
-        "reason": "규제 강화",
+        "name": "트레이딩 212",
+        "reason": "광고 수요 감소",
         "why_important": "수익성 악화",
-        "impact": "medium",
+        "impact": "high",
         "ret30d": -16.7,
         "changePct": -22.3,
         "rating": "sell",
-        "rating_reason": "기술팀의 평가",
-        "risk_level": "medium",
+        "rating_reason": "광고 시장 악화",
+        "risk_level": "high",
         "competitors": [
-          "PYPL",
-          "SQ"
+          "GOOGL",
+          "FB"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10136,16 +10136,16 @@
         "symbol": "ADSK",
         "name": "오토데스크",
         "reason": "경쟁 심화",
-        "why_important": "시장 점유율 감소",
+        "why_important": "시장 점유율 하락",
         "impact": "high",
         "ret30d": -20,
         "changePct": -22.8,
         "rating": "sell",
-        "rating_reason": "기술적 분석",
+        "rating_reason": "경쟁 심화",
         "risk_level": "high",
         "competitors": [
           "MSFT",
-          "GOOGL"
+          "ADBE"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10154,19 +10154,19 @@
     ],
     "steady_growth": [
       {
-        "symbol": "AMGN",
-        "name": "암젠",
-        "reason": "신제품 출시",
-        "why_important": "의료 수요 증가",
+        "symbol": "TXN",
+        "name": "텍사스 인스트루먼트",
+        "reason": "반도체 수요 증가",
+        "why_important": "장비 수요 증가",
         "impact": "medium",
-        "ret30d": 5.3,
-        "changePct": 4.6,
-        "rating": "buy",
-        "rating_reason": "기술팀의 평가",
+        "ret30d": 2.2,
+        "changePct": 5.8,
+        "rating": "neutral",
+        "rating_reason": "기술 발전",
         "risk_level": "low",
         "competitors": [
-          "JNJ",
-          "PFE"
+          "NVDA",
+          "AMD"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10176,35 +10176,35 @@
         "symbol": "HON",
         "name": "하니웰",
         "reason": "산업 수요 증가",
-        "why_important": "경제 성장",
+        "why_important": "장비 수요 증가",
         "impact": "medium",
         "ret30d": 1.5,
         "changePct": 4.3,
-        "rating": "buy",
-        "rating_reason": "기술적 분석",
+        "rating": "neutral",
+        "rating_reason": "기술 발전",
         "risk_level": "low",
         "competitors": [
           "GE",
-          "UTX"
+          "SI"
         ],
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승"
       },
       {
-        "symbol": "PAYX",
-        "name": "페이첵스",
-        "reason": "인사 관리 수요 증가",
-        "why_important": "고용 시장 성장",
-        "impact": "low",
-        "ret30d": 4.4,
-        "changePct": 4.3,
-        "rating": "buy",
-        "rating_reason": "기술팀의 평가",
+        "symbol": "AMGN",
+        "name": "암젠",
+        "reason": "바이오 수요 증가",
+        "why_important": "의료 수요 증가",
+        "impact": "medium",
+        "ret30d": 5.3,
+        "changePct": 4.6,
+        "rating": "neutral",
+        "rating_reason": "기술 발전",
         "risk_level": "low",
         "competitors": [
-          "ADP",
-          "WLTW"
+          "JNJ",
+          "PFE"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10215,28 +10215,28 @@
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "reason": "AI 수요 증가",
-        "why_important": "기술 발전",
+        "reason": "반도체 수요 증가",
+        "why_important": "장비 수요 증가",
         "impact": "high",
         "volume": 152124,
         "rating": "buy",
-        "rating_reason": "기술적 분석",
-        "risk_level": "high",
+        "rating_reason": "기술 발전",
+        "risk_level": "medium",
         "competitors": [
           "AMD",
-          "INTEL"
+          "INTC"
         ]
       },
       {
         "symbol": "AAPL",
         "name": "애플",
-        "reason": "제품 출시",
+        "reason": "스마트폰 수요 증가",
         "why_important": "소비자 수요 증가",
-        "impact": "medium",
+        "impact": "high",
         "volume": 51882,
         "rating": "buy",
-        "rating_reason": "기술팀의 평가",
-        "risk_level": "medium",
+        "rating_reason": "브랜드 가치",
+        "risk_level": "low",
         "competitors": [
           "SAM",
           "GOOGL"
@@ -10246,12 +10246,12 @@
         "symbol": "MSFT",
         "name": "마이크로소프트",
         "reason": "클라우드 수요 증가",
-        "why_important": "디지털 전환",
+        "why_important": "기업 수요 증가",
         "impact": "high",
         "volume": 39415,
         "rating": "buy",
-        "rating_reason": "기술적 분석",
-        "risk_level": "medium",
+        "rating_reason": "기술 발전",
+        "risk_level": "low",
         "competitors": [
           "AMZN",
           "GOOGL"
@@ -10260,51 +10260,51 @@
     ],
     "near_52w_high": [
       {
-        "symbol": "LRCX",
-        "name": "라믹 리서치",
-        "reason": "반도체 수요 증가",
-        "why_important": "기술 발전",
+        "symbol": "MRVL",
+        "name": "마벨",
+        "reason": "수익성 개선",
+        "why_important": "반도체 수요 증가",
         "impact": "high",
-        "ret30d": 25.4,
-        "changePct": 26.3,
+        "ret30d": 63.3,
+        "changePct": 64,
         "rating": "buy",
-        "rating_reason": "기술적 분석",
+        "rating_reason": "기술 발전",
         "risk_level": "medium",
         "competitors": [
-          "KLAC",
-          "AMAT"
+          "NVDA",
+          "AMD"
+        ]
+      },
+      {
+        "symbol": "PANW",
+        "name": "팰로앨토",
+        "reason": "サイ버보안 수요 증가",
+        "why_important": "보안 필요성",
+        "impact": "high",
+        "ret30d": 36.2,
+        "changePct": 39.9,
+        "rating": "buy",
+        "rating_reason": "기술 우위",
+        "risk_level": "medium",
+        "competitors": [
+          "FTNT",
+          "CRWD"
         ]
       },
       {
         "symbol": "KLAC",
-        "name": "클래리스턴 테크놀로지",
+        "name": "KLA",
         "reason": "반도체 수요 증가",
-        "why_important": "기술 발전",
-        "impact": "medium",
+        "why_important": "장비 수요 증가",
+        "impact": "high",
         "ret30d": 32.5,
         "changePct": 30.8,
         "rating": "buy",
-        "rating_reason": "기술팀의 평가",
+        "rating_reason": "기술 발전",
         "risk_level": "medium",
         "competitors": [
           "LRCX",
-          "AMAT"
-        ]
-      },
-      {
-        "symbol": "CSCO",
-        "name": "시스코 시스템즈",
-        "reason": "네트워크 수요 증가",
-        "why_important": "디지털 전환",
-        "impact": "medium",
-        "ret30d": 22.7,
-        "changePct": 25.5,
-        "rating": "buy",
-        "rating_reason": "기술적 분석",
-        "risk_level": "low",
-        "competitors": [
-          "JNPR",
-          "VMW"
+          "ADI"
         ]
       }
     ],
@@ -10315,7 +10315,7 @@
         "avg_change": 7.3,
         "keywords": [
           "반도체",
-          "기술 발전"
+          "장비"
         ],
         "summary": "반도체 수요 증가",
         "short_term": "상승",
@@ -10331,7 +10331,7 @@
         "avg_change": 8.2,
         "keywords": [
           "부동산",
-          "경제 성장"
+          "임대"
         ],
         "summary": "부동산 수요 증가",
         "short_term": "상승",
@@ -10342,19 +10342,19 @@
         ]
       },
       {
-        "sector": "サイ버보안",
+        "sector": "바이오",
         "trend": "상승",
-        "avg_change": 11.9,
+        "avg_change": 6.9,
         "keywords": [
-          "サイ버보안",
-          "보안 필요성"
+          "바이오",
+          "의료"
         ],
-        "summary": "サイ버보안 수요 증가",
+        "summary": "바이오 수요 증가",
         "short_term": "상승",
         "mid_term": "상승",
         "top_etfs": [
-          "CIBR",
-          "BUG"
+          "IBB",
+          "XBI"
         ]
       },
       {
@@ -10363,125 +10363,125 @@
         "avg_change": 6.6,
         "keywords": [
           "산업",
-          "경제 성장"
+          "장비"
         ],
         "summary": "산업 수요 증가",
         "short_term": "상승",
         "mid_term": "상승",
         "top_etfs": [
           "XLI",
-          "VIS"
+          "ITB"
         ]
       },
       {
-        "sector": "금융",
+        "sector": "サイ버보안",
         "trend": "상승",
-        "avg_change": 3.7,
+        "avg_change": 11.9,
         "keywords": [
-          "금융",
-          "경제 성장"
+          "サイ버보안",
+          "보안"
         ],
-        "summary": "금융 수요 증가",
+        "summary": "サイ버보안 수요 증가",
         "short_term": "상승",
         "mid_term": "상승",
         "top_etfs": [
-          "XLF",
-          "VFIS"
+          "CYBR",
+          "IHAK"
         ]
       }
     ],
     "etf_issues": [
       {
-        "symbol": "QQQ",
-        "issue": "기술 발전",
-        "issue_type": "technical",
+        "symbol": "SMH",
+        "issue": "반도체 수요 감소",
+        "issue_type": "macro",
         "impact_etfs": [
-          "NVDA",
-          "AAPL"
+          "SOXX",
+          "XSD"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "SPY",
-        "issue": "경제 성장",
+        "symbol": "IBB",
+        "issue": "바이오 수요 감소",
         "issue_type": "macro",
         "impact_etfs": [
-          "MSFT",
-          "JNJ"
+          "XBI",
+          "BBH"
         ],
         "is_noise": false,
-        "impact": "medium"
+        "impact": "high"
       },
       {
-        "symbol": "IWM",
-        "issue": "소비자 수요",
-        "issue_type": "sentiment",
+        "symbol": "CYBR",
+        "issue": "サイ버보안 수요 감소",
+        "issue_type": "macro",
         "impact_etfs": [
-          "AMZN",
-          "TGT"
+          "IHAK",
+          "BUG"
         ],
         "is_noise": false,
-        "impact": "medium"
+        "impact": "high"
       }
     ],
     "risk_analysis": [
       {
-        "symbol": "MU",
-        "name": "마이크론",
+        "symbol": "MRVL",
+        "name": "마벨",
         "risk_level": "medium",
         "volatility": "중변동성",
         "max_drawdown_risk": "20%",
         "hedge_suggestion": "콜 옵션",
-        "suitable_for": "중장기 투자자"
-      },
-      {
-        "symbol": "MRVL",
-        "name": "마벨",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "30%",
-        "hedge_suggestion": "풋 옵션",
-        "suitable_for": "단기 투자자"
+        "suitable_for": "적극 투자자"
       },
       {
         "symbol": "PANW",
-        "name": "팰로앨토네트웍스",
+        "name": "팰로앨토",
         "risk_level": "medium",
         "volatility": "중변동성",
         "max_drawdown_risk": "25%",
-        "hedge_suggestion": "스프레드 전략",
-        "suitable_for": "중장기 투자자"
+        "hedge_suggestion": "풋 옵션",
+        "suitable_for": "적극 투자자"
+      },
+      {
+        "symbol": "KLAC",
+        "name": "KLA",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "22%",
+        "hedge_suggestion": "콜 옵션",
+        "suitable_for": "적극 투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
-        "MU",
         "MRVL",
-        "PANW"
+        "PANW",
+        "KLAC"
       ],
       "balanced": [
-        "MSFT",
-        "JNJ",
-        "PG"
+        "TXN",
+        "HON",
+        "AMGN"
       ],
       "conservative": [
+        "MSFT",
         "AAPL",
-        "KO",
-        "XOM"
+        "JNJ"
       ],
-      "suggestion": "중장기 투자자에게 적합"
+      "suggestion": "적극 투자자: MRVL, PANW, KLAC"
     },
-    "market_summary": "시장은 상승세를 보이고 있습니다.",
+    "market_summary": "시장은 상승 중입니다.",
     "top_keywords": [
-      "기술 발전",
-      "경제 성장",
-      "보안 필요성"
+      "반도체",
+      "부동산",
+      "바이오"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "기술 발전과 경제 성장으로 인한 수요 증가"
+    "market_sentiment_reason": "시장은 상승 중입니다."
   },
-  "updatedAt": "2026-06-23T21:02:04.598Z",
+  "updatedAt": "2026-06-23T22:59:49.322Z",
   "stats": {
     "total": 627,
     "us": 497,
