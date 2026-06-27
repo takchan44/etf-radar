@@ -2137,7 +2137,7 @@
       "changePct": 3.042680116942869,
       "volume": 3983,
       "currency": "USD",
-      "ret5d": 3.5006088791866214,
+      "ret5d": 2.7882406139621407,
       "ret30d": 3.396256139402207,
       "high52": 41.2499,
       "low52": 33.61,
@@ -8247,7 +8247,7 @@
       "market": "korea",
       "price": 137380,
       "changePct": 12.00521788757083,
-      "volume": 29479487,
+      "volume": 29607519,
       "currency": "KRW",
       "ret5d": -6.4869648083860865,
       "ret30d": 10.031636698570342,
@@ -8263,7 +8263,7 @@
       "market": "korea",
       "price": 137755,
       "changePct": 12.278914336946777,
-      "volume": 8579972,
+      "volume": 8593054,
       "currency": "KRW",
       "ret5d": -6.448217317487266,
       "ret30d": 10.407149154444177,
@@ -8279,7 +8279,7 @@
       "market": "korea",
       "price": 15260,
       "changePct": -21.903787103377688,
-      "volume": 33024532,
+      "volume": 33136229,
       "currency": "KRW",
       "ret5d": -10.05010315355143,
       "ret30d": -23.355097940733298,
@@ -8295,7 +8295,7 @@
       "market": "korea",
       "price": 197725,
       "changePct": 2.517239591434645,
-      "volume": 3649826,
+      "volume": 3653587,
       "currency": "KRW",
       "ret5d": -3.232516027993931,
       "ret30d": 1.4390519187358917,
@@ -8343,7 +8343,7 @@
       "market": "korea",
       "price": 2455,
       "changePct": 20.935960591133004,
-      "volume": 44905465,
+      "volume": 45199495,
       "currency": "KRW",
       "ret5d": 10.585585585585585,
       "ret30d": 23.181133968891118,
@@ -8359,7 +8359,7 @@
       "market": "korea",
       "price": 171695,
       "changePct": 10.16329280420904,
-      "volume": 4553563,
+      "volume": 4565991,
       "currency": "KRW",
       "ret5d": -5.148744579178521,
       "ret30d": 9.220737913486005,
@@ -8375,7 +8375,7 @@
       "market": "korea",
       "price": 7835,
       "changePct": -15.02169197396963,
-      "volume": 414533,
+      "volume": 414652,
       "currency": "KRW",
       "ret5d": -14.604904632152587,
       "ret30d": -18.808290155440417,
@@ -8503,7 +8503,7 @@
       "market": "korea",
       "price": 7845,
       "changePct": -19.948979591836736,
-      "volume": 2811216,
+      "volume": 2812082,
       "currency": "KRW",
       "ret5d": -10.649202733485193,
       "ret30d": -22.93713163064833,
@@ -8519,7 +8519,7 @@
       "market": "korea",
       "price": 15735,
       "changePct": 16.29711751662971,
-      "volume": 24524,
+      "volume": 24530,
       "currency": "KRW",
       "ret5d": -4.838221953432114,
       "ret30d": 6.641816333446289,
@@ -8535,7 +8535,7 @@
       "market": "korea",
       "price": 138685,
       "changePct": 12.404765764305397,
-      "volume": 1321426,
+      "volume": 1419567,
       "currency": "KRW",
       "ret5d": -6.132187214457343,
       "ret30d": 10.198649185538338,
@@ -8551,7 +8551,7 @@
       "market": "korea",
       "price": 37240,
       "changePct": -15.679836974980187,
-      "volume": 46246,
+      "volume": 46356,
       "currency": "KRW",
       "ret5d": -5.602027883396705,
       "ret30d": -18.494200043773255,
@@ -8567,7 +8567,7 @@
       "market": "korea",
       "price": 11660,
       "changePct": -25.921219822109276,
-      "volume": 2060,
+      "volume": 2061,
       "currency": "KRW",
       "ret5d": -13.533555802743791,
       "ret30d": -25.921219822109276,
@@ -8583,7 +8583,7 @@
       "market": "korea",
       "price": 22870,
       "changePct": 6.744457409568261,
-      "volume": 3051,
+      "volume": 3220,
       "currency": "KRW",
       "ret5d": -0.8669267446900737,
       "ret30d": 6.076066790352504,
@@ -8599,7 +8599,7 @@
       "market": "korea",
       "price": 14550,
       "changePct": 0.6920415224913495,
-      "volume": 75555,
+      "volume": 75722,
       "currency": "KRW",
       "ret5d": -1.3224821973550356,
       "ret30d": 1.2173913043478262,
@@ -8615,7 +8615,7 @@
       "market": "korea",
       "price": 199990,
       "changePct": 16.340895869691682,
-      "volume": 15867536,
+      "volume": 15967088,
       "currency": "KRW",
       "ret5d": -14.944924084548973,
       "ret30d": 12.924901185770752,
@@ -8631,7 +8631,7 @@
       "market": "korea",
       "price": 9230,
       "changePct": -42.348532167395376,
-      "volume": 79994679,
+      "volume": 80696022,
       "currency": "KRW",
       "ret5d": -20.121159671138038,
       "ret30d": -44.26328502415459,
@@ -8647,7 +8647,7 @@
       "market": "korea",
       "price": 907,
       "changePct": -16.55933762649494,
-      "volume": 1247173351,
+      "volume": 1251733761,
       "currency": "KRW",
       "ret5d": 5.587892898719441,
       "ret30d": -14.995313964386128,
@@ -8663,7 +8663,7 @@
       "market": "korea",
       "price": 69,
       "changePct": -36.11111111111111,
-      "volume": 92517316,
+      "volume": 436755738,
       "currency": "KRW",
       "ret5d": 9.523809523809524,
       "ret30d": -33.65384615384615,
@@ -8695,7 +8695,7 @@
       "market": "korea",
       "price": 13835,
       "changePct": 0.43557168784029043,
-      "volume": 943,
+      "volume": 978,
       "currency": "KRW",
       "ret5d": 0.3627130939426913,
       "ret30d": 0.25362318840579706,
@@ -8711,7 +8711,7 @@
       "market": "korea",
       "price": 102500,
       "changePct": 0.27882404735117156,
-      "volume": 21795,
+      "volume": 21805,
       "currency": "KRW",
       "ret5d": 0.07810974419058778,
       "ret30d": 0.23959708571707986,
@@ -8727,7 +8727,7 @@
       "market": "korea",
       "price": 105520,
       "changePct": 0.07587253414264036,
-      "volume": 31140,
+      "volume": 31141,
       "currency": "KRW",
       "ret5d": 0.5048099819030384,
       "ret30d": 0.29941542702343044,
@@ -8743,7 +8743,7 @@
       "market": "korea",
       "price": 110310,
       "changePct": -1.1691976884827309,
-      "volume": 11059,
+      "volume": 11080,
       "currency": "KRW",
       "ret5d": -0.06341728574017033,
       "ret30d": -1.01843958903495,
@@ -8759,7 +8759,7 @@
       "market": "korea",
       "price": 104370,
       "changePct": -0.009580379383023568,
-      "volume": 1724,
+      "volume": 1725,
       "currency": "KRW",
       "ret5d": 0.057520851308599366,
       "ret30d": -0.043097256141359,
@@ -8839,7 +8839,7 @@
       "market": "korea",
       "price": 56775,
       "changePct": 0.23834745762711865,
-      "volume": 1373840,
+      "volume": 1373884,
       "currency": "KRW",
       "ret5d": 0.04405286343612335,
       "ret30d": 0.22065313327449249,
@@ -8871,7 +8871,7 @@
       "market": "korea",
       "price": 19670,
       "changePct": -25.080936964387735,
-      "volume": 135418,
+      "volume": 139010,
       "currency": "KRW",
       "ret5d": -7.304429783223375,
       "ret30d": -25.20912547528517,
@@ -8903,7 +8903,7 @@
       "market": "korea",
       "price": 1606,
       "changePct": 28.172386272944934,
-      "volume": 804119,
+      "volume": 806811,
       "currency": "KRW",
       "ret5d": 7.640750670241286,
       "ret30d": 28.172386272944934,
@@ -8919,7 +8919,7 @@
       "market": "korea",
       "price": 5965,
       "changePct": -17.83746556473829,
-      "volume": 91675,
+      "volume": 92605,
       "currency": "KRW",
       "ret5d": -8.44205679201842,
       "ret30d": -18.175582990397803,
@@ -8935,7 +8935,7 @@
       "market": "korea",
       "price": 29025,
       "changePct": -2.305621003029283,
-      "volume": 9824,
+      "volume": 9867,
       "currency": "KRW",
       "ret5d": -2.0748987854251015,
       "ret30d": -3.072299215227918,
@@ -8951,7 +8951,7 @@
       "market": "korea",
       "price": 23910,
       "changePct": -4.778972520908005,
-      "volume": 5495,
+      "volume": 5645,
       "currency": "KRW",
       "ret5d": -6.838106370543542,
       "ret30d": -3.7439613526570046,
@@ -8983,7 +8983,7 @@
       "market": "korea",
       "price": 33660,
       "changePct": -14.914054600606674,
-      "volume": 12862,
+      "volume": 12906,
       "currency": "KRW",
       "ret5d": -8.928571428571429,
       "ret30d": -16.878626990986543,
@@ -8999,7 +8999,7 @@
       "market": "korea",
       "price": 14910,
       "changePct": -17.5103734439834,
-      "volume": 881,
+      "volume": 882,
       "currency": "KRW",
       "ret5d": -9.168443496801707,
       "ret30d": -19.86025262026337,
@@ -9191,7 +9191,7 @@
       "market": "korea",
       "price": 41550,
       "changePct": 2.327299593646103,
-      "volume": 61276,
+      "volume": 61866,
       "currency": "KRW",
       "ret5d": -1.2829650748396295,
       "ret30d": 2.0884520884520885,
@@ -9207,7 +9207,7 @@
       "market": "korea",
       "price": 15140,
       "changePct": 0.3978779840848806,
-      "volume": 27561,
+      "volume": 28066,
       "currency": "KRW",
       "ret5d": -5.87503885607709,
       "ret30d": -0.4274909569220651,
@@ -9223,7 +9223,7 @@
       "market": "korea",
       "price": 36070,
       "changePct": 14.945825366475463,
-      "volume": 3639,
+      "volume": 3669,
       "currency": "KRW",
       "ret5d": 2.9101283880171183,
       "ret30d": 12.210297091305025,
@@ -9239,7 +9239,7 @@
       "market": "korea",
       "price": 40000,
       "changePct": 0.8318628686664987,
-      "volume": 17839,
+      "volume": 17852,
       "currency": "KRW",
       "ret5d": -1.2101753519387504,
       "ret30d": 1.3556315722792347,
@@ -9255,7 +9255,7 @@
       "market": "korea",
       "price": 8660,
       "changePct": -23.93500219587176,
-      "volume": 2261401,
+      "volume": 2266667,
       "currency": "KRW",
       "ret5d": -8.505018489170629,
       "ret30d": -25.40913006029285,
@@ -9287,7 +9287,7 @@
       "market": "korea",
       "price": 74330,
       "changePct": -1.5366273678632931,
-      "volume": 17387,
+      "volume": 17773,
       "currency": "KRW",
       "ret5d": -2.094309799789252,
       "ret30d": -2.107204003687607,
@@ -9303,7 +9303,7 @@
       "market": "korea",
       "price": 23985,
       "changePct": 6.458055925432757,
-      "volume": 22241,
+      "volume": 22299,
       "currency": "KRW",
       "ret5d": 0.5660377358490566,
       "ret30d": 5.567781690140845,
@@ -9319,7 +9319,7 @@
       "market": "korea",
       "price": 179965,
       "changePct": 9.461103339212944,
-      "volume": 980812,
+      "volume": 995499,
       "currency": "KRW",
       "ret5d": -5.38863917146387,
       "ret30d": 8.79934707696028,
@@ -9335,7 +9335,7 @@
       "market": "korea",
       "price": 31710,
       "changePct": 20.181921546333143,
-      "volume": 2025067,
+      "volume": 2029865,
       "currency": "KRW",
       "ret5d": -8.787573709190276,
       "ret30d": 16.774074756030195,
@@ -9351,7 +9351,7 @@
       "sector": "전체시장",
       "price": 139710,
       "changePct": 12.023413382512127,
-      "volume": 512081,
+      "volume": 512136,
       "currency": "KRW",
       "ret5d": -6.121489047171079,
       "ret30d": 10.722776985259154,
@@ -9415,7 +9415,7 @@
       "sector": "헬스케어",
       "price": 18950,
       "changePct": -16.57495047325556,
-      "volume": 1958,
+      "volume": 1969,
       "currency": "KRW",
       "ret5d": -8.365570599613152,
       "ret30d": -20.561727101236638,
@@ -9511,7 +9511,7 @@
       "sector": "금융",
       "price": 16045,
       "changePct": -3.6914765906362543,
-      "volume": 189350,
+      "volume": 191457,
       "currency": "KRW",
       "ret5d": -9.375882519062412,
       "ret30d": -6.9855072463768115,
@@ -9543,7 +9543,7 @@
       "sector": "산업",
       "price": 189950,
       "changePct": 27.650280568529283,
-      "volume": 2812438,
+      "volume": 2829039,
       "currency": "KRW",
       "ret5d": -7.445305267261122,
       "ret30d": 26.645997933126647,
@@ -9591,7 +9591,7 @@
       "sector": "전체시장",
       "price": 26060,
       "changePct": -14.092632272952036,
-      "volume": 1352,
+      "volume": 1357,
       "currency": "KRW",
       "ret5d": -13.364361702127658,
       "ret30d": -14.753025842329082,
@@ -9607,7 +9607,7 @@
       "sector": "IT",
       "price": 14800,
       "changePct": -9.645909645909647,
-      "volume": 1229,
+      "volume": 1265,
       "currency": "KRW",
       "ret5d": -8.782742681047766,
       "ret30d": -12.114014251781473,
@@ -9623,7 +9623,7 @@
       "sector": "소재",
       "price": 3320,
       "changePct": -14.543114543114545,
-      "volume": 2736945,
+      "volume": 2747083,
       "currency": "KRW",
       "ret5d": -1.0432190760059614,
       "ret30d": -18.226600985221676,
@@ -9927,7 +9927,7 @@
       "sector": "IT",
       "price": 2695,
       "changePct": -14.84992101105845,
-      "volume": 386303,
+      "volume": 396805,
       "currency": "KRW",
       "ret5d": -9.411764705882353,
       "ret30d": -20.14814814814815,
@@ -9943,7 +9943,7 @@
       "sector": "IT",
       "price": 8410,
       "changePct": -13.52185089974293,
-      "volume": 20460,
+      "volume": 20498,
       "currency": "KRW",
       "ret5d": -6.555555555555556,
       "ret30d": -18.978805394990367,
@@ -9959,7 +9959,7 @@
       "sector": "전체시장",
       "price": 13970,
       "changePct": -7.176079734219269,
-      "volume": 1161271,
+      "volume": 1162598,
       "currency": "KRW",
       "ret5d": -8.782239634345412,
       "ret30d": -9.344581440622973,
@@ -9975,7 +9975,7 @@
       "sector": "레버리지",
       "price": 8770,
       "changePct": 0.573394495412844,
-      "volume": 74210,
+      "volume": 74286,
       "currency": "KRW",
       "ret5d": 0.057045065601825436,
       "ret30d": 0.40068689181453926,
@@ -9991,7 +9991,7 @@
       "sector": "기술",
       "price": 31650,
       "changePct": -1.616412806963009,
-      "volume": 13078,
+      "volume": 13254,
       "currency": "KRW",
       "ret5d": -2.0123839009287927,
       "ret30d": -2.2242817423540315,
@@ -10007,7 +10007,7 @@
       "sector": "전체시장",
       "price": 23280,
       "changePct": 4.394618834080718,
-      "volume": 6022,
+      "volume": 6519,
       "currency": "KRW",
       "ret5d": 2.0381328073635765,
       "ret30d": 4.935767410412441,
@@ -10023,7 +10023,7 @@
       "sector": "채권",
       "price": 16000,
       "changePct": -14.047810905183992,
-      "volume": 950804,
+      "volume": 951059,
       "currency": "KRW",
       "ret5d": -8.466819221967963,
       "ret30d": -16.926272066458985,
@@ -10034,471 +10034,14 @@
     }
   ],
   "ai": {
-    "trending_up": [
-      {
-        "symbol": "MU",
-        "name": "MU",
-        "reason": "고성장",
-        "why_important": "반도체",
-        "impact": "high",
-        "ret30d": 45.9,
-        "changePct": 40.9,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
-        "competitors": [
-          "MRVL",
-          "KLAC"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "MRVL",
-        "name": "MRVL",
-        "reason": "고성장",
-        "why_important": "반도체",
-        "impact": "high",
-        "ret30d": 46.1,
-        "changePct": 49.9,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
-        "competitors": [
-          "MU",
-          "KLAC"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "KLAC",
-        "name": "KLAC",
-        "reason": "고성장",
-        "why_important": "반도체",
-        "impact": "high",
-        "ret30d": 31.4,
-        "changePct": 34.4,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
-        "competitors": [
-          "MU",
-          "MRVL"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      }
-    ],
-    "trending_down": [
-      {
-        "symbol": "INTU",
-        "name": "INTU",
-        "reason": "고하락",
-        "why_important": "IT",
-        "impact": "high",
-        "ret30d": -29.2,
-        "changePct": -28,
-        "rating": "sell",
-        "rating_reason": "고하락",
-        "risk_level": "high",
-        "competitors": [
-          "ADBE",
-          "CSCO"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      },
-      {
-        "symbol": "ON",
-        "name": "ON",
-        "reason": "고하락",
-        "why_important": "반도체",
-        "impact": "high",
-        "ret30d": -23.4,
-        "changePct": -21.7,
-        "rating": "sell",
-        "rating_reason": "고하락",
-        "risk_level": "high",
-        "competitors": [
-          "MU",
-          "MRVL"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      },
-      {
-        "symbol": "305720",
-        "name": "305720",
-        "reason": "고하락",
-        "why_important": "2차전지",
-        "impact": "high",
-        "ret30d": -32.1,
-        "changePct": -30.7,
-        "rating": "sell",
-        "rating_reason": "고하락",
-        "risk_level": "high",
-        "competitors": [
-          "305540",
-          "364980"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      }
-    ],
-    "steady_growth": [
-      {
-        "symbol": "CSX",
-        "name": "CSX",
-        "reason": "안정성",
-        "why_important": "산업",
-        "impact": "medium",
-        "ret30d": 3.8,
-        "changePct": 7.3,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "medium",
-        "competitors": [
-          "UNP",
-          "NSC"
-        ],
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "CTAS",
-        "name": "CTAS",
-        "reason": "안정성",
-        "why_important": "산업",
-        "impact": "medium",
-        "ret30d": 3.6,
-        "changePct": 5.1,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "medium",
-        "competitors": [
-          "UNP",
-          "NSC"
-        ],
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "ORLY",
-        "name": "ORLY",
-        "reason": "안정성",
-        "why_important": "산업",
-        "impact": "medium",
-        "ret30d": -0.1,
-        "changePct": -0.2,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "medium",
-        "competitors": [
-          "UNP",
-          "NSC"
-        ],
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승"
-      }
-    ],
-    "high_volume": [
-      {
-        "symbol": "MU",
-        "name": "MU",
-        "reason": "고거래량",
-        "why_important": "반도체",
-        "impact": "high",
-        "volume": 84432,
-        "rating": "buy",
-        "rating_reason": "고거래량",
-        "risk_level": "high",
-        "competitors": [
-          "MRVL",
-          "KLAC"
-        ]
-      },
-      {
-        "symbol": "MRVL",
-        "name": "MRVL",
-        "reason": "고거래량",
-        "why_important": "반도체",
-        "impact": "high",
-        "volume": 40984,
-        "rating": "buy",
-        "rating_reason": "고거래량",
-        "risk_level": "high",
-        "competitors": [
-          "MU",
-          "KLAC"
-        ]
-      },
-      {
-        "symbol": "AMD",
-        "name": "AMD",
-        "reason": "고거래량",
-        "why_important": "반도체",
-        "impact": "high",
-        "volume": 51571,
-        "rating": "buy",
-        "rating_reason": "고거래량",
-        "risk_level": "high",
-        "competitors": [
-          "MU",
-          "MRVL"
-        ]
-      }
-    ],
-    "near_52w_high": [
-      {
-        "symbol": "MU",
-        "name": "MU",
-        "reason": "고점",
-        "why_important": "반도체",
-        "impact": "high",
-        "volume": 84432,
-        "rating": "buy",
-        "rating_reason": "고점",
-        "risk_level": "high",
-        "competitors": [
-          "MRVL",
-          "KLAC"
-        ]
-      },
-      {
-        "symbol": "MRVL",
-        "name": "MRVL",
-        "reason": "고점",
-        "why_important": "반도체",
-        "impact": "high",
-        "volume": 40984,
-        "rating": "buy",
-        "rating_reason": "고점",
-        "risk_level": "high",
-        "competitors": [
-          "MU",
-          "KLAC"
-        ]
-      },
-      {
-        "symbol": "KLAC",
-        "name": "KLAC",
-        "reason": "고점",
-        "why_important": "반도체",
-        "impact": "high",
-        "volume": 21180,
-        "rating": "buy",
-        "rating_reason": "고점",
-        "risk_level": "high",
-        "competitors": [
-          "MU",
-          "MRVL"
-        ]
-      }
-    ],
-    "sector_trends": [
-      {
-        "sector": "반도체",
-        "trend": "상승",
-        "avg_change": 3.41,
-        "keywords": [
-          "MU",
-          "MRVL",
-          "KLAC"
-        ],
-        "summary": "반도체 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "MU",
-          "MRVL",
-          "KLAC"
-        ]
-      },
-      {
-        "sector": "2차전지",
-        "trend": "하락",
-        "avg_change": -31.75,
-        "keywords": [
-          "305720",
-          "305540",
-          "364980"
-        ],
-        "summary": "2차전지 섹터 하락",
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락",
-        "top_etfs": [
-          "305720",
-          "305540",
-          "364980"
-        ]
-      },
-      {
-        "sector": "산업",
-        "trend": "보합",
-        "avg_change": 4.25,
-        "keywords": [
-          "CSX",
-          "CTAS",
-          "ORLY"
-        ],
-        "summary": "산업 섹터 보합",
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "CSX",
-          "CTAS",
-          "ORLY"
-        ]
-      },
-      {
-        "sector": "금융",
-        "trend": "상승",
-        "avg_change": 4.63,
-        "keywords": [
-          "200250",
-          "091230",
-          "400970"
-        ],
-        "summary": "금융 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "200250",
-          "091230",
-          "400970"
-        ]
-      },
-      {
-        "sector": "부동산",
-        "trend": "상승",
-        "avg_change": 7.81,
-        "keywords": [
-          "381180",
-          "334700",
-          "441640"
-        ],
-        "summary": "부동산 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "381180",
-          "334700",
-          "441640"
-        ]
-      }
-    ],
-    "etf_issues": [
-      {
-        "symbol": "INTU",
-        "issue": "고하락",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "INTU",
-          "ADBE",
-          "CSCO"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      },
-      {
-        "symbol": "ON",
-        "issue": "고하락",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "ON",
-          "MU",
-          "MRVL"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      },
-      {
-        "symbol": "305720",
-        "issue": "고하락",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "305720",
-          "305540",
-          "364980"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      }
-    ],
-    "risk_analysis": [
-      {
-        "symbol": "MU",
-        "name": "MU",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "반도체",
-        "suitable_for": "고위험投資家"
-      },
-      {
-        "symbol": "MRVL",
-        "name": "MRVL",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "반도체",
-        "suitable_for": "고위험投資家"
-      },
-      {
-        "symbol": "KLAC",
-        "name": "KLAC",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "반도체",
-        "suitable_for": "고위험投資家"
-      }
-    ],
-    "portfolio_suggestion": {
-      "aggressive": [
-        "MU",
-        "MRVL",
-        "KLAC"
-      ],
-      "balanced": [
-        "CSX",
-        "CTAS",
-        "ORLY"
-      ],
-      "conservative": [
-        "200250",
-        "091230",
-        "400970"
-      ],
-      "suggestion": "고위험投資家는 반도체 섹터를 고려하고, 중위험投資家는 산업 섹터를 고려하며, 저위험投資家는 금융 섹터를 고려할 수 있습니다."
-    },
-    "market_summary": "현재 시장은 반도체 섹터의 상승과 2차전지 섹터의 하락이 두드러지고 있습니다. 산업 섹터는 보합세를 보이고 있습니다. 금융 섹터는 상승세를 보이고 있습니다.",
+    "market_summary": "현재 시장은 상승세입니다.",
     "top_keywords": [
       "반도체",
-      "2차전지",
-      "산업",
-      "금융",
-      "부동산"
-    ],
-    "market_sentiment": "bullish",
-    "market_sentiment_reason": "반도체 섹터의 상승과 금융 섹터의 상승이 시장의 상승을 주도하고 있습니다."
+      "부동산",
+      "클라우드"
+    ]
   },
-  "updatedAt": "2026-06-27T04:13:39.689Z",
+  "updatedAt": "2026-06-27T06:56:39.266Z",
   "stats": {
     "total": 627,
     "us": 497,
