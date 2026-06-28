@@ -10038,13 +10038,13 @@
       {
         "symbol": "MU",
         "name": "MU",
-        "reason": "고성장",
-        "why_important": "반도체",
+        "reason": "상승",
+        "why_important": "고성장",
         "impact": "high",
         "ret30d": 45.9,
         "changePct": 40.9,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강력추천",
         "risk_level": "high",
         "competitors": [
           "MRVL",
@@ -10057,13 +10057,13 @@
       {
         "symbol": "MRVL",
         "name": "MRVL",
-        "reason": "고성장",
-        "why_important": "반도체",
+        "reason": "상승",
+        "why_important": "고성장",
         "impact": "high",
         "ret30d": 46.1,
         "changePct": 49.9,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강력추천",
         "risk_level": "high",
         "competitors": [
           "MU",
@@ -10076,13 +10076,13 @@
       {
         "symbol": "KLAC",
         "name": "KLAC",
-        "reason": "고성장",
-        "why_important": "반도체",
+        "reason": "상승",
+        "why_important": "고성장",
         "impact": "high",
         "ret30d": 31.4,
         "changePct": 34.4,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강력추천",
         "risk_level": "high",
         "competitors": [
           "MU",
@@ -10098,16 +10098,16 @@
         "symbol": "INTU",
         "name": "INTU",
         "reason": "하락",
-        "why_important": "회계",
-        "impact": "low",
+        "why_important": "고변동",
+        "impact": "high",
         "ret30d": -29.2,
         "changePct": -28,
         "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "low",
+        "rating_reason": "매도추천",
+        "risk_level": "high",
         "competitors": [
           "ADBE",
-          "PAYX"
+          "PEP"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10117,35 +10117,35 @@
         "symbol": "ON",
         "name": "ON",
         "reason": "하락",
-        "why_important": "반도체",
-        "impact": "low",
+        "why_important": "고변동",
+        "impact": "high",
         "ret30d": -23.4,
         "changePct": -21.7,
         "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "low",
+        "rating_reason": "매도추천",
+        "risk_level": "high",
         "competitors": [
-          "MU",
-          "MRVL"
+          "QCOM",
+          "TXN"
         ],
         "short_term": "하락",
         "mid_term": "하락",
         "long_term": "하락"
       },
       {
-        "symbol": "TTD",
-        "name": "TTD",
+        "symbol": "ADI",
+        "name": "ADI",
         "reason": "하락",
-        "why_important": "광고",
-        "impact": "low",
-        "ret30d": -10,
-        "changePct": -10.3,
+        "why_important": "고변동",
+        "impact": "high",
+        "ret30d": -9.3,
+        "changePct": -10.5,
         "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "low",
+        "rating_reason": "매도추천",
+        "risk_level": "high",
         "competitors": [
-          "GOOGL",
-          "FB"
+          "SNPS",
+          "KLAC"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10154,73 +10154,73 @@
     ],
     "steady_growth": [
       {
-        "symbol": "HON",
-        "name": "HON",
-        "reason": "안정성",
-        "why_important": "산업",
-        "impact": "medium",
-        "ret30d": 6.7,
-        "changePct": 6.5,
-        "rating": "neutral",
-        "rating_reason": "안정",
-        "risk_level": "medium",
-        "competitors": [
-          "GE",
-          "UTX"
-        ],
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
         "symbol": "AMGN",
         "name": "AMGN",
-        "reason": "안정성",
-        "why_important": "바이오",
-        "impact": "medium",
+        "reason": "안정",
+        "why_important": "저변동",
+        "impact": "low",
         "ret30d": 6.6,
         "changePct": 6.5,
         "rating": "neutral",
-        "rating_reason": "안정",
-        "risk_level": "medium",
+        "rating_reason": "중립",
+        "risk_level": "low",
         "competitors": [
-          "JNJ",
-          "PFE"
+          "GILD",
+          "REGN"
         ],
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승"
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
+      },
+      {
+        "symbol": "HON",
+        "name": "HON",
+        "reason": "안정",
+        "why_important": "저변동",
+        "impact": "low",
+        "ret30d": 6.7,
+        "changePct": 6.5,
+        "rating": "neutral",
+        "rating_reason": "중립",
+        "risk_level": "low",
+        "competitors": [
+          "SBUX",
+          "MDLZ"
+        ],
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
       },
       {
         "symbol": "CDNS",
         "name": "CDNS",
-        "reason": "안정성",
-        "why_important": "소프트웨어",
-        "impact": "medium",
+        "reason": "안정",
+        "why_important": "저변동",
+        "impact": "low",
         "ret30d": 6.9,
         "changePct": 6.4,
         "rating": "neutral",
-        "rating_reason": "안정",
-        "risk_level": "medium",
+        "rating_reason": "중립",
+        "risk_level": "low",
         "competitors": [
-          "ADBE",
-          "MSFT"
+          "SNPS",
+          "ADI"
         ],
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승"
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
       }
     ],
     "high_volume": [
       {
         "symbol": "AAPL",
         "name": "AAPL",
-        "reason": "고거래량",
-        "why_important": "기술",
+        "reason": "고거래",
+        "why_important": "고성장",
         "impact": "high",
         "volume": 261775,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강력추천",
         "risk_level": "high",
         "competitors": [
           "MSFT",
@@ -10230,12 +10230,12 @@
       {
         "symbol": "AMZN",
         "name": "AMZN",
-        "reason": "고거래량",
-        "why_important": "기술",
+        "reason": "고거래",
+        "why_important": "고성장",
         "impact": "high",
         "volume": 241156,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강력추천",
         "risk_level": "high",
         "competitors": [
           "MSFT",
@@ -10245,16 +10245,16 @@
       {
         "symbol": "GOOGL",
         "name": "GOOGL",
-        "reason": "고거래량",
-        "why_important": "기술",
+        "reason": "고거래",
+        "why_important": "고성장",
         "impact": "high",
         "volume": 114706,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강력추천",
         "risk_level": "high",
         "competitors": [
           "MSFT",
-          "AMZN"
+          "AAPL"
         ]
       }
     ],
@@ -10263,12 +10263,12 @@
         "symbol": "MU",
         "name": "MU",
         "reason": "고점",
-        "why_important": "반도체",
+        "why_important": "고성장",
         "impact": "high",
         "ret30d": 45.9,
         "changePct": 40.9,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강력추천",
         "risk_level": "high",
         "competitors": [
           "MRVL",
@@ -10279,12 +10279,12 @@
         "symbol": "MRVL",
         "name": "MRVL",
         "reason": "고점",
-        "why_important": "반도체",
+        "why_important": "고성장",
         "impact": "high",
         "ret30d": 46.1,
         "changePct": 49.9,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강력추천",
         "risk_level": "high",
         "competitors": [
           "MU",
@@ -10295,12 +10295,12 @@
         "symbol": "KLAC",
         "name": "KLAC",
         "reason": "고점",
-        "why_important": "반도체",
+        "why_important": "고성장",
         "impact": "high",
         "ret30d": 31.4,
         "changePct": 34.4,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "강력추천",
         "risk_level": "high",
         "competitors": [
           "MU",
@@ -10310,19 +10310,33 @@
     ],
     "sector_trends": [
       {
-        "sector": "반도체",
+        "sector": "항공",
         "trend": "상승",
-        "avg_change": 3.41,
+        "avg_change": 27.36,
         "keywords": [
-          "MU",
-          "MRVL"
+          "항공"
         ],
-        "summary": "반도체 섹터 상승",
+        "summary": "항공 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
         "top_etfs": [
           "MU",
           "MRVL"
+        ]
+      },
+      {
+        "sector": "사이버보안",
+        "trend": "상승",
+        "avg_change": 14.2,
+        "keywords": [
+          "사이버보안"
+        ],
+        "summary": "사이버보안 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "KLAC",
+          "CDNS"
         ]
       },
       {
@@ -10330,99 +10344,80 @@
         "trend": "상승",
         "avg_change": 11.45,
         "keywords": [
-          "AMGN",
-          "JNJ"
+          "바이오"
         ],
         "summary": "바이오 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
         "top_etfs": [
           "AMGN",
-          "JNJ"
+          "GILD"
         ]
       },
       {
-        "sector": "기술",
+        "sector": "혁신",
         "trend": "상승",
-        "avg_change": 4.63,
+        "avg_change": 10.11,
         "keywords": [
-          "AAPL",
-          "GOOGL"
+          "혁신"
         ],
-        "summary": "기술 섹터 상승",
+        "summary": "혁신 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
         "top_etfs": [
-          "AAPL",
-          "GOOGL"
+          "MRVL",
+          "KLAC"
         ]
       },
       {
-        "sector": "산업",
+        "sector": "대만",
         "trend": "상승",
-        "avg_change": 4.25,
+        "avg_change": 8.38,
         "keywords": [
-          "HON",
-          "UTX"
+          "대만"
         ],
-        "summary": "산업 섹터 상승",
+        "summary": "대만 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
         "top_etfs": [
-          "HON",
-          "UTX"
-        ]
-      },
-      {
-        "sector": "금융",
-        "trend": "상승",
-        "avg_change": 4.63,
-        "keywords": [
-          "JPM",
-          "BAC"
-        ],
-        "summary": "금융 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "top_etfs": [
-          "JPM",
-          "BAC"
+          "MU",
+          "MRVL"
         ]
       }
     ],
     "etf_issues": [
       {
         "symbol": "INTU",
-        "issue": "회계 문제",
-        "issue_type": "earnings",
+        "issue": "하락",
+        "issue_type": "macro",
         "impact_etfs": [
           "INTU",
           "ADBE"
         ],
         "is_noise": false,
-        "impact": "low"
+        "impact": "high"
       },
       {
         "symbol": "ON",
-        "issue": "반도체 공급 문제",
+        "issue": "하락",
         "issue_type": "macro",
         "impact_etfs": [
           "ON",
-          "MU"
+          "QCOM"
         ],
         "is_noise": false,
-        "impact": "low"
+        "impact": "high"
       },
       {
-        "symbol": "TTD",
-        "issue": "광고 시장 하락",
+        "symbol": "ADI",
+        "issue": "하락",
         "issue_type": "macro",
         "impact_etfs": [
-          "TTD",
-          "GOOGL"
+          "ADI",
+          "SNPS"
         ],
         "is_noise": false,
-        "impact": "low"
+        "impact": "high"
       }
     ],
     "risk_analysis": [
@@ -10431,27 +10426,27 @@
         "name": "MU",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "20%",
-        "hedge_suggestion": "KLAC",
-        "suitable_for": "적극 투자자"
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "하이브리드",
+        "suitable_for": "적극투자자"
       },
       {
         "symbol": "MRVL",
         "name": "MRVL",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "25%",
-        "hedge_suggestion": "MU",
-        "suitable_for": "적극 투자자"
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "하이브리드",
+        "suitable_for": "적극투자자"
       },
       {
         "symbol": "KLAC",
         "name": "KLAC",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "20%",
-        "hedge_suggestion": "MRVL",
-        "suitable_for": "적극 투자자"
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "하이브리드",
+        "suitable_for": "적극투자자"
       }
     ],
     "portfolio_suggestion": {
@@ -10461,27 +10456,27 @@
         "KLAC"
       ],
       "balanced": [
-        "HON",
         "AMGN",
+        "HON",
         "CDNS"
       ],
       "conservative": [
-        "JPM",
-        "BAC",
-        "UTX"
+        "SBUX",
+        "MDLZ",
+        "PEP"
       ],
-      "suggestion": "적극 투자자: MU, MRVL, KLAC"
+      "suggestion": "적극투자자"
     },
-    "market_summary": "시장은 상승 중",
+    "market_summary": "시장 요약",
     "top_keywords": [
-      "반도체",
-      "바이오",
-      "기술"
+      "MU",
+      "MRVL",
+      "KLAC"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "시장은 상승 중"
+    "market_sentiment_reason": "고성장"
   },
-  "updatedAt": "2026-06-28T20:15:58.113Z",
+  "updatedAt": "2026-06-28T22:54:40.089Z",
   "stats": {
     "total": 627,
     "us": 497,
