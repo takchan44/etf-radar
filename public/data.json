@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "HEWG,116946,3000",
+      "name": "iShares Currency Hedged MSCI Ge",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 0,
+      "low52": 39515,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10036,10 +10036,29 @@
   "ai": {
     "trending_up": [
       {
+        "symbol": "AMD",
+        "name": "AMD",
+        "reason": "고성장",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": 15.7,
+        "changePct": 25.1,
+        "rating": "buy",
+        "rating_reason": "고성장",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "INTC"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
         "symbol": "PANW",
         "name": "PANW",
-        "reason": "상승",
-        "why_important": "고성장",
+        "reason": "고성장",
+        "why_important": "サイバーセキュリティ",
         "impact": "high",
         "ret30d": 41.1,
         "changePct": 44.9,
@@ -10047,7 +10066,8 @@
         "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          ""
+          "FTNT",
+          "CRWD"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10056,8 +10076,8 @@
       {
         "symbol": "MRNA",
         "name": "MRNA",
-        "reason": "상승",
-        "why_important": "고성장",
+        "reason": "고성장",
+        "why_important": "바이오",
         "impact": "high",
         "ret30d": 65.8,
         "changePct": 74.5,
@@ -10065,25 +10085,8 @@
         "rating_reason": "고성장",
         "risk_level": "high",
         "competitors": [
-          ""
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "MU",
-        "name": "MU",
-        "reason": "상승",
-        "why_important": "고성장",
-        "impact": "high",
-        "ret30d": 33.3,
-        "changePct": 39.6,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
-        "competitors": [
-          ""
+          "BNTX",
+          "INO"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10095,15 +10098,16 @@
         "symbol": "INTU",
         "name": "INTU",
         "reason": "하락",
-        "why_important": "고변동",
+        "why_important": "회계",
         "impact": "high",
         "ret30d": -28.3,
         "changePct": -31.1,
         "rating": "sell",
-        "rating_reason": "고변동",
+        "rating_reason": "하락",
         "risk_level": "high",
         "competitors": [
-          ""
+          "ADBE",
+          "SQ"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10113,15 +10117,16 @@
         "symbol": "COST",
         "name": "COST",
         "reason": "하락",
-        "why_important": "고변동",
+        "why_important": "소비재",
         "impact": "high",
         "ret30d": -11.4,
         "changePct": -13,
         "rating": "sell",
-        "rating_reason": "고변동",
+        "rating_reason": "하락",
         "risk_level": "high",
         "competitors": [
-          ""
+          "WMT",
+          "TGT"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10131,15 +10136,16 @@
         "symbol": "ADBE",
         "name": "ADBE",
         "reason": "하락",
-        "why_important": "고변동",
+        "why_important": "소프트웨어",
         "impact": "high",
         "ret30d": -13.3,
         "changePct": -13.8,
         "rating": "sell",
-        "rating_reason": "고변동",
+        "rating_reason": "하락",
         "risk_level": "high",
         "competitors": [
-          ""
+          "MSFT",
+          "GOOGL"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10150,8 +10156,8 @@
       {
         "symbol": "AAPL",
         "name": "AAPL",
-        "reason": "안정",
-        "why_important": "안정성",
+        "reason": "안정성",
+        "why_important": "IT",
         "impact": "medium",
         "ret30d": 2.1,
         "changePct": 3.2,
@@ -10159,17 +10165,18 @@
         "rating_reason": "안정성",
         "risk_level": "medium",
         "competitors": [
-          ""
+          "GOOGL",
+          "AMZN"
         ],
-        "short_term": "안정",
-        "mid_term": "안정",
-        "long_term": "안정"
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "상승"
       },
       {
         "symbol": "PEP",
         "name": "PEP",
-        "reason": "안정",
-        "why_important": "안정성",
+        "reason": "안정성",
+        "why_important": "소비재",
         "impact": "medium",
         "ret30d": -3.4,
         "changePct": -4.1,
@@ -10177,17 +10184,18 @@
         "rating_reason": "안정성",
         "risk_level": "medium",
         "competitors": [
-          ""
+          "KO",
+          "PM"
         ],
-        "short_term": "안정",
-        "mid_term": "안정",
-        "long_term": "안정"
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "상승"
       },
       {
         "symbol": "HON",
         "name": "HON",
-        "reason": "안정",
-        "why_important": "안정성",
+        "reason": "안정성",
+        "why_important": "산업",
         "impact": "medium",
         "ret30d": 5.7,
         "changePct": 5.9,
@@ -10195,203 +10203,235 @@
         "rating_reason": "안정성",
         "risk_level": "medium",
         "competitors": [
-          ""
+          "GE",
+          "UTX"
         ],
-        "short_term": "안정",
-        "mid_term": "안정",
-        "long_term": "안정"
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "상승"
       }
     ],
     "high_volume": [
       {
         "symbol": "NVDA",
         "name": "NVDA",
-        "reason": "고거래",
-        "why_important": "고거래량",
+        "reason": "고거래량",
+        "why_important": "반도체",
         "impact": "high",
         "volume": 129935,
         "rating": "buy",
         "rating_reason": "고거래량",
         "risk_level": "high",
         "competitors": [
-          ""
+          "AMD",
+          "INTC"
         ]
       },
       {
-        "symbol": "AAPL",
-        "name": "AAPL",
-        "reason": "고거래",
-        "why_important": "고거래량",
+        "symbol": "AMZN",
+        "name": "AMZN",
+        "reason": "고거래량",
+        "why_important": "IT",
         "impact": "high",
-        "volume": 71901,
+        "volume": 44746,
         "rating": "buy",
         "rating_reason": "고거래량",
         "risk_level": "high",
         "competitors": [
-          ""
+          "GOOGL",
+          "MSFT"
         ]
       },
       {
         "symbol": "TSLA",
         "name": "TSLA",
-        "reason": "고거래",
-        "why_important": "고거래량",
+        "reason": "고거래량",
+        "why_important": "自動車",
         "impact": "high",
         "volume": 72015,
         "rating": "buy",
         "rating_reason": "고거래량",
         "risk_level": "high",
         "competitors": [
-          ""
+          "GM",
+          "F"
         ]
       }
     ],
     "near_52w_high": [
       {
-        "symbol": "PANW",
-        "name": "PANW",
-        "reason": "고점",
-        "why_important": "고점접근",
-        "impact": "high",
-        "ret30d": 41.1,
-        "changePct": 44.9,
-        "rating": "buy",
-        "rating_reason": "고점접근",
-        "risk_level": "high",
+        "symbol": "AAPL",
+        "name": "AAPL",
+        "reason": "고가",
+        "why_important": "IT",
+        "impact": "medium",
+        "volume": 71901,
+        "rating": "neutral",
+        "rating_reason": "고가",
+        "risk_level": "medium",
         "competitors": [
-          ""
+          "GOOGL",
+          "AMZN"
         ]
       },
       {
-        "symbol": "MRNA",
-        "name": "MRNA",
-        "reason": "고점",
-        "why_important": "고점접근",
-        "impact": "high",
-        "ret30d": 65.8,
-        "changePct": 74.5,
-        "rating": "buy",
-        "rating_reason": "고점접근",
-        "risk_level": "high",
+        "symbol": "PEP",
+        "name": "PEP",
+        "reason": "고가",
+        "why_important": "소비재",
+        "impact": "medium",
+        "volume": 11083,
+        "rating": "neutral",
+        "rating_reason": "고가",
+        "risk_level": "medium",
         "competitors": [
-          ""
+          "KO",
+          "PM"
         ]
       },
       {
-        "symbol": "MU",
-        "name": "MU",
-        "reason": "고점",
-        "why_important": "고점접근",
-        "impact": "high",
-        "ret30d": 33.3,
-        "changePct": 39.6,
-        "rating": "buy",
-        "rating_reason": "고점접근",
-        "risk_level": "high",
+        "symbol": "HON",
+        "name": "HON",
+        "reason": "고가",
+        "why_important": "산업",
+        "impact": "medium",
+        "volume": 4785,
+        "rating": "neutral",
+        "rating_reason": "고가",
+        "risk_level": "medium",
         "competitors": [
-          ""
+          "GE",
+          "UTX"
         ]
       }
     ],
     "sector_trends": [
       {
-        "sector": "항공",
+        "sector": "반도체",
         "trend": "상승",
-        "avg_change": 33.82,
+        "avg_change": 7.03,
         "keywords": [
-          "항공"
+          "NVDA",
+          "AMD",
+          "INTC"
         ],
-        "summary": "항공 섹터 상승",
+        "summary": "반도체 섹터는 상승세를 보이고 있습니다.",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          ""
+          "SMH",
+          "SOXX",
+          "VGT"
         ]
       },
       {
-        "sector": "바이오",
+        "sector": "IT",
         "trend": "상승",
-        "avg_change": 22.87,
+        "avg_change": 6.75,
         "keywords": [
-          "바이오"
+          "AAPL",
+          "GOOGL",
+          "MSFT"
         ],
-        "summary": "바이오 섹터 상승",
+        "summary": "IT 섹터는 상승세를 보이고 있습니다.",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          ""
+          "XLK",
+          "VGT",
+          "QQQ"
         ]
       },
       {
-        "sector": "혁신",
+        "sector": "산업",
         "trend": "상승",
-        "avg_change": 19.63,
+        "avg_change": 9.64,
         "keywords": [
-          "혁신"
+          "HON",
+          "GE",
+          "UTX"
         ],
-        "summary": "혁신 섹터 상승",
+        "summary": "산업 섹터는 상승세를 보이고 있습니다.",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          ""
+          "XLI",
+          "VIS",
+          "ITB"
         ]
       },
       {
-        "sector": "대만",
+        "sector": "소비재",
         "trend": "상승",
-        "avg_change": 16.73,
+        "avg_change": 5.75,
         "keywords": [
-          "대만"
+          "PEP",
+          "KO",
+          "PM"
         ],
-        "summary": "대만 섹터 상승",
+        "summary": "소비재 섹터는 상승세를 보이고 있습니다.",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          ""
+          "XLP",
+          "VDC",
+          "FGD"
         ]
       },
       {
-        "sector": "사이버보안",
+        "sector": "금융",
         "trend": "상승",
-        "avg_change": 14.97,
+        "avg_change": 7.68,
         "keywords": [
-          "사이버보안"
+          "JPM",
+          "BAC",
+          "WFC"
         ],
-        "summary": "사이버보안 섹터 상승",
+        "summary": "금융 섹터는 상승세를 보이고 있습니다.",
         "short_term": "상승",
         "mid_term": "상승",
+        "long_term": "상승",
         "top_etfs": [
-          ""
+          "XLF",
+          "VFIS",
+          "KBE"
         ]
       }
     ],
     "etf_issues": [
       {
-        "symbol": "INTU",
-        "issue": "고변동",
+        "symbol": "SMH",
+        "issue": "반도체 수급",
         "issue_type": "macro",
         "impact_etfs": [
-          "INTU"
+          "SOXX",
+          "VGT"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "COST",
-        "issue": "고변동",
+        "symbol": "XLK",
+        "issue": "IT 수급",
         "issue_type": "macro",
         "impact_etfs": [
-          "COST"
+          "VGT",
+          "QQQ"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "ADBE",
-        "issue": "고변동",
+        "symbol": "XLI",
+        "issue": "산업 수급",
         "issue_type": "macro",
         "impact_etfs": [
-          "ADBE"
+          "VIS",
+          "ITB"
         ],
         "is_noise": false,
         "impact": "high"
@@ -10399,61 +10439,61 @@
     ],
     "risk_analysis": [
       {
-        "symbol": "PANW",
-        "name": "PANW",
+        "symbol": "NVDA",
+        "name": "NVDA",
         "risk_level": "high",
         "volatility": "고변동성",
         "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "방어적",
-        "suitable_for": "고위험投資家"
+        "hedge_suggestion": "반대매매",
+        "suitable_for": "적극투자자"
       },
       {
-        "symbol": "MRNA",
-        "name": "MRNA",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "방어적",
-        "suitable_for": "고위험投資家"
+        "symbol": "AAPL",
+        "name": "AAPL",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "중위험",
+        "hedge_suggestion": "분산투자",
+        "suitable_for": "보수투자자"
       },
       {
-        "symbol": "MU",
-        "name": "MU",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "방어적",
-        "suitable_for": "고위험投資家"
+        "symbol": "HON",
+        "name": "HON",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "중위험",
+        "hedge_suggestion": "분산투자",
+        "suitable_for": "보수투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
-        "PANW",
-        "MRNA",
-        "MU"
+        "SMH",
+        "SOXX",
+        "VGT"
       ],
       "balanced": [
-        "AAPL",
-        "PEP",
-        "HON"
+        "XLK",
+        "VGT",
+        "QQQ"
       ],
       "conservative": [
-        "INTU",
-        "COST",
-        "ADBE"
+        "XLP",
+        "VDC",
+        "FGD"
       ],
-      "suggestion": "고위험投資家에게 적합"
+      "suggestion": "적극투자자: SMH, SOXX, VGT, 보수투자자: XLP, VDC, FGD"
     },
-    "market_summary": "시장 요약",
+    "market_summary": "시장은 상승세를 보이고 있습니다.",
     "top_keywords": [
-      "항공",
-      "바이오",
-      "혁신"
+      "반도체",
+      "IT",
+      "산업"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "시장 전망 양호"
+    "market_sentiment_reason": "시장은 상승세를 보이고 있습니다."
   },
-  "updatedAt": "2026-07-03T20:18:19.521Z",
+  "updatedAt": "2026-07-03T22:54:56.810Z",
   "stats": {
     "total": 627,
     "us": 497,
