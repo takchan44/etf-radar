@@ -10033,8 +10033,15 @@
       "fromLow": 0
     }
   ],
-  "ai": null,
-  "updatedAt": "2026-07-05T20:16:42.292Z",
+  "ai": {
+    "market_summary": "시장은 상승 중",
+    "top_keywords": [
+      "반도체",
+      "サイ버보안",
+      "바이오"
+    ]
+  },
+  "updatedAt": "2026-07-05T22:53:04.103Z",
   "stats": {
     "total": 627,
     "us": 497,
