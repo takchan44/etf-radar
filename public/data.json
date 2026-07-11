@@ -380,9 +380,9 @@
       "ret5d": -3.0873865609118387,
       "ret30d": -13.788072809310348,
       "high52": 144.416,
-      "low52": 90.97,
+      "low52": 91.132,
       "fromHigh": -14.143862175936187,
-      "fromLow": 36.2976805540288
+      "fromLow": 36.055392178378604
     },
     {
       "symbol": "ARKK",
@@ -1708,9 +1708,9 @@
       "ret5d": -3.6786342526273588,
       "ret30d": 1.4815097708843383,
       "high52": 251.49,
-      "low52": 188.38,
+      "low52": 190.1,
       "fromHigh": -4.942542447015788,
-      "fromLow": 26.903068266270306
+      "fromLow": 25.75486586007365
     },
     {
       "symbol": "PPA",
@@ -2012,9 +2012,9 @@
       "ret5d": -0.6502298576183859,
       "ret30d": 0.7078178285687148,
       "high52": 49.3,
-      "low52": 41.35,
+      "low52": 41.38,
       "fromHigh": -4.358215010141977,
-      "fromLow": 14.029987908101575
+      "fromLow": 13.947317544707587
     },
     {
       "symbol": "VNQ",
@@ -2300,9 +2300,9 @@
       "ret5d": 1.9536831393351235,
       "ret30d": -3.9711203090929903,
       "high52": 200.77,
-      "low52": 168.21,
+      "low52": 168.62,
       "fromHigh": -4.607262041141605,
-      "fromLow": 13.857677902621724
+      "fromLow": 13.580832641442301
     },
     {
       "symbol": "IYZ",
@@ -2332,9 +2332,9 @@
       "ret5d": 2.132470687005389,
       "ret30d": -4.008490157533748,
       "high52": 75.94,
-      "low52": 63.65,
+      "low52": 63.9,
       "fromHigh": -4.766921253621286,
-      "fromLow": 13.621366849960715
+      "fromLow": 13.17683881064162
     },
     {
       "symbol": "IBB",
@@ -2780,9 +2780,9 @@
       "ret5d": 4.907162334468258,
       "ret30d": 7.509343091768682,
       "high52": 31.71,
-      "low52": 26.21,
+      "low52": 26.32,
       "fromHigh": -0.2207505518763806,
-      "fromLow": 20.71728347958794
+      "fromLow": 20.21276595744681
     },
     {
       "symbol": "VWO",
@@ -3017,8 +3017,8 @@
       "changePct": 2.260127931769728,
       "volume": 81768,
       "currency": "USD",
-      "ret5d": 0,
-      "ret30d": 0,
+      "ret5d": 19.184885684695,
+      "ret30d": 19.184885684695,
       "high52": 27.203,
       "low52": 22.99,
       "fromHigh": -11.847957945814796,
@@ -5292,9 +5292,9 @@
       "ret5d": -2.135231696313639,
       "ret30d": -17.735041393949093,
       "high52": 23.78,
-      "low52": 13.33,
+      "low52": 13.34,
       "fromHigh": -19.04962153069807,
-      "fromLow": 44.41110277569392
+      "fromLow": 44.30284857571215
     },
     {
       "symbol": "TAN",
@@ -5340,9 +5340,9 @@
       "ret5d": -3.3647821224111327,
       "ret30d": -16.89149091141004,
       "high52": 125.76,
-      "low52": 64.27,
+      "low52": 64.3,
       "fromHigh": -19.363072519083968,
-      "fromLow": 57.785903220787326
+      "fromLow": 57.71228615863143
     },
     {
       "symbol": "SMOG",
@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "iShares Currency Hedged MSCI Ge",
+      "name": "HEWG,116946,3000",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -6492,9 +6492,9 @@
       "ret5d": -0.7585239738632965,
       "ret30d": -8.445903793713596,
       "high52": 408.61,
-      "low52": 176.48,
+      "low52": 179.68,
       "fromHigh": -12.586573994762734,
-      "fromLow": 102.39120580235723
+      "fromLow": 98.78673196794301
     },
     {
       "symbol": "GOOG",
@@ -6508,9 +6508,9 @@
       "ret5d": -0.3228684090709377,
       "ret30d": -8.05189980066992,
       "high52": 404.47,
-      "low52": 177.541,
+      "low52": 180.711,
       "fromHigh": -12.223403466264507,
-      "fromLow": 99.97071099070072
+      "fromLow": 96.4628605895601
     },
     {
       "symbol": "TSLA",
@@ -6604,9 +6604,9 @@
       "ret5d": 7.738208664983567,
       "ret30d": 7.68205738027731,
       "high52": 584.73,
-      "low52": 141.6,
+      "low52": 141.9,
       "fromHigh": -4.5901527200588355,
-      "fromLow": 293.9901129943502
+      "fromLow": 293.1571529245948
     },
     {
       "symbol": "CSCO",
@@ -7051,9 +7051,9 @@
       "currency": "USD",
       "ret5d": 1.0636134523283707,
       "ret30d": 7.858542935578076,
-      "high52": 49.665,
+      "high52": 49.67,
       "low52": 31.8,
-      "fromHigh": -0.5134400483237744,
+      "fromHigh": -0.523454801691172,
       "fromLow": 55.37735849056602
     },
     {
@@ -7387,9 +7387,9 @@
       "currency": "USD",
       "ret5d": 0.7008356773498633,
       "ret30d": -9.190589859719758,
-      "high52": 238.45,
+      "high52": 236.19,
       "low52": 104.44,
-      "fromHigh": -49.98532187041308,
+      "fromHigh": -49.506753037808544,
       "fromLow": 14.189965530448113
     },
     {
@@ -7788,9 +7788,9 @@
       "ret5d": -2.318202910805802,
       "ret30d": 1.009333638919809,
       "high52": 84.23,
-      "low52": 67.81,
+      "low52": 68.01,
       "fromHigh": -4.950730143654282,
-      "fromLow": 18.06518212653001
+      "fromLow": 17.717982649610345
     },
     {
       "symbol": "AEP",
@@ -7884,9 +7884,9 @@
       "ret5d": -5.3666666666666645,
       "ret30d": -12.105261081784393,
       "high52": 97.43,
-      "low52": 28.092,
+      "low52": 28.09,
       "fromHigh": -70.8611310684594,
-      "fromLow": 1.0608002278228743
+      "fromLow": 1.0679957280170904
     },
     {
       "symbol": "SWKS",
@@ -8300,9 +8300,9 @@
       "ret5d": -2.081002461400761,
       "ret30d": -2.4883012701478124,
       "high52": 208900,
-      "low52": 138400,
+      "low52": 138565,
       "fromHigh": -5.734801340354236,
-      "fromLow": 42.28323699421965
+      "fromLow": 42.11380940352903
     },
     {
       "symbol": "278540",
@@ -8396,9 +8396,9 @@
       "ret5d": -0.39737123643588573,
       "ret30d": -7.072579495223157,
       "high52": 35595,
-      "low52": 24685,
+      "low52": 24835,
       "fromHigh": -8.456243854473943,
-      "fromLow": 32.00324083451489
+      "fromLow": 31.205959331588485
     },
     {
       "symbol": "305720",
@@ -9244,9 +9244,9 @@
       "ret5d": -2.6246389551676503,
       "ret30d": -1.598984771573604,
       "high52": 41755,
-      "low52": 27750,
+      "low52": 27865,
       "fromHigh": -7.148844449766495,
-      "fromLow": 39.711711711711715
+      "fromLow": 39.13511573658712
     },
     {
       "symbol": "244580",
@@ -9340,9 +9340,9 @@
       "ret5d": -10.634816753926701,
       "ret30d": -16.610687022900763,
       "high52": 36360,
-      "low52": 9705,
+      "low52": 9715,
       "fromHigh": -24.889988998899888,
-      "fromLow": 181.40133951571354
+      "fromLow": 181.1116829644879
     },
     {
       "symbol": "152100",
@@ -9532,9 +9532,9 @@
       "ret5d": -0.34034034034034033,
       "ret30d": -6.287650602409639,
       "high52": 27115,
-      "low52": 18100,
+      "low52": 18225,
       "fromHigh": -8.205790153051815,
-      "fromLow": 37.51381215469613
+      "fromLow": 36.57064471879286
     },
     {
       "symbol": "139260",
@@ -9724,9 +9724,9 @@
       "ret5d": -2.0949123557075673,
       "ret30d": -0.5644811115935736,
       "high52": 11810,
-      "low52": 9240,
+      "low52": 9305,
       "fromHigh": -3.048264182895851,
-      "fromLow": 23.91774891774892
+      "fromLow": 23.052122514777
     },
     {
       "symbol": "472160",
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 39515,
+      "low52": 0,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -9900,9 +9900,9 @@
       "ret5d": -0.47732696897374705,
       "ret30d": -5.254189150809429,
       "high52": 17885,
-      "low52": 11870,
+      "low52": 11935,
       "fromHigh": -6.737489516354487,
-      "fromLow": 40.5223251895535
+      "fromLow": 39.75701717637202
     },
     {
       "symbol": "487240",
@@ -10044,7 +10044,7 @@
         "ret30d": 7.7,
         "changePct": 12.6,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "상승",
         "risk_level": "high",
         "competitors": [
           "NVDA",
@@ -10058,12 +10058,12 @@
         "symbol": "PANW",
         "name": "PANW",
         "reason": "상승",
-        "why_important": "サイバーセキュリティ",
+        "why_important": "サイバー",
         "impact": "high",
         "ret30d": 26.4,
         "changePct": 31.2,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "상승",
         "risk_level": "high",
         "competitors": [
           "FTNT",
@@ -10082,7 +10082,7 @@
         "ret30d": 43.5,
         "changePct": 43.4,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "상승",
         "risk_level": "high",
         "competitors": [
           "BNTX",
@@ -10154,10 +10154,29 @@
     ],
     "steady_growth": [
       {
+        "symbol": "AAPL",
+        "name": "AAPL",
+        "reason": "안정",
+        "why_important": "기술",
+        "impact": "medium",
+        "ret30d": 0.9,
+        "changePct": 1.4,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "short_term": "안정",
+        "mid_term": "안정",
+        "long_term": "안정"
+      },
+      {
         "symbol": "CSCO",
         "name": "CSCO",
         "reason": "안정",
-        "why_important": "네트워크",
+        "why_important": "기술",
         "impact": "medium",
         "ret30d": 2.3,
         "changePct": 1.4,
@@ -10166,7 +10185,7 @@
         "risk_level": "medium",
         "competitors": [
           "JNPR",
-          "FFIV"
+          "CIEN"
         ],
         "short_term": "안정",
         "mid_term": "안정",
@@ -10176,7 +10195,7 @@
         "symbol": "PEP",
         "name": "PEP",
         "reason": "안정",
-        "why_important": "식음료",
+        "why_important": "소비",
         "impact": "medium",
         "ret30d": -6.1,
         "changePct": -7,
@@ -10186,25 +10205,6 @@
         "competitors": [
           "KO",
           "PM"
-        ],
-        "short_term": "안정",
-        "mid_term": "안정",
-        "long_term": "안정"
-      },
-      {
-        "symbol": "SBUX",
-        "name": "SBUX",
-        "reason": "안정",
-        "why_important": "식음료",
-        "impact": "medium",
-        "ret30d": 5.2,
-        "changePct": 3.8,
-        "rating": "neutral",
-        "rating_reason": "안정",
-        "risk_level": "medium",
-        "competitors": [
-          "MCD",
-          "CMG"
         ],
         "short_term": "안정",
         "mid_term": "안정",
@@ -10220,7 +10220,7 @@
         "impact": "high",
         "volume": 147204,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "거래량",
         "risk_level": "high",
         "competitors": [
           "AMD",
@@ -10228,33 +10228,33 @@
         ]
       },
       {
-        "symbol": "AAPL",
-        "name": "AAPL",
+        "symbol": "AMZN",
+        "name": "AMZN",
         "reason": "거래량",
         "why_important": "기술",
         "impact": "high",
-        "volume": 32466,
+        "volume": 31268,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "거래량",
         "risk_level": "high",
         "competitors": [
-          "GOOGL",
-          "MSFT"
+          "MSFT",
+          "GOOGL"
         ]
       },
       {
-        "symbol": "NFLX",
-        "name": "NFLX",
+        "symbol": "MU",
+        "name": "MU",
         "reason": "거래량",
-        "why_important": "미디어",
+        "why_important": "기술",
         "impact": "high",
-        "volume": 45187,
-        "rating": "sell",
-        "rating_reason": "하락",
+        "volume": 31054,
+        "rating": "buy",
+        "rating_reason": "거래량",
         "risk_level": "high",
         "competitors": [
-          "DIS",
-          "CMCSA"
+          "TXN",
+          "ADI"
         ]
       }
     ],
@@ -10262,13 +10262,12 @@
       {
         "symbol": "AMD",
         "name": "AMD",
-        "reason": "고점",
+        "reason": "고가",
         "why_important": "기술",
         "impact": "high",
-        "ret30d": 7.7,
-        "changePct": 12.6,
+        "volume": 20605,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "고가",
         "risk_level": "high",
         "competitors": [
           "NVDA",
@@ -10278,13 +10277,12 @@
       {
         "symbol": "PANW",
         "name": "PANW",
-        "reason": "고점",
-        "why_important": "サイバーセキュリティ",
+        "reason": "고가",
+        "why_important": "サイバー",
         "impact": "high",
-        "ret30d": 26.4,
-        "changePct": 31.2,
+        "volume": 4522,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "고가",
         "risk_level": "high",
         "competitors": [
           "FTNT",
@@ -10294,13 +10292,12 @@
       {
         "symbol": "MRNA",
         "name": "MRNA",
-        "reason": "고점",
+        "reason": "고가",
         "why_important": "바이오",
         "impact": "high",
-        "ret30d": 43.5,
-        "changePct": 43.4,
+        "volume": 9144,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "고가",
         "risk_level": "high",
         "competitors": [
           "BNTX",
@@ -10314,7 +10311,8 @@
         "trend": "상승",
         "avg_change": 15.67,
         "keywords": [
-          "바이오"
+          "바이오",
+          "의료"
         ],
         "summary": "바이오 섹터 상승",
         "short_term": "상승",
@@ -10326,13 +10324,14 @@
         ]
       },
       {
-        "sector": "サイバーセキュリティ",
+        "sector": "サイバー",
         "trend": "상승",
         "avg_change": 15.36,
         "keywords": [
-          "サイバーセキュリティ"
+          "サイバー",
+          "보안"
         ],
-        "summary": "サイバーセキュリティ 섹터 상승",
+        "summary": "サイバー 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
         "top_etfs": [
@@ -10346,15 +10345,16 @@
         "trend": "상승",
         "avg_change": 10.86,
         "keywords": [
-          "클라우드"
+          "클라우드",
+          "IT"
         ],
         "summary": "클라우드 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
         "top_etfs": [
-          "AMZN",
           "MSFT",
-          "GOOGL"
+          "GOOGL",
+          "AMZN"
         ]
       },
       {
@@ -10362,7 +10362,8 @@
         "trend": "상승",
         "avg_change": 10.35,
         "keywords": [
-          "항공"
+          "항공",
+          "산업"
         ],
         "summary": "항공 섹터 상승",
         "short_term": "상승",
@@ -10378,25 +10379,25 @@
         "trend": "상승",
         "avg_change": 8.72,
         "keywords": [
-          "혁신"
+          "혁신",
+          "기술"
         ],
         "summary": "혁신 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
         "top_etfs": [
-          "ARKK",
-          "ARKQ",
-          "ARKW"
+          "AAPL",
+          "GOOGL",
+          "AMZN"
         ]
       }
     ],
     "etf_issues": [
       {
         "symbol": "QCOM",
-        "issue": "하락",
+        "issue": "기술",
         "issue_type": "기술",
         "impact_etfs": [
-          "NVDA",
           "TXN",
           "ADI"
         ],
@@ -10405,24 +10406,22 @@
       },
       {
         "symbol": "SNPS",
-        "issue": "하락",
+        "issue": "기술",
         "issue_type": "기술",
         "impact_etfs": [
           "CDNS",
-          "KLAC",
-          "LRCX"
+          "KLAC"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
         "symbol": "ON",
-        "issue": "하락",
+        "issue": "기술",
         "issue_type": "기술",
         "impact_etfs": [
           "SWKS",
-          "CTSH",
-          "MRVL"
+          "CTSH"
         ],
         "is_noise": false,
         "impact": "high"
@@ -10434,8 +10433,8 @@
         "name": "AMD",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "20%",
-        "hedge_suggestion": "puts",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "옵션",
         "suitable_for": "적극투자자"
       },
       {
@@ -10443,8 +10442,8 @@
         "name": "PANW",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "25%",
-        "hedge_suggestion": "puts",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "옵션",
         "suitable_for": "적극투자자"
       },
       {
@@ -10452,39 +10451,39 @@
         "name": "MRNA",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "30%",
-        "hedge_suggestion": "puts",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "옵션",
         "suitable_for": "적극투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
-        "ARKK",
-        "ARKQ",
-        "ARKW"
+        "AMD",
+        "PANW",
+        "MRNA"
       ],
       "balanced": [
-        "VGT",
-        "VIT",
-        "VB"
+        "AAPL",
+        "MSFT",
+        "GOOGL"
       ],
       "conservative": [
-        "AGG",
-        "LQD",
-        "SHY"
+        "PEP",
+        "KO",
+        "PM"
       ],
-      "suggestion": "적극투자자: ARKK, 중립투자자: VGT, 보수투자자: AGG"
+      "suggestion": "적극투자자: AMD, PANW, MRNA, 중립투자자: AAPL, MSFT, GOOGL, 보수투자자: PEP, KO, PM"
     },
-    "market_summary": "현재 시장은 상승세를 보이고 있습니다.",
+    "market_summary": "기술 섹터 상승",
     "top_keywords": [
+      "기술",
       "바이오",
-      "サイバーセキュリティ",
-      "클라우드"
+      "サイバー"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "기술 섹터의 성장"
+    "market_sentiment_reason": "기술 섹터 상승"
   },
-  "updatedAt": "2026-07-11T08:45:50.918Z",
+  "updatedAt": "2026-07-11T16:09:44.149Z",
   "stats": {
     "total": 627,
     "us": 497,
