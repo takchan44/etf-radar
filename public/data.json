@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "iShares Currency Hedged MSCI Ge",
+      "name": "HEWG,116946,3000",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 39515,
+      "low52": 0,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10038,10 +10038,10 @@
     "top_keywords": [
       "기술",
       "바이오",
-      "サイバー"
+      "사이버보안"
     ]
   },
-  "updatedAt": "2026-07-11T20:06:42.051Z",
+  "updatedAt": "2026-07-11T22:37:41.581Z",
   "stats": {
     "total": 627,
     "us": 497,
