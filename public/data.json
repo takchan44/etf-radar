@@ -4697,7 +4697,7 @@
       "changePct": 2.1986304744076106,
       "volume": 751,
       "currency": "USD",
-      "ret5d": 0.9307148854477318,
+      "ret5d": 0.5247898159390484,
       "ret30d": 1.9324917994408612,
       "high52": 28.81,
       "low52": 19.01,
@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "iShares Currency Hedged MSCI Ge",
+      "name": "HEWG,116946,3000",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 39515,
+      "low52": 0,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10039,88 +10039,74 @@
         "symbol": "MRNA",
         "name": "모더나",
         "reason": "바이오",
-        "why_important": "신약",
+        "why_important": "제약",
         "impact": "high",
         "ret30d": 43.4,
-        "changePct": 43.5,
+        "changePct": 43.4,
         "rating": "buy",
         "rating_reason": "성장",
         "risk_level": "high",
         "competitors": [
-          "PFE"
+          "PFE",
+          "JNJ"
         ],
         "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "KLAC",
-        "name": "KLA",
-        "reason": "반도체",
-        "why_important": "芯材",
-        "impact": "high",
-        "ret30d": 18.3,
-        "changePct": 20.1,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "high",
-        "competitors": [
-          "LRCX"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
+        "mid_term": "유지",
+        "long_term": "성장"
       },
       {
         "symbol": "FTNT",
         "name": "포트넷",
-        "reason": "サイバー",
+        "reason": "사이버보안",
         "why_important": "보안",
         "impact": "high",
-        "ret30d": 23.1,
-        "changePct": 21.4,
+        "ret30d": 21.4,
+        "changePct": 23.1,
+        "rating": "buy",
+        "rating_reason": "성장",
+        "risk_level": "medium",
+        "competitors": [
+          "CHKP",
+          "CYBR"
+        ],
+        "short_term": "상승",
+        "mid_term": "유지",
+        "long_term": "성장"
+      },
+      {
+        "symbol": "ILMN",
+        "name": "일루미나",
+        "reason": "바이오",
+        "why_important": "제약",
+        "impact": "high",
+        "ret30d": 19.8,
+        "changePct": 26.7,
         "rating": "buy",
         "rating_reason": "성장",
         "risk_level": "high",
         "competitors": [
-          "PANW"
+          "BIIB",
+          "GILD"
         ],
         "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
+        "mid_term": "유지",
+        "long_term": "성장"
       }
     ],
     "trending_down": [
       {
-        "symbol": "QCOM",
-        "name": "퀄컴",
-        "reason": "반도체",
-        "why_important": "芯材",
-        "impact": "high",
-        "ret30d": -19,
-        "changePct": -22.2,
-        "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "high",
-        "competitors": [
-          "TXN"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      },
-      {
         "symbol": "ON",
-        "name": "온세미",
+        "name": "온 세미컨덕터",
         "reason": "반도체",
-        "why_important": "芯材",
+        "why_important": "전자",
         "impact": "high",
-        "ret30d": -23.2,
-        "changePct": -22.5,
+        "ret30d": -22.5,
+        "changePct": -23.2,
         "rating": "sell",
         "rating_reason": "하락",
         "risk_level": "high",
         "competitors": [
+          "TXN",
           "ADI"
         ],
         "short_term": "하락",
@@ -10131,15 +10117,35 @@
         "symbol": "SWKS",
         "name": "스카이웍스",
         "reason": "반도체",
-        "why_important": "芯材",
+        "why_important": "전자",
         "impact": "high",
-        "ret30d": -23.3,
-        "changePct": -25.8,
+        "ret30d": -25.8,
+        "changePct": -23.3,
         "rating": "sell",
         "rating_reason": "하락",
         "risk_level": "high",
         "competitors": [
-          "QRVO"
+          "QCOM",
+          "AVGO"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "CTSH",
+        "name": "코그니자нт",
+        "reason": "IT",
+        "why_important": "서비스",
+        "impact": "high",
+        "ret30d": -20.9,
+        "changePct": -19.9,
+        "rating": "sell",
+        "rating_reason": "하락",
+        "risk_level": "medium",
+        "competitors": [
+          "ACN",
+          "IBM"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10148,58 +10154,61 @@
     ],
     "steady_growth": [
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "reason": "IT",
-        "why_important": "가전",
-        "impact": "medium",
-        "ret30d": 1.4,
-        "changePct": 0.9,
-        "rating": "neutral",
-        "rating_reason": "안정",
-        "risk_level": "medium",
-        "competitors": [
-          "GOOGL"
-        ],
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
         "symbol": "CSCO",
         "name": "시스코",
-        "reason": "IT",
-        "why_important": "네트워크",
+        "reason": "네트워크",
+        "why_important": "IT",
         "impact": "medium",
-        "ret30d": 1.4,
-        "changePct": 2.3,
+        "ret30d": 2.3,
+        "changePct": 1.4,
         "rating": "neutral",
-        "rating_reason": "안정",
-        "risk_level": "medium",
+        "rating_reason": "유지",
+        "risk_level": "low",
         "competitors": [
-          "JNPR"
+          "JNPR",
+          "HPQ"
         ],
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승"
+        "short_term": "유지",
+        "mid_term": "유지",
+        "long_term": "성장"
       },
       {
         "symbol": "PEP",
         "name": "펩시",
-        "reason": "식음료",
-        "why_important": "음료",
+        "reason": "음료",
+        "why_important": "식품",
         "impact": "low",
-        "ret30d": -7,
-        "changePct": -6.1,
+        "ret30d": -6.1,
+        "changePct": -7,
         "rating": "neutral",
-        "rating_reason": "안정",
+        "rating_reason": "유지",
         "risk_level": "low",
         "competitors": [
-          "KO"
+          "KO",
+          "DMND"
         ],
-        "short_term": "보합",
-        "mid_term": "상승",
-        "long_term": "상승"
+        "short_term": "유지",
+        "mid_term": "유지",
+        "long_term": "유지"
+      },
+      {
+        "symbol": "SBUX",
+        "name": "스타벅스",
+        "reason": "음료",
+        "why_important": "식품",
+        "impact": "low",
+        "ret30d": 5.2,
+        "changePct": 3.8,
+        "rating": "neutral",
+        "rating_reason": "유지",
+        "risk_level": "low",
+        "competitors": [
+          "MCD",
+          "DNKN"
+        ],
+        "short_term": "유지",
+        "mid_term": "유지",
+        "long_term": "유지"
       }
     ],
     "high_volume": [
@@ -10207,89 +10216,95 @@
         "symbol": "NVDA",
         "name": "엔비디아",
         "reason": "반도체",
-        "why_important": "GPU",
+        "why_important": "전자",
         "impact": "high",
         "volume": 147204,
         "rating": "buy",
         "rating_reason": "성장",
         "risk_level": "high",
         "competitors": [
-          "AMD"
+          "AMD",
+          "INTC"
         ]
       },
       {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "reason": "IT",
-        "why_important": "클라우드",
+        "symbol": "AAPL",
+        "name": "애플",
+        "reason": "전자",
+        "why_important": "제품",
         "impact": "high",
-        "volume": 31268,
+        "volume": 32466,
         "rating": "buy",
         "rating_reason": "성장",
-        "risk_level": "high",
+        "risk_level": "medium",
         "competitors": [
-          "GOOGL"
+          "GOOGL",
+          "AMZN"
         ]
       },
       {
-        "symbol": "NFLX",
-        "name": "넷플릭스",
-        "reason": "미디어",
-        "why_important": "OTT",
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "reason": "소프트웨어",
+        "why_important": "서비스",
         "impact": "high",
-        "volume": 45187,
+        "volume": 24112,
         "rating": "buy",
         "rating_reason": "성장",
-        "risk_level": "high",
+        "risk_level": "medium",
         "competitors": [
-          "DIS"
+          "GOOGL",
+          "AMZN"
         ]
       }
     ],
     "near_52w_high": [
       {
-        "symbol": "MRNA",
-        "name": "모더나",
-        "reason": "바이오",
-        "why_important": "신약",
+        "symbol": "AMD",
+        "name": "AMD",
+        "reason": "반도체",
+        "why_important": "전자",
         "impact": "high",
-        "ret30d": 43.4,
-        "changePct": 43.5,
+        "ret30d": 7.7,
+        "changePct": 12.6,
         "rating": "buy",
         "rating_reason": "성장",
         "risk_level": "high",
         "competitors": [
-          "PFE"
+          "NVDA",
+          "INTC"
         ]
       },
       {
         "symbol": "KLAC",
-        "name": "KLA",
+        "name": "KLA-Tencor",
         "reason": "반도체",
-        "why_important": "芯材",
+        "why_important": "전자",
         "impact": "high",
-        "ret30d": 18.3,
-        "changePct": 20.1,
+        "ret30d": 20.1,
+        "changePct": 18.3,
         "rating": "buy",
         "rating_reason": "성장",
         "risk_level": "high",
         "competitors": [
-          "LRCX"
+          "LRCX",
+          "ASML"
         ]
       },
       {
-        "symbol": "FTNT",
-        "name": "포트넷",
-        "reason": "サイバー",
-        "why_important": "보안",
+        "symbol": "MRVL",
+        "name": "마벨",
+        "reason": "반도체",
+        "why_important": "전자",
         "impact": "high",
-        "ret30d": 23.1,
-        "changePct": 21.4,
+        "ret30d": 15.1,
+        "changePct": 18.7,
         "rating": "buy",
         "rating_reason": "성장",
         "risk_level": "high",
         "competitors": [
-          "PANW"
+          "TXN",
+          "ADI"
         ]
       }
     ],
@@ -10299,27 +10314,31 @@
         "trend": "상승",
         "avg_change": 15.67,
         "keywords": [
-          "신약"
+          "제약",
+          "바이오"
         ],
         "summary": "바이오 섹터 상승",
         "short_term": "상승",
-        "mid_term": "상승",
+        "mid_term": "유지",
         "top_etfs": [
-          "MRNA"
+          "IBB",
+          "XBI"
         ]
       },
       {
-        "sector": "サイバー",
+        "sector": "사이버보안",
         "trend": "상승",
         "avg_change": 15.36,
         "keywords": [
-          "보안"
+          "보안",
+          "サイバー"
         ],
-        "summary": "サイバー 섹터 상승",
+        "summary": "사이버보안 섹터 상승",
         "short_term": "상승",
-        "mid_term": "상승",
+        "mid_term": "유지",
         "top_etfs": [
-          "FTNT"
+          "CYBR",
+          "HACK"
         ]
       },
       {
@@ -10327,13 +10346,15 @@
         "trend": "상승",
         "avg_change": 10.86,
         "keywords": [
-          "클라우드"
+          "클라우드",
+          "서비스"
         ],
         "summary": "클라우드 섹터 상승",
         "short_term": "상승",
-        "mid_term": "상승",
+        "mid_term": "유지",
         "top_etfs": [
-          "AMZN"
+          "CLOU",
+          "SKYY"
         ]
       },
       {
@@ -10341,13 +10362,15 @@
         "trend": "상승",
         "avg_change": 10.35,
         "keywords": [
-          "항공"
+          "항공",
+          "산업"
         ],
         "summary": "항공 섹터 상승",
         "short_term": "상승",
-        "mid_term": "상승",
+        "mid_term": "유지",
         "top_etfs": [
-          "BA"
+          "ITA",
+          "PPA"
         ]
       },
       {
@@ -10355,105 +10378,110 @@
         "trend": "상승",
         "avg_change": 8.72,
         "keywords": [
-          "혁신"
+          "혁신",
+          "기술"
         ],
         "summary": "혁신 섹터 상승",
         "short_term": "상승",
-        "mid_term": "상승",
+        "mid_term": "유지",
         "top_etfs": [
-          "ARKK"
+          "ARKK",
+          "ARKQ"
         ]
       }
     ],
     "etf_issues": [
       {
-        "symbol": "QCOM",
-        "issue": "반도체",
+        "symbol": "QQQ",
+        "issue": "반도체 부족",
         "issue_type": "macro",
         "impact_etfs": [
-          "TXN"
+          "SMH",
+          "XSD"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "ON",
-        "issue": "반도체",
+        "symbol": "SPY",
+        "issue": "금리 인상",
         "issue_type": "macro",
         "impact_etfs": [
-          "ADI"
+          "AGG",
+          "LQD"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "SWKS",
-        "issue": "반도체",
+        "symbol": "IWM",
+        "issue": "경제 성장 둔화",
         "issue_type": "macro",
         "impact_etfs": [
-          "QRVO"
+          "VB",
+          "IJR"
         ],
         "is_noise": false,
-        "impact": "high"
+        "impact": "medium"
       }
     ],
     "risk_analysis": [
       {
-        "symbol": "MRNA",
-        "name": "모더나",
+        "symbol": "TSLA",
+        "name": "테슬라",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "옵션",
-        "suitable_for": "적극투자자"
+        "max_drawdown_risk": "30%",
+        "hedge_suggestion": "PUT 옵션",
+        "suitable_for": "적극 투자자"
       },
       {
-        "symbol": "KLAC",
-        "name": "KLA",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "옵션",
-        "suitable_for": "적극투자자"
+        "symbol": "AMZN",
+        "name": "아마존",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "콜 옵션",
+        "suitable_for": "중립 투자자"
       },
       {
-        "symbol": "FTNT",
-        "name": "포트넷",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "옵션",
-        "suitable_for": "적극투자자"
+        "symbol": "JNJ",
+        "name": "존슨앤드존슨",
+        "risk_level": "low",
+        "volatility": "저변동성",
+        "max_drawdown_risk": "10%",
+        "hedge_suggestion": "보유 유지",
+        "suitable_for": "보수 투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
-        "MRNA",
-        "KLAC",
-        "FTNT"
+        "ARKK",
+        "TQQQ",
+        "SOXL"
       ],
       "balanced": [
-        "AAPL",
-        "CSCO",
-        "PEP"
+        "SPY",
+        "AGG",
+        "GLD"
       ],
       "conservative": [
-        "JNJ",
-        "PG",
-        "XOM"
+        "SHV",
+        "TLT",
+        "IEF"
       ],
-      "suggestion": "적극투자자: MRNA, KLAC, FTNT"
+      "suggestion": "적극 투자자: ARKK, 중립 투자자: SPY, 보수 투자자: SHV"
     },
-    "market_summary": "시장 요약",
+    "market_summary": "현재 시장은 상승 추세입니다.",
     "top_keywords": [
       "바이오",
-      "サイバー",
+      "사이버보안",
       "클라우드"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "시장 상승"
+    "market_sentiment_reason": "경제 성장과 기술 발전"
   },
-  "updatedAt": "2026-07-10T22:51:05.085Z",
+  "updatedAt": "2026-07-11T03:36:27.721Z",
   "stats": {
     "total": 627,
     "us": 497,
