@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "HEWG,116946,3000",
+      "name": "iShares Currency Hedged MSCI Ge",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 0,
+      "low52": 39515,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10039,12 +10039,12 @@
         "symbol": "PANW",
         "name": "PANW",
         "reason": "상승",
-        "why_important": "고성장",
+        "why_important": "시장선도",
         "impact": "high",
         "ret30d": 26.4,
         "changePct": 31.2,
         "rating": "buy",
-        "rating_reason": "고성장",
+        "rating_reason": "강세",
         "risk_level": "high",
         "competitors": [
           "CRWD",
@@ -10058,16 +10058,16 @@
         "symbol": "KLAC",
         "name": "KLAC",
         "reason": "상승",
-        "why_important": "고성장",
+        "why_important": "수급호재",
         "impact": "high",
         "ret30d": 20.1,
         "changePct": 18.3,
         "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
+        "rating_reason": "호재",
+        "risk_level": "medium",
         "competitors": [
           "LRCX",
-          "MRVL"
+          "MU"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10077,16 +10077,16 @@
         "symbol": "MRNA",
         "name": "MRNA",
         "reason": "상승",
-        "why_important": "고성장",
+        "why_important": "바이오호재",
         "impact": "high",
         "ret30d": 43.5,
         "changePct": 43.4,
         "rating": "buy",
-        "rating_reason": "고성장",
+        "rating_reason": "바이오",
         "risk_level": "high",
         "competitors": [
-          "ILMN",
-          "ISRG"
+          "AMGN",
+          "GILD"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10098,16 +10098,16 @@
         "symbol": "QCOM",
         "name": "QCOM",
         "reason": "하락",
-        "why_important": "고변동성",
+        "why_important": "수급악화",
         "impact": "high",
         "ret30d": -22.2,
         "changePct": -19,
         "rating": "sell",
-        "rating_reason": "고변동성",
+        "rating_reason": "악화",
         "risk_level": "high",
         "competitors": [
           "TXN",
-          "ON"
+          "ADI"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10117,35 +10117,35 @@
         "symbol": "SNPS",
         "name": "SNPS",
         "reason": "하락",
-        "why_important": "고변동성",
+        "why_important": "실적악화",
         "impact": "high",
         "ret30d": -7.3,
         "changePct": -15.3,
         "rating": "sell",
-        "rating_reason": "고변동성",
-        "risk_level": "high",
+        "rating_reason": "악화",
+        "risk_level": "medium",
         "competitors": [
           "CDNS",
-          "ADI"
+          "KLAC"
         ],
         "short_term": "하락",
         "mid_term": "하락",
         "long_term": "하락"
       },
       {
-        "symbol": "CTSH",
-        "name": "CTSH",
+        "symbol": "ON",
+        "name": "ON",
         "reason": "하락",
-        "why_important": "고변동성",
+        "why_important": "수급악화",
         "impact": "high",
-        "ret30d": -20.9,
-        "changePct": -19.9,
+        "ret30d": -22.5,
+        "changePct": -23.2,
         "rating": "sell",
-        "rating_reason": "고변동성",
+        "rating_reason": "악화",
         "risk_level": "high",
         "competitors": [
-          "PYPL",
-          "EBAY"
+          "SWKS",
+          "CTSH"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10154,19 +10154,38 @@
     ],
     "steady_growth": [
       {
+        "symbol": "AAPL",
+        "name": "AAPL",
+        "reason": "상승",
+        "why_important": "실적호재",
+        "impact": "medium",
+        "ret30d": 0.9,
+        "changePct": 1.4,
+        "rating": "neutral",
+        "rating_reason": "호재",
+        "risk_level": "low",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
         "symbol": "CSCO",
         "name": "CSCO",
         "reason": "상승",
-        "why_important": "안정성",
+        "why_important": "실적호재",
         "impact": "medium",
         "ret30d": 2.3,
         "changePct": 1.4,
         "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "medium",
+        "rating_reason": "호재",
+        "risk_level": "low",
         "competitors": [
           "JNPR",
-          "FFIV"
+          "CIEN"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10176,35 +10195,16 @@
         "symbol": "PEP",
         "name": "PEP",
         "reason": "상승",
-        "why_important": "안정성",
+        "why_important": "실적호재",
         "impact": "medium",
         "ret30d": -6.1,
         "changePct": -7,
         "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "medium",
+        "rating_reason": "호재",
+        "risk_level": "low",
         "competitors": [
           "KO",
           "PM"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "SBUX",
-        "name": "SBUX",
-        "reason": "상승",
-        "why_important": "안정성",
-        "impact": "medium",
-        "ret30d": 5.2,
-        "changePct": 3.8,
-        "rating": "neutral",
-        "rating_reason": "안정성",
-        "risk_level": "medium",
-        "competitors": [
-          "MCD",
-          "YUM"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10215,96 +10215,93 @@
       {
         "symbol": "NVDA",
         "name": "NVDA",
-        "reason": "고거래량",
-        "why_important": "고성장",
+        "reason": "상승",
+        "why_important": "시장선도",
         "impact": "high",
         "volume": 148421,
         "rating": "buy",
-        "rating_reason": "고성장",
+        "rating_reason": "강세",
         "risk_level": "high",
         "competitors": [
           "AMD",
-          "INTEL"
-        ]
-      },
-      {
-        "symbol": "AAPL",
-        "name": "AAPL",
-        "reason": "고거래량",
-        "why_important": "고성장",
-        "impact": "high",
-        "volume": 34132,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
-        "competitors": [
-          "MSFT",
-          "GOOGL"
+          "INTC"
         ]
       },
       {
         "symbol": "AMZN",
         "name": "AMZN",
-        "reason": "고거래량",
-        "why_important": "고성장",
+        "reason": "하락",
+        "why_important": "실적악화",
         "impact": "high",
         "volume": 31654,
-        "rating": "buy",
-        "rating_reason": "고성장",
+        "rating": "sell",
+        "rating_reason": "악화",
         "risk_level": "high",
         "competitors": [
           "GOOGL",
-          "FB"
+          "MSFT"
+        ]
+      },
+      {
+        "symbol": "META",
+        "name": "META",
+        "reason": "상승",
+        "why_important": "실적호재",
+        "impact": "high",
+        "volume": 40609,
+        "rating": "buy",
+        "rating_reason": "호재",
+        "risk_level": "medium",
+        "competitors": [
+          "GOOGL",
+          "TWTR"
         ]
       }
     ],
     "near_52w_high": [
       {
-        "symbol": "AMD",
-        "name": "AMD",
-        "reason": "고성장",
-        "why_important": "고성장",
-        "impact": "high",
-        "ret30d": 7.7,
-        "changePct": 12.6,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
-        "competitors": [
-          "NVDA",
-          "INTEL"
-        ]
-      },
-      {
         "symbol": "LRCX",
         "name": "LRCX",
-        "reason": "고성장",
-        "why_important": "고성장",
+        "reason": "상승",
+        "why_important": "실적호재",
         "impact": "high",
-        "ret30d": 10.2,
-        "changePct": 9.8,
+        "volume": 6891,
         "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
+        "rating_reason": "호재",
+        "risk_level": "medium",
         "competitors": [
           "KLAC",
-          "MRVL"
+          "MU"
         ]
       },
       {
         "symbol": "MU",
         "name": "MU",
-        "reason": "고성장",
-        "why_important": "고성장",
+        "reason": "상승",
+        "why_important": "실적호재",
         "impact": "high",
-        "ret30d": 6,
-        "changePct": 5.5,
+        "volume": 31768,
         "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "high",
+        "rating_reason": "호재",
+        "risk_level": "medium",
         "competitors": [
-          "NVDA",
-          "INTEL"
+          "LRCX",
+          "KLAC"
+        ]
+      },
+      {
+        "symbol": "PYPL",
+        "name": "PYPL",
+        "reason": "상승",
+        "why_important": "실적호재",
+        "impact": "high",
+        "volume": 10639,
+        "rating": "buy",
+        "rating_reason": "호재",
+        "risk_level": "medium",
+        "competitors": [
+          "SQ",
+          "V"
         ]
       }
     ],
@@ -10315,16 +10312,15 @@
         "avg_change": 15.67,
         "keywords": [
           "바이오",
-          "의료"
+          "호재"
         ],
         "summary": "바이오 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
-        "long_term": "상승",
         "top_etfs": [
           "MRNA",
-          "ILMN",
-          "ISRG"
+          "AMGN",
+          "GILD"
         ]
       },
       {
@@ -10333,12 +10329,11 @@
         "avg_change": 15.36,
         "keywords": [
           "사이버보안",
-          "보안"
+          "호재"
         ],
         "summary": "사이버보안 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
-        "long_term": "상승",
         "top_etfs": [
           "PANW",
           "CRWD",
@@ -10351,16 +10346,15 @@
         "avg_change": 10.86,
         "keywords": [
           "클라우드",
-          "IT"
+          "호재"
         ],
         "summary": "클라우드 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
-        "long_term": "상승",
         "top_etfs": [
-          "AMZN",
           "MSFT",
-          "GOOGL"
+          "GOOGL",
+          "AMZN"
         ]
       },
       {
@@ -10369,16 +10363,15 @@
         "avg_change": 10.35,
         "keywords": [
           "항공",
-          "산업"
+          "호재"
         ],
         "summary": "항공 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
-        "long_term": "상승",
         "top_etfs": [
           "BA",
-          "UAL",
-          "AAL"
+          "LMT",
+          "NOC"
         ]
       },
       {
@@ -10387,12 +10380,11 @@
         "avg_change": 8.72,
         "keywords": [
           "혁신",
-          "기술"
+          "호재"
         ],
         "summary": "혁신 섹터 상승",
         "short_term": "상승",
         "mid_term": "상승",
-        "long_term": "상승",
         "top_etfs": [
           "AAPL",
           "GOOGL",
@@ -10402,34 +10394,34 @@
     ],
     "etf_issues": [
       {
-        "symbol": "MRNA",
-        "issue": "고성장",
-        "issue_type": "macro",
+        "symbol": "QCOM",
+        "issue": "실적악화",
+        "issue_type": "earnings",
         "impact_etfs": [
-          "ILMN",
-          "ISRG"
+          "TXN",
+          "ADI"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "PANW",
-        "issue": "고성장",
-        "issue_type": "macro",
+        "symbol": "SNPS",
+        "issue": "실적악화",
+        "issue_type": "earnings",
         "impact_etfs": [
-          "CRWD",
-          "FTNT"
+          "CDNS",
+          "KLAC"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "NVDA",
-        "issue": "고성장",
+        "symbol": "ON",
+        "issue": "수급악화",
         "issue_type": "macro",
         "impact_etfs": [
-          "AMD",
-          "INTEL"
+          "SWKS",
+          "CTSH"
         ],
         "is_noise": false,
         "impact": "high"
@@ -10437,61 +10429,61 @@
     ],
     "risk_analysis": [
       {
-        "symbol": "MRNA",
-        "name": "MRNA",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "안정성 ETF",
-        "suitable_for": "고위험 투자자"
-      },
-      {
-        "symbol": "PANW",
-        "name": "PANW",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "안정성 ETF",
-        "suitable_for": "고위험 투자자"
-      },
-      {
         "symbol": "NVDA",
         "name": "NVDA",
         "risk_level": "high",
         "volatility": "고변동성",
         "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "안정성 ETF",
-        "suitable_for": "고위험 투자자"
+        "hedge_suggestion": "방어적",
+        "suitable_for": "적극투자자"
+      },
+      {
+        "symbol": "AMZN",
+        "name": "AMZN",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "방어적",
+        "suitable_for": "적극투자자"
+      },
+      {
+        "symbol": "META",
+        "name": "META",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "중위험",
+        "hedge_suggestion": "중립적",
+        "suitable_for": "일반투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
-        "MRNA",
         "PANW",
-        "NVDA"
+        "CRWD",
+        "FTNT"
       ],
       "balanced": [
-        "AAPL",
         "MSFT",
-        "GOOGL"
+        "GOOGL",
+        "AMZN"
       ],
       "conservative": [
+        "AAPL",
         "PEP",
-        "KO",
-        "PM"
+        "KO"
       ],
-      "suggestion": "고위험 투자자에게 적합한 포트폴리오"
+      "suggestion": "적극투자자: 사이버보안, 일반투자자: 클라우드"
     },
-    "market_summary": "고성장 섹터 상승",
+    "market_summary": "시장은 상승세를 보이고 있습니다.",
     "top_keywords": [
       "바이오",
       "사이버보안",
       "클라우드"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "고성장 섹터 상승"
+    "market_sentiment_reason": "시장호재"
   },
-  "updatedAt": "2026-07-12T20:06:41.006Z",
+  "updatedAt": "2026-07-12T22:38:26.518Z",
   "stats": {
     "total": 627,
     "us": 497,
