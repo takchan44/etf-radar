@@ -843,9 +843,9 @@
       "currency": "USD",
       "ret5d": 1.0612832408443593,
       "ret30d": 2.329781774987088,
-      "high52": 232.4,
+      "high52": 232.42,
       "low52": 193.91,
-      "fromHigh": -0.02151462994836978,
+      "fromHigh": -0.030117890026672915,
       "fromLow": 19.82362951884895
     },
     {
@@ -987,9 +987,9 @@
       "currency": "USD",
       "ret5d": 2.7575734443220186,
       "ret30d": 5.733434939428586,
-      "high52": 162.49,
+      "high52": 162.51,
       "low52": 132.83,
-      "fromHigh": -0.012308449750760187,
+      "fromHigh": -0.0246138699156926,
       "fromLow": 22.314236241812832
     },
     {
@@ -1051,9 +1051,9 @@
       "currency": "USD",
       "ret5d": 3.402682645226629,
       "ret30d": 8.375790362210443,
-      "high52": 53.22,
+      "high52": 53.23,
       "low52": 46.58,
-      "fromHigh": -0.07515971439308371,
+      "fromHigh": -0.09393199323689115,
       "fromLow": 14.169171318162304
     },
     {
@@ -1243,9 +1243,9 @@
       "currency": "USD",
       "ret5d": 2.353110065134009,
       "ret30d": 11.745345799741374,
-      "high52": 139.425,
+      "high52": 139.43,
       "low52": 116.67,
-      "fromHigh": -0.16854939931863985,
+      "fromHigh": -0.17212938392025323,
       "fromLow": 19.30230564841004
     },
     {
@@ -1275,9 +1275,9 @@
       "currency": "USD",
       "ret5d": 4.38043992937828,
       "ret30d": 14.790811951714518,
-      "high52": 78.095,
+      "high52": 78.1,
       "low52": 57.55,
-      "fromHigh": -0.2240860490428288,
+      "fromHigh": -0.2304737516005027,
       "fromLow": 35.395308427454395
     },
     {
@@ -2027,9 +2027,9 @@
       "currency": "USD",
       "ret5d": 3.0693210160791646,
       "ret30d": 5.995123523294818,
-      "high52": 100.125,
+      "high52": 100.13,
       "low52": 86.84,
-      "fromHigh": -0.05493133583021905,
+      "fromHigh": -0.059922101268353414,
       "fromLow": 15.234914785812977
     },
     {
@@ -4955,9 +4955,9 @@
       "currency": "USD",
       "ret5d": 3.3375081750619833,
       "ret30d": 4.86875156607287,
-      "high52": 49.555,
+      "high52": 49.56,
       "low52": 41.87,
-      "fromHigh": -0.03026939763898813,
+      "fromHigh": -0.04035512510089412,
       "fromLow": 18.318605206591837
     },
     {
@@ -4971,9 +4971,9 @@
       "currency": "USD",
       "ret5d": 3.284669889469241,
       "ret30d": 5.316324095958797,
-      "high52": 19.845,
+      "high52": 19.85,
       "low52": 16.84,
-      "fromHigh": -0.17636684303351044,
+      "fromHigh": -0.20151133501260804,
       "fromLow": 17.636579572446546
     },
     {
@@ -5019,9 +5019,9 @@
       "currency": "USD",
       "ret5d": 1.109219318903901,
       "ret30d": 2.6248210449184817,
-      "high52": 95.295,
+      "high52": 95.3,
       "low52": 79.51,
-      "fromHigh": -0.13746786295188648,
+      "fromHigh": -0.1427072402938045,
       "fromLow": 19.68808954848446
     },
     {
@@ -5099,9 +5099,9 @@
       "currency": "USD",
       "ret5d": 3.9545013636613557,
       "ret30d": 10.350780181297942,
-      "high52": 19.2,
+      "high52": 19.21,
       "low52": 14.82,
-      "fromHigh": -0.052083333333322976,
+      "fromHigh": -0.10411244143674948,
       "fromLow": 29.487179487179493
     },
     {
@@ -5403,9 +5403,9 @@
       "currency": "USD",
       "ret5d": 3.3209142998387198,
       "ret30d": 8.294080063327911,
-      "high52": 94.27,
+      "high52": 94.32,
       "low52": 80.52,
-      "fromHigh": 0,
+      "fromHigh": -0.05301102629346603,
       "fromLow": 17.076502732240435
     },
     {
@@ -7051,9 +7051,9 @@
       "currency": "USD",
       "ret5d": 3.1205705643263117,
       "ret30d": 9.582259915769447,
-      "high52": 50.985,
+      "high52": 50.99,
       "low52": 31.8,
-      "fromHigh": -0.18632931254290255,
+      "fromHigh": -0.19611688566385843,
       "fromLow": 60.03144654088051
     },
     {
@@ -7371,9 +7371,9 @@
       "currency": "USD",
       "ret5d": 0.61951161694654,
       "ret30d": 10.637026762219433,
-      "high52": 150.82,
+      "high52": 150.88,
       "low52": 110.81,
-      "fromHigh": -2.002386951332703,
+      "fromHigh": -2.0413573700954295,
       "fromLow": 33.381463766808054
     },
     {
@@ -7707,9 +7707,9 @@
       "currency": "USD",
       "ret5d": 0.6196758600576387,
       "ret30d": 2.571186394729948,
-      "high52": 207.855,
+      "high52": 207.86,
       "low52": 146.97,
-      "fromHigh": -0.007216569242975324,
+      "fromHigh": -0.009621860867896773,
       "fromLow": 41.41661563584405
     },
     {
@@ -10038,17 +10038,36 @@
       {
         "symbol": "META",
         "name": "메타",
-        "reason": "이벤트",
-        "why_important": "수익성",
+        "reason": "수익성 개선",
+        "why_important": "광고 수익 증가",
         "impact": "high",
         "ret30d": 6.7,
         "changePct": 11.2,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "성장 가능성",
         "risk_level": "medium",
         "competitors": [
-          "AAPL",
-          "GOOGL"
+          "GOOGL",
+          "AAPL"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "BKNG",
+        "name": "부킹홀드",
+        "reason": "여행 수요 증가",
+        "why_important": "수익성 개선",
+        "impact": "medium",
+        "ret30d": 12,
+        "changePct": 10.4,
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
+        "risk_level": "low",
+        "competitors": [
+          "EXPE",
+          "ABNB"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10057,36 +10076,17 @@
       {
         "symbol": "PYPL",
         "name": "페이팔",
-        "reason": "이벤트",
-        "why_important": "수익성",
+        "reason": "디지털 결제 증가",
+        "why_important": "수익성 개선",
         "impact": "high",
         "ret30d": 33.1,
         "changePct": 27.4,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "성장 가능성",
         "risk_level": "medium",
         "competitors": [
-          "AAPL",
-          "GOOGL"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "MRNA",
-        "name": "모더나",
-        "reason": "이벤트",
-        "why_important": "수익성",
-        "impact": "high",
-        "ret30d": 28.7,
-        "changePct": 38.4,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "AAPL",
-          "GOOGL"
+          "V",
+          "MA"
         ],
         "short_term": "상승",
         "mid_term": "상승",
@@ -10097,55 +10097,55 @@
       {
         "symbol": "AVGO",
         "name": "브로드컴",
-        "reason": "이벤트",
-        "why_important": "수익성",
+        "reason": "반도체 수요 감소",
+        "why_important": "수익성 악화",
         "impact": "high",
         "ret30d": -21.9,
         "changePct": -22.2,
         "rating": "sell",
-        "rating_reason": "하락",
+        "rating_reason": "하락 가능성",
         "risk_level": "high",
         "competitors": [
-          "AAPL",
-          "GOOGL"
+          "QCOM",
+          "TXN"
         ],
         "short_term": "하락",
         "mid_term": "하락",
         "long_term": "하락"
       },
       {
-        "symbol": "QCOM",
-        "name": "퀄컴",
-        "reason": "이벤트",
-        "why_important": "수익성",
-        "impact": "high",
-        "ret30d": -31.8,
-        "changePct": -29.2,
+        "symbol": "CSCO",
+        "name": "시스코",
+        "reason": "네트워크 수요 감소",
+        "why_important": "수익성 악화",
+        "impact": "medium",
+        "ret30d": -13.3,
+        "changePct": -14.3,
         "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "high",
+        "rating_reason": "하락 가능성",
+        "risk_level": "medium",
         "competitors": [
-          "AAPL",
-          "GOOGL"
+          "JNPR",
+          "VMW"
         ],
         "short_term": "하락",
         "mid_term": "하락",
         "long_term": "하락"
       },
       {
-        "symbol": "MU",
-        "name": "마이크론",
-        "reason": "이벤트",
-        "why_important": "수익성",
+        "symbol": "MRVL",
+        "name": "마벨",
+        "reason": "반도체 수요 감소",
+        "why_important": "수익성 악화",
         "impact": "high",
-        "ret30d": -21,
-        "changePct": -19.8,
+        "ret30d": -37.6,
+        "changePct": -35.2,
         "rating": "sell",
-        "rating_reason": "하락",
+        "rating_reason": "하락 가능성",
         "risk_level": "high",
         "competitors": [
-          "AAPL",
-          "GOOGL"
+          "QCOM",
+          "TXN"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10156,105 +10156,105 @@
       {
         "symbol": "AAPL",
         "name": "애플",
-        "reason": "이벤트",
-        "why_important": "수익성",
+        "reason": "안정적인 수익성",
+        "why_important": "브랜드 가치",
         "impact": "medium",
         "ret30d": 7.4,
         "changePct": 5.7,
         "rating": "neutral",
-        "rating_reason": "안정",
+        "rating_reason": "안정성",
         "risk_level": "low",
         "competitors": [
           "GOOGL",
-          "MSFT"
+          "AMZN"
         ],
         "short_term": "안정",
         "mid_term": "안정",
         "long_term": "안정"
       },
       {
-        "symbol": "GOOGL",
-        "name": "구글",
-        "reason": "이벤트",
-        "why_important": "수익성",
-        "impact": "medium",
-        "ret30d": -1.3,
-        "changePct": -2,
-        "rating": "neutral",
-        "rating_reason": "안정",
-        "risk_level": "low",
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "reason": "클라우드 수요 증가",
+        "why_important": "성장 가능성",
+        "impact": "high",
+        "ret30d": -6.1,
+        "changePct": -9.1,
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
+        "risk_level": "medium",
         "competitors": [
-          "AAPL",
-          "MSFT"
+          "GOOGL",
+          "AMZN"
         ],
-        "short_term": "안정",
-        "mid_term": "안정",
-        "long_term": "안정"
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
       },
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "reason": "이벤트",
-        "why_important": "수익성",
-        "impact": "medium",
+        "reason": "이커머스 수요 증가",
+        "why_important": "성장 가능성",
+        "impact": "high",
         "ret30d": -0.1,
         "changePct": -2.6,
-        "rating": "neutral",
-        "rating_reason": "안정",
-        "risk_level": "low",
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
+        "risk_level": "medium",
         "competitors": [
-          "AAPL",
-          "GOOGL"
+          "GOOGL",
+          "FB"
         ],
-        "short_term": "안정",
-        "mid_term": "안정",
-        "long_term": "안정"
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
       }
     ],
     "high_volume": [
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "reason": "이벤트",
-        "why_important": "수익성",
+        "reason": "인공지능 수요 증가",
+        "why_important": "성장 가능성",
         "impact": "high",
         "volume": 116253,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "성장 가능성",
         "risk_level": "medium",
         "competitors": [
-          "AAPL",
-          "GOOGL"
+          "AMD",
+          "QCOM"
         ]
       },
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "reason": "이벤트",
-        "why_important": "수익성",
-        "impact": "medium",
-        "volume": 62674,
-        "rating": "neutral",
-        "rating_reason": "안정",
-        "risk_level": "low",
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "reason": "전기차 수요 증가",
+        "why_important": "성장 가능성",
+        "impact": "high",
+        "volume": 28935,
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
+        "risk_level": "medium",
         "competitors": [
-          "GOOGL",
-          "MSFT"
+          "GM",
+          "F"
         ]
       },
       {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "reason": "이벤트",
-        "why_important": "수익성",
+        "symbol": "NFLX",
+        "name": "넷플릭스",
+        "reason": "OTT 수요 증가",
+        "why_important": "성장 가능성",
         "impact": "medium",
-        "volume": 34338,
-        "rating": "neutral",
-        "rating_reason": "안정",
+        "volume": 64571,
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
         "risk_level": "low",
         "competitors": [
-          "AAPL",
-          "GOOGL"
+          "DIS",
+          "AMZN"
         ]
       }
     ],
@@ -10262,49 +10262,49 @@
       {
         "symbol": "META",
         "name": "메타",
-        "reason": "이벤트",
-        "why_important": "수익성",
+        "reason": "수익성 개선",
+        "why_important": "광고 수요 증가",
         "impact": "high",
         "ret30d": 6.7,
         "changePct": 11.2,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "성장 가능성",
         "risk_level": "medium",
         "competitors": [
-          "AAPL",
-          "GOOGL"
+          "GOOGL",
+          "AAPL"
+        ]
+      },
+      {
+        "symbol": "BKNG",
+        "name": "부킹홀드",
+        "reason": "여행 수요 증가",
+        "why_important": "수익성 개선",
+        "impact": "medium",
+        "ret30d": 12,
+        "changePct": 10.4,
+        "rating": "buy",
+        "rating_reason": "성장 가능성",
+        "risk_level": "low",
+        "competitors": [
+          "EXPE",
+          "ABNB"
         ]
       },
       {
         "symbol": "PYPL",
         "name": "페이팔",
-        "reason": "이벤트",
-        "why_important": "수익성",
+        "reason": "디지털 결제 증가",
+        "why_important": "수익성 개선",
         "impact": "high",
         "ret30d": 33.1,
         "changePct": 27.4,
         "rating": "buy",
-        "rating_reason": "성장",
+        "rating_reason": "성장 가능성",
         "risk_level": "medium",
         "competitors": [
-          "AAPL",
-          "GOOGL"
-        ]
-      },
-      {
-        "symbol": "MRNA",
-        "name": "모더나",
-        "reason": "이벤트",
-        "why_important": "수익성",
-        "impact": "high",
-        "ret30d": 28.7,
-        "changePct": 38.4,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "AAPL",
-          "GOOGL"
+          "V",
+          "MA"
         ]
       }
     ],
@@ -10317,14 +10317,13 @@
           "바이오",
           "의료"
         ],
-        "summary": "바이오 섹터 상승",
+        "summary": "바이오 섹터의 성장",
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
-          "MRNA",
-          "PANW",
-          "ILMN"
+          "IBB",
+          "XBI"
         ]
       },
       {
@@ -10333,16 +10332,15 @@
         "avg_change": 9.65,
         "keywords": [
           "항공",
-          "방산"
+          "여행"
         ],
-        "summary": "항공 섹터 상승",
+        "summary": "항공 섹터의 성장",
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
-          "BA",
-          "NOC",
-          "LMT"
+          "JETS",
+          "PAE"
         ]
       },
       {
@@ -10353,14 +10351,13 @@
           "인버스",
           "하락"
         ],
-        "summary": "인버스 섹터 상승",
+        "summary": "인버스 섹터의 성장",
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
           "SH",
-          "PSQ",
-          "SPXS"
+          "PSQ"
         ]
       },
       {
@@ -10369,16 +10366,15 @@
         "avg_change": 5.04,
         "keywords": [
           "필수소비재",
-          "소비재"
+          "소비"
         ],
-        "summary": "필수소비재 섹터 상승",
+        "summary": "필수소비재 섹터의 성장",
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
           "XLP",
-          "PG",
-          "PEP"
+          "VDC"
         ]
       },
       {
@@ -10389,47 +10385,46 @@
           "유틸리티",
           "에너지"
         ],
-        "summary": "유틸리티 섹터 상승",
+        "summary": "유틸리티 섹터의 성장",
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승",
         "top_etfs": [
           "XLU",
-          "DUK",
-          "NEE"
+          "IDU"
         ]
       }
     ],
     "etf_issues": [
       {
-        "symbol": "AAPL",
-        "issue": "이벤트",
+        "symbol": "QCOM",
+        "issue": "반도체 수요 감소",
         "issue_type": "macro",
         "impact_etfs": [
-          "MSFT",
-          "GOOGL"
+          "SMH",
+          "SOXX"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "GOOGL",
-        "issue": "이벤트",
+        "symbol": "TXN",
+        "issue": "반도체 수요 감소",
         "issue_type": "macro",
         "impact_etfs": [
-          "AAPL",
-          "MSFT"
+          "SMH",
+          "SOXX"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "AMZN",
-        "issue": "이벤트",
+        "symbol": "MRVL",
+        "issue": "반도체 수요 감소",
         "issue_type": "macro",
         "impact_etfs": [
-          "AAPL",
-          "GOOGL"
+          "SMH",
+          "SOXX"
         ],
         "is_noise": false,
         "impact": "high"
@@ -10437,61 +10432,61 @@
     ],
     "risk_analysis": [
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "risk_level": "low",
-        "volatility": "저변동성",
-        "max_drawdown_risk": "",
-        "hedge_suggestion": "",
-        "suitable_for": "안정형 투자자"
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "risk_level": "medium",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "고정수익",
+        "suitable_for": "적극 투자자"
       },
       {
-        "symbol": "GOOGL",
-        "name": "구글",
-        "risk_level": "low",
-        "volatility": "저변동성",
-        "max_drawdown_risk": "",
-        "hedge_suggestion": "",
-        "suitable_for": "안정형 투자자"
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "risk_level": "medium",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "25%",
+        "hedge_suggestion": "고정수익",
+        "suitable_for": "적극 투자자"
       },
       {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
+        "symbol": "NFLX",
+        "name": "넷플릭스",
         "risk_level": "low",
         "volatility": "저변동성",
-        "max_drawdown_risk": "",
-        "hedge_suggestion": "",
-        "suitable_for": "안정형 투자자"
+        "max_drawdown_risk": "10%",
+        "hedge_suggestion": "없음",
+        "suitable_for": "보수 투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
-        "MRNA",
-        "PANW",
-        "ILMN"
+        "PYPL",
+        "BKNG",
+        "META"
       ],
       "balanced": [
         "AAPL",
-        "GOOGL",
-        "MSFT"
+        "MSFT",
+        "AMZN"
       ],
       "conservative": [
         "XLP",
-        "PG",
-        "PEP"
+        "XLU",
+        "VDC"
       ],
-      "suggestion": "성장형 포트폴리오 추천"
+      "suggestion": "적극 투자자: PYPL, BKNG, META, 보수 투자자: XLP, XLU, VDC"
     },
-    "market_summary": "시장 요약",
+    "market_summary": "현재 시장은 상승세를 보이고 있습니다.",
     "top_keywords": [
       "바이오",
       "항공",
       "인버스"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "시장 전망 양호"
+    "market_sentiment_reason": "시장의 상승세는 지속될 것으로 예상됩니다."
   },
-  "updatedAt": "2026-07-16T22:49:23.579Z",
+  "updatedAt": "2026-07-17T03:32:58.271Z",
   "stats": {
     "total": 627,
     "us": 497,
