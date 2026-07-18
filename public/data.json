@@ -843,9 +843,9 @@
       "currency": "USD",
       "ret5d": 0.2863440891607413,
       "ret30d": 0.8639882388073441,
-      "high52": 233.575,
+      "high52": 233.58,
       "low52": 193.91,
-      "fromHigh": -1.038210424917043,
+      "fromHigh": -1.040328795273571,
       "fromLow": 19.2047857253365
     },
     {
@@ -971,9 +971,9 @@
       "currency": "USD",
       "ret5d": 1.9855567578048774,
       "ret30d": 2.9894264881560813,
-      "high52": 28.875,
+      "high52": 28.88,
       "low52": 23.516,
-      "fromHigh": -2.1645021645021645,
+      "fromHigh": -2.181440443213293,
       "fromLow": 20.130974655553675
     },
     {
@@ -1019,9 +1019,9 @@
       "currency": "USD",
       "ret5d": 0.29152590559024805,
       "ret30d": 3.614213376302912,
-      "high52": 157.605,
+      "high52": 157.66,
       "low52": 135.3,
-      "fromHigh": -1.7734208940071619,
+      "fromHigh": -1.8076874286439135,
       "fromLow": 14.419807834441972
     },
     {
@@ -1067,9 +1067,9 @@
       "currency": "USD",
       "ret5d": 1.245148603049191,
       "ret30d": 4.951336778614774,
-      "high52": 50.465,
+      "high52": 50.47,
       "low52": 44.59,
-      "fromHigh": -1.7140592489844484,
+      "fromHigh": -1.7237963146423567,
       "fromLow": 11.235703072437762
     },
     {
@@ -1227,9 +1227,9 @@
       "currency": "USD",
       "ret5d": 0.9872570895098732,
       "ret30d": 7.798431654313422,
-      "high52": 56.935,
+      "high52": 56.94,
       "low52": 47.67,
-      "fromHigh": -1.1855624835338618,
+      "fromHigh": -1.1942395504039334,
       "fromLow": 18.019718900776162
     },
     {
@@ -2059,9 +2059,9 @@
       "currency": "USD",
       "ret5d": 2.1822254677423834,
       "ret30d": 2.297293781682825,
-      "high52": 45.945,
+      "high52": 45.955,
       "low52": 39.725,
-      "fromHigh": -1.1426705843943814,
+      "fromHigh": -1.164182352301157,
       "fromLow": 14.33606041535557
     },
     {
@@ -4188,9 +4188,9 @@
       "ret5d": -2.884067517308568,
       "ret30d": -21.273149538514364,
       "high52": 56.37,
-      "low52": 32.82,
+      "low52": 32.81,
       "fromHigh": -39.666489267340786,
-      "fromLow": 3.6258379037172386
+      "fromLow": 3.6574215178299165
     },
     {
       "symbol": "TZA",
@@ -4971,9 +4971,9 @@
       "currency": "USD",
       "ret5d": 1.9171024744341243,
       "ret30d": 4.019038385618499,
-      "high52": 19.975,
+      "high52": 19.98,
       "low52": 16.84,
-      "fromHigh": -1.526908635794742,
+      "fromHigh": -1.551551551551545,
       "fromLow": 16.805225653206662
     },
     {
@@ -5003,9 +5003,9 @@
       "currency": "USD",
       "ret5d": 3.5849892380805533,
       "ret30d": 8.432672907893243,
-      "high52": 24.997,
+      "high52": 25,
       "low52": 19.59,
-      "fromHigh": -1.7482097851742255,
+      "fromHigh": -1.760000000000005,
       "fromLow": 25.370086778968854
     },
     {
@@ -5019,9 +5019,9 @@
       "currency": "USD",
       "ret5d": -0.038142129209617064,
       "ret30d": 1.2996771459203376,
-      "high52": 95.4191,
+      "high52": 95.42,
       "low52": 79.51,
-      "fromHigh": -0.8438562090818287,
+      "fromHigh": -0.8447914483336834,
       "fromLow": 18.996226889699404
     },
     {
@@ -5099,9 +5099,9 @@
       "currency": "USD",
       "ret5d": 3.403564361577655,
       "ret30d": 7.709620185393856,
-      "high52": 19.345,
+      "high52": 19.35,
       "low52": 14.82,
-      "fromHigh": -1.0597053502196863,
+      "fromHigh": -1.0852713178294617,
       "fromLow": 29.149797570850204
     },
     {
@@ -5403,9 +5403,9 @@
       "currency": "USD",
       "ret5d": 2.114674276656629,
       "ret30d": 7.001709576889749,
-      "high52": 95.1,
+      "high52": 95.11,
       "low52": 80.52,
-      "fromHigh": -1.4931650893795874,
+      "fromHigh": -1.5035222374093076,
       "fromLow": 16.343765524093406
     },
     {
@@ -6172,9 +6172,9 @@
       "ret5d": -1.6983175065284781,
       "ret30d": -3.444798356581966,
       "high52": 17.64,
-      "low52": 15.095,
+      "low52": 15.07,
       "fromHigh": -13.735260770975058,
-      "fromLow": 0.8088771116263641
+      "fromLow": 0.9761114797611149
     },
     {
       "symbol": "RWM",
@@ -6220,9 +6220,9 @@
       "ret5d": -4.247785763510955,
       "ret30d": -6.655163212063514,
       "high52": 50.8,
-      "low52": 37.165,
+      "low52": 37.15,
       "fromHigh": -25.452755905511815,
-      "fromLow": 1.8969460513924346
+      "fromLow": 1.9380888290713296
     },
     {
       "symbol": "ETHA",
@@ -6427,9 +6427,9 @@
       "currency": "USD",
       "ret5d": 5.84168217934913,
       "ret30d": 7.2325894737255,
-      "high52": 334.98,
+      "high52": 334.99,
       "low52": 201.5,
-      "fromHigh": -0.37017135351364533,
+      "fromHigh": -0.37314546702886653,
       "fromLow": 65.62779156327544
     },
     {
@@ -6572,9 +6572,9 @@
       "ret5d": -6.0242641149252725,
       "ret30d": -15.461007768587246,
       "high52": 126.71,
-      "low52": 65.095,
+      "low52": 65.08,
       "fromHigh": -45.58440533501697,
-      "fromLow": 5.922113833627781
+      "fromLow": 5.946527350952681
     },
     {
       "symbol": "ASML",
@@ -7051,9 +7051,9 @@
       "currency": "USD",
       "ret5d": 2.7120019363005,
       "ret30d": 9.777202038763035,
-      "high52": 51.285,
+      "high52": 51.29,
       "low52": 31.8,
-      "fromHigh": -1.0431900165740404,
+      "fromHigh": -1.0528368102944028,
       "fromLow": 59.59119496855345
     },
     {
@@ -7707,9 +7707,9 @@
       "currency": "USD",
       "ret5d": 1.206335106687331,
       "ret30d": 2.704034546979745,
-      "high52": 209.18,
+      "high52": 209.19,
       "low52": 146.97,
-      "fromHigh": -0.1338560091786983,
+      "fromHigh": -0.13862995363066688,
       "fromLow": 42.13785126216235
     },
     {
@@ -10045,37 +10045,37 @@
         "changePct": 7.6,
         "rating": "buy",
         "rating_reason": "성장",
-        "risk_level": "medium",
+        "risk_level": "low",
         "competitors": [
           "MSFT",
           "GOOGL"
         ],
         "short_term": "상승",
-        "mid_term": "유지",
-        "long_term": "성장"
+        "mid_term": "상승",
+        "long_term": "상승"
       },
       {
         "symbol": "TMUS",
         "name": "T모바일",
         "reason": "5G",
-        "why_important": "혁신",
+        "why_important": "성장",
         "impact": "medium",
         "ret30d": 8.7,
         "changePct": 6.1,
         "rating": "buy",
         "rating_reason": "성장",
-        "risk_level": "low",
+        "risk_level": "medium",
         "competitors": [
           "VZ",
           "T"
         ],
         "short_term": "상승",
-        "mid_term": "유지",
-        "long_term": "성장"
+        "mid_term": "상승",
+        "long_term": "상승"
       },
       {
         "symbol": "BKNG",
-        "name": "부킹",
+        "name": "부킹홀드",
         "reason": "여행",
         "why_important": "수요",
         "impact": "medium",
@@ -10086,145 +10086,145 @@
         "risk_level": "medium",
         "competitors": [
           "EXPE",
-          "TRIP"
+          "ABNB"
         ],
         "short_term": "상승",
-        "mid_term": "유지",
-        "long_term": "성장"
+        "mid_term": "상승",
+        "long_term": "상승"
       }
     ],
     "trending_down": [
       {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "reason": "하락",
-        "why_important": "주도적",
+        "symbol": "QCOM",
+        "name": "퀄컴",
+        "reason": "수급",
+        "why_important": "하락",
         "impact": "high",
-        "ret30d": -8,
-        "changePct": -7.8,
-        "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "medium",
-        "competitors": [
-          "AAPL",
-          "GOOGL"
-        ],
-        "short_term": "하락",
-        "mid_term": "유지",
-        "long_term": "회복"
-      },
-      {
-        "symbol": "NVDA",
-        "name": "엔비디아",
-        "reason": "하락",
-        "why_important": "주도적",
-        "impact": "high",
-        "ret30d": -7.2,
-        "changePct": -5.6,
-        "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "medium",
-        "competitors": [
-          "AMD",
-          "INTC"
-        ],
-        "short_term": "하락",
-        "mid_term": "유지",
-        "long_term": "회복"
-      },
-      {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "reason": "하락",
-        "why_important": "주도적",
-        "impact": "high",
-        "ret30d": -9,
-        "changePct": -10.1,
+        "ret30d": -29.2,
+        "changePct": -31.3,
         "rating": "sell",
         "rating_reason": "하락",
         "risk_level": "high",
         "competitors": [
-          "GM",
-          "F"
+          "TXN",
+          "ADI"
         ],
         "short_term": "하락",
-        "mid_term": "유지",
-        "long_term": "회복"
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "MU",
+        "name": "마이크론",
+        "reason": "반도체",
+        "why_important": "하락",
+        "impact": "medium",
+        "ret30d": -14.8,
+        "changePct": -21.4,
+        "rating": "sell",
+        "rating_reason": "하락",
+        "risk_level": "medium",
+        "competitors": [
+          "SNPS",
+          "KLAC"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "MRVL",
+        "name": "마벨",
+        "reason": "반도체",
+        "why_important": "하락",
+        "impact": "medium",
+        "ret30d": -40.4,
+        "changePct": -37.5,
+        "rating": "sell",
+        "rating_reason": "하락",
+        "risk_level": "medium",
+        "competitors": [
+          "TXN",
+          "ADI"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
       }
     ],
     "steady_growth": [
       {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "reason": "성장",
-        "why_important": "주도적",
-        "impact": "high",
-        "ret30d": -2.6,
-        "changePct": -1.1,
-        "rating": "buy",
+        "symbol": "PEP",
+        "name": "펩시",
+        "reason": "수익성",
+        "why_important": "안정",
+        "impact": "low",
+        "ret30d": -3.5,
+        "changePct": -3.8,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "low",
+        "competitors": [
+          "KO",
+          "DM"
+        ],
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "INTU",
+        "name": "인튜이트",
+        "reason": "클라우드",
+        "why_important": "성장",
+        "impact": "medium",
+        "ret30d": -3.6,
+        "changePct": -6.5,
+        "rating": "neutral",
         "rating_reason": "성장",
         "risk_level": "medium",
         "competitors": [
-          "GOOGL",
+          "ADBE",
           "MSFT"
         ],
-        "short_term": "유지",
-        "mid_term": "성장",
-        "long_term": "성장"
+        "short_term": "보합",
+        "mid_term": "상승",
+        "long_term": "상승"
       },
       {
-        "symbol": "GOOGL",
-        "name": "구글",
-        "reason": "성장",
-        "why_important": "주도적",
-        "impact": "high",
-        "ret30d": -6.8,
-        "changePct": -3.4,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
+        "symbol": "HON",
+        "name": "허니웰",
+        "reason": "산업",
+        "why_important": "안정",
+        "impact": "low",
+        "ret30d": -1.4,
+        "changePct": -3.9,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "low",
         "competitors": [
-          "MSFT",
-          "AMZN"
+          "GE",
+          "UTX"
         ],
-        "short_term": "유지",
-        "mid_term": "성장",
-        "long_term": "성장"
-      },
-      {
-        "symbol": "CSCO",
-        "name": "시스코",
-        "reason": "성장",
-        "why_important": "주도적",
-        "impact": "medium",
-        "ret30d": -13.9,
-        "changePct": -11.5,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "JNPR",
-          "HPQ"
-        ],
-        "short_term": "유지",
-        "mid_term": "성장",
-        "long_term": "성장"
+        "short_term": "보합",
+        "mid_term": "보합",
+        "long_term": "상승"
       }
     ],
     "high_volume": [
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "reason": "하락",
-        "why_important": "주도적",
+        "reason": "AI",
+        "why_important": "성장",
         "impact": "high",
         "volume": 138214,
-        "rating": "sell",
-        "rating_reason": "하락",
+        "rating": "buy",
+        "rating_reason": "성장",
         "risk_level": "medium",
         "competitors": [
           "AMD",
-          "INTC"
+          "INTEL"
         ]
       },
       {
@@ -10236,7 +10236,7 @@
         "volume": 63325,
         "rating": "buy",
         "rating_reason": "성장",
-        "risk_level": "medium",
+        "risk_level": "low",
         "competitors": [
           "MSFT",
           "GOOGL"
@@ -10245,47 +10245,30 @@
       {
         "symbol": "AMZN",
         "name": "아마존",
-        "reason": "성장",
-        "why_important": "주도적",
-        "impact": "high",
+        "reason": "클라우드",
+        "why_important": "성장",
+        "impact": "medium",
         "volume": 40075,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "GOOGL",
-          "MSFT"
-        ]
-      }
-    ],
-    "near_52w_high": [
-      {
-        "symbol": "AAPL",
-        "name": "애플",
-        "reason": "수익성",
-        "why_important": "주도적",
-        "impact": "high",
-        "ret30d": 7.2,
-        "changePct": 7.6,
-        "rating": "buy",
+        "rating": "neutral",
         "rating_reason": "성장",
         "risk_level": "medium",
         "competitors": [
           "MSFT",
           "GOOGL"
         ]
-      },
+      }
+    ],
+    "near_52w_high": [
       {
         "symbol": "TMUS",
         "name": "T모바일",
         "reason": "5G",
-        "why_important": "혁신",
+        "why_important": "성장",
         "impact": "medium",
-        "ret30d": 8.7,
-        "changePct": 6.1,
+        "volume": 4465,
         "rating": "buy",
         "rating_reason": "성장",
-        "risk_level": "low",
+        "risk_level": "medium",
         "competitors": [
           "VZ",
           "T"
@@ -10293,18 +10276,32 @@
       },
       {
         "symbol": "BKNG",
-        "name": "부킹",
+        "name": "부킹홀드",
         "reason": "여행",
         "why_important": "수요",
         "impact": "medium",
-        "ret30d": 8.5,
-        "changePct": 10.3,
+        "volume": 7039,
         "rating": "buy",
         "rating_reason": "성장",
         "risk_level": "medium",
         "competitors": [
           "EXPE",
-          "TRIP"
+          "ABNB"
+        ]
+      },
+      {
+        "symbol": "PYPL",
+        "name": "페이팔",
+        "reason": "핀테크",
+        "why_important": "성장",
+        "impact": "medium",
+        "volume": 19028,
+        "rating": "buy",
+        "rating_reason": "성장",
+        "risk_level": "medium",
+        "competitors": [
+          "SQ",
+          "V"
         ]
       }
     ],
@@ -10318,7 +10315,7 @@
         ],
         "summary": "바이오 섹터 상승",
         "short_term": "상승",
-        "mid_term": "유지",
+        "mid_term": "상승",
         "top_etfs": [
           "IBB",
           "XBI"
@@ -10333,7 +10330,7 @@
         ],
         "summary": "인버스 섹터 상승",
         "short_term": "상승",
-        "mid_term": "유지",
+        "mid_term": "보합",
         "top_etfs": [
           "SH",
           "PSQ"
@@ -10348,10 +10345,10 @@
         ],
         "summary": "항공 섹터 상승",
         "short_term": "상승",
-        "mid_term": "유지",
+        "mid_term": "상승",
         "top_etfs": [
           "JETS",
-          "PEJ"
+          "FAA"
         ]
       },
       {
@@ -10363,7 +10360,7 @@
         ],
         "summary": "사이버보안 섹터 상승",
         "short_term": "상승",
-        "mid_term": "유지",
+        "mid_term": "보합",
         "top_etfs": [
           "CIBR",
           "BUG"
@@ -10378,7 +10375,7 @@
         ],
         "summary": "필수소비재 섹터 상승",
         "short_term": "상승",
-        "mid_term": "유지",
+        "mid_term": "보합",
         "top_etfs": [
           "XLP",
           "VDC"
@@ -10387,96 +10384,96 @@
     ],
     "etf_issues": [
       {
-        "symbol": "SPY",
-        "issue": "하락",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "QQQ",
-          "DIA"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      },
-      {
         "symbol": "QQQ",
-        "issue": "하락",
+        "issue": "반도체 수급",
         "issue_type": "macro",
         "impact_etfs": [
-          "SPY",
-          "DIA"
+          "SMH",
+          "SOXX"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "DIA",
-        "issue": "하락",
+        "symbol": "SPY",
+        "issue": "금리 인상",
         "issue_type": "macro",
         "impact_etfs": [
-          "SPY",
-          "QQQ"
+          "AGG",
+          "TLT"
         ],
         "is_noise": false,
-        "impact": "high"
+        "impact": "medium"
+      },
+      {
+        "symbol": "IWM",
+        "issue": "소형주 약세",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "VB",
+          "IJR"
+        ],
+        "is_noise": false,
+        "impact": "medium"
       }
     ],
     "risk_analysis": [
       {
         "symbol": "AAPL",
         "name": "애플",
+        "risk_level": "low",
+        "volatility": "저변동성",
+        "max_drawdown_risk": "5%",
+        "hedge_suggestion": "None",
+        "suitable_for": "안정형 투자자"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
         "risk_level": "medium",
         "volatility": "중변동성",
         "max_drawdown_risk": "10%",
-        "hedge_suggestion": "고정수익",
-        "suitable_for": "중장기"
+        "hedge_suggestion": "Put Option",
+        "suitable_for": "성장형 투자자"
       },
       {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "risk_level": "medium",
-        "volatility": "중변동성",
-        "max_drawdown_risk": "15%",
-        "hedge_suggestion": "고정수익",
-        "suitable_for": "중장기"
-      },
-      {
-        "symbol": "GOOGL",
-        "name": "구글",
-        "risk_level": "medium",
-        "volatility": "중변동성",
-        "max_drawdown_risk": "12%",
-        "hedge_suggestion": "고정수익",
-        "suitable_for": "중장기"
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "Call Option",
+        "suitable_for": "공격형 투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
-        "AAPL",
-        "AMZN",
-        "GOOGL"
+        "QQQ",
+        "IWM",
+        "TQQQ"
       ],
       "balanced": [
         "SPY",
-        "QQQ",
-        "DIA"
+        "AGG",
+        "GLD"
       ],
       "conservative": [
-        "AGG",
-        "LQD",
-        "SHY"
+        "SHY",
+        "TLT",
+        "IEF"
       ],
-      "suggestion": "중장기 투자"
+      "suggestion": "성장형 투자자: QQQ, 안정형 투자자: SPY"
     },
-    "market_summary": "시장 하락",
+    "market_summary": "현재 시장은 상승세를 보이고 있습니다.",
     "top_keywords": [
-      "하락",
-      "성장",
-      "주도적"
+      "바이오",
+      "인버스",
+      "항공"
     ],
-    "market_sentiment": "중립",
-    "market_sentiment_reason": "시장 불확실성"
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "경제 성장"
   },
-  "updatedAt": "2026-07-17T22:39:24.442Z",
+  "updatedAt": "2026-07-18T03:25:05.079Z",
   "stats": {
     "total": 627,
     "us": 497,
