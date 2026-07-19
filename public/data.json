@@ -10039,7 +10039,7 @@
         "symbol": "AAPL",
         "name": "애플",
         "reason": "수익성",
-        "why_important": "시장지배",
+        "why_important": "시장 지배",
         "impact": "high",
         "ret30d": 7.2,
         "changePct": 7.6,
@@ -10057,8 +10057,8 @@
       {
         "symbol": "TMUS",
         "name": "T모바일",
-        "reason": "고객증가",
-        "why_important": "시장점유",
+        "reason": "5G 성장",
+        "why_important": "통신",
         "impact": "medium",
         "ret30d": 8.7,
         "changePct": 6.1,
@@ -10076,8 +10076,8 @@
       {
         "symbol": "BKNG",
         "name": "부킹홀드",
-        "reason": "여행수요",
-        "why_important": "수익성",
+        "reason": "여행 성장",
+        "why_important": "여행",
         "impact": "medium",
         "ret30d": 8.5,
         "changePct": 10.3,
@@ -10097,8 +10097,8 @@
       {
         "symbol": "QCOM",
         "name": "퀄컴",
-        "reason": "수요감소",
-        "why_important": "시장지배",
+        "reason": "수급 부족",
+        "why_important": "반도체",
         "impact": "high",
         "ret30d": -29.2,
         "changePct": -31.3,
@@ -10107,7 +10107,26 @@
         "risk_level": "high",
         "competitors": [
           "TXN",
-          "MU"
+          "ADI"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "MU",
+        "name": "마이크론",
+        "reason": "수급 부족",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": -14.8,
+        "changePct": -21.4,
+        "rating": "sell",
+        "rating_reason": "하락",
+        "risk_level": "high",
+        "competitors": [
+          "SNPS",
+          "KLAC"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10116,30 +10135,11 @@
       {
         "symbol": "MRVL",
         "name": "마벨",
-        "reason": "경쟁激化",
-        "why_important": "시장점유",
-        "impact": "medium",
+        "reason": "수급 부족",
+        "why_important": "반도체",
+        "impact": "high",
         "ret30d": -40.4,
         "changePct": -37.5,
-        "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "high",
-        "competitors": [
-          "QCOM",
-          "TXN"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      },
-      {
-        "symbol": "ON",
-        "name": "온세미",
-        "reason": "수요감소",
-        "why_important": "수익성",
-        "impact": "medium",
-        "ret30d": -33.7,
-        "changePct": -34.8,
         "rating": "sell",
         "rating_reason": "하락",
         "risk_level": "high",
@@ -10154,57 +10154,57 @@
     ],
     "steady_growth": [
       {
-        "symbol": "CSX",
-        "name": "CSX",
-        "reason": "물류수요",
-        "why_important": "시장점유",
+        "symbol": "AMGN",
+        "name": "암젠",
+        "reason": "바이오 성장",
+        "why_important": "바이오",
         "impact": "medium",
-        "ret30d": 9.8,
-        "changePct": 9.3,
+        "ret30d": 6,
+        "changePct": 8.3,
         "rating": "buy",
         "rating_reason": "성장",
-        "risk_level": "medium",
+        "risk_level": "low",
         "competitors": [
-          "UNP",
-          "NSC"
+          "GILD",
+          "REGN"
         ],
         "short_term": "상승",
         "mid_term": "유지",
         "long_term": "성장"
       },
       {
-        "symbol": "CTAS",
-        "name": "CTAS",
-        "reason": "의류수요",
-        "why_important": "수익성",
+        "symbol": "SBUX",
+        "name": "스타벅스",
+        "reason": "소비재 성장",
+        "why_important": "소비재",
         "impact": "medium",
-        "ret30d": 13.6,
-        "changePct": 17,
+        "ret30d": 12.1,
+        "changePct": 10,
         "rating": "buy",
         "rating_reason": "성장",
-        "risk_level": "medium",
+        "risk_level": "low",
         "competitors": [
-          "GPS",
-          "TJX"
+          "MCD",
+          "CMG"
         ],
         "short_term": "상승",
         "mid_term": "유지",
         "long_term": "성장"
       },
       {
-        "symbol": "MNST",
-        "name": "몬스터",
-        "reason": "음료수요",
-        "why_important": "시장지배",
+        "symbol": "PYPL",
+        "name": "페이팔",
+        "reason": "핀테크 성장",
+        "why_important": "핀테크",
         "impact": "medium",
-        "ret30d": 10.1,
-        "changePct": 9.5,
+        "ret30d": 32.3,
+        "changePct": 32.7,
         "rating": "buy",
         "rating_reason": "성장",
         "risk_level": "medium",
         "competitors": [
-          "PEP",
-          "KO"
+          "SQ",
+          "V"
         ],
         "short_term": "상승",
         "mid_term": "유지",
@@ -10215,8 +10215,8 @@
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "reason": "AI수요",
-        "why_important": "시장점유",
+        "reason": "AI 성장",
+        "why_important": "AI",
         "impact": "high",
         "volume": 138214,
         "rating": "buy",
@@ -10224,49 +10224,16 @@
         "risk_level": "medium",
         "competitors": [
           "AMD",
-          "INTEL"
+          "INTC"
         ]
       },
-      {
-        "symbol": "MU",
-        "name": "마이크론",
-        "reason": "반도체수요",
-        "why_important": "수익성",
-        "impact": "medium",
-        "volume": 62805,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "TXN",
-          "QCOM"
-        ]
-      },
-      {
-        "symbol": "PYPL",
-        "name": "페이팔",
-        "reason": "전자결제수요",
-        "why_important": "시장지배",
-        "impact": "medium",
-        "volume": 19028,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "V",
-          "MA"
-        ]
-      }
-    ],
-    "near_52w_high": [
       {
         "symbol": "AAPL",
         "name": "애플",
         "reason": "수익성",
-        "why_important": "시장지배",
+        "why_important": "시장 지배",
         "impact": "high",
-        "ret30d": 7.2,
-        "changePct": 7.6,
+        "volume": 63325,
         "rating": "buy",
         "rating_reason": "성장",
         "risk_level": "low",
@@ -10276,13 +10243,29 @@
         ]
       },
       {
+        "symbol": "NFLX",
+        "name": "넷플릭스",
+        "reason": "콘텐츠 성장",
+        "why_important": "콘텐츠",
+        "impact": "medium",
+        "volume": 141231,
+        "rating": "buy",
+        "rating_reason": "성장",
+        "risk_level": "medium",
+        "competitors": [
+          "DIS",
+          "CMCSA"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
         "symbol": "TMUS",
         "name": "T모바일",
-        "reason": "고객증가",
-        "why_important": "시장점유",
+        "reason": "5G 성장",
+        "why_important": "통신",
         "impact": "medium",
-        "ret30d": 8.7,
-        "changePct": 6.1,
+        "volume": 4465,
         "rating": "buy",
         "rating_reason": "성장",
         "risk_level": "medium",
@@ -10294,17 +10277,31 @@
       {
         "symbol": "BKNG",
         "name": "부킹홀드",
-        "reason": "여행수요",
-        "why_important": "수익성",
+        "reason": "여행 성장",
+        "why_important": "여행",
         "impact": "medium",
-        "ret30d": 8.5,
-        "changePct": 10.3,
+        "volume": 7039,
         "rating": "buy",
         "rating_reason": "성장",
         "risk_level": "medium",
         "competitors": [
           "EXPE",
           "TRIP"
+        ]
+      },
+      {
+        "symbol": "PYPL",
+        "name": "페이팔",
+        "reason": "핀테크 성장",
+        "why_important": "핀테크",
+        "impact": "medium",
+        "volume": 19028,
+        "rating": "buy",
+        "rating_reason": "성장",
+        "risk_level": "medium",
+        "competitors": [
+          "SQ",
+          "V"
         ]
       }
     ],
@@ -10314,15 +10311,15 @@
         "trend": "상승",
         "avg_change": 16.05,
         "keywords": [
-          "바이오",
-          "의료"
+          "바이오"
         ],
         "summary": "바이오 섹터 상승",
         "short_term": "상승",
         "mid_term": "유지",
         "top_etfs": [
-          "IBB",
-          "XBI"
+          "AMGN",
+          "GILD",
+          "REGN"
         ]
       },
       {
@@ -10330,15 +10327,14 @@
         "trend": "상승",
         "avg_change": 10.45,
         "keywords": [
-          "인버스",
-          "하락"
+          "인버스"
         ],
         "summary": "인버스 섹터 상승",
         "short_term": "상승",
         "mid_term": "유지",
         "top_etfs": [
-          "SH",
-          "PSQ"
+          "114800",
+          "252670"
         ]
       },
       {
@@ -10346,15 +10342,15 @@
         "trend": "상승",
         "avg_change": 9.45,
         "keywords": [
-          "항공",
-          "여행"
+          "항공"
         ],
         "summary": "항공 섹터 상승",
         "short_term": "상승",
         "mid_term": "유지",
         "top_etfs": [
-          "JETS",
-          "PEJ"
+          "AAL",
+          "DAL",
+          "UAL"
         ]
       },
       {
@@ -10362,15 +10358,15 @@
         "trend": "상승",
         "avg_change": 4.7,
         "keywords": [
-          "사이버보안",
-          "보안"
+          "사이버보안"
         ],
         "summary": "사이버보안 섹터 상승",
         "short_term": "상승",
         "mid_term": "유지",
         "top_etfs": [
-          "CIBR",
-          "BUG"
+          "FTNT",
+          "CYBR",
+          "PANW"
         ]
       },
       {
@@ -10378,110 +10374,110 @@
         "trend": "상승",
         "avg_change": 3.68,
         "keywords": [
-          "필수소비재",
-          "소비"
+          "필수소비재"
         ],
         "summary": "필수소비재 섹터 상승",
         "short_term": "상승",
         "mid_term": "유지",
         "top_etfs": [
-          "XLP",
-          "VDC"
+          "PG",
+          "PEP",
+          "KO"
         ]
       }
     ],
     "etf_issues": [
       {
         "symbol": "QCOM",
-        "issue": "수요감소",
+        "issue": "수급 부족",
         "issue_type": "macro",
         "impact_etfs": [
           "TXN",
-          "MU"
+          "ADI"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "MU",
+        "issue": "수급 부족",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "SNPS",
+          "KLAC"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
         "symbol": "MRVL",
-        "issue": "경쟁激化",
+        "issue": "수급 부족",
         "issue_type": "macro",
         "impact_etfs": [
           "QCOM",
           "TXN"
         ],
         "is_noise": false,
-        "impact": "medium"
-      },
-      {
-        "symbol": "ON",
-        "issue": "수요감소",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "QCOM",
-          "TXN"
-        ],
-        "is_noise": false,
-        "impact": "medium"
+        "impact": "high"
       }
     ],
     "risk_analysis": [
       {
-        "symbol": "AAPL",
-        "name": "애플",
-        "risk_level": "low",
-        "volatility": "저변동성",
-        "max_drawdown_risk": "10%",
-        "hedge_suggestion": "None",
-        "suitable_for": "모두"
-      },
-      {
-        "symbol": "NVDA",
-        "name": "엔비디아",
-        "risk_level": "medium",
-        "volatility": "중변동성",
-        "max_drawdown_risk": "20%",
-        "hedge_suggestion": "VIX",
-        "suitable_for": "적극투자자"
+        "symbol": "QCOM",
+        "name": "퀄컴",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "하락",
+        "hedge_suggestion": "변동성 헷지",
+        "suitable_for": "적극 투자자"
       },
       {
         "symbol": "MU",
         "name": "마이크론",
-        "risk_level": "medium",
-        "volatility": "중변동성",
-        "max_drawdown_risk": "25%",
-        "hedge_suggestion": "VIX",
-        "suitable_for": "적극투자자"
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "하락",
+        "hedge_suggestion": "변동성 헷지",
+        "suitable_for": "적극 투자자"
+      },
+      {
+        "symbol": "MRVL",
+        "name": "마벨",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "하락",
+        "hedge_suggestion": "변동성 헷지",
+        "suitable_for": "적극 투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
         "AAPL",
-        "NVDA",
-        "MU"
+        "TMUS",
+        "PYPL"
       ],
       "balanced": [
-        "AAPL",
-        "TMUS",
-        "BKNG"
+        "AMGN",
+        "SBUX",
+        "PYPL"
       ],
       "conservative": [
-        "AAPL",
-        "CSX",
-        "CTAS"
+        "PG",
+        "PEP",
+        "KO"
       ],
-      "suggestion": "적극투자자: 공격적 포트폴리오, 보수투자자: 보수적 포트폴리오"
+      "suggestion": "적극 투자자: AAPL, TMUS, PYPL / 중립 투자자: AMGN, SBUX, PYPL / 보수 투자자: PG, PEP, KO"
     },
-    "market_summary": "시장은 상승세를 보이고 있습니다.",
+    "market_summary": "시장은 상승 중입니다.",
     "top_keywords": [
       "바이오",
       "인버스",
       "항공"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "시장 지표가 호조세를 보이고 있습니다."
+    "market_sentiment_reason": "시장 지배력과 성장 가능성"
   },
-  "updatedAt": "2026-07-19T06:34:18.312Z",
+  "updatedAt": "2026-07-19T09:04:33.539Z",
   "stats": {
     "total": 627,
     "us": 497,
