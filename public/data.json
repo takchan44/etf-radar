@@ -10033,8 +10033,261 @@
       "fromLow": 0
     }
   ],
-  "ai": null,
-  "updatedAt": "2026-07-19T20:08:18.429Z",
+  "ai": {
+    "trending_up": [
+      {
+        "symbol": "AAPL",
+        "name": "애플",
+        "reason": "수익성",
+        "why_important": "주도적",
+        "impact": "high",
+        "ret30d": 7.2,
+        "changePct": 7.6,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "low",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "short_term": "상승",
+        "mid_term": "유지",
+        "long_term": "강세"
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "QCOM",
+        "name": "퀄컴",
+        "reason": "수요감소",
+        "why_important": "부진",
+        "impact": "high",
+        "ret30d": -29.2,
+        "changePct": -31.3,
+        "rating": "sell",
+        "rating_reason": "하락",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "TXN"
+        ],
+        "short_term": "하락",
+        "mid_term": "부진",
+        "long_term": "회복"
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "TMUS",
+        "name": "T모바일",
+        "reason": "성장",
+        "why_important": "안정",
+        "impact": "medium",
+        "ret30d": 8.7,
+        "changePct": 6.1,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "medium",
+        "competitors": [
+          "VZ",
+          "T"
+        ],
+        "short_term": "유지",
+        "mid_term": "성장",
+        "long_term": "안정"
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "reason": "人気",
+        "why_important": "주목",
+        "impact": "high",
+        "volume": 144282,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "low",
+        "competitors": [
+          "AMD",
+          "INTEL"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "PYPL",
+        "name": "페이팔",
+        "reason": "상승",
+        "why_important": "신고",
+        "impact": "high",
+        "ret30d": 32.3,
+        "changePct": 32.7,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "low",
+        "competitors": [
+          "V",
+          "MA"
+        ]
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "바이오",
+        "trend": "상승",
+        "avg_change": 16.05,
+        "keywords": [
+          "바이오"
+        ],
+        "summary": "바이오 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "유지",
+        "top_etfs": [
+          "IBB"
+        ]
+      },
+      {
+        "sector": "인버스",
+        "trend": "상승",
+        "avg_change": 10.45,
+        "keywords": [
+          "인버스"
+        ],
+        "summary": "인버스 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "유지",
+        "top_etfs": [
+          "SH"
+        ]
+      },
+      {
+        "sector": "항공",
+        "trend": "상승",
+        "avg_change": 9.45,
+        "keywords": [
+          "항공"
+        ],
+        "summary": "항공 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "유지",
+        "top_etfs": [
+          "JETS"
+        ]
+      },
+      {
+        "sector": "사이버보안",
+        "trend": "상승",
+        "avg_change": 4.7,
+        "keywords": [
+          "사이버보안"
+        ],
+        "summary": "사이버보안 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "유지",
+        "top_etfs": [
+          "CIBR"
+        ]
+      },
+      {
+        "sector": "필수소비재",
+        "trend": "상승",
+        "avg_change": 3.68,
+        "keywords": [
+          "필수소비재"
+        ],
+        "summary": "필수소비재 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "유지",
+        "top_etfs": [
+          "XLP"
+        ]
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "QQQ",
+        "issue": "하락",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "SPY",
+          "DIA"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "SPY",
+        "issue": "변동",
+        "issue_type": "earnings",
+        "impact_etfs": [
+          "QQQ",
+          "DIA"
+        ],
+        "is_noise": false,
+        "impact": "medium"
+      },
+      {
+        "symbol": "DIA",
+        "issue": "하락",
+        "issue_type": "policy",
+        "impact_etfs": [
+          "SPY",
+          "QQQ"
+        ],
+        "is_noise": false,
+        "impact": "low"
+      }
+    ],
+    "risk_analysis": [
+      {
+        "symbol": "AAPL",
+        "name": "애플",
+        "risk_level": "low",
+        "volatility": "저변동성",
+        "max_drawdown_risk": "",
+        "hedge_suggestion": "",
+        "suitable_for": "안정적"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "",
+        "hedge_suggestion": "",
+        "suitable_for": "성장적"
+      },
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "",
+        "hedge_suggestion": "",
+        "suitable_for": "공격적"
+      }
+    ],
+    "portfolio_suggestion": {
+      "aggressive": [
+        "TSLA",
+        "NVDA",
+        "AAPL"
+      ],
+      "balanced": [
+        "SPY",
+        "QQQ",
+        "DIA"
+      ],
+      "conservative": [
+        "AGG",
+        "LQD",
+        "SHY"
+      ],
+      "suggestion": "성장적"
+    }
+  },
+  "updatedAt": "2026-07-19T22:41:43.720Z",
   "stats": {
     "total": 627,
     "us": 497,
