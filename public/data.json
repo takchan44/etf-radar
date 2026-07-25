@@ -8247,7 +8247,7 @@
       "market": "korea",
       "price": 106365,
       "changePct": -14.117884537747274,
-      "volume": 16981074,
+      "volume": 17032658,
       "currency": "KRW",
       "ret5d": -2.4174311926605503,
       "ret30d": -17.71872824321188,
@@ -8263,7 +8263,7 @@
       "market": "korea",
       "price": 106425,
       "changePct": -14.111048341538213,
-      "volume": 3085183,
+      "volume": 3093711,
       "currency": "KRW",
       "ret5d": -2.411627160607033,
       "ret30d": -17.866100713872274,
@@ -8359,7 +8359,7 @@
       "market": "korea",
       "price": 120755,
       "changePct": -23.57278481012658,
-      "volume": 1410854,
+      "volume": 1416031,
       "currency": "KRW",
       "ret5d": -8.67806095439764,
       "ret30d": -28.437240725376316,
@@ -8615,7 +8615,7 @@
       "market": "korea",
       "price": 113390,
       "changePct": -31.99184309962214,
-      "volume": 13089108,
+      "volume": 13169313,
       "currency": "KRW",
       "ret5d": -5.900414937759336,
       "ret30d": -37.82420354224927,
@@ -8647,7 +8647,7 @@
       "market": "korea",
       "price": 1125,
       "changePct": 9.117361784675072,
-      "volume": 892620669,
+      "volume": 898202851,
       "currency": "KRW",
       "ret5d": 1.5342960288808665,
       "ret30d": 14.445574771108852,
@@ -8711,7 +8711,7 @@
       "market": "korea",
       "price": 102735,
       "changePct": 0.36635404454865184,
-      "volume": 1871,
+      "volume": 1960,
       "currency": "KRW",
       "ret5d": 0.07305669199298656,
       "ret30d": 0.3516483516483516,
@@ -8759,7 +8759,7 @@
       "market": "korea",
       "price": 103730,
       "changePct": -0.2739989424602221,
-      "volume": 849,
+      "volume": 850,
       "currency": "KRW",
       "ret5d": -0.15400904803157184,
       "ret30d": -0.34106739683912185,
@@ -9319,7 +9319,7 @@
       "market": "korea",
       "price": 127360,
       "changePct": -23.34175996147827,
-      "volume": 377710,
+      "volume": 382398,
       "currency": "KRW",
       "ret5d": -8.486024286843428,
       "ret30d": -27.368120901055033,
@@ -9335,7 +9335,7 @@
       "market": "korea",
       "price": 25120,
       "changePct": -13.676975945017183,
-      "volume": 594452,
+      "volume": 595575,
       "currency": "KRW",
       "ret5d": 0.09962143853357243,
       "ret30d": -17.895080895571173,
@@ -9511,7 +9511,7 @@
       "sector": "금융",
       "price": 16925,
       "changePct": 1.957831325301205,
-      "volume": 34926,
+      "volume": 35000,
       "currency": "KRW",
       "ret5d": -3.7531987489337504,
       "ret30d": -1.94090382387022,
@@ -9543,7 +9543,7 @@
       "sector": "산업",
       "price": 132520,
       "changePct": -19.82333545088786,
-      "volume": 907652,
+      "volume": 910363,
       "currency": "KRW",
       "ret5d": -3.9884078971200867,
       "ret30d": -22.01035781544256,
@@ -9591,7 +9591,7 @@
       "sector": "전체시장",
       "price": 24775,
       "changePct": -11.801352794588823,
-      "volume": 167,
+      "volume": 168,
       "currency": "KRW",
       "ret5d": 0.6091370558375634,
       "ret30d": -14.65725111953152,
@@ -9607,7 +9607,7 @@
       "sector": "IT",
       "price": 14610,
       "changePct": -5.222186182289977,
-      "volume": 123,
+      "volume": 124,
       "currency": "KRW",
       "ret5d": 0.6544953496383052,
       "ret30d": -8.744534665833854,
@@ -9959,7 +9959,7 @@
       "sector": "전체시장",
       "price": 15875,
       "changePct": 7.55420054200542,
-      "volume": 1482849,
+      "volume": 1487961,
       "currency": "KRW",
       "ret5d": -3.875264910687254,
       "ret30d": 3.48761408083442,
@@ -10039,7 +10039,7 @@
         "symbol": "AAPL",
         "name": "애플",
         "reason": "수익성",
-        "why_important": "주도주",
+        "why_important": "주도적",
         "impact": "high",
         "ret30d": 12.6,
         "changePct": 14.2,
@@ -10052,53 +10052,15 @@
         ],
         "short_term": "상승",
         "mid_term": "유지",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "AMD",
-        "name": "AMD",
-        "reason": "수요증가",
-        "why_important": "반도체",
-        "impact": "medium",
-        "ret30d": 6.9,
-        "changePct": 15.4,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "high",
-        "competitors": [
-          "NVDA",
-          "INTC"
-        ],
-        "short_term": "상승",
-        "mid_term": "유지",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "PYPL",
-        "name": "페이팔",
-        "reason": "이용증가",
-        "why_important": "핀테크",
-        "impact": "high",
-        "ret30d": 36.2,
-        "changePct": 38,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "SQ",
-          "V"
-        ],
-        "short_term": "상승",
-        "mid_term": "유지",
-        "long_term": "상승"
+        "long_term": "증가"
       }
     ],
     "trending_down": [
       {
         "symbol": "TSLA",
         "name": "테슬라",
-        "reason": "경쟁",
-        "why_important": "전기차",
+        "reason": "수급악화",
+        "why_important": "시장影响",
         "impact": "high",
         "ret30d": -21.6,
         "changePct": -18,
@@ -10110,151 +10072,45 @@
           "F"
         ],
         "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      },
-      {
-        "symbol": "GOOGL",
-        "name": "구글",
-        "reason": "규제",
-        "why_important": "IT",
-        "impact": "medium",
-        "ret30d": -10.6,
-        "changePct": -10.3,
-        "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "medium",
-        "competitors": [
-          "MSFT",
-          "AMZN"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      },
-      {
-        "symbol": "MRVL",
-        "name": "마벨",
-        "reason": "수요감소",
-        "why_important": "반도체",
-        "impact": "high",
-        "ret30d": -30.8,
-        "changePct": -23.1,
-        "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "high",
-        "competitors": [
-          "NVDA",
-          "INTC"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
+        "mid_term": "불안정",
+        "long_term": "회복"
       }
     ],
     "steady_growth": [
       {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "reason": "안정성",
-        "why_important": "소프트웨어",
+        "symbol": "CSX",
+        "name": "CSX",
+        "reason": "수요증가",
+        "why_important": "산업성장",
         "impact": "medium",
-        "ret30d": -2.2,
-        "changePct": -3.9,
-        "rating": "neutral",
-        "rating_reason": "유지",
+        "ret30d": 12.4,
+        "changePct": 14.7,
+        "rating": "buy",
+        "rating_reason": "성장",
         "risk_level": "low",
         "competitors": [
-          "GOOGL",
-          "AMZN"
+          "UNP",
+          "NSC"
         ],
         "short_term": "유지",
-        "mid_term": "유지",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "AMZN",
-        "name": "아마존",
-        "reason": "다각화",
-        "why_important": "이커머스",
-        "impact": "high",
-        "ret30d": -3.9,
-        "changePct": -2.5,
-        "rating": "neutral",
-        "rating_reason": "유지",
-        "risk_level": "medium",
-        "competitors": [
-          "WMT",
-          "TGT"
-        ],
-        "short_term": "유지",
-        "mid_term": "유지",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "CSCO",
-        "name": "시스코",
-        "reason": "안정성",
-        "why_important": "네트워크",
-        "impact": "medium",
-        "ret30d": -6.3,
-        "changePct": -3.9,
-        "rating": "neutral",
-        "rating_reason": "유지",
-        "risk_level": "low",
-        "competitors": [
-          "JNPR",
-          "HPQ"
-        ],
-        "short_term": "유지",
-        "mid_term": "유지",
-        "long_term": "상승"
+        "mid_term": "상승",
+        "long_term": "증가"
       }
     ],
     "high_volume": [
       {
         "symbol": "NVDA",
         "name": "엔비디아",
-        "reason": "수요증가",
-        "why_important": "반도체",
+        "reason": "기술혁신",
+        "why_important": "시장선도",
         "impact": "high",
         "volume": 110844,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "high",
-        "competitors": [
-          "AMD",
-          "INTC"
-        ]
-      },
-      {
-        "symbol": "AAPL",
-        "name": "애플",
-        "reason": "수익성",
-        "why_important": "주도주",
-        "impact": "high",
-        "volume": 47402,
         "rating": "buy",
         "rating_reason": "강세",
         "risk_level": "medium",
         "competitors": [
-          "MSFT",
-          "GOOGL"
-        ]
-      },
-      {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "reason": "경쟁",
-        "why_important": "전기차",
-        "impact": "high",
-        "volume": 62168,
-        "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "high",
-        "competitors": [
-          "GM",
-          "F"
+          "AMD",
+          "INTC"
         ]
       }
     ],
@@ -10262,46 +10118,17 @@
       {
         "symbol": "PYPL",
         "name": "페이팔",
-        "reason": "이용증가",
-        "why_important": "핀테크",
-        "impact": "high",
-        "volume": 10660,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "SQ",
-          "V"
-        ]
-      },
-      {
-        "symbol": "AMD",
-        "name": "AMD",
-        "reason": "수요증가",
-        "why_important": "반도체",
-        "impact": "medium",
-        "volume": 27087,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "high",
-        "competitors": [
-          "NVDA",
-          "INTC"
-        ]
-      },
-      {
-        "symbol": "AAPL",
-        "name": "애플",
         "reason": "수익성",
-        "why_important": "주도주",
+        "why_important": "주도적",
         "impact": "high",
-        "volume": 47402,
+        "ret30d": 36.2,
+        "changePct": 38,
         "rating": "buy",
         "rating_reason": "강세",
         "risk_level": "medium",
         "competitors": [
-          "MSFT",
-          "GOOGL"
+          "SQ",
+          "V"
         ]
       }
     ],
@@ -10328,7 +10155,7 @@
         "avg_change": 10.46,
         "keywords": [
           "항공",
-          "방산"
+          "국방"
         ],
         "summary": "항공 섹터 상승",
         "short_term": "상승",
@@ -10353,70 +10180,38 @@
           "CIBR",
           "BUG"
         ]
-      },
-      {
-        "sector": "방산",
-        "trend": "상승",
-        "avg_change": 6.79,
-        "keywords": [
-          "방산",
-          "국방"
-        ],
-        "summary": "방산 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "ITA",
-          "PPA"
-        ]
-      },
-      {
-        "sector": "유틸리티",
-        "trend": "상승",
-        "avg_change": 4.93,
-        "keywords": [
-          "유틸리티",
-          "에너지"
-        ],
-        "summary": "유틸리티 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "XLU",
-          "UTY"
-        ]
       }
     ],
     "etf_issues": [
       {
-        "symbol": "TSLA",
-        "issue": "경쟁",
+        "symbol": "QQQ",
+        "issue": "시장불안정",
         "issue_type": "macro",
         "impact_etfs": [
-          "TAN",
-          "FAN"
+          "SPY",
+          "DIA"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "GOOGL",
-        "issue": "규제",
-        "issue_type": "macro",
+        "symbol": "ARKK",
+        "issue": "기술부채",
+        "issue_type": "earnings",
         "impact_etfs": [
-          "SOCL",
-          "FB"
+          "TQQQ",
+          "SQQQ"
         ],
         "is_noise": false,
         "impact": "medium"
       },
       {
-        "symbol": "MRVL",
-        "issue": "수요감소",
+        "symbol": "EEM",
+        "issue": "경기둔화",
         "issue_type": "macro",
         "impact_etfs": [
-          "SMH",
-          "XSD"
+          "VWO",
+          "EWX"
         ],
         "is_noise": false,
         "impact": "high"
@@ -10424,12 +10219,12 @@
     ],
     "risk_analysis": [
       {
-        "symbol": "NVDA",
-        "name": "엔비디아",
+        "symbol": "TSLA",
+        "name": "테슬라",
         "risk_level": "high",
         "volatility": "고변동성",
-        "max_drawdown_risk": "20%",
-        "hedge_suggestion": ".Put 옵션",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "추가자산",
         "suitable_for": "적극투자자"
       },
       {
@@ -10437,37 +10232,36 @@
         "name": "애플",
         "risk_level": "medium",
         "volatility": "중변동성",
-        "max_drawdown_risk": "15%",
-        "hedge_suggestion": "콜 옵션",
+        "max_drawdown_risk": "중위험",
+        "hedge_suggestion": "다변화",
         "suitable_for": "일반투자자"
       },
       {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
+        "symbol": "CSX",
+        "name": "CSX",
         "risk_level": "low",
         "volatility": "저변동성",
-        "max_drawdown_risk": "10%",
-        "hedge_suggestion": "보유",
+        "max_drawdown_risk": "저위험",
+        "hedge_suggestion": "없음",
         "suitable_for": "보수투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
-        "PYPL",
-        "AMD",
-        "NVDA"
+        "ARKK",
+        "TQQQ",
+        "SPXL"
       ],
       "balanced": [
-        "AAPL",
-        "MSFT",
-        "GOOGL"
+        "SPY",
+        "AGG",
+        "GLD"
       ],
       "conservative": [
-        "MSFT",
-        "JNJ",
-        "PG"
-      ],
-      "suggestion": "적극투자자: PYPL, AMD, NVDA. 일반투자자: AAPL, MSFT, GOOGL. 보수투자자: MSFT, JNJ, PG"
+        "SHV",
+        "TLT",
+        "IEF"
+      ]
     },
     "market_summary": "시장은 상승세를 보이고 있습니다.",
     "top_keywords": [
@@ -10476,9 +10270,9 @@
       "사이버보안"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "시장은 상승세를 보이고 있습니다."
+    "market_sentiment_reason": "시장의 강세와 성장 가능성"
   },
-  "updatedAt": "2026-07-25T16:12:20.359Z",
+  "updatedAt": "2026-07-25T20:12:43.345Z",
   "stats": {
     "total": 627,
     "us": 497,
