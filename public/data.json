@@ -921,7 +921,7 @@
       "changePct": 0.48209366391183606,
       "volume": 1305612,
       "currency": "USD",
-      "ret5d": 1.423418092037634,
+      "ret5d": 0.982168122976349,
       "ret30d": -3.9559917806017655,
       "high52": 345.59,
       "low52": 229.42,
@@ -1305,7 +1305,7 @@
       "changePct": 8.136541689983225,
       "volume": 743078,
       "currency": "USD",
-      "ret5d": -0.3095317525928638,
+      "ret5d": -1.7790004043105836,
       "ret30d": 6.1175142905551585,
       "high52": 98.97,
       "low52": 70.68,
@@ -2217,7 +2217,7 @@
       "changePct": -0.27384324834750357,
       "volume": 21742,
       "currency": "USD",
-      "ret5d": 1.2948377480422137,
+      "ret5d": 0.6864339923169249,
       "ret30d": -4.025809595301669,
       "high52": 116.61,
       "low52": 83.5,
@@ -2889,7 +2889,7 @@
       "changePct": 5.772646536412066,
       "volume": 13746915,
       "currency": "USD",
-      "ret5d": 1.419246279479031,
+      "ret5d": 1.1321770399505482,
       "ret30d": 2.6429146521518865,
       "high52": 42.02,
       "low52": 26.3,
@@ -3209,7 +3209,7 @@
       "changePct": -1.92035815268614,
       "volume": 14405082,
       "currency": "USD",
-      "ret5d": -1.502599022134001,
+      "ret5d": -1.1400060502431106,
       "ret30d": -3.1751607936096238,
       "high52": 92.19,
       "low52": 82.77,
@@ -3289,7 +3289,7 @@
       "changePct": -0.208768267223385,
       "volume": 3059048,
       "currency": "USD",
-      "ret5d": -0.27122951042782667,
+      "ret5d": -0.33360944021464706,
       "ret30d": -0.7887096362989484,
       "high52": 49.93,
       "low52": 47.53,
@@ -3369,7 +3369,7 @@
       "changePct": -0.9515676467000136,
       "volume": 10873895,
       "currency": "USD",
-      "ret5d": -0.915306833121667,
+      "ret5d": -0.8305884008418734,
       "ret30d": -1.5998086317475113,
       "high52": 84.84,
       "low52": 81.04,
@@ -3449,7 +3449,7 @@
       "changePct": -0.8518794590565405,
       "volume": 1951474,
       "currency": "USD",
-      "ret5d": -0.714436754124576,
+      "ret5d": -0.6932616482730405,
       "ret30d": -1.4917442796691405,
       "high52": 96.97,
       "low52": 92.43,
@@ -3849,7 +3849,7 @@
       "changePct": -8.578856152512985,
       "volume": 7223887,
       "currency": "USD",
-      "ret5d": 0.38058772832605703,
+      "ret5d": 1.247600026431978,
       "ret30d": -5.465948528248067,
       "high52": 17.03,
       "low52": 9.95,
@@ -5497,7 +5497,7 @@
       "changePct": 5.303867403314922,
       "volume": 64318,
       "currency": "USD",
-      "ret5d": -0.7980558544749898,
+      "ret5d": -1.4647575343395076,
       "ret30d": 2.170999453407356,
       "high52": 119.82,
       "low52": 86.6,
@@ -5817,7 +5817,7 @@
       "changePct": 4.555959062396839,
       "volume": 7959,
       "currency": "USD",
-      "ret5d": 1.9639425130270556,
+      "ret5d": 0.31675738404323656,
       "ret30d": 1.881939626047989,
       "high52": 66.92,
       "low52": 44.79,
@@ -5897,7 +5897,7 @@
       "changePct": 3.1815137307434673,
       "volume": 136968,
       "currency": "USD",
-      "ret5d": 0.12999526045256993,
+      "ret5d": -0.3879738247390248,
       "ret30d": 1.683170877165104,
       "high52": 31.06,
       "low52": 23.72,
@@ -6345,7 +6345,7 @@
       "changePct": 1.8894331700489948,
       "volume": 9827635,
       "currency": "USD",
-      "ret5d": -0.6482411102161817,
+      "ret5d": -1.6548483628881074,
       "ret30d": 0.17199967561294666,
       "high52": 29.95,
       "low52": 24.52,
@@ -6473,7 +6473,7 @@
       "changePct": 4.240078461592356,
       "volume": 11309789,
       "currency": "USD",
-      "ret5d": -7.866752681442605,
+      "ret5d": -10.435787209252016,
       "ret30d": 4.707705024193202,
       "high52": 796.25,
       "low52": 520.26,
@@ -6665,7 +6665,7 @@
       "changePct": -5.321507760532156,
       "volume": 7953941,
       "currency": "USD",
-      "ret5d": -0.35005479454494814,
+      "ret5d": -2.000998940212869,
       "ret30d": -4.932857398103028,
       "high52": 171.48,
       "low52": 133.73,
@@ -6713,7 +6713,7 @@
       "changePct": -13.75186846038865,
       "volume": 179108323,
       "currency": "USD",
-      "ret5d": -2.8619537976908473,
+      "ret5d": -4.805117751731273,
       "ret30d": -21.067030845884997,
       "high52": 142.35,
       "low52": 18.97,
@@ -6841,7 +6841,7 @@
       "changePct": 9.559110417479525,
       "volume": 1253910,
       "currency": "USD",
-      "ret5d": -1.7069893957934161,
+      "ret5d": -1.7838402569948884,
       "ret30d": 7.2622665006568266,
       "high52": 533.67,
       "low52": 362.5,
@@ -7065,7 +7065,7 @@
       "changePct": -3.3827105903161487,
       "volume": 6369914,
       "currency": "USD",
-      "ret5d": 1.5688517145434497,
+      "ret5d": 1.33333333333334,
       "ret30d": -2.996668723470171,
       "high52": 108.72,
       "low52": 82.59,
@@ -7305,7 +7305,7 @@
       "changePct": -2.26595324451467,
       "volume": 432266,
       "currency": "USD",
-      "ret5d": -4.074440001045497,
+      "ret5d": -5.511484180836625,
       "ret30d": -2.4358720579835564,
       "high52": 769.98,
       "low52": 518.55,
@@ -7385,7 +7385,7 @@
       "changePct": -3.9098629445892588,
       "volume": 2908910,
       "currency": "USD",
-      "ret5d": -1.7622296903527008,
+      "ret5d": -3.796616618207155,
       "ret30d": -6.204856012080792,
       "high52": 225.98,
       "low52": 104.44,
@@ -7513,7 +7513,7 @@
       "changePct": 16.010176331257142,
       "volume": 3560706,
       "currency": "USD",
-      "ret5d": 4.786056416653465,
+      "ret5d": 4.397254212971363,
       "ret30d": 12.468105069439956,
       "high52": 133.9,
       "low52": 92.25,
@@ -7641,7 +7641,7 @@
       "changePct": 20.518621649843368,
       "volume": 1629205,
       "currency": "USD",
-      "ret5d": -7.264817984671125,
+      "ret5d": -6.25423389035382,
       "ret30d": 17.872340425531917,
       "high52": 157,
       "low52": 62.66,
@@ -8137,7 +8137,7 @@
       "changePct": -1.4415080391794515,
       "volume": 1603850,
       "currency": "USD",
-      "ret5d": 0.7176567168748988,
+      "ret5d": -1.4961200568526623,
       "ret30d": -1.8586679237243102,
       "high52": 67.37,
       "low52": 49.88,
@@ -10033,442 +10033,8 @@
       "fromLow": 40.438247011952186
     }
   ],
-  "ai": {
-    "trending_up": [
-      {
-        "symbol": "AAPL",
-        "name": "애플",
-        "reason": "수익성",
-        "why_important": "시장 지배",
-        "impact": "high",
-        "ret30d": 12.6,
-        "changePct": 14.2,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "GOOGL",
-          "MSFT"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "AMD",
-        "name": "AMD",
-        "reason": "수요",
-        "why_important": "성장",
-        "impact": "medium",
-        "ret30d": 6.9,
-        "changePct": 15.4,
-        "rating": "buy",
-        "rating_reason": "기술",
-        "risk_level": "high",
-        "competitors": [
-          "NVDA",
-          "INTC"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "PYPL",
-        "name": "페이팔",
-        "reason": "이용",
-        "why_important": "확장",
-        "impact": "medium",
-        "ret30d": 36.2,
-        "changePct": 38,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "V",
-          "MA"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      }
-    ],
-    "trending_down": [
-      {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "reason": "경쟁",
-        "why_important": "시장",
-        "impact": "high",
-        "ret30d": -21.6,
-        "changePct": -18,
-        "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "high",
-        "competitors": [
-          "GM",
-          "F"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      },
-      {
-        "symbol": "GOOGL",
-        "name": "구글",
-        "reason": "규제",
-        "why_important": "법적",
-        "impact": "medium",
-        "ret30d": -10.6,
-        "changePct": -10.3,
-        "rating": "neutral",
-        "rating_reason": "불확실",
-        "risk_level": "medium",
-        "competitors": [
-          "MSFT",
-          "BIDU"
-        ],
-        "short_term": "하락",
-        "mid_term": "보합",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "MRVL",
-        "name": "마벨",
-        "reason": "수요",
-        "why_important": "성장",
-        "impact": "medium",
-        "ret30d": -30.8,
-        "changePct": -23.1,
-        "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "high",
-        "competitors": [
-          "TXN",
-          "ADI"
-        ],
-        "short_term": "하락",
-        "mid_term": "하락",
-        "long_term": "하락"
-      }
-    ],
-    "steady_growth": [
-      {
-        "symbol": "INTU",
-        "name": "인튜이트",
-        "reason": "수익성",
-        "why_important": "시장",
-        "impact": "medium",
-        "ret30d": 7,
-        "changePct": 4.3,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "ADBE",
-          "MSFT"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "BKNG",
-        "name": "부킹",
-        "reason": "이용",
-        "why_important": "확장",
-        "impact": "medium",
-        "ret30d": 8.5,
-        "changePct": 10.5,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "EXPE",
-          "TRIP"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "AMGN",
-        "name": "암젠",
-        "reason": "제품",
-        "why_important": "연구",
-        "impact": "medium",
-        "ret30d": 6.2,
-        "changePct": 11.3,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "JNJ",
-          "PFE"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      }
-    ],
-    "high_volume": [
-      {
-        "symbol": "NVDA",
-        "name": "엔비디아",
-        "reason": "수요",
-        "why_important": "성장",
-        "impact": "high",
-        "volume": 110844,
-        "rating": "buy",
-        "rating_reason": "기술",
-        "risk_level": "high",
-        "competitors": [
-          "AMD",
-          "INTC"
-        ]
-      },
-      {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "reason": "경쟁",
-        "why_important": "시장",
-        "impact": "high",
-        "volume": 62168,
-        "rating": "sell",
-        "rating_reason": "하락",
-        "risk_level": "high",
-        "competitors": [
-          "GM",
-          "F"
-        ]
-      },
-      {
-        "symbol": "MU",
-        "name": "마이크론",
-        "reason": "수요",
-        "why_important": "성장",
-        "impact": "medium",
-        "volume": 40290,
-        "rating": "neutral",
-        "rating_reason": "불확실",
-        "risk_level": "medium",
-        "competitors": [
-          "TXN",
-          "ADI"
-        ]
-      }
-    ],
-    "near_52w_high": [
-      {
-        "symbol": "AAPL",
-        "name": "애플",
-        "reason": "수익성",
-        "why_important": "시장",
-        "impact": "high",
-        "ret30d": 12.6,
-        "changePct": 14.2,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "GOOGL",
-          "MSFT"
-        ]
-      },
-      {
-        "symbol": "PYPL",
-        "name": "페이팔",
-        "reason": "이용",
-        "why_important": "확장",
-        "impact": "medium",
-        "ret30d": 36.2,
-        "changePct": 38,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "V",
-          "MA"
-        ]
-      },
-      {
-        "symbol": "AMGN",
-        "name": "암젠",
-        "reason": "제품",
-        "why_important": "연구",
-        "impact": "medium",
-        "ret30d": 6.2,
-        "changePct": 11.3,
-        "rating": "buy",
-        "rating_reason": "성장",
-        "risk_level": "medium",
-        "competitors": [
-          "JNJ",
-          "PFE"
-        ]
-      }
-    ],
-    "sector_trends": [
-      {
-        "sector": "바이오",
-        "trend": "상승",
-        "avg_change": 15.09,
-        "keywords": [
-          "바이오"
-        ],
-        "summary": "바이오 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "top_etfs": [
-          "IBB"
-        ]
-      },
-      {
-        "sector": "항공",
-        "trend": "상승",
-        "avg_change": 10.46,
-        "keywords": [
-          "항공"
-        ],
-        "summary": "항공 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "top_etfs": [
-          "ITA"
-        ]
-      },
-      {
-        "sector": "사이버보안",
-        "trend": "상승",
-        "avg_change": 8.98,
-        "keywords": [
-          "사이버보안"
-        ],
-        "summary": "사이버보안 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "top_etfs": [
-          "CIBR"
-        ]
-      },
-      {
-        "sector": "방산",
-        "trend": "상승",
-        "avg_change": 6.79,
-        "keywords": [
-          "방산"
-        ],
-        "summary": "방산 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "top_etfs": [
-          "ITA"
-        ]
-      },
-      {
-        "sector": "유틸리티",
-        "trend": "상승",
-        "avg_change": 4.93,
-        "keywords": [
-          "유틸리티"
-        ],
-        "summary": "유틸리티 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "top_etfs": [
-          "XLU"
-        ]
-      }
-    ],
-    "etf_issues": [
-      {
-        "symbol": "TSLA",
-        "issue": "경쟁",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "TAN"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      },
-      {
-        "symbol": "NVDA",
-        "issue": "수요",
-        "issue_type": "earnings",
-        "impact_etfs": [
-          "SMH"
-        ],
-        "is_noise": false,
-        "impact": "medium"
-      },
-      {
-        "symbol": "AAPL",
-        "issue": "규제",
-        "issue_type": "policy",
-        "impact_etfs": [
-          "XLK"
-        ],
-        "is_noise": false,
-        "impact": "medium"
-      }
-    ],
-    "risk_analysis": [
-      {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "옵션",
-        "suitable_for": "적극 투자자"
-      },
-      {
-        "symbol": "NVDA",
-        "name": "엔비디아",
-        "risk_level": "medium",
-        "volatility": "중변동성",
-        "max_drawdown_risk": "중위험",
-        "hedge_suggestion": "스팩",
-        "suitable_for": "중립 투자자"
-      },
-      {
-        "symbol": "AAPL",
-        "name": "애플",
-        "risk_level": "medium",
-        "volatility": "중변동성",
-        "max_drawdown_risk": "중위험",
-        "hedge_suggestion": "스팩",
-        "suitable_for": "중립 투자자"
-      }
-    ],
-    "portfolio_suggestion": {
-      "aggressive": [
-        "TSLA",
-        "NVDA",
-        "AAPL"
-      ],
-      "balanced": [
-        "MSFT",
-        "GOOGL",
-        "AMZN"
-      ],
-      "conservative": [
-        "JNJ",
-        "PFE",
-        "PG"
-      ],
-      "suggestion": "적극 투자자: TSLA, NVDA, AAPL / 중립 투자자: MSFT, GOOGL, AMZN / 보수 투자자: JNJ, PFE, PG"
-    },
-    "market_summary": "시장은 상승 중입니다.",
-    "top_keywords": [
-      "바이오",
-      "항공",
-      "사이버보안"
-    ],
-    "market_sentiment": "bullish",
-    "market_sentiment_reason": "시장은 상승 중입니다."
-  },
-  "updatedAt": "2026-07-25T06:21:13.642Z",
+  "ai": null,
+  "updatedAt": "2026-07-25T09:00:07.161Z",
   "stats": {
     "total": 627,
     "us": 497,
