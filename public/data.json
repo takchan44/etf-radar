@@ -10034,14 +10034,441 @@
     }
   ],
   "ai": {
-    "market_summary": "현재 시장은 상승세를 보이고 있습니다.",
+    "trending_up": [
+      {
+        "symbol": "AAPL",
+        "name": "애플",
+        "reason": "수익성",
+        "why_important": "주도적",
+        "impact": "high",
+        "ret30d": 12.6,
+        "changePct": 14.2,
+        "rating": "buy",
+        "rating_reason": "성장",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "reason": "기술",
+        "why_important": "혁신",
+        "impact": "high",
+        "ret30d": 1,
+        "changePct": 3.2,
+        "rating": "buy",
+        "rating_reason": "성장",
+        "risk_level": "high",
+        "competitors": [
+          "AMD",
+          "INTC"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "PYPL",
+        "name": "페이팔",
+        "reason": "금융",
+        "why_important": "안정",
+        "impact": "medium",
+        "ret30d": 36.2,
+        "changePct": 38,
+        "rating": "buy",
+        "rating_reason": "안정",
+        "risk_level": "low",
+        "competitors": [
+          "V",
+          "MA"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "reason": "변동",
+        "why_important": "위험",
+        "impact": "high",
+        "ret30d": -21.6,
+        "changePct": -18,
+        "rating": "sell",
+        "rating_reason": "위험",
+        "risk_level": "high",
+        "competitors": [
+          "GM",
+          "F"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "구글",
+        "reason": "규제",
+        "why_important": "불확",
+        "impact": "medium",
+        "ret30d": -10.6,
+        "changePct": -10.3,
+        "rating": "neutral",
+        "rating_reason": "불확",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "AMZN"
+        ],
+        "short_term": "하락",
+        "mid_term": "보합",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "MRVL",
+        "name": "마벨",
+        "reason": "경쟁",
+        "why_important": "위험",
+        "impact": "high",
+        "ret30d": -30.8,
+        "changePct": -23.1,
+        "rating": "sell",
+        "rating_reason": "위험",
+        "risk_level": "high",
+        "competitors": [
+          "NVDA",
+          "AMD"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "reason": "안정",
+        "why_important": "주도",
+        "impact": "medium",
+        "ret30d": -2.2,
+        "changePct": -3.9,
+        "rating": "buy",
+        "rating_reason": "안정",
+        "risk_level": "low",
+        "competitors": [
+          "GOOGL",
+          "AMZN"
+        ],
+        "short_term": "보합",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "AMZN",
+        "name": "아마존",
+        "reason": "성장",
+        "why_important": "혁신",
+        "impact": "high",
+        "ret30d": -3.9,
+        "changePct": -2.5,
+        "rating": "buy",
+        "rating_reason": "성장",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "short_term": "보합",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "ADBE",
+        "name": "아도비",
+        "reason": "안정",
+        "why_important": "주도",
+        "impact": "medium",
+        "ret30d": 2.9,
+        "changePct": -3.5,
+        "rating": "buy",
+        "rating_reason": "안정",
+        "risk_level": "low",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "short_term": "보합",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "reason": "기술",
+        "why_important": "혁신",
+        "impact": "high",
+        "volume": 110844,
+        "rating": "buy",
+        "rating_reason": "성장",
+        "risk_level": "high",
+        "competitors": [
+          "AMD",
+          "INTC"
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "reason": "변동",
+        "why_important": "위험",
+        "impact": "high",
+        "volume": 62168,
+        "rating": "sell",
+        "rating_reason": "위험",
+        "risk_level": "high",
+        "competitors": [
+          "GM",
+          "F"
+        ]
+      },
+      {
+        "symbol": "PYPL",
+        "name": "페이팔",
+        "reason": "금융",
+        "why_important": "안정",
+        "impact": "medium",
+        "volume": 10660,
+        "rating": "buy",
+        "rating_reason": "안정",
+        "risk_level": "low",
+        "competitors": [
+          "V",
+          "MA"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "AAPL",
+        "name": "애플",
+        "reason": "수익성",
+        "why_important": "주도적",
+        "impact": "high",
+        "ret30d": 12.6,
+        "changePct": 14.2,
+        "rating": "buy",
+        "rating_reason": "성장",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ]
+      },
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "reason": "기술",
+        "why_important": "혁신",
+        "impact": "high",
+        "ret30d": 1,
+        "changePct": 3.2,
+        "rating": "buy",
+        "rating_reason": "성장",
+        "risk_level": "high",
+        "competitors": [
+          "AMD",
+          "INTC"
+        ]
+      },
+      {
+        "symbol": "PYPL",
+        "name": "페이팔",
+        "reason": "금융",
+        "why_important": "안정",
+        "impact": "medium",
+        "ret30d": 36.2,
+        "changePct": 38,
+        "rating": "buy",
+        "rating_reason": "안정",
+        "risk_level": "low",
+        "competitors": [
+          "V",
+          "MA"
+        ]
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "바이오",
+        "trend": "상승",
+        "avg_change": 15.09,
+        "keywords": [
+          "바이오"
+        ],
+        "summary": "바이오 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "AAPL"
+        ]
+      },
+      {
+        "sector": "항공",
+        "trend": "상승",
+        "avg_change": 10.46,
+        "keywords": [
+          "항공"
+        ],
+        "summary": "항공 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "BA"
+        ]
+      },
+      {
+        "sector": "사이버보안",
+        "trend": "상승",
+        "avg_change": 8.98,
+        "keywords": [
+          "사이버보안"
+        ],
+        "summary": "사이버보안 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "PANW"
+        ]
+      },
+      {
+        "sector": "방산",
+        "trend": "상승",
+        "avg_change": 6.79,
+        "keywords": [
+          "방산"
+        ],
+        "summary": "방산 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "LMT"
+        ]
+      },
+      {
+        "sector": "유틸리티",
+        "trend": "상승",
+        "avg_change": 4.93,
+        "keywords": [
+          "유틸리티"
+        ],
+        "summary": "유틸리티 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "NEE"
+        ]
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "TSLA",
+        "issue": "변동성",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "TSLA"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "GOOGL",
+        "issue": "규제",
+        "issue_type": "policy",
+        "impact_etfs": [
+          "GOOGL"
+        ],
+        "is_noise": false,
+        "impact": "medium"
+      },
+      {
+        "symbol": "MRVL",
+        "issue": "경쟁",
+        "issue_type": "earnings",
+        "impact_etfs": [
+          "MRVL"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      }
+    ],
+    "risk_analysis": [
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "방어적",
+        "suitable_for": "적극적"
+      },
+      {
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "중위험",
+        "hedge_suggestion": "중립적",
+        "suitable_for": "안정적"
+      },
+      {
+        "symbol": "PYPL",
+        "name": "페이팔",
+        "risk_level": "low",
+        "volatility": "저변동성",
+        "max_drawdown_risk": "저위험",
+        "hedge_suggestion": "공격적",
+        "suitable_for": "보수적"
+      }
+    ],
+    "portfolio_suggestion": {
+      "aggressive": [
+        "AAPL",
+        "NVDA",
+        "TSLA"
+      ],
+      "balanced": [
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "conservative": [
+        "PYPL",
+        "V",
+        "MA"
+      ],
+      "suggestion": "적극적"
+    },
+    "market_summary": "시장 요약",
     "top_keywords": [
       "바이오",
       "항공",
       "사이버보안"
-    ]
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "시장 전망 양호"
   },
-  "updatedAt": "2026-07-26T03:50:29.147Z",
+  "updatedAt": "2026-07-26T06:40:30.681Z",
   "stats": {
     "total": 627,
     "us": 497,
