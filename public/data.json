@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "HEWG,116946,3000",
+      "name": "iShares Currency Hedged MSCI Ge",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9756,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 0,
+      "low52": 39515,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10036,15 +10036,53 @@
   "ai": {
     "trending_up": [
       {
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "reason": "클라우드 성장",
+        "why_important": "주도적 지위",
+        "impact": "high",
+        "ret30d": 22.5,
+        "changePct": 22.6,
+        "rating": "buy",
+        "rating_reason": "강한 성장",
+        "risk_level": "medium",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "ADBE",
+        "name": "어도비",
+        "reason": "클라우드 성장",
+        "why_important": "주도적 지위",
+        "impact": "high",
+        "ret30d": 28.3,
+        "changePct": 27.6,
+        "rating": "buy",
+        "rating_reason": "강한 성장",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
         "symbol": "WDAY",
-        "name": "Workday",
-        "reason": "고성장",
-        "why_important": "클라우드",
+        "name": "워크데이",
+        "reason": "클라우드 성장",
+        "why_important": "주도적 지위",
         "impact": "high",
         "ret30d": 37.1,
         "changePct": 31.6,
         "rating": "buy",
-        "rating_reason": "고성장",
+        "rating_reason": "강한 성장",
         "risk_level": "medium",
         "competitors": [
           "MSFT",
@@ -10053,61 +10091,23 @@
         "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승"
-      },
-      {
-        "symbol": "PYPL",
-        "name": "PayPal",
-        "reason": "고성장",
-        "why_important": "핀테크",
-        "impact": "high",
-        "ret30d": 34.6,
-        "changePct": 36,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "medium",
-        "competitors": [
-          "SQ",
-          "V"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
-      },
-      {
-        "symbol": "ADBE",
-        "name": "Adobe",
-        "reason": "고성장",
-        "why_important": "소프트웨어",
-        "impact": "high",
-        "ret30d": 28.3,
-        "changePct": 27.6,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "medium",
-        "competitors": [
-          "MSFT",
-          "ORCL"
-        ],
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승"
       }
     ],
     "trending_down": [
       {
-        "symbol": "MRVL",
-        "name": "Marvell",
-        "reason": "하락",
-        "why_important": "반도체",
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "reason": "경쟁 심화",
+        "why_important": "주도적 지위",
         "impact": "high",
-        "ret30d": -39.6,
-        "changePct": -35.2,
+        "ret30d": -22.3,
+        "changePct": -21.5,
         "rating": "sell",
-        "rating_reason": "하락",
+        "rating_reason": "경쟁 심화",
         "risk_level": "high",
         "competitors": [
-          "NVDA",
-          "TXN"
+          "GM",
+          "FORD"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10115,37 +10115,37 @@
       },
       {
         "symbol": "QCOM",
-        "name": "Qualcomm",
-        "reason": "하락",
-        "why_important": "반도체",
+        "name": "퀄컴",
+        "reason": "경쟁 심화",
+        "why_important": "주도적 지위",
         "impact": "high",
         "ret30d": -34.7,
         "changePct": -30.7,
         "rating": "sell",
-        "rating_reason": "하락",
+        "rating_reason": "경쟁 심화",
         "risk_level": "high",
         "competitors": [
-          "NVDA",
-          "TXN"
+          "TXN",
+          "ADI"
         ],
         "short_term": "하락",
         "mid_term": "하락",
         "long_term": "하락"
       },
       {
-        "symbol": "TSLA",
-        "name": "Tesla",
-        "reason": "하락",
-        "why_important": "전기차",
+        "symbol": "MRVL",
+        "name": "마벨",
+        "reason": "경쟁 심화",
+        "why_important": "주도적 지위",
         "impact": "high",
-        "ret30d": -22.3,
-        "changePct": -21.5,
+        "ret30d": -39.6,
+        "changePct": -35.2,
         "rating": "sell",
-        "rating_reason": "하락",
+        "rating_reason": "경쟁 심화",
         "risk_level": "high",
         "competitors": [
-          "GM",
-          "F"
+          "QCOM",
+          "TXN"
         ],
         "short_term": "하락",
         "mid_term": "하락",
@@ -10154,59 +10154,59 @@
     ],
     "steady_growth": [
       {
-        "symbol": "MSFT",
-        "name": "Microsoft",
-        "reason": "안정성",
-        "why_important": "클라우드",
+        "symbol": "SBUX",
+        "name": "스타벅스",
+        "reason": "브랜드 가치",
+        "why_important": "주도적 지위",
         "impact": "medium",
-        "ret30d": 22.5,
-        "changePct": 22.6,
-        "rating": "neutral",
-        "rating_reason": "안정성",
+        "ret30d": 4.6,
+        "changePct": 5.4,
+        "rating": "buy",
+        "rating_reason": "안정적 성장",
         "risk_level": "low",
         "competitors": [
-          "AMZN",
-          "GOOGL"
+          "MCD",
+          "YUM"
         ],
-        "short_term": "보합",
+        "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승"
       },
       {
-        "symbol": "AMZN",
-        "name": "Amazon",
-        "reason": "안정성",
-        "why_important": "클라우드",
+        "symbol": "GILD",
+        "name": "길리어드",
+        "reason": "제품 다양화",
+        "why_important": "주도적 지위",
         "impact": "medium",
-        "ret30d": 11.1,
-        "changePct": 14.3,
-        "rating": "neutral",
-        "rating_reason": "안정성",
+        "ret30d": 5.2,
+        "changePct": 3.8,
+        "rating": "buy",
+        "rating_reason": "안정적 성장",
         "risk_level": "low",
         "competitors": [
-          "MSFT",
-          "GOOGL"
+          "JNJ",
+          "PFE"
         ],
-        "short_term": "보합",
+        "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승"
       },
       {
-        "symbol": "GOOGL",
-        "name": "Google",
-        "reason": "안정성",
-        "why_important": "클라우드",
+        "symbol": "CTAS",
+        "name": "CTAS",
+        "reason": "제품 다양화",
+        "why_important": "주도적 지위",
         "impact": "medium",
-        "ret30d": -3.2,
-        "changePct": -2.1,
-        "rating": "neutral",
-        "rating_reason": "안정성",
+        "ret30d": 19.8,
+        "changePct": 20.6,
+        "rating": "buy",
+        "rating_reason": "안정적 성장",
         "risk_level": "low",
         "competitors": [
-          "MSFT",
-          "AMZN"
+          "UNFI",
+          "SYY"
         ],
-        "short_term": "보합",
+        "short_term": "상승",
         "mid_term": "상승",
         "long_term": "상승"
       }
@@ -10214,43 +10214,43 @@
     "high_volume": [
       {
         "symbol": "AAPL",
-        "name": "Apple",
-        "reason": "고거래량",
-        "why_important": "소비재",
+        "name": "애플",
+        "reason": "브랜드 가치",
+        "why_important": "주도적 지위",
         "impact": "high",
         "volume": 127398,
         "rating": "buy",
-        "rating_reason": "고거래량",
+        "rating_reason": "강한 성장",
         "risk_level": "medium",
         "competitors": [
           "MSFT",
-          "AMZN"
+          "GOOGL"
         ]
       },
       {
         "symbol": "NVDA",
-        "name": "NVIDIA",
-        "reason": "고거래량",
-        "why_important": "반도체",
+        "name": "엔비디아",
+        "reason": "클라우드 성장",
+        "why_important": "주도적 지위",
         "impact": "high",
         "volume": 139261,
         "rating": "buy",
-        "rating_reason": "고거래량",
+        "rating_reason": "강한 성장",
         "risk_level": "medium",
         "competitors": [
-          "TXN",
-          "QCOM"
+          "AMD",
+          "TXN"
         ]
       },
       {
         "symbol": "AMZN",
-        "name": "Amazon",
-        "reason": "고거래량",
-        "why_important": "클라우드",
+        "name": "아마존",
+        "reason": "클라우드 성장",
+        "why_important": "주도적 지위",
         "impact": "high",
         "volume": 125921,
         "rating": "buy",
-        "rating_reason": "고거래량",
+        "rating_reason": "강한 성장",
         "risk_level": "medium",
         "competitors": [
           "MSFT",
@@ -10260,51 +10260,48 @@
     ],
     "near_52w_high": [
       {
-        "symbol": "WDAY",
-        "name": "Workday",
-        "reason": "고성장",
-        "why_important": "클라우드",
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "reason": "클라우드 성장",
+        "why_important": "주도적 지위",
         "impact": "high",
-        "ret30d": 37.1,
-        "changePct": 31.6,
+        "volume": 56469,
         "rating": "buy",
-        "rating_reason": "고성장",
+        "rating_reason": "강한 성장",
         "risk_level": "medium",
         "competitors": [
-          "MSFT",
-          "ADBE"
-        ]
-      },
-      {
-        "symbol": "PYPL",
-        "name": "PayPal",
-        "reason": "고성장",
-        "why_important": "핀테크",
-        "impact": "high",
-        "ret30d": 34.6,
-        "changePct": 36,
-        "rating": "buy",
-        "rating_reason": "고성장",
-        "risk_level": "medium",
-        "competitors": [
-          "SQ",
-          "V"
+          "AAPL",
+          "GOOGL"
         ]
       },
       {
         "symbol": "ADBE",
-        "name": "Adobe",
-        "reason": "고성장",
-        "why_important": "소프트웨어",
+        "name": "어도비",
+        "reason": "클라우드 성장",
+        "why_important": "주도적 지위",
         "impact": "high",
-        "ret30d": 28.3,
-        "changePct": 27.6,
+        "volume": 5540,
         "rating": "buy",
-        "rating_reason": "고성장",
+        "rating_reason": "강한 성장",
         "risk_level": "medium",
         "competitors": [
           "MSFT",
-          "ORCL"
+          "GOOGL"
+        ]
+      },
+      {
+        "symbol": "WDAY",
+        "name": "워크데이",
+        "reason": "클라우드 성장",
+        "why_important": "주도적 지위",
+        "impact": "high",
+        "volume": 4087,
+        "rating": "buy",
+        "rating_reason": "강한 성장",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "ADBE"
         ]
       }
     ],
@@ -10314,37 +10311,16 @@
         "trend": "상승",
         "avg_change": 17.14,
         "keywords": [
-          "WDAY",
-          "PYPL",
-          "ADBE"
+          "클라우드",
+          "성장"
         ],
-        "summary": "클라우드 섹터 상승",
+        "summary": "클라우드 성장",
         "short_term": "상승",
         "mid_term": "상승",
-        "long_term": "상승",
         "top_etfs": [
-          "WDAY",
-          "PYPL",
-          "ADBE"
-        ]
-      },
-      {
-        "sector": "サイバーボ안",
-        "trend": "상승",
-        "avg_change": 10.49,
-        "keywords": [
-          "CRWD",
-          "FTNT",
-          "ZS"
-        ],
-        "summary": "サイバーボ안 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "CRWD",
-          "FTNT",
-          "ZS"
+          "MSFT",
+          "ADBE",
+          "WDAY"
         ]
       },
       {
@@ -10352,31 +10328,15 @@
         "trend": "상승",
         "avg_change": 10.02,
         "keywords": [
-          "114800",
-          "252670"
+          "인버스",
+          "성장"
         ],
-        "summary": "인버스 섹터 상승",
+        "summary": "인버스 성장",
         "short_term": "상승",
         "mid_term": "상승",
-        "long_term": "상승",
         "top_etfs": [
           "114800",
           "252670"
-        ]
-      },
-      {
-        "sector": "ブラジル",
-        "trend": "상승",
-        "avg_change": 7.45,
-        "keywords": [
-          "EWZ"
-        ],
-        "summary": "ブラジル 섹터 상승",
-        "short_term": "상승",
-        "mid_term": "상승",
-        "long_term": "상승",
-        "top_etfs": [
-          "EWZ"
         ]
       },
       {
@@ -10384,51 +10344,86 @@
         "trend": "상승",
         "avg_change": 6.47,
         "keywords": [
-          "ILMN",
-          "REGN",
-          "GILD"
+          "바이오",
+          "성장"
         ],
-        "summary": "바이오 섹터 상승",
+        "summary": "바이오 성장",
         "short_term": "상승",
         "mid_term": "상승",
-        "long_term": "상승",
         "top_etfs": [
+          "GILD",
           "ILMN",
-          "REGN",
-          "GILD"
+          "MRNA"
+        ]
+      },
+      {
+        "sector": "소프트웨어",
+        "trend": "상승",
+        "avg_change": 6.08,
+        "keywords": [
+          "소프트웨어",
+          "성장"
+        ],
+        "summary": "소프트웨어 성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "MSFT",
+          "ADBE",
+          "WDAY"
+        ]
+      },
+      {
+        "sector": "에너지",
+        "trend": "상승",
+        "avg_change": 4.9,
+        "keywords": [
+          "에너지",
+          "성장"
+        ],
+        "summary": "에너지 성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "XLE",
+          "XOM",
+          "CVX"
         ]
       }
     ],
     "etf_issues": [
       {
-        "symbol": "MRVL",
-        "issue": "하락",
+        "symbol": "TSLA",
+        "issue": "경쟁 심화",
         "issue_type": "macro",
         "impact_etfs": [
-          "NVDA",
-          "TXN"
+          "TSLA",
+          "GM",
+          "FORD"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
         "symbol": "QCOM",
-        "issue": "하락",
+        "issue": "경쟁 심화",
         "issue_type": "macro",
         "impact_etfs": [
-          "NVDA",
-          "TXN"
+          "QCOM",
+          "TXN",
+          "ADI"
         ],
         "is_noise": false,
         "impact": "high"
       },
       {
-        "symbol": "TSLA",
-        "issue": "하락",
+        "symbol": "MRVL",
+        "issue": "경쟁 심화",
         "issue_type": "macro",
         "impact_etfs": [
-          "GM",
-          "F"
+          "MRVL",
+          "QCOM",
+          "TXN"
         ],
         "is_noise": false,
         "impact": "high"
@@ -10436,61 +10431,61 @@
     ],
     "risk_analysis": [
       {
-        "symbol": "MRVL",
-        "name": "Marvell",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "추가매수",
-        "suitable_for": "적극투자자"
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "10%",
+        "hedge_suggestion": "고정 수입",
+        "suitable_for": "중장기 투자자"
       },
       {
-        "symbol": "QCOM",
-        "name": "Qualcomm",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "추가매수",
-        "suitable_for": "적극투자자"
+        "symbol": "ADBE",
+        "name": "어도비",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "15%",
+        "hedge_suggestion": "고정 수입",
+        "suitable_for": "중장기 투자자"
       },
       {
-        "symbol": "TSLA",
-        "name": "Tesla",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "고위험",
-        "hedge_suggestion": "추가매수",
-        "suitable_for": "적극투자자"
+        "symbol": "WDAY",
+        "name": "워크데이",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "고정 수입",
+        "suitable_for": "중장기 투자자"
       }
     ],
     "portfolio_suggestion": {
       "aggressive": [
-        "WDAY",
-        "PYPL",
-        "ADBE"
+        "MSFT",
+        "ADBE",
+        "WDAY"
       ],
       "balanced": [
         "MSFT",
-        "AMZN",
-        "GOOGL"
+        "ADBE",
+        "GILD"
       ],
       "conservative": [
-        "AAPL",
-        "CSCO",
-        "PEP"
+        "MSFT",
+        "GILD",
+        "CTAS"
       ],
-      "suggestion": "적극투자자: 클라우드 섹터, 중립투자자: 안정성 섹터, 보수투자자: 소비재 섹터"
+      "suggestion": "중장기 투자자에게 적합"
     },
-    "market_summary": "클라우드 섹터 상승, サイバーボ안 섹터 상승, 인버스 섹터 상승",
+    "market_summary": "클라우드와 인버스 섹터가 상승",
     "top_keywords": [
-      "WDAY",
-      "PYPL",
-      "ADBE"
+      "클라우드",
+      "인버스",
+      "성장"
     ],
     "market_sentiment": "bullish",
-    "market_sentiment_reason": "클라우드 섹터 상승, サイバーボ안 섹터 상승, 인버스 섹터 상승"
+    "market_sentiment_reason": "클라우드와 인버스 섹터의 성장"
   },
-  "updatedAt": "2026-08-02T09:07:39.768Z",
+  "updatedAt": "2026-08-02T16:11:43.499Z",
   "stats": {
     "total": 627,
     "us": 497,
