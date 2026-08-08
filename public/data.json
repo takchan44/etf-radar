@@ -444,9 +444,9 @@
       "ret5d": 11.618253286194385,
       "ret30d": 3.886072128807306,
       "high52": 44.465,
-      "low52": 23.27,
+      "low52": 23.2,
       "fromHigh": -3.2047677948948707,
-      "fromLow": 84.95917490330898
+      "fromLow": 85.51724137931035
     },
     {
       "symbol": "ARKX",
@@ -636,9 +636,9 @@
       "ret5d": 3.5576879665799006,
       "ret30d": 0.5769981340133256,
       "high52": 303.06,
-      "low52": 219.81,
+      "low52": 219.74,
       "fromHigh": -0.4949514947535142,
-      "fromLow": 37.19121059096492
+      "fromLow": 37.23491398926003
     },
     {
       "symbol": "IJR",
@@ -844,9 +844,9 @@
       "ret5d": 1.756503028873822,
       "ret30d": 4.0879372915784655,
       "high52": 236.39,
-      "low52": 198.04,
+      "low52": 197.66,
       "fromHigh": -0.2580481407842909,
-      "fromLow": 19.056756210866496
+      "fromLow": 19.28564201153496
     },
     {
       "symbol": "VUG",
@@ -1308,9 +1308,9 @@
       "ret5d": 1.6029981368457817,
       "ret30d": 4.440403334239728,
       "high52": 99.43,
-      "low52": 72.15,
+      "low52": 71.82,
       "fromHigh": -1.830433470783473,
-      "fromLow": 35.28759528759527
+      "fromLow": 35.90921748816487
     },
     {
       "symbol": "KBWR",
@@ -1356,9 +1356,9 @@
       "ret5d": 1.9255594521555113,
       "ret30d": 3.33042521147137,
       "high52": 168.53,
-      "low52": 130.13,
+      "low52": 129.23,
       "fromHigh": -1.691093573844416,
-      "fromLow": 27.31883501114271
+      "fromLow": 28.205525032887113
     },
     {
       "symbol": "VHT",
@@ -1372,9 +1372,9 @@
       "ret5d": 2.3982161018196426,
       "ret30d": 3.546431205907552,
       "high52": 314.9,
-      "low52": 241.12,
+      "low52": 239.6,
       "fromHigh": -0.8828199428389879,
-      "fromLow": 29.44591904445919
+      "fromLow": 30.267111853088487
     },
     {
       "symbol": "IYH",
@@ -1388,9 +1388,9 @@
       "ret5d": 2.429036802843663,
       "ret30d": 3.489060661808248,
       "high52": 70.78,
-      "low52": 54.79,
+      "low52": 54.5,
       "fromHigh": -1.1020062164453253,
-      "fromLow": 27.76054024457018
+      "fromLow": 28.440366972477065
     },
     {
       "symbol": "FHLC",
@@ -1404,9 +1404,9 @@
       "ret5d": 2.43809523809524,
       "ret30d": 3.595732829919377,
       "high52": 81.36,
-      "low52": 62.1,
+      "low52": 61.78,
       "fromHigh": -0.8480825958702037,
-      "fromLow": 29.903381642512077
+      "fromLow": 30.57623826481062
     },
     {
       "symbol": "IBB",
@@ -1452,9 +1452,9 @@
       "ret5d": 11.618253286194385,
       "ret30d": 3.886072128807306,
       "high52": 44.465,
-      "low52": 23.27,
+      "low52": 23.2,
       "fromHigh": -3.2047677948948707,
-      "fromLow": 84.95917490330898
+      "fromLow": 85.51724137931035
     },
     {
       "symbol": "BBH",
@@ -1484,9 +1484,9 @@
       "ret5d": 2.8079689476612444,
       "ret30d": 5.2077205076353685,
       "high52": 125.97,
-      "low52": 86,
+      "low52": 84.5,
       "fromHigh": -0.8891005795030599,
-      "fromLow": 45.17441860465116
+      "fromLow": 47.751479289940825
     },
     {
       "symbol": "IHI",
@@ -2396,9 +2396,9 @@
       "ret5d": 2.8079689476612444,
       "ret30d": 5.2077205076353685,
       "high52": 125.97,
-      "low52": 86,
+      "low52": 84.5,
       "fromHigh": -0.8891005795030599,
-      "fromLow": 45.17441860465116
+      "fromLow": 47.751479289940825
     },
     {
       "symbol": "IHI",
@@ -2444,9 +2444,9 @@
       "ret5d": 7.3909949536419495,
       "ret30d": 3.3813155882220287,
       "high52": 59.48,
-      "low52": 34.724,
+      "low52": 34.696,
       "fromHigh": -2.196200403496974,
-      "fromLow": 67.53167837806706
+      "fromLow": 67.66687802628545
     },
     {
       "symbol": "IEHS",
@@ -2620,9 +2620,9 @@
       "ret5d": 0.4751087653642834,
       "ret30d": 6.293710192536349,
       "high52": 48.92,
-      "low52": 40.53,
+      "low52": 40.45,
       "fromHigh": -0.5723630417007383,
-      "fromLow": 20.009869232667157
+      "fromLow": 20.24721878862793
     },
     {
       "symbol": "EWJ",
@@ -3036,9 +3036,9 @@
       "ret5d": 0.35612562879504034,
       "ret30d": 4.719435748008836,
       "high52": 30.64,
-      "low52": 24.58,
+      "low52": 24.36,
       "fromHigh": -8.028720626631856,
-      "fromLow": 14.646053702196916
+      "fromLow": 15.681444991789819
     },
     {
       "symbol": "EWW",
@@ -3084,9 +3084,9 @@
       "ret5d": 4.881764758600381,
       "ret30d": 4.351128949702737,
       "high52": 47.85,
-      "low52": 31.28,
+      "low52": 30.79,
       "fromHigh": -13.793103448275865,
-      "fromLow": 31.873401534526852
+      "fromLow": 33.97206885352387
     },
     {
       "symbol": "TUR",
@@ -4076,9 +4076,9 @@
       "ret5d": 10.473375274689257,
       "ret30d": 1.9522184300341388,
       "high52": 76.84,
-      "low52": 34.68,
+      "low52": 34.66,
       "fromHigh": -2.811035918792291,
-      "fromLow": 115.34025374855827
+      "fromLow": 115.46451240623202
     },
     {
       "symbol": "SQQQ",
@@ -4203,9 +4203,9 @@
       "currency": "USD",
       "ret5d": -10.047845248132825,
       "ret30d": -3.341906105104022,
-      "high52": 112.1,
+      "high52": 112.2,
       "low52": 37.02,
-      "fromHigh": -66.4585191793042,
+      "fromHigh": -66.48841354723707,
       "fromLow": 1.5667206915180938
     },
     {
@@ -4331,9 +4331,9 @@
       "currency": "USD",
       "ret5d": -6.778125701088555,
       "ret30d": -1.9020479010232163,
-      "high52": 41.76,
+      "high52": 41.77,
       "low52": 20.37,
-      "fromHigh": -50.598659003831415,
+      "fromHigh": -50.61048599473307,
       "fromLow": 1.2763868433971428
     },
     {
@@ -4428,9 +4428,9 @@
       "ret5d": 2.904428443851247,
       "ret30d": 5.630439076896838,
       "high52": 227.16,
-      "low52": 184.96,
+      "low52": 184.6,
       "fromHigh": -0.6471209720021126,
-      "fromLow": 22.020977508650514
+      "fromLow": 22.25893824485374
     },
     {
       "symbol": "SIZE",
@@ -4476,9 +4476,9 @@
       "ret5d": 3.395417302017129,
       "ret30d": -1.2294449412335688,
       "high52": 206.57,
-      "low52": 114.06,
+      "low52": 113.55,
       "fromHigh": -4.32783075954882,
-      "fromLow": 73.26845519901806
+      "fromLow": 74.04667547335976
     },
     {
       "symbol": "MTUM",
@@ -4540,9 +4540,9 @@
       "ret5d": 7.103296909087072,
       "ret30d": -3.430403316401198,
       "high52": 42.76,
-      "low52": 24.95,
+      "low52": 24.62,
       "fromHigh": -16.323666978484557,
-      "fromLow": 43.40681362725452
+      "fromLow": 45.32900081234769
     },
     {
       "symbol": "KARS",
@@ -4556,9 +4556,9 @@
       "ret5d": 4.282578856635202,
       "ret30d": 1.0149963491715766,
       "high52": 38.12,
-      "low52": 25.52,
+      "low52": 24.87,
       "fromHigh": -19.066107030430217,
-      "fromLow": 20.89341692789969
+      "fromLow": 24.053075995174904
     },
     {
       "symbol": "IDRV",
@@ -4572,9 +4572,9 @@
       "ret5d": 4.166671555936788,
       "ret30d": 0.9512500502695637,
       "high52": 45.64,
-      "low52": 34.139,
+      "low52": 33.46,
       "fromHigh": -18.382997370727434,
-      "fromLow": 9.112744954450912
+      "fromLow": 11.326957561267182
     },
     {
       "symbol": "MSOS",
@@ -4636,9 +4636,9 @@
       "ret5d": 4.330710228307379,
       "ret30d": -3.2846718694705306,
       "high52": 4.526,
-      "low52": 2.39,
+      "low52": 2.35,
       "fromHigh": -41.4494034467521,
-      "fromLow": 10.8786610878661
+      "fromLow": 12.765957446808502
     },
     {
       "symbol": "BETZ",
@@ -5276,9 +5276,9 @@
       "ret5d": 6.3627426810265595,
       "ret30d": -6.108861782278645,
       "high52": 43,
-      "low52": 27.031,
+      "low52": 26.98,
       "fromHigh": -24.58139534883721,
-      "fromLow": 19.973363915504425
+      "fromLow": 20.200148257968863
     },
     {
       "symbol": "ICLN",
@@ -5324,9 +5324,9 @@
       "ret5d": 7.226962646709227,
       "ret30d": -7.979096522870305,
       "high52": 69.2,
-      "low52": 35.16,
+      "low52": 35.05,
       "fromHigh": -23.670520231213878,
-      "fromLow": 50.22753128555178
+      "fromLow": 50.69900142653354
     },
     {
       "symbol": "CNRG",
@@ -5452,9 +5452,9 @@
       "ret5d": 5.258042427558119,
       "ret30d": 0.4764241078101834,
       "high52": 396.69,
-      "low52": 290.99,
+      "low52": 290.77,
       "fromHigh": -1.6461216567092625,
-      "fromLow": 34.08020894188804
+      "fromLow": 34.18165560408572
     },
     {
       "symbol": "IJT",
@@ -5708,9 +5708,9 @@
       "ret5d": -0.45707411808246196,
       "ret30d": 2.224489795918374,
       "high52": 26.37,
-      "low52": 21.28,
+      "low52": 21.07,
       "fromHigh": -5.024649222601439,
-      "fromLow": 17.692669172932334
+      "fromLow": 18.86568580920741
     },
     {
       "symbol": "UGA",
@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "HEWG,116946,3000",
+      "name": "iShares Currency Hedged MSCI Ge",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -5788,9 +5788,9 @@
       "ret5d": 3.3116367882776476,
       "ret30d": 3.4367442590147332,
       "high52": 180.48,
-      "low52": 123.44,
+      "low52": 122.89,
       "fromHigh": -0.6094858156028338,
-      "fromLow": 45.317563188593645
+      "fromLow": 45.96793880706323
     },
     {
       "symbol": "DBJP",
@@ -5820,9 +5820,9 @@
       "ret5d": 3.7550121985298945,
       "ret30d": 1.5727529899958101,
       "high52": 66.92,
-      "low52": 47.57,
+      "low52": 47.34,
       "fromHigh": -3.2994620442319165,
-      "fromLow": 36.03531637586715
+      "fromLow": 36.69623996620194
     },
     {
       "symbol": "HEFA",
@@ -5836,9 +5836,9 @@
       "ret5d": 2.5618928256509284,
       "ret30d": 2.6060729848613304,
       "high52": 47.7,
-      "low52": 38.33,
+      "low52": 38.29,
       "fromHigh": -0.12578616352201735,
-      "fromLow": 24.289068614662153
+      "fromLow": 24.418908331156963
     },
     {
       "symbol": "GCOW",
@@ -5900,9 +5900,9 @@
       "ret5d": 1.8877064640285652,
       "ret30d": 3.9677284407905784,
       "high52": 31.75,
-      "low52": 24.23,
+      "low52": 24.21,
       "fromHigh": -0.551181102362207,
-      "fromLow": 30.313660751134954
+      "fromLow": 30.421313506815356
     },
     {
       "symbol": "FNDX",
@@ -5916,9 +5916,9 @@
       "ret5d": 1.7958419438947517,
       "ret30d": 4.293093858669781,
       "high52": 32.47,
-      "low52": 24.8,
+      "low52": 24.75,
       "fromHigh": -0.492762550046186,
-      "fromLow": 30.28225806451613
+      "fromLow": 30.545454545454554
     },
     {
       "symbol": "FNDE",
@@ -5964,9 +5964,9 @@
       "ret5d": 5.6193077502278355,
       "ret30d": 8.118847227336461,
       "high52": 132,
-      "low52": 69.2,
+      "low52": 67.9,
       "fromHigh": -5.166666666666662,
-      "fromLow": 80.89595375722544
+      "fromLow": 84.35935198821797
     },
     {
       "symbol": "DIG",
@@ -6092,9 +6092,9 @@
       "ret5d": 10.534353290865619,
       "ret30d": 2.368324718239641,
       "high52": 89.4,
-      "low52": 40.7,
+      "low52": 40.68,
       "fromHigh": -2.8187919463087363,
-      "fromLow": 113.46437346437344
+      "fromLow": 113.5693215339233
     },
     {
       "symbol": "SSO",
@@ -6187,9 +6187,9 @@
       "currency": "USD",
       "ret5d": -3.4132203495946865,
       "ret30d": -0.8941883428594116,
-      "high52": 18.58,
+      "high52": 18.59,
       "low52": 13.2,
-      "fromHigh": -28.417653390742725,
+      "fromHigh": -28.45615922538999,
       "fromLow": 0.7575757575757683
     },
     {
@@ -6428,9 +6428,9 @@
       "ret5d": 1.4308362582926484,
       "ret30d": 10.412996457754204,
       "high52": 344.57,
-      "low52": 223.78,
+      "low52": 219.25,
       "fromHigh": -9.0663725803175,
-      "fromLow": 40.01698096344624
+      "fromLow": 42.90992018244013
     },
     {
       "symbol": "NVDA",
@@ -6588,9 +6588,9 @@
       "ret5d": 6.874769797421731,
       "ret30d": -2.9883761054208855,
       "high52": 1999.96,
-      "low52": 716.2,
+      "low52": 710.45,
       "fromHigh": -12.948758975179505,
-      "fromLow": 143.08712650097738
+      "fromLow": 145.054542895348
     },
     {
       "symbol": "AMD",
@@ -6699,9 +6699,9 @@
       "currency": "USD",
       "ret5d": 2.904417522401796,
       "ret30d": 21.48886841363424,
-      "high52": 750.55,
+      "high52": 762.48,
       "low52": 252.84,
-      "fromHigh": -56.66511225101591,
+      "fromHigh": -57.34314342671283,
       "fromLow": 28.638664768232875
     },
     {
@@ -6716,9 +6716,9 @@
       "ret5d": 12.694017116572592,
       "ret30d": -20.783982077582944,
       "high52": 142.35,
-      "low52": 20.44,
+      "low52": 19.61,
       "fromHigh": -28.59149982437653,
-      "fromLow": 397.30919765166345
+      "fromLow": 418.3579806221316
     },
     {
       "symbol": "BKNG",
@@ -6908,9 +6908,9 @@
       "ret5d": 6.626729130371979,
       "ret30d": -22.498738525149772,
       "high52": 1255,
-      "low52": 113.46,
+      "low52": 111.67,
       "fromHigh": -30.07410358565737,
-      "fromLow": 673.4620130442447
+      "fromLow": 685.8601235784008
     },
     {
       "symbol": "ADI",
@@ -6924,9 +6924,9 @@
       "ret5d": 6.129391174280946,
       "ret30d": 0.7805423249092341,
       "high52": 445.91,
-      "low52": 223.44,
+      "low52": 221.15,
       "fromHigh": -12.554102845865762,
-      "fromLow": 74.51217329036879
+      "fromLow": 76.31924033461452
     },
     {
       "symbol": "SNPS",
@@ -7035,9 +7035,9 @@
       "currency": "USD",
       "ret5d": -0.7721276670629637,
       "ret30d": 18.121004775761488,
-      "high52": 226.67,
+      "high52": 226.75,
       "low52": 161.16,
-      "fromHigh": -10.420434993603026,
+      "fromHigh": -10.452039691289961,
       "fromLow": 25.992802184164816
     },
     {
@@ -7147,9 +7147,9 @@
       "currency": "USD",
       "ret5d": 2.738791306407835,
       "ret30d": 20.160158324826323,
-      "high52": 141.59,
+      "high52": 141.89,
       "low52": 85.45,
-      "fromHigh": -15.22000141252913,
+      "fromHigh": -15.399252942420173,
       "fromLow": 40.47981275599766
     },
     {
@@ -7164,9 +7164,9 @@
       "ret5d": -1.4263643048912538,
       "ret30d": 5.477366080061095,
       "high52": 172.09,
-      "low52": 73.55,
+      "low52": 72.83,
       "fromHigh": -7.2345865535475715,
-      "fromLow": 117.04962610469067
+      "fromLow": 119.19538651654537
     },
     {
       "symbol": "CHTR",
@@ -7404,9 +7404,9 @@
       "ret5d": 2.4587352189171985,
       "ret30d": -3.744849708378639,
       "high52": 219.72,
-      "low52": 127.71,
+      "low52": 127,
       "fromHigh": -5.3613690151101405,
-      "fromLow": 62.822018635972135
+      "fromLow": 63.73228346456693
     },
     {
       "symbol": "ON",
@@ -7499,9 +7499,9 @@
       "currency": "USD",
       "ret5d": -23.503329824545077,
       "ret30d": -24.877521123859182,
-      "high52": 56.77,
+      "high52": 57,
       "low52": 12.83,
-      "fromHigh": -75.69138629557864,
+      "fromHigh": -75.78947368421053,
       "fromLow": 7.560405300077948
     },
     {
@@ -7708,9 +7708,9 @@
       "ret5d": 1.1723817616874117,
       "ret30d": 2.168087697929349,
       "high52": 210.2,
-      "low52": 164.5,
+      "low52": 163.25,
       "fromHigh": -0.23786869647954328,
-      "fromLow": 27.477203647416403
+      "fromLow": 28.45329249617151
     },
     {
       "symbol": "EBAY",
@@ -7883,9 +7883,9 @@
       "currency": "USD",
       "ret5d": 5.146035324547365,
       "ret30d": -0.03305785123967459,
-      "high52": 94.95,
+      "high52": 96.27,
       "low52": 25.89,
-      "fromHigh": -68.15165876777252,
+      "fromHigh": -68.58834527890309,
       "fromLow": 16.801853997682496
     },
     {
@@ -8220,9 +8220,9 @@
       "ret5d": 0.4751087653642834,
       "ret30d": 6.293710192536349,
       "high52": 48.92,
-      "low52": 40.53,
+      "low52": 40.45,
       "fromHigh": -0.5723630417007383,
-      "fromLow": 20.009869232667157
+      "fromLow": 20.24721878862793
     },
     {
       "symbol": "INDA",
@@ -8604,9 +8604,9 @@
       "ret5d": 1.9300106044538707,
       "ret30d": 5.072146917358985,
       "high52": 24330,
-      "low52": 19310,
+      "low52": 19290,
       "fromHigh": -1.2330456226880395,
-      "fromLow": 24.4432936302434
+      "fromLow": 24.57231726283048
     },
     {
       "symbol": "192090",
@@ -8620,9 +8620,9 @@
       "ret5d": 0.6589147286821705,
       "ret30d": -10.756013745704468,
       "high52": 15960,
-      "low52": 10510,
+      "low52": 10480,
       "fromHigh": -18.640350877192983,
-      "fromLow": 23.549000951474785
+      "fromLow": 23.90267175572519
     },
     {
       "symbol": "122630",
@@ -8956,9 +8956,9 @@
       "ret5d": 5.04266873545384,
       "ret30d": -6.7011197243755385,
       "high52": 31515,
-      "low52": 19950,
+      "low52": 19925,
       "fromHigh": -14.072663810883707,
-      "fromLow": 35.739348370927324
+      "fromLow": 35.90966122961104
     },
     {
       "symbol": "244620",
@@ -9100,9 +9100,9 @@
       "ret5d": 1.9966095309851197,
       "ret30d": -2.9221943348870565,
       "high52": 29000,
-      "low52": 21960,
+      "low52": 21760,
       "fromHigh": -6.637931034482758,
-      "fromLow": 23.292349726775956
+      "fromLow": 24.425551470588236
     },
     {
       "symbol": "379800",
@@ -9116,9 +9116,9 @@
       "ret5d": 2.4760715771951727,
       "ret30d": -3.089334907516726,
       "high52": 26440,
-      "low52": 20160,
+      "low52": 19980,
       "fromHigh": -6.8645990922844184,
-      "fromLow": 22.14781746031746
+      "fromLow": 23.24824824824825
     },
     {
       "symbol": "433500",
@@ -9164,9 +9164,9 @@
       "ret5d": -0.09891196834817012,
       "ret30d": -3.225806451612903,
       "high52": 15975,
-      "low52": 11825,
+      "low52": 11760,
       "fromHigh": -5.164319248826291,
-      "fromLow": 28.118393234672308
+      "fromLow": 28.8265306122449
     },
     {
       "symbol": "426410",
@@ -9212,9 +9212,9 @@
       "ret5d": 1.9610323886639678,
       "ret30d": -3.020457280385078,
       "high52": 43420,
-      "low52": 32755,
+      "low52": 32480,
       "fromHigh": -7.197144173192077,
-      "fromLow": 23.019386353228516
+      "fromLow": 24.060960591133004
     },
     {
       "symbol": "195980",
@@ -9260,9 +9260,9 @@
       "ret5d": 0.7594936708860759,
       "ret30d": -10.45,
       "high52": 41755,
-      "low52": 29010,
+      "low52": 28930,
       "fromHigh": -14.213866602802058,
-      "fromLow": 23.4746639089969
+      "fromLow": 23.816107846526098
     },
     {
       "symbol": "244580",
@@ -9499,9 +9499,9 @@
       "currency": "KRW",
       "ret5d": -0.20940415000951837,
       "ret30d": -3.4622467771639043,
-      "high52": 82320,
+      "high52": 82475,
       "low52": 50530,
-      "fromHigh": -36.32167152575316,
+      "fromHigh": -36.44134586238254,
       "fromLow": 3.7403522659806057
     },
     {
@@ -9643,9 +9643,9 @@
       "currency": "KRW",
       "ret5d": 13.179347826086957,
       "ret30d": 25.451807228915662,
-      "high52": 4325,
+      "high52": 4405,
       "low52": 3070,
-      "fromHigh": -3.6994219653179194,
+      "fromHigh": -5.448354143019296,
       "fromLow": 35.66775244299674
     },
     {
@@ -9772,7 +9772,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 0,
+      "low52": 39515,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -9836,9 +9836,9 @@
       "ret5d": -0.22192632046160676,
       "ret30d": -8.244897959183675,
       "high52": 12550,
-      "low52": 11180,
+      "low52": 11140,
       "fromHigh": -10.43824701195219,
-      "fromLow": 0.5366726296958855
+      "fromLow": 0.8976660682226212
     },
     {
       "symbol": "469070",
@@ -10050,14 +10050,454 @@
     }
   ],
   "ai": {
-    "market_summary": "클라우드와 소프트웨어 섹터가 상승",
+    "trending_up": [
+      {
+        "symbol": "WDAY",
+        "name": "월데이",
+        "reason": "고성장",
+        "why_important": "클라우드",
+        "impact": "high",
+        "ret30d": 44.6,
+        "changePct": 57.9,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "ADBE"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "CTSH",
+        "name": "씨티그룹",
+        "reason": "고성장",
+        "why_important": "IT",
+        "impact": "high",
+        "ret30d": 44.1,
+        "changePct": 47.3,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "medium",
+        "competitors": [
+          "IBM",
+          "Accenture"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "PYPL",
+        "name": "페이팔",
+        "reason": "고성장",
+        "why_important": "핀테크",
+        "impact": "high",
+        "ret30d": 33.4,
+        "changePct": 39.4,
+        "rating": "buy",
+        "rating_reason": "강세",
+        "risk_level": "medium",
+        "competitors": [
+          "SQ",
+          "V"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "ON",
+        "name": "온세미",
+        "reason": "하락",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": -10.5,
+        "changePct": -31.6,
+        "rating": "sell",
+        "rating_reason": "약세",
+        "risk_level": "high",
+        "competitors": [
+          "TXN",
+          "ADI"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "TTD",
+        "name": "트레이딩212",
+        "reason": "하락",
+        "why_important": "금융",
+        "impact": "high",
+        "ret30d": -24.9,
+        "changePct": -20.4,
+        "rating": "sell",
+        "rating_reason": "약세",
+        "risk_level": "high",
+        "competitors": [
+          "ROKU",
+          "SNAP"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      },
+      {
+        "symbol": "LRCX",
+        "name": "람리서치",
+        "reason": "하락",
+        "why_important": "반도체",
+        "impact": "high",
+        "ret30d": -17.9,
+        "changePct": -22.5,
+        "rating": "sell",
+        "rating_reason": "약세",
+        "risk_level": "high",
+        "competitors": [
+          "KLAC",
+          "AMAT"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "하락"
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "reason": "안정성",
+        "why_important": "클라우드",
+        "impact": "medium",
+        "ret30d": 34.1,
+        "changePct": 41.7,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "low",
+        "competitors": [
+          "GOOGL",
+          "AMZN"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "ADBE",
+        "name": "아도비",
+        "reason": "안정성",
+        "why_important": "소프트웨어",
+        "impact": "medium",
+        "ret30d": 30.8,
+        "changePct": 37.1,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "low",
+        "competitors": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "INTU",
+        "name": "인튜이트",
+        "reason": "안정성",
+        "why_important": "소프트웨어",
+        "impact": "medium",
+        "ret30d": 21.5,
+        "changePct": 27.5,
+        "rating": "neutral",
+        "rating_reason": "안정",
+        "risk_level": "low",
+        "competitors": [
+          "MSFT",
+          "ADBE"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "TTD",
+        "name": "트레이딩212",
+        "reason": "고거래량",
+        "why_important": "금융",
+        "impact": "high",
+        "volume": 132937,
+        "rating": "neutral",
+        "rating_reason": "고거래량",
+        "risk_level": "high",
+        "competitors": [
+          "ROKU",
+          "SNAP"
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "reason": "고거래량",
+        "why_important": "클라우드",
+        "impact": "medium",
+        "volume": 24138,
+        "rating": "neutral",
+        "rating_reason": "고거래량",
+        "risk_level": "low",
+        "competitors": [
+          "GOOGL",
+          "AMZN"
+        ]
+      },
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "reason": "고거래량",
+        "why_important": "반도체",
+        "impact": "high",
+        "volume": 104731,
+        "rating": "neutral",
+        "rating_reason": "고거래량",
+        "risk_level": "high",
+        "competitors": [
+          "TXN",
+          "ADI"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "WDAY",
+        "name": "월데이",
+        "reason": "고점근접",
+        "why_important": "클라우드",
+        "impact": "high",
+        "ret30d": 44.6,
+        "changePct": 57.9,
+        "rating": "buy",
+        "rating_reason": "고점",
+        "risk_level": "medium",
+        "competitors": [
+          "MSFT",
+          "ADBE"
+        ]
+      },
+      {
+        "symbol": "CTSH",
+        "name": "씨티그룹",
+        "reason": "고점근접",
+        "why_important": "IT",
+        "impact": "high",
+        "ret30d": 44.1,
+        "changePct": 47.3,
+        "rating": "buy",
+        "rating_reason": "고점",
+        "risk_level": "medium",
+        "competitors": [
+          "IBM",
+          "Accenture"
+        ]
+      },
+      {
+        "symbol": "PYPL",
+        "name": "페이팔",
+        "reason": "고점근접",
+        "why_important": "핀테크",
+        "impact": "high",
+        "ret30d": 33.4,
+        "changePct": 39.4,
+        "rating": "buy",
+        "rating_reason": "고점",
+        "risk_level": "medium",
+        "competitors": [
+          "SQ",
+          "V"
+        ]
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "클라우드",
+        "trend": "상승",
+        "avg_change": 31.89,
+        "keywords": [
+          "WDAY",
+          "MSFT"
+        ],
+        "summary": "클라우드 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "WDAY",
+          "MSFT"
+        ]
+      },
+      {
+        "sector": "소프트웨어",
+        "trend": "상승",
+        "avg_change": 21.15,
+        "keywords": [
+          "ADBE",
+          "INTU"
+        ],
+        "summary": "소프트웨어 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "ADBE",
+          "INTU"
+        ]
+      },
+      {
+        "sector": "금광",
+        "trend": "상승",
+        "avg_change": 20.14,
+        "keywords": [
+          "GOLD",
+          "SILVER"
+        ],
+        "summary": "금광 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "GOLD",
+          "SILVER"
+        ]
+      },
+      {
+        "sector": "사이버보안",
+        "trend": "상승",
+        "avg_change": 18.43,
+        "keywords": [
+          "CYBR",
+          "PANW"
+        ],
+        "summary": "사이버보안 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "CYBR",
+          "PANW"
+        ]
+      },
+      {
+        "sector": "암호화폐",
+        "trend": "상승",
+        "avg_change": 9.72,
+        "keywords": [
+          "BTC",
+          "ETH"
+        ],
+        "summary": "암호화폐 섹터 상승",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "top_etfs": [
+          "BTC",
+          "ETH"
+        ]
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "TTD",
+        "issue": "하락",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "ROKU",
+          "SNAP"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "LRCX",
+        "issue": "하락",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "KLAC",
+          "AMAT"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "ON",
+        "issue": "하락",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "TXN",
+          "ADI"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      }
+    ],
+    "risk_analysis": [
+      {
+        "symbol": "TTD",
+        "name": "트레이딩212",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "방어적",
+        "suitable_for": "적극적"
+      },
+      {
+        "symbol": "LRCX",
+        "name": "람리서치",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "방어적",
+        "suitable_for": "적극적"
+      },
+      {
+        "symbol": "ON",
+        "name": "온세미",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "고위험",
+        "hedge_suggestion": "방어적",
+        "suitable_for": "적극적"
+      }
+    ],
+    "portfolio_suggestion": {
+      "aggressive": [
+        "WDAY",
+        "CTSH",
+        "PYPL"
+      ],
+      "balanced": [
+        "MSFT",
+        "ADBE",
+        "INTU"
+      ],
+      "conservative": [
+        "GOLD",
+        "SILVER",
+        "CYBR"
+      ],
+      "suggestion": "적극적"
+    },
+    "market_summary": "시장 요약",
     "top_keywords": [
       "클라우드",
       "소프트웨어",
-      "고성장"
-    ]
+      "금광"
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "시장 전망 양호"
   },
-  "updatedAt": "2026-08-08T02:17:17.650Z",
+  "updatedAt": "2026-08-08T05:01:14.069Z",
   "stats": {
     "total": 628,
     "us": 498,
