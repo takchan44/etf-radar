@@ -8791,7 +8791,7 @@
       "market": "korea",
       "price": 6840,
       "changePct": -6.938775510204081,
-      "volume": 1454333,
+      "volume": 1430534,
       "currency": "KRW",
       "ret5d": -0.3641660597232338,
       "ret30d": -7.0020394289598915,
@@ -8871,7 +8871,7 @@
       "market": "korea",
       "price": 109650,
       "changePct": 0.30645382609888855,
-      "volume": 3161,
+      "volume": 3154,
       "currency": "KRW",
       "ret5d": 0.05018477120306583,
       "ret30d": 0.2926918503612915,
@@ -9079,7 +9079,7 @@
       "market": "korea",
       "price": 13070,
       "changePct": -3.790945896209054,
-      "volume": 1034048,
+      "volume": 1025050,
       "currency": "KRW",
       "ret5d": 1.9103313840155944,
       "ret30d": -2.3168908819133036,
@@ -9143,7 +9143,7 @@
       "market": "korea",
       "price": 12105,
       "changePct": -8.19112627986348,
-      "volume": 92006,
+      "volume": 91140,
       "currency": "KRW",
       "ret5d": 0.2899751449875725,
       "ret30d": -6.848787995382839,
@@ -9159,7 +9159,7 @@
       "market": "korea",
       "price": 15150,
       "changePct": -3.071017274472169,
-      "volume": 1883340,
+      "volume": 1879821,
       "currency": "KRW",
       "ret5d": -0.09891196834817012,
       "ret30d": -3.225806451612903,
@@ -9447,7 +9447,7 @@
       "sector": "배당",
       "price": 17865,
       "changePct": 3.535207186322805,
-      "volume": 142958,
+      "volume": 141977,
       "currency": "KRW",
       "ret5d": 3.087132140796307,
       "ret30d": 4.872321690636924,
@@ -9463,7 +9463,7 @@
       "sector": "배당",
       "price": 29500,
       "changePct": -9.118915588416513,
-      "volume": 716922,
+      "volume": 713276,
       "currency": "KRW",
       "ret5d": 4.721334753283635,
       "ret30d": -4.127396815079623,
@@ -9511,7 +9511,7 @@
       "sector": "채권",
       "price": 13445,
       "changePct": -4.712969525159461,
-      "volume": 708976,
+      "volume": 706158,
       "currency": "KRW",
       "ret5d": 17.0147954743255,
       "ret30d": 0.5609573672400897,
@@ -9543,7 +9543,7 @@
       "sector": "금융",
       "price": 25045,
       "changePct": 1.8503456689711266,
-      "volume": 825432,
+      "volume": 797598,
       "currency": "KRW",
       "ret5d": 5.831396577223749,
       "ret30d": 6.2354188759278895,
@@ -9671,7 +9671,7 @@
       "sector": "AI",
       "price": 23150,
       "changePct": -8.570300157977883,
-      "volume": 387446,
+      "volume": 386838,
       "currency": "KRW",
       "ret5d": 4.585498079963858,
       "ret30d": -3.6219816819317234,
@@ -9687,7 +9687,7 @@
       "sector": "테마",
       "price": 62,
       "changePct": -4.615384615384616,
-      "volume": 85096,
+      "volume": 84596,
       "currency": "KRW",
       "ret5d": 0,
       "ret30d": 0,
@@ -9735,7 +9735,7 @@
       "sector": "채권",
       "price": 11120,
       "changePct": -4.712939160239932,
-      "volume": 195380,
+      "volume": 182882,
       "currency": "KRW",
       "ret5d": -0.8912655971479502,
       "ret30d": -5.038428693424423,
@@ -9751,7 +9751,7 @@
       "sector": "채권",
       "price": 18985,
       "changePct": 7.108603667136812,
-      "volume": 117655,
+      "volume": 113262,
       "currency": "KRW",
       "ret5d": 4.9184857695496,
       "ret30d": 10.926088226701722,
@@ -9831,7 +9831,7 @@
       "sector": "산업",
       "price": 11240,
       "changePct": -8.655018285249898,
-      "volume": 129847,
+      "volume": 128780,
       "currency": "KRW",
       "ret5d": -0.22192632046160676,
       "ret30d": -8.244897959183675,
@@ -9847,7 +9847,7 @@
       "sector": "테마",
       "price": 11420,
       "changePct": -0.39249890972525076,
-      "volume": 593541,
+      "volume": 592907,
       "currency": "KRW",
       "ret5d": 13.462493790362643,
       "ret30d": 6.430568499534017,
@@ -9879,7 +9879,7 @@
       "sector": "2차전지",
       "price": 36265,
       "changePct": -3.7808437251260285,
-      "volume": 449655,
+      "volume": 448901,
       "currency": "KRW",
       "ret5d": 14.220472440944881,
       "ret30d": 1.8822868380390503,
@@ -9895,7 +9895,7 @@
       "sector": "반도체",
       "price": 45160,
       "changePct": -27.558549887712548,
-      "volume": 1075,
+      "volume": 1074,
       "currency": "KRW",
       "ret5d": 6.912878787878787,
       "ret30d": -22.994287663057378,
@@ -9911,7 +9911,7 @@
       "sector": "전체시장",
       "price": 16480,
       "changePct": 0.12150668286755771,
-      "volume": 102032,
+      "volume": 101349,
       "currency": "KRW",
       "ret5d": 4.968152866242039,
       "ret30d": 4.435994930291509,
@@ -9927,7 +9927,7 @@
       "sector": "전체시장",
       "price": 34835,
       "changePct": -13.806754917728567,
-      "volume": 3477843,
+      "volume": 3462582,
       "currency": "KRW",
       "ret5d": 13.395182291666666,
       "ret30d": -7.5749535685858325,
@@ -10050,277 +10050,14 @@
     }
   ],
   "ai": {
-    "trending_up": [
-      {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "reason": "클라우드 성장",
-        "why_important": "주도적 지위",
-        "impact": "high",
-        "ret30d": 34.1,
-        "changePct": 41.7,
-        "rating": "buy",
-        "rating_reason": "강한 성장",
-        "risk_level": "medium",
-        "competitors": [
-          "AAPL",
-          "GOOGL"
-        ],
-        "short_term": "상승",
-        "mid_term": "유지",
-        "long_term": "성장"
-      }
-    ],
-    "trending_down": [
-      {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "reason": "경기 침체",
-        "why_important": "주도적 지위",
-        "impact": "high",
-        "ret30d": -13.5,
-        "changePct": -12.4,
-        "rating": "sell",
-        "rating_reason": "경기 침체",
-        "risk_level": "high",
-        "competitors": [
-          "GM",
-          "FORD"
-        ],
-        "short_term": "하락",
-        "mid_term": "불안정",
-        "long_term": "회복"
-      }
-    ],
-    "steady_growth": [
-      {
-        "symbol": "CSCO",
-        "name": "시스코",
-        "reason": "안정적 성장",
-        "why_important": "네트워크 주도",
-        "impact": "medium",
-        "ret30d": 6.7,
-        "changePct": 2.1,
-        "rating": "neutral",
-        "rating_reason": "안정적",
-        "risk_level": "low",
-        "competitors": [
-          "JNPR",
-          "HP"
-        ],
-        "short_term": "유지",
-        "mid_term": "성장",
-        "long_term": "안정"
-      }
-    ],
-    "high_volume": [
-      {
-        "symbol": "NVDA",
-        "name": "엔비디아",
-        "reason": "인공지능 성장",
-        "why_important": "주도적 지위",
-        "impact": "high",
-        "volume": 104731,
-        "rating": "buy",
-        "rating_reason": "강한 성장",
-        "risk_level": "medium",
-        "competitors": [
-          "AMD",
-          "INTEL"
-        ]
-      }
-    ],
-    "near_52w_high": [
-      {
-        "symbol": "ADBE",
-        "name": "아도비",
-        "reason": "클라우드 성장",
-        "why_important": "주도적 지위",
-        "impact": "high",
-        "ret30d": 30.8,
-        "changePct": 37.1,
-        "rating": "buy",
-        "rating_reason": "강한 성장",
-        "risk_level": "medium",
-        "competitors": [
-          "MSFT",
-          "GOOGL"
-        ]
-      }
-    ],
-    "sector_trends": [
-      {
-        "sector": "클라우드",
-        "trend": "상승",
-        "avg_change": 31.89,
-        "keywords": [
-          "MSFT",
-          "ADBE"
-        ],
-        "summary": "클라우드 성장",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "CLOU",
-          "SKYY"
-        ]
-      },
-      {
-        "sector": "소프트웨어",
-        "trend": "상승",
-        "avg_change": 21.15,
-        "keywords": [
-          "MSFT",
-          "ADBE"
-        ],
-        "summary": "소프트웨어 성장",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "IGM",
-          "SWGS"
-        ]
-      },
-      {
-        "sector": "금광",
-        "trend": "상승",
-        "avg_change": 20.14,
-        "keywords": [
-          "GOLD",
-          "SILV"
-        ],
-        "summary": "금광 성장",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "GLD",
-          "SLV"
-        ]
-      },
-      {
-        "sector": "사이버보안",
-        "trend": "상승",
-        "avg_change": 18.43,
-        "keywords": [
-          "PANW",
-          "FTNT"
-        ],
-        "summary": "사이버보안 성장",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "CIBR",
-          "BUG"
-        ]
-      },
-      {
-        "sector": "인버스",
-        "trend": "상승",
-        "avg_change": 9.35,
-        "keywords": [
-          "SH",
-          "PSQ"
-        ],
-        "summary": "인버스 성장",
-        "short_term": "상승",
-        "mid_term": "유지",
-        "top_etfs": [
-          "SH",
-          "PSQ"
-        ]
-      }
-    ],
-    "etf_issues": [
-      {
-        "symbol": "TSLA",
-        "issue": "경기 침체",
-        "issue_type": "macro",
-        "impact_etfs": [
-          "TAN",
-          "FAN"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      },
-      {
-        "symbol": "NVDA",
-        "issue": "인공지능 성장",
-        "issue_type": "earnings",
-        "impact_etfs": [
-          "QQQ",
-          "XLK"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      },
-      {
-        "symbol": "MSFT",
-        "issue": "클라우드 성장",
-        "issue_type": "policy",
-        "impact_etfs": [
-          "CLOU",
-          "SKYY"
-        ],
-        "is_noise": false,
-        "impact": "high"
-      }
-    ],
-    "risk_analysis": [
-      {
-        "symbol": "MSFT",
-        "name": "마이크로소프트",
-        "risk_level": "medium",
-        "volatility": "중변동성",
-        "max_drawdown_risk": "20%",
-        "hedge_suggestion": "고정수익",
-        "suitable_for": "중장기 투자자"
-      },
-      {
-        "symbol": "TSLA",
-        "name": "테슬라",
-        "risk_level": "high",
-        "volatility": "고변동성",
-        "max_drawdown_risk": "30%",
-        "hedge_suggestion": "옵션",
-        "suitable_for": "단기 투자자"
-      },
-      {
-        "symbol": "CSCO",
-        "name": "시스코",
-        "risk_level": "low",
-        "volatility": "저변동성",
-        "max_drawdown_risk": "10%",
-        "hedge_suggestion": "없음",
-        "suitable_for": "안정적 투자자"
-      }
-    ],
-    "portfolio_suggestion": {
-      "aggressive": [
-        "TSLA",
-        "NVDA",
-        "MSFT"
-      ],
-      "balanced": [
-        "CSCO",
-        "ADBE",
-        "GOOGL"
-      ],
-      "conservative": [
-        "JNPR",
-        "HP",
-        "IBM"
-      ]
-    },
-    "market_summary": "상승",
+    "market_summary": "클라우드 및 소프트웨어 성장",
     "top_keywords": [
       "클라우드",
       "소프트웨어",
       "금광"
-    ],
-    "market_sentiment": "bullish",
-    "market_sentiment_reason": "클라우드 성장"
+    ]
   },
-  "updatedAt": "2026-08-08T15:44:22.086Z",
+  "updatedAt": "2026-08-08T19:32:08.161Z",
   "stats": {
     "total": 628,
     "us": 498,
