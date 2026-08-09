@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "iShares Currency Hedged MSCI Ge",
+      "name": "HEWG,116946,3000",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9772,7 +9772,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 39515,
+      "low52": 0,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10050,14 +10050,472 @@
     }
   ],
   "ai": {
-    "market_summary": "상승",
+    "trending_up": [
+      {
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "reason": "클라우드 성장",
+        "why_important": "주도적 지위",
+        "impact": "high",
+        "ret30d": 34.1,
+        "changePct": 41.7,
+        "rating": "buy",
+        "rating_reason": "강한 성장",
+        "risk_level": "medium",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "WDAY",
+        "name": "월드페이",
+        "reason": "클라우드 성장",
+        "why_important": "고성장",
+        "impact": "high",
+        "ret30d": 44.6,
+        "changePct": 57.9,
+        "rating": "buy",
+        "rating_reason": "강한 성장",
+        "risk_level": "high",
+        "competitors": [
+          "ADBE",
+          "INTU"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "CTSH",
+        "name": "코그니赞트",
+        "reason": "클라우드 성장",
+        "why_important": "고성장",
+        "impact": "high",
+        "ret30d": 44.1,
+        "changePct": 47.3,
+        "rating": "buy",
+        "rating_reason": "강한 성장",
+        "risk_level": "medium",
+        "competitors": [
+          "IBM",
+          "Accenture"
+        ],
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "trending_down": [
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "reason": "경기 침체",
+        "why_important": "주도적 지위",
+        "impact": "high",
+        "ret30d": -13.5,
+        "changePct": -12.4,
+        "rating": "sell",
+        "rating_reason": "경기 침체",
+        "risk_level": "high",
+        "competitors": [
+          "GM",
+          "FORD"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "QCOM",
+        "name": "퀄컴",
+        "reason": "경기 침체",
+        "why_important": "주도적 지위",
+        "impact": "high",
+        "ret30d": -11.4,
+        "changePct": -18.1,
+        "rating": "sell",
+        "rating_reason": "경기 침체",
+        "risk_level": "medium",
+        "competitors": [
+          "INTEL",
+          "TXN"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "MU",
+        "name": "마이크론",
+        "reason": "경기 침체",
+        "why_important": "주도적 지위",
+        "impact": "high",
+        "ret30d": -22.5,
+        "changePct": -27.7,
+        "rating": "sell",
+        "rating_reason": "경기 침체",
+        "risk_level": "high",
+        "competitors": [
+          "SANDISK",
+          "INTEL"
+        ],
+        "short_term": "하락",
+        "mid_term": "하락",
+        "long_term": "상승"
+      }
+    ],
+    "steady_growth": [
+      {
+        "symbol": "AAPL",
+        "name": "애플",
+        "reason": "안정적 성장",
+        "why_important": "주도적 지위",
+        "impact": "medium",
+        "ret30d": 10.4,
+        "changePct": 13.9,
+        "rating": "neutral",
+        "rating_reason": "안정적 성장",
+        "risk_level": "low",
+        "competitors": [
+          "SAMSUMG",
+          "GOOGL"
+        ],
+        "short_term": "보합",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "AMZN",
+        "name": "아마존",
+        "reason": "안정적 성장",
+        "why_important": "주도적 지위",
+        "impact": "medium",
+        "ret30d": 18,
+        "changePct": 20.9,
+        "rating": "neutral",
+        "rating_reason": "안정적 성장",
+        "risk_level": "medium",
+        "competitors": [
+          "GOOGL",
+          "MSFT"
+        ],
+        "short_term": "보합",
+        "mid_term": "상승",
+        "long_term": "상승"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "구글",
+        "reason": "안정적 성장",
+        "why_important": "주도적 지위",
+        "impact": "medium",
+        "ret30d": 5,
+        "changePct": 3.1,
+        "rating": "neutral",
+        "rating_reason": "안정적 성장",
+        "risk_level": "low",
+        "competitors": [
+          "MSFT",
+          "AAPL"
+        ],
+        "short_term": "보합",
+        "mid_term": "상승",
+        "long_term": "상승"
+      }
+    ],
+    "high_volume": [
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "reason": "고성장",
+        "why_important": "주도적 지위",
+        "impact": "high",
+        "volume": 105669,
+        "rating": "buy",
+        "rating_reason": "강한 성장",
+        "risk_level": "high",
+        "competitors": [
+          "AMD",
+          "INTEL"
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "테슬A",
+        "reason": "경기 침체",
+        "why_important": "주도적 지위",
+        "impact": "high",
+        "volume": 39492,
+        "rating": "sell",
+        "rating_reason": "경기 침체",
+        "risk_level": "high",
+        "competitors": [
+          "GM",
+          "FORD"
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "reason": "클라우드 성장",
+        "why_important": "주도적 지위",
+        "impact": "high",
+        "volume": 28846,
+        "rating": "buy",
+        "rating_reason": "강한 성장",
+        "risk_level": "medium",
+        "competitors": [
+          "AAPL",
+          "GOOGL"
+        ]
+      }
+    ],
+    "near_52w_high": [
+      {
+        "symbol": "WDAY",
+        "name": "월드페이",
+        "reason": "클라우드 성장",
+        "why_important": "고성장",
+        "impact": "high",
+        "ret30d": 44.6,
+        "changePct": 57.9,
+        "rating": "buy",
+        "rating_reason": "강한 성장",
+        "risk_level": "high",
+        "competitors": [
+          "ADBE",
+          "INTU"
+        ]
+      },
+      {
+        "symbol": "CTSH",
+        "name": "코그니赞트",
+        "reason": "클라우드 성장",
+        "why_important": "고성장",
+        "impact": "high",
+        "ret30d": 44.1,
+        "changePct": 47.3,
+        "rating": "buy",
+        "rating_reason": "강한 성장",
+        "risk_level": "medium",
+        "competitors": [
+          "IBM",
+          "Accenture"
+        ]
+      },
+      {
+        "symbol": "PYPL",
+        "name": "페이팔",
+        "reason": "클라우드 성장",
+        "why_important": "고성장",
+        "impact": "high",
+        "ret30d": 33.4,
+        "changePct": 39.4,
+        "rating": "buy",
+        "rating_reason": "강한 성장",
+        "risk_level": "medium",
+        "competitors": [
+          "VISA",
+          "MASTERCARD"
+        ]
+      }
+    ],
+    "sector_trends": [
+      {
+        "sector": "클라우드",
+        "trend": "상승",
+        "avg_change": 31.89,
+        "keywords": [
+          "마이크로소프트",
+          "아마존",
+          "구글"
+        ],
+        "summary": "클라우드 성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "MSFT",
+          "AMZN",
+          "GOOGL"
+        ]
+      },
+      {
+        "sector": "소프트웨어",
+        "trend": "상승",
+        "avg_change": 21.15,
+        "keywords": [
+          "마이크로소프트",
+          "아도비",
+          "인튜이트"
+        ],
+        "summary": "소프트웨어 성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "MSFT",
+          "ADBE",
+          "INTU"
+        ]
+      },
+      {
+        "sector": "금광",
+        "trend": "상승",
+        "avg_change": 20.14,
+        "keywords": [
+          "골드",
+          "은",
+          "백금"
+        ],
+        "summary": "금광 성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "GOLD",
+          "SILVER",
+          "PLATINUM"
+        ]
+      },
+      {
+        "sector": "사이버보안",
+        "trend": "상승",
+        "avg_change": 18.43,
+        "keywords": [
+          "파이어아이",
+          "시만텍",
+          "트렌드마이크로"
+        ],
+        "summary": "사이버보안 성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "FEYE",
+          "SYMC",
+          "TMIC"
+        ]
+      },
+      {
+        "sector": "암호화폐",
+        "trend": "상승",
+        "avg_change": 9.72,
+        "keywords": [
+          "비트코인",
+          "이더리움",
+          "리플"
+        ],
+        "summary": "암호화폐 성장",
+        "short_term": "상승",
+        "mid_term": "상승",
+        "long_term": "상승",
+        "top_etfs": [
+          "BTC",
+          "ETH",
+          "XRP"
+        ]
+      }
+    ],
+    "etf_issues": [
+      {
+        "symbol": "TSLA",
+        "issue": "경기 침체",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "TSLA",
+          "GM",
+          "FORD"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "QCOM",
+        "issue": "경기 침체",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "QCOM",
+          "INTEL",
+          "TXN"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      },
+      {
+        "symbol": "MU",
+        "issue": "경기 침체",
+        "issue_type": "macro",
+        "impact_etfs": [
+          "MU",
+          "SANDISK",
+          "INTEL"
+        ],
+        "is_noise": false,
+        "impact": "high"
+      }
+    ],
+    "risk_analysis": [
+      {
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "risk_level": "medium",
+        "volatility": "중변동성",
+        "max_drawdown_risk": "10%",
+        "hedge_suggestion": "구글",
+        "suitable_for": "중장기 투자자"
+      },
+      {
+        "symbol": "AAPL",
+        "name": "애플",
+        "risk_level": "low",
+        "volatility": "저변동성",
+        "max_drawdown_risk": "5%",
+        "hedge_suggestion": "아마존",
+        "suitable_for": "안정적 투자자"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "risk_level": "high",
+        "volatility": "고변동성",
+        "max_drawdown_risk": "20%",
+        "hedge_suggestion": "인텔",
+        "suitable_for": "고위험 투자자"
+      }
+    ],
+    "portfolio_suggestion": {
+      "aggressive": [
+        "MSFT",
+        "NVDA",
+        "TSLA"
+      ],
+      "balanced": [
+        "AAPL",
+        "AMZN",
+        "GOOGL"
+      ],
+      "conservative": [
+        "JNJ",
+        "PG",
+        "XOM"
+      ],
+      "suggestion": "중장기 투자자에게 적합한 포트폴리오는 밸런스드 포트폴리오입니다."
+    },
+    "market_summary": "현재 시장은 상승세를 보이고 있습니다.",
     "top_keywords": [
       "클라우드",
       "소프트웨어",
       "금광"
-    ]
+    ],
+    "market_sentiment": "bullish",
+    "market_sentiment_reason": "클라우드와 소프트웨어의 성장이 시장을 상승시키고 있습니다."
   },
-  "updatedAt": "2026-08-09T19:35:04.153Z",
+  "updatedAt": "2026-08-09T22:19:35.829Z",
   "stats": {
     "total": 628,
     "us": 498,
