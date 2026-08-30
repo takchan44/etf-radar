@@ -3009,22 +3009,6 @@
       "fromLow": 9.621765096217654
     },
     {
-      "symbol": "PIN",
-      "name": "Invesco India ETF",
-      "market": "us",
-      "sector": "나스닥100",
-      "price": 23.98,
-      "changePct": 20.745216515609272,
-      "volume": 81768,
-      "currency": "USD",
-      "ret5d": 0,
-      "ret30d": 0,
-      "high52": 27.203,
-      "low52": 22.99,
-      "fromHigh": -11.847957945814796,
-      "fromLow": 4.3062200956937895
-    },
-    {
       "symbol": "EWM",
       "name": "iShares MSCI Malaysia Index Fun",
       "market": "us",
@@ -5746,7 +5730,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "iShares Currency Hedged MSCI Ge",
+      "name": "HEWG,116946,3000",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9772,7 +9756,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 39515,
+      "low52": 0,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10050,10 +10034,10 @@
     }
   ],
   "ai": null,
-  "updatedAt": "2026-08-30T18:38:00.409Z",
+  "updatedAt": "2026-08-30T21:51:30.275Z",
   "stats": {
-    "total": 628,
-    "us": 498,
+    "total": 627,
+    "us": 497,
     "korea": 112,
     "global": 18
   }
