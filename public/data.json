@@ -2137,7 +2137,7 @@
       "changePct": -6.962594696969703,
       "volume": 10851,
       "currency": "USD",
-      "ret5d": -3.65341765797122,
+      "ret5d": -3.282808340588065,
       "ret30d": -7.190227421845223,
       "high52": 43.04,
       "low52": 35.96,
@@ -5746,7 +5746,7 @@
     },
     {
       "symbol": "HEWG",
-      "name": "iShares Currency Hedged MSCI Ge",
+      "name": "HEWG,116946,3000",
       "market": "us",
       "sector": "나스닥100",
       "price": 33.01,
@@ -9772,7 +9772,7 @@
       "ret5d": 0,
       "ret30d": 0,
       "high52": 42675,
-      "low52": 39515,
+      "low52": 0,
       "fromHigh": -7.404803749267722,
       "fromLow": 0
     },
@@ -10050,7 +10050,7 @@
     }
   ],
   "ai": null,
-  "updatedAt": "2026-09-04T21:18:24.241Z",
+  "updatedAt": "2026-09-04T23:34:01.036Z",
   "stats": {
     "total": 628,
     "us": 498,
