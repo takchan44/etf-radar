@@ -353,22 +353,6 @@
       "fromLow": 25.007962290591756
     },
     {
-      "symbol": "IRBO",
-      "name": "iShares Robotics and Artificial",
-      "market": "us",
-      "sector": "AI",
-      "price": 31.51,
-      "changePct": -0.31635558367604516,
-      "volume": 86115,
-      "currency": "USD",
-      "ret5d": 0,
-      "ret30d": 0,
-      "high52": 41.455,
-      "low52": 26.313,
-      "fromHigh": -23.98986853214328,
-      "fromLow": 19.750693573518806
-    },
-    {
       "symbol": "ARKQ",
       "name": "ARK Autonomous Technology & Rob",
       "market": "us",
@@ -1311,22 +1295,6 @@
       "low52": 73.32,
       "fromHigh": -8.468343107047009,
       "fromLow": 25.600109110747425
-    },
-    {
-      "symbol": "KBWR",
-      "name": "Invesco KBW Regional Banking ET",
-      "market": "us",
-      "sector": "나스닥100",
-      "price": 69.313,
-      "changePct": 1.9683707245310895,
-      "volume": 3013,
-      "currency": "USD",
-      "ret5d": 0,
-      "ret30d": 0,
-      "high52": 72.99,
-      "low52": 46.85,
-      "fromHigh": -5.037676394026569,
-      "fromLow": 47.946638207043755
     },
     {
       "symbol": "IAK",
@@ -2449,22 +2417,6 @@
       "fromLow": 78.24966442953018
     },
     {
-      "symbol": "IEHS",
-      "name": "iShares Evolved U.S. Healthcare",
-      "market": "us",
-      "sector": "나스닥100",
-      "price": 41.3984,
-      "changePct": -0.01569862504195279,
-      "volume": 4757,
-      "currency": "USD",
-      "ret5d": 0,
-      "ret30d": 0,
-      "high52": 41.42,
-      "low52": 41.36,
-      "fromHigh": -0.052148720424914044,
-      "fromLow": 0.09284332688588703
-    },
-    {
       "symbol": "VEA",
       "name": "Vanguard FTSE Developed Markets",
       "market": "us",
@@ -3009,22 +2961,6 @@
       "fromLow": 6.215439062154395
     },
     {
-      "symbol": "PIN",
-      "name": "Invesco India ETF",
-      "market": "us",
-      "sector": "나스닥100",
-      "price": 23.98,
-      "changePct": 2.260127931769728,
-      "volume": 81768,
-      "currency": "USD",
-      "ret5d": 0,
-      "ret30d": 0,
-      "high52": 27.203,
-      "low52": 22.99,
-      "fromHigh": -11.847957945814796,
-      "fromLow": 4.3062200956937895
-    },
-    {
       "symbol": "EWM",
       "name": "iShares MSCI Malaysia Index Fun",
       "market": "us",
@@ -3055,22 +2991,6 @@
       "low52": 64.18,
       "fromHigh": -10.177587262706677,
       "fromLow": 14.272358990339661
-    },
-    {
-      "symbol": "GXG",
-      "name": "Global X MSCI Colombia ETF",
-      "market": "us",
-      "sector": "나스닥100",
-      "price": 29.41,
-      "changePct": -0.5410889414947587,
-      "volume": 42685,
-      "currency": "USD",
-      "ret5d": 0,
-      "ret30d": 0,
-      "high52": 30.48,
-      "low52": 22.3,
-      "fromHigh": -3.510498687664043,
-      "fromLow": 31.883408071748875
     },
     {
       "symbol": "ECH",
@@ -4609,22 +4529,6 @@
       "fromLow": 23.895486935866973
     },
     {
-      "symbol": "POTX",
-      "name": "Global X Cannabis ETF",
-      "market": "us",
-      "sector": "나스닥100",
-      "price": 5.15,
-      "changePct": 0.7827788649706464,
-      "volume": 68878,
-      "currency": "USD",
-      "ret5d": 0,
-      "ret30d": 0,
-      "high52": 9.3,
-      "low52": 5.04,
-      "fromHigh": -44.623655913978496,
-      "fromLow": 2.182539682539689
-    },
-    {
       "symbol": "YOLO",
       "name": "AdvisorShares Pure Cannabis ETF",
       "market": "us",
@@ -4767,38 +4671,6 @@
       "low52": 25.85,
       "fromHigh": -20.74996502028823,
       "fromLow": 9.555125725338486
-    },
-    {
-      "symbol": "GFIN",
-      "name": "Goldman Sachs Finance Reimagine",
-      "market": "us",
-      "sector": "나스닥100",
-      "price": 67.108,
-      "changePct": 0.2060624160071752,
-      "volume": 1815,
-      "currency": "USD",
-      "ret5d": 0,
-      "ret30d": 0,
-      "high52": 68.7,
-      "low52": 38.81,
-      "fromHigh": -2.317321688500726,
-      "fromLow": 72.91419737181138
-    },
-    {
-      "symbol": "KOIN",
-      "name": "Capital Link Global Fintech Lea",
-      "market": "us",
-      "sector": "나스닥100",
-      "price": 33.1648,
-      "changePct": -0.23733820242631629,
-      "volume": 462,
-      "currency": "USD",
-      "ret5d": 0,
-      "ret30d": 0,
-      "high52": 33.4748,
-      "low52": 27.2766,
-      "fromHigh": -0.9260697599388265,
-      "fromLow": 21.5870013124803
     },
     {
       "symbol": "BLOK",
@@ -5743,22 +5615,6 @@
       "low52": 32.9,
       "fromHigh": -15.046427894637112,
       "fromLow": 36.26139817629179
-    },
-    {
-      "symbol": "HEWG",
-      "name": "HEWG,116946,3000",
-      "market": "us",
-      "sector": "나스닥100",
-      "price": 33.01,
-      "changePct": -0.3622094778146832,
-      "volume": 559,
-      "currency": "USD",
-      "ret5d": 0,
-      "ret30d": 0,
-      "high52": 36.32,
-      "low52": 27.91,
-      "fromHigh": -9.113436123348023,
-      "fromLow": 18.27302042278752
     },
     {
       "symbol": "HEDJ",
@@ -8779,9 +8635,9 @@
       "currency": "KRW",
       "ret5d": -0.04326299091477191,
       "ret30d": -0.36415908001916625,
-      "high52": 107935,
+      "high52": 107830,
       "low52": 103700,
-      "fromHigh": -3.67350720340946,
+      "fromHigh": -3.57970880089029,
       "fromLow": 0.26036644165863065
     },
     {
@@ -8815,22 +8671,6 @@
       "low52": 23180,
       "fromHigh": -27.936130905252043,
       "fromLow": 17.79551337359793
-    },
-    {
-      "symbol": "287310",
-      "name": "KBSTAR 200 Con&Dis",
-      "sector": "채권",
-      "market": "korea",
-      "price": 11140,
-      "changePct": 0,
-      "volume": 0,
-      "currency": "KRW",
-      "ret5d": 0,
-      "ret30d": 0,
-      "high52": 11500,
-      "low52": 8545,
-      "fromHigh": -3.130434782608696,
-      "fromLow": 30.36863662960796
     },
     {
       "symbol": "332620",
@@ -9167,22 +9007,6 @@
       "low52": 11975,
       "fromHigh": -7.261345852895149,
       "fromLow": 23.7160751565762
-    },
-    {
-      "symbol": "426410",
-      "name": "PLUS Top10 US Listed Alt Manage",
-      "sector": "반도체",
-      "market": "korea",
-      "price": 22750,
-      "changePct": 0,
-      "volume": 0,
-      "currency": "KRW",
-      "ret5d": 0,
-      "ret30d": 0,
-      "high52": 24650,
-      "low52": 0,
-      "fromHigh": -7.707910750507099,
-      "fromLow": 0
     },
     {
       "symbol": "396500",
@@ -9761,22 +9585,6 @@
       "fromLow": 26.96999670293439
     },
     {
-      "symbol": "346000",
-      "name": "HANARO KAP Ultra Long-term KTB",
-      "market": "korea",
-      "sector": "채권",
-      "price": 39515,
-      "changePct": 0,
-      "volume": 0,
-      "currency": "KRW",
-      "ret5d": 0,
-      "ret30d": 0,
-      "high52": 42675,
-      "low52": 0,
-      "fromHigh": -7.404803749267722,
-      "fromLow": 0
-    },
-    {
       "symbol": "305080",
       "name": "TIGER 10Y U.S. T-NOTE FUTURES",
       "market": "korea",
@@ -10050,11 +9858,11 @@
     }
   ],
   "ai": null,
-  "updatedAt": "2026-09-19T04:31:57.931Z",
+  "updatedAt": "2026-09-19T08:41:35.479Z",
   "stats": {
-    "total": 628,
-    "us": 498,
-    "korea": 112,
+    "total": 616,
+    "us": 489,
+    "korea": 109,
     "global": 18
   }
 }
